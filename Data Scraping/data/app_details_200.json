@@ -1,0 +1,1802 @@
+[
+    {
+        "app_name": "ChatGPT",
+        "developer": "OpenAI",
+        "price": "Free to download",
+        "apk_size": "43.6 MB",
+        "maturity": "Medium Maturity",
+        "category": "Productivity",
+        "source_url": "https://www.appbrain.com/app/chatgpt/com.openai.chatgpt"
+    },
+    {
+        "app_name": "TikTok - Videos, Shop & LIVE",
+        "developer": "TikTok Pte. Ltd.",
+        "price": "Free to download",
+        "apk_size": "158.7 MB",
+        "maturity": "Medium Maturity",
+        "category": "Social",
+        "source_url": "https://www.appbrain.com/app/tiktok-videos-shop-live/com.zhiliaoapp.musically"
+    },
+    {
+        "app_name": "Threads",
+        "developer": "Instagram",
+        "price": "Free to download",
+        "apk_size": "79.3 MB",
+        "maturity": "Medium Maturity",
+        "category": "Social",
+        "source_url": "https://www.appbrain.com/app/threads/com.instagram.barcelona"
+    },
+    {
+        "app_name": "WhatsApp Messenger",
+        "developer": "WhatsApp LLC",
+        "price": "Free to download",
+        "apk_size": "71.7 MB",
+        "maturity": "N/A",
+        "category": "Communication",
+        "source_url": "https://www.appbrain.com/app/whatsapp-messenger/com.whatsapp"
+    },
+    {
+        "app_name": "Temu: Shop Like a Billionaire",
+        "developer": "Temu",
+        "price": "Free to download",
+        "apk_size": "44.6 MB",
+        "maturity": "Medium Maturity",
+        "category": "Shopping",
+        "source_url": "https://www.appbrain.com/app/temu-shop-like-a-billionaire/com.einnovation.temu"
+    },
+    {
+        "app_name": "Instagram",
+        "developer": "Instagram",
+        "price": "Free to download",
+        "apk_size": "113.5 MB",
+        "maturity": "Medium Maturity",
+        "category": "Social",
+        "source_url": "https://www.appbrain.com/app/instagram/com.instagram.android"
+    },
+    {
+        "app_name": "TikTok Lite - Faster TikTok",
+        "developer": "TikTok Pte. Ltd.",
+        "price": "Free to download",
+        "apk_size": "18.6 MB",
+        "maturity": "Medium Maturity",
+        "category": "Social",
+        "source_url": "https://www.appbrain.com/app/tiktok-lite-faster-tiktok/com.tiktok.lite.go"
+    },
+    {
+        "app_name": "DramaBox - Stream Drama Shorts",
+        "developer": "STORYMATRIX",
+        "price": "Free to download",
+        "apk_size": "59.7 MB",
+        "maturity": "Medium Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/dramabox-stream-drama-shorts/com.storymatrix.drama"
+    },
+    {
+        "app_name": "Cash App",
+        "developer": "Block, Inc.",
+        "price": "Free to download",
+        "apk_size": "43.6 MB",
+        "maturity": "N/A",
+        "category": "Finance",
+        "source_url": "https://www.appbrain.com/app/cash-app/com.squareup.cash"
+    },
+    {
+        "app_name": "Snapchat",
+        "developer": "Snap Inc",
+        "price": "Free to download",
+        "apk_size": "128.3 MB",
+        "maturity": "Medium Maturity",
+        "category": "Communication",
+        "source_url": "https://www.appbrain.com/app/snapchat/com.snapchat.android"
+    },
+    {
+        "app_name": "Telegram",
+        "developer": "Telegram FZ-LLC",
+        "price": "Free to download",
+        "apk_size": "56.5 MB",
+        "maturity": "High Maturity",
+        "category": "Communication",
+        "source_url": "https://www.appbrain.com/app/telegram/org.telegram.messenger"
+    },
+    {
+        "app_name": "SHEIN-Shopping Online",
+        "developer": "Roadget Business PTE. LTD.",
+        "price": "Free to download",
+        "apk_size": "100.7 MB",
+        "maturity": "Medium Maturity",
+        "category": "Shopping",
+        "source_url": "https://www.appbrain.com/app/shein-shopping-online/com.zzkko"
+    },
+    {
+        "app_name": "ReelShort - Stream Drama & TV",
+        "developer": "NewLeaf Publishing",
+        "price": "Free to download",
+        "apk_size": "52.2 MB",
+        "maturity": "Medium Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/reelshort-stream-drama-tv/com.newleaf.app.android.victor"
+    },
+    {
+        "app_name": "Messenger",
+        "developer": "Meta Platforms, Inc.",
+        "price": "Free to download",
+        "apk_size": "85.2 MB",
+        "maturity": "N/A",
+        "category": "Communication",
+        "source_url": "https://www.appbrain.com/app/messenger/com.facebook.orca"
+    },
+    {
+        "app_name": "Pick Drama",
+        "developer": "createwonderful",
+        "price": "Free to download",
+        "apk_size": "39.7 MB",
+        "maturity": "Medium Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/pick-drama/com.shortego.dramareels"
+    },
+    {
+        "app_name": "Whatnot: Shop, Sell, Connect",
+        "developer": "Whatnot Inc.",
+        "price": "Free to download",
+        "apk_size": "67.3 MB",
+        "maturity": "High Maturity",
+        "category": "Shopping",
+        "source_url": "https://www.appbrain.com/app/whatnot-shop-sell-connect/com.whatnot_mobile"
+    },
+    {
+        "app_name": "Facebook",
+        "developer": "Meta Platforms, Inc.",
+        "price": "Free to download",
+        "apk_size": "88.8 MB",
+        "maturity": "Medium Maturity",
+        "category": "Social",
+        "source_url": "https://www.appbrain.com/app/facebook/com.facebook.katana"
+    },
+    {
+        "app_name": "Grok - AI Assistant",
+        "developer": "xAI",
+        "price": "Free to download",
+        "apk_size": "24.1 MB",
+        "maturity": "Medium Maturity",
+        "category": "Productivity",
+        "source_url": "https://www.appbrain.com/app/grok-ai-assistant/ai.x.grok"
+    },
+    {
+        "app_name": "Tea Dating Advice",
+        "developer": "Tea Dating Advice Inc.",
+        "price": "Free to download",
+        "apk_size": "N/A",
+        "maturity": "High Maturity",
+        "category": "Dating",
+        "source_url": "https://www.appbrain.com/app/tea-dating-advice/com.tea.tea"
+    },
+    {
+        "app_name": "Walmart: Shopping & Savings",
+        "developer": "Walmart",
+        "price": "Free to download",
+        "apk_size": "110.6 MB",
+        "maturity": "N/A",
+        "category": "Shopping",
+        "source_url": "https://www.appbrain.com/app/walmart-shopping-savings/com.walmart.android"
+    },
+    {
+        "app_name": "Easy Homescreen",
+        "developer": "Homescreen Apps",
+        "price": "Free to download",
+        "apk_size": "68.5 MB",
+        "maturity": "N/A",
+        "category": "Personalization",
+        "source_url": "https://www.appbrain.com/app/easy-homescreen/easy.launcher"
+    },
+    {
+        "app_name": "CapCut - Video Editor",
+        "developer": "Bytedance Pte. Ltd.",
+        "price": "Free to download",
+        "apk_size": "193.5 MB",
+        "maturity": "Medium Maturity",
+        "category": "Video Players & Editors",
+        "source_url": "https://www.appbrain.com/app/capcut-video-editor/com.lemon.lvoverseas"
+    },
+    {
+        "app_name": "Netflix",
+        "developer": "Netflix, Inc.",
+        "price": "Free to download",
+        "apk_size": "36.6 MB",
+        "maturity": "Medium Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/netflix/com.netflix.mediaclient"
+    },
+    {
+        "app_name": "PayPal - Pay, Send, Save",
+        "developer": "PayPal Mobile",
+        "price": "Free to download",
+        "apk_size": "118.5 MB",
+        "maturity": "N/A",
+        "category": "Finance",
+        "source_url": "https://www.appbrain.com/app/paypal-pay-send-save/com.paypal.android.p2pmobile"
+    },
+    {
+        "app_name": "Discord - Talk, Play, Hang Out",
+        "developer": "Discord Inc.",
+        "price": "Free to download",
+        "apk_size": "164.6 MB",
+        "maturity": "Medium Maturity",
+        "category": "Communication",
+        "source_url": "https://www.appbrain.com/app/discord-talk-play-hang-out/com.discord"
+    },
+    {
+        "app_name": "Tubi: Free Movies & Live TV",
+        "developer": "Tubi TV",
+        "price": "Free to download",
+        "apk_size": "33.0 MB",
+        "maturity": "Medium Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/tubi-free-movies-live-tv/com.tubitv"
+    },
+    {
+        "app_name": "Indeed Job Search",
+        "developer": "Indeed Jobs",
+        "price": "Free to download",
+        "apk_size": "82.3 MB",
+        "maturity": "N/A",
+        "category": "Business",
+        "source_url": "https://www.appbrain.com/app/indeed-job-search/com.indeed.android.jobsearch"
+    },
+    {
+        "app_name": "Life360: Stay Connected & Safe",
+        "developer": "Life360",
+        "price": "Free to download",
+        "apk_size": "N/A",
+        "maturity": "N/A",
+        "category": "Lifestyle",
+        "source_url": "https://www.appbrain.com/app/life360-stay-connected-safe/com.life360.android.safetymapd"
+    },
+    {
+        "app_name": "TextNow: Call + Text Unlimited",
+        "developer": "TextNow, Inc.",
+        "price": "Free to download",
+        "apk_size": "119.4 MB",
+        "maturity": "N/A",
+        "category": "Communication",
+        "source_url": "https://www.appbrain.com/app/textnow-call-text-unlimited/com.enflick.android.TextNow"
+    },
+    {
+        "app_name": "Pop Drama",
+        "developer": "zhidalingtong",
+        "price": "Free to download",
+        "apk_size": "32.2 MB",
+        "maturity": "High Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/pop-drama/com.popdramas.top"
+    },
+    {
+        "app_name": "McDonald's",
+        "developer": "McDonalds USA, LLC",
+        "price": "Free to download",
+        "apk_size": "105.7 MB",
+        "maturity": "N/A",
+        "category": "Food & Drink",
+        "source_url": "https://www.appbrain.com/app/mcdonalds/com.mcdonalds.app"
+    },
+    {
+        "app_name": "Chime – Mobile Banking",
+        "developer": "Chime",
+        "price": "Free to download",
+        "apk_size": "N/A",
+        "maturity": "N/A",
+        "category": "Finance",
+        "source_url": "https://www.appbrain.com/app/chime-mobile-banking/com.onedebit.chime"
+    },
+    {
+        "app_name": "HBO Max: Stream TV & Movies",
+        "developer": "WarnerMedia Global Digital Services, LLC",
+        "price": "Free to download",
+        "apk_size": "63.2 MB",
+        "maturity": "Medium Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/hbo-max-stream-tv-movies/com.wbd.stream"
+    },
+    {
+        "app_name": "PDF Reader and Photo to PDF",
+        "developer": "LG apps",
+        "price": "Free to download",
+        "apk_size": "39.4 MB",
+        "maturity": "N/A",
+        "category": "Productivity",
+        "source_url": "https://www.appbrain.com/app/pdf-reader-and-photo-to-pdf/com.pdf.editor.viewer.pdfreader.pdfviewer"
+    },
+    {
+        "app_name": "Prime Video",
+        "developer": "Amazon Mobile LLC",
+        "price": "Free to download",
+        "apk_size": "62.0 MB",
+        "maturity": "Medium Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/prime-video/com.amazon.avod.thirdpartyclient"
+    },
+    {
+        "app_name": "Duolingo: Language Lessons",
+        "developer": "Duolingo",
+        "price": "Free to download",
+        "apk_size": "44.9 MB",
+        "maturity": "N/A",
+        "category": "Education",
+        "source_url": "https://www.appbrain.com/app/duolingo-language-lessons/com.duolingo"
+    },
+    {
+        "app_name": "Amazon Shopping",
+        "developer": "Amazon Mobile LLC",
+        "price": "Free to download",
+        "apk_size": "101.3 MB",
+        "maturity": "Medium Maturity",
+        "category": "Shopping",
+        "source_url": "https://www.appbrain.com/app/amazon-shopping/com.amazon.mShop.android.shopping"
+    },
+    {
+        "app_name": "NetShort - Popular Dramas & TV",
+        "developer": "NETSTORY PTE. LTD.",
+        "price": "Free to download",
+        "apk_size": "78.7 MB",
+        "maturity": "Medium Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/netshort-popular-dramas-tv/com.netshort.abroad"
+    },
+    {
+        "app_name": "AliExpress - Shopping App",
+        "developer": "Alibaba Mobile",
+        "price": "Free to download",
+        "apk_size": "39.5 MB",
+        "maturity": "Medium Maturity",
+        "category": "Shopping",
+        "source_url": "https://www.appbrain.com/app/aliexpress-shopping-app/com.alibaba.aliexpresshd"
+    },
+    {
+        "app_name": "Pinterest",
+        "developer": "Pinterest",
+        "price": "Free to download",
+        "apk_size": "47.7 MB",
+        "maturity": "Medium Maturity",
+        "category": "Lifestyle",
+        "source_url": "https://www.appbrain.com/app/pinterest/com.pinterest"
+    },
+    {
+        "app_name": "DoorDash: Food, Grocery, More",
+        "developer": "DoorDash",
+        "price": "Free to download",
+        "apk_size": "121.5 MB",
+        "maturity": "N/A",
+        "category": "Food & Drink",
+        "source_url": "https://www.appbrain.com/app/doordash-food-grocery-more/com.dd.doordash"
+    },
+    {
+        "app_name": "Venmo",
+        "developer": "Venmo",
+        "price": "Free to download",
+        "apk_size": "94.8 MB",
+        "maturity": "N/A",
+        "category": "Finance",
+        "source_url": "https://www.appbrain.com/app/venmo/com.venmo"
+    },
+    {
+        "app_name": "Zoom Workplace",
+        "developer": "zoom.com",
+        "price": "Free to download",
+        "apk_size": "195.1 MB",
+        "maturity": "N/A",
+        "category": "Business",
+        "source_url": "https://www.appbrain.com/app/zoom-workplace/us.zoom.videomeetings"
+    },
+    {
+        "app_name": "The Roku App (Official)",
+        "developer": "Roku, Inc. & its affiliates",
+        "price": "Free to download",
+        "apk_size": "30.6 MB",
+        "maturity": "Medium Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/the-roku-app-official/com.roku.remote"
+    },
+    {
+        "app_name": "Spotify: Music and Podcasts",
+        "developer": "Spotify AB",
+        "price": "Free to download",
+        "apk_size": "55.5 MB",
+        "maturity": "Medium Maturity",
+        "category": "Music & Audio",
+        "source_url": "https://www.appbrain.com/app/spotify-music-and-podcasts/com.spotify.music"
+    },
+    {
+        "app_name": "Google Gemini",
+        "developer": "Google LLC",
+        "price": "Free to download",
+        "apk_size": "2.88 MB",
+        "maturity": "Medium Maturity",
+        "category": "Productivity",
+        "source_url": "https://www.appbrain.com/app/google-gemini/com.google.android.apps.bard"
+    },
+    {
+        "app_name": "Uber - Request a ride",
+        "developer": "Uber Technologies, Inc.",
+        "price": "Free to download",
+        "apk_size": "130.7 MB",
+        "maturity": "N/A",
+        "category": "Maps & Navigation",
+        "source_url": "https://www.appbrain.com/app/uber-request-a-ride/com.ubercab"
+    },
+    {
+        "app_name": "Chick-fil-A®",
+        "developer": "Chick-fil-A, Inc.",
+        "price": "Free to download",
+        "apk_size": "61.1 MB",
+        "maturity": "N/A",
+        "category": "Food & Drink",
+        "source_url": "https://www.appbrain.com/app/chick-fil-a%C2%AE/com.chickfila.cfaflagship"
+    },
+    {
+        "app_name": "Peacock TV: Stream TV & Movies",
+        "developer": "Peacock TV LLC",
+        "price": "Free to download",
+        "apk_size": "44.9 MB",
+        "maturity": "Medium Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/peacock-tv-stream-tv-movies/com.peacocktv.peacockandroid"
+    },
+    {
+        "app_name": "Alibaba.com - B2B marketplace",
+        "developer": "Alibaba Mobile",
+        "price": "Free to download",
+        "apk_size": "72.3 MB",
+        "maturity": "Medium Maturity",
+        "category": "Shopping",
+        "source_url": "https://www.appbrain.com/app/alibaba-com-b2b-marketplace/com.alibaba.intl.android.apps.poseidon"
+    },
+    {
+        "app_name": "PlutoTV: Live TV & Free Movies",
+        "developer": "Pluto, Inc.",
+        "price": "Free to download",
+        "apk_size": "25.7 MB",
+        "maturity": "Medium Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/plutotv-live-tv-free-movies/tv.pluto.android"
+    },
+    {
+        "app_name": "PictureThis - Plant Identifier",
+        "developer": "Glority Global Group Ltd.",
+        "price": "Free to download",
+        "apk_size": "54.9 MB",
+        "maturity": "N/A",
+        "category": "Education",
+        "source_url": "https://www.appbrain.com/app/picturethis-plant-identifier/cn.danatech.xingseus"
+    },
+    {
+        "app_name": "Shop: All your favorite brands",
+        "developer": "Shopify Inc.",
+        "price": "Free to download",
+        "apk_size": "85.3 MB",
+        "maturity": "N/A",
+        "category": "Shopping",
+        "source_url": "https://www.appbrain.com/app/shop-all-your-favorite-brands/com.shopify.arrive"
+    },
+    {
+        "app_name": "Brightest Flashlight Launcher",
+        "developer": "AtomApplications",
+        "price": "Free to download",
+        "apk_size": "N/A",
+        "maturity": "N/A",
+        "category": "Tools",
+        "source_url": "https://www.appbrain.com/app/brightest-flashlight-launcher/com.flashlight.bright.led.light"
+    },
+    {
+        "app_name": "Microsoft Teams",
+        "developer": "Microsoft Corporation",
+        "price": "Free to download",
+        "apk_size": "187.5 MB",
+        "maturity": "N/A",
+        "category": "Business",
+        "source_url": "https://www.appbrain.com/app/microsoft-teams/com.microsoft.teams"
+    },
+    {
+        "app_name": "KFC US - Ordering App",
+        "developer": "KFC US",
+        "price": "Free to download",
+        "apk_size": "39.9 MB",
+        "maturity": "N/A",
+        "category": "Food & Drink",
+        "source_url": "https://www.appbrain.com/app/kfc-us-ordering-app/com.kfc.us.mobile"
+    },
+    {
+        "app_name": "T-Life",
+        "developer": "T-Mobile USA",
+        "price": "Free to download",
+        "apk_size": "152.3 MB",
+        "maturity": "N/A",
+        "category": "Lifestyle",
+        "source_url": "https://www.appbrain.com/app/t-life/com.tmobile.tuesdays"
+    },
+    {
+        "app_name": "The Roku Channel",
+        "developer": "Roku, Inc. & its affiliates",
+        "price": "Free to download",
+        "apk_size": "N/A",
+        "maturity": "Medium Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/the-roku-channel/com.roku.web.trc"
+    },
+    {
+        "app_name": "Disney+",
+        "developer": "Disney",
+        "price": "Free to download",
+        "apk_size": "23.2 MB",
+        "maturity": "Medium Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/disney/com.disney.disneyplus"
+    },
+    {
+        "app_name": "PhotoRescue-Recover Files",
+        "developer": "SunnyTech Limited",
+        "price": "Free to download",
+        "apk_size": "32.7 MB",
+        "maturity": "N/A",
+        "category": "Tools",
+        "source_url": "https://www.appbrain.com/app/photorescue-recover-files/com.rescue.psoeprs.solf"
+    },
+    {
+        "app_name": "Microsoft Authenticator",
+        "developer": "Microsoft Corporation",
+        "price": "Free to download",
+        "apk_size": "113.8 MB",
+        "maturity": "N/A",
+        "category": "Business",
+        "source_url": "https://www.appbrain.com/app/microsoft-authenticator/com.azure.authenticator"
+    },
+    {
+        "app_name": "Canva: AI Photo & Video Editor",
+        "developer": "Canva",
+        "price": "Free to download",
+        "apk_size": "15.7 MB",
+        "maturity": "Low Maturity",
+        "category": "Art & Design",
+        "source_url": "https://www.appbrain.com/app/canva-ai-photo-video-editor/com.canva.editor"
+    },
+    {
+        "app_name": "AntiVirus Toolkit",
+        "developer": "ApplineDev",
+        "price": "Free to download",
+        "apk_size": "33.7 MB",
+        "maturity": "N/A",
+        "category": "Tools",
+        "source_url": "https://www.appbrain.com/app/antivirus-toolkit/com.utils.antivirustoolkit"
+    },
+    {
+        "app_name": "Lyft",
+        "developer": "Lyft, Inc.",
+        "price": "Free to download",
+        "apk_size": "68.6 MB",
+        "maturity": "N/A",
+        "category": "Maps & Navigation",
+        "source_url": "https://www.appbrain.com/app/lyft/me.lyft.android"
+    },
+    {
+        "app_name": "NewsBreak: Local News & Alerts",
+        "developer": "Particle Media Inc.",
+        "price": "Free to download",
+        "apk_size": "32.6 MB",
+        "maturity": "Medium Maturity",
+        "category": "News & Magazines",
+        "source_url": "https://www.appbrain.com/app/newsbreak-local-news-alerts/com.particlenews.newsbreak"
+    },
+    {
+        "app_name": "Microsoft Edge: AI browser",
+        "developer": "Microsoft Corporation",
+        "price": "Free to download",
+        "apk_size": "189.3 MB",
+        "maturity": "N/A",
+        "category": "Communication",
+        "source_url": "https://www.appbrain.com/app/microsoft-edge-ai-browser/com.microsoft.emmx"
+    },
+    {
+        "app_name": "X (Formerly Twitter)",
+        "developer": "X Corp.",
+        "price": "Free to download",
+        "apk_size": "85.7 MB",
+        "maturity": "High Maturity",
+        "category": "News & Magazines",
+        "source_url": "https://www.appbrain.com/app/x-formerly-twitter/com.twitter.android"
+    },
+    {
+        "app_name": "Photo Recover-File Recovery",
+        "developer": "NetConnect",
+        "price": "Free to download",
+        "apk_size": "35.9 MB",
+        "maturity": "N/A",
+        "category": "Tools",
+        "source_url": "https://www.appbrain.com/app/photo-recover-file-recovery/com.pvoercase.recover"
+    },
+    {
+        "app_name": "PolyBuzz: Chat with AI Friends",
+        "developer": "CLOUD WHALE INTERACTIVE TECHNOLOGY LLC.",
+        "price": "Free to download",
+        "apk_size": "75.7 MB",
+        "maturity": "Medium Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/polybuzz-chat-with-ai-friends/ai.socialapps.speakmaster"
+    },
+    {
+        "app_name": "DoorDash - Dasher",
+        "developer": "DoorDash",
+        "price": "Free to download",
+        "apk_size": "233.5 MB",
+        "maturity": "N/A",
+        "category": "Business",
+        "source_url": "https://www.appbrain.com/app/doordash-dasher/com.doordash.driverapp"
+    },
+    {
+        "app_name": "Crunchyroll",
+        "developer": "Crunchyroll, LLC",
+        "price": "Free to download",
+        "apk_size": "55.9 MB",
+        "maturity": "Medium Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/crunchyroll/com.crunchyroll.crunchyroid"
+    },
+    {
+        "app_name": "Uber Eats: Food Delivery",
+        "developer": "Uber Technologies, Inc.",
+        "price": "Free to download",
+        "apk_size": "101.3 MB",
+        "maturity": "N/A",
+        "category": "Food & Drink",
+        "source_url": "https://www.appbrain.com/app/uber-eats-food-delivery/com.ubercab.eats"
+    },
+    {
+        "app_name": "Facebook Lite",
+        "developer": "Meta Platforms, Inc.",
+        "price": "Free to download",
+        "apk_size": "2.82 MB",
+        "maturity": "Medium Maturity",
+        "category": "Social",
+        "source_url": "https://www.appbrain.com/app/facebook-lite/com.facebook.lite"
+    },
+    {
+        "app_name": "KashKick: Get paid to have fun",
+        "developer": "Besitos Corporation LLC",
+        "price": "Free to download",
+        "apk_size": "N/A",
+        "maturity": "High Maturity",
+        "category": "Lifestyle",
+        "source_url": "https://www.appbrain.com/app/kashkick-get-paid-to-have-fun/com.kashkick.kashkickapp"
+    },
+    {
+        "app_name": "testerup - earn money",
+        "developer": "aestimium GmbH",
+        "price": "Free to download",
+        "apk_size": "56.0 MB",
+        "maturity": "N/A",
+        "category": "Finance",
+        "source_url": "https://www.appbrain.com/app/testerup-earn-money/de.empfohlen"
+    },
+    {
+        "app_name": "Paramount+",
+        "developer": "CBS Interactive, Inc.",
+        "price": "Free to download",
+        "apk_size": "43.9 MB",
+        "maturity": "Medium Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/paramount/com.cbs.app"
+    },
+    {
+        "app_name": "Capital One Mobile",
+        "developer": "Capital One Services, LLC",
+        "price": "Free to download",
+        "apk_size": "N/A",
+        "maturity": "N/A",
+        "category": "Finance",
+        "source_url": "https://www.appbrain.com/app/capital-one-mobile/com.konylabs.capitalone"
+    },
+    {
+        "app_name": "Intuit Credit Karma",
+        "developer": "Credit Karma, LLC",
+        "price": "Free to download",
+        "apk_size": "42.2 MB",
+        "maturity": "N/A",
+        "category": "Finance",
+        "source_url": "https://www.appbrain.com/app/intuit-credit-karma/com.creditkarma.mobile"
+    },
+    {
+        "app_name": "Lemon8 - Lifestyle Community",
+        "developer": "TikTok Pte. Ltd.",
+        "price": "Free to download",
+        "apk_size": "83.0 MB",
+        "maturity": "Medium Maturity",
+        "category": "Lifestyle",
+        "source_url": "https://www.appbrain.com/app/lemon8-lifestyle-community/com.bd.nproject"
+    },
+    {
+        "app_name": "BESTPLAY Play to earn & donate",
+        "developer": "Bestplay",
+        "price": "Free to download",
+        "apk_size": "44.5 MB",
+        "maturity": "High Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/bestplay-play-to-earn-donate/com.bestplay.app"
+    },
+    {
+        "app_name": "Twitch: Live Streaming",
+        "developer": "Twitch Interactive, Inc.",
+        "price": "Free to download",
+        "apk_size": "91.9 MB",
+        "maturity": "Medium Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/twitch-live-streaming/tv.twitch.android.app"
+    },
+    {
+        "app_name": "eBay online shopping & selling",
+        "developer": "eBay Mobile",
+        "price": "Free to download",
+        "apk_size": "69.0 MB",
+        "maturity": "Medium Maturity",
+        "category": "Shopping",
+        "source_url": "https://www.appbrain.com/app/ebay-online-shopping-selling/com.ebay.mobile"
+    },
+    {
+        "app_name": "Freecash: Earn Money & Rewards",
+        "developer": "Freecash",
+        "price": "Free to download",
+        "apk_size": "12.0 MB",
+        "maturity": "High Maturity",
+        "category": "Finance",
+        "source_url": "https://www.appbrain.com/app/freecash-earn-money-rewards/com.freecash.app2"
+    },
+    {
+        "app_name": "QR & Barcode Scanner Launcher",
+        "developer": "AtomApplications",
+        "price": "Free to download",
+        "apk_size": "N/A",
+        "maturity": "N/A",
+        "category": "Tools",
+        "source_url": "https://www.appbrain.com/app/qr-barcode-scanner-launcher/com.qr.code.reader.scanner.qrscan.android"
+    },
+    {
+        "app_name": "Move to iOS",
+        "developer": "Apple",
+        "price": "Free to download",
+        "apk_size": "9.96 MB",
+        "maturity": "N/A",
+        "category": "Tools",
+        "source_url": "https://www.appbrain.com/app/move-to-ios/com.apple.movetoios"
+    },
+    {
+        "app_name": "Hizen VPN - Fast & Secure VPN",
+        "developer": "Appfusion",
+        "price": "Free to download",
+        "apk_size": "26.7 MB",
+        "maturity": "N/A",
+        "category": "Tools",
+        "source_url": "https://www.appbrain.com/app/hizen-vpn-fast-secure-vpn/com.hizen.vpn"
+    },
+    {
+        "app_name": "Apple TV",
+        "developer": "Apple",
+        "price": "Free to download",
+        "apk_size": "N/A",
+        "maturity": "Medium Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/apple-tv/com.apple.atve.androidtv.appletv"
+    },
+    {
+        "app_name": "FlickReels - Short Drama & TV",
+        "developer": "FARSUNPTE.LTD.",
+        "price": "Free to download",
+        "apk_size": "63.0 MB",
+        "maturity": "Medium Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/flickreels-short-drama-tv/com.zyhwplatform.shortplay"
+    },
+    {
+        "app_name": "Plex: Stream Movies & TV",
+        "developer": "Plex, Inc.",
+        "price": "Free to download",
+        "apk_size": "35.3 MB",
+        "maturity": "Medium Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/plex-stream-movies-tv/com.plexapp.android"
+    },
+    {
+        "app_name": "Pandora - Music & Podcasts",
+        "developer": "Pandora",
+        "price": "Free to download",
+        "apk_size": "69.6 MB",
+        "maturity": "Medium Maturity",
+        "category": "Music & Audio",
+        "source_url": "https://www.appbrain.com/app/pandora-music-podcasts/com.pandora.android"
+    },
+    {
+        "app_name": "Upside: Cash Back - Gas & Food",
+        "developer": "Upside Inc.",
+        "price": "Free to download",
+        "apk_size": "24.2 MB",
+        "maturity": "N/A",
+        "category": "Travel & Local",
+        "source_url": "https://www.appbrain.com/app/upside-cash-back-gas-food/com.upside.consumer.android"
+    },
+    {
+        "app_name": "Google Authenticator",
+        "developer": "Google LLC",
+        "price": "Free to download",
+        "apk_size": "6.00 MB",
+        "maturity": "N/A",
+        "category": "Tools",
+        "source_url": "https://www.appbrain.com/app/google-authenticator/com.google.android.apps.authenticator2"
+    },
+    {
+        "app_name": "Waze Navigation & Live Traffic",
+        "developer": "Waze",
+        "price": "Free to download",
+        "apk_size": "79.7 MB",
+        "maturity": "N/A",
+        "category": "Maps & Navigation",
+        "source_url": "https://www.appbrain.com/app/waze-navigation-live-traffic/com.waze"
+    },
+    {
+        "app_name": "QR & Barcode Scanner",
+        "developer": "Gamma Play",
+        "price": "Free to download",
+        "apk_size": "14.9 MB",
+        "maturity": "N/A",
+        "category": "Tools",
+        "source_url": "https://www.appbrain.com/app/qr-barcode-scanner/com.gamma.scan"
+    },
+    {
+        "app_name": "Samsung Smart Switch Mobile",
+        "developer": "Samsung Electronics Co.,  Ltd.",
+        "price": "Free to download",
+        "apk_size": "39.1 MB",
+        "maturity": "N/A",
+        "category": "Tools",
+        "source_url": "https://www.appbrain.com/app/samsung-smart-switch-mobile/com.sec.android.easyMover"
+    },
+    {
+        "app_name": "Expedia: Hotels, Flights, Cars",
+        "developer": "Expedia",
+        "price": "Free to download",
+        "apk_size": "N/A",
+        "maturity": "N/A",
+        "category": "Travel & Local",
+        "source_url": "https://www.appbrain.com/app/expedia-hotels-flights-cars/com.expedia.bookings"
+    },
+    {
+        "app_name": "Google Translate",
+        "developer": "Google LLC",
+        "price": "Free to download",
+        "apk_size": "43.7 MB",
+        "maturity": "N/A",
+        "category": "Tools",
+        "source_url": "https://www.appbrain.com/app/google-translate/com.google.android.apps.translate"
+    },
+    {
+        "app_name": "Malwarebytes Mobile Security",
+        "developer": "Malwarebytes",
+        "price": "Free to download",
+        "apk_size": "33.0 MB",
+        "maturity": "N/A",
+        "category": "Tools",
+        "source_url": "https://www.appbrain.com/app/malwarebytes-mobile-security/org.malwarebytes.antimalware"
+    },
+    {
+        "app_name": "Picsart AI Photo Editor, Video",
+        "developer": "PicsArt, Inc.",
+        "price": "Free to download",
+        "apk_size": "62.7 MB",
+        "maturity": "Medium Maturity",
+        "category": "Photography",
+        "source_url": "https://www.appbrain.com/app/picsart-ai-photo-editor-video/com.picsart.studio"
+    },
+    {
+        "app_name": "MyChart",
+        "developer": "Epic Systems Corporation",
+        "price": "Free to download",
+        "apk_size": "44.6 MB",
+        "maturity": "N/A",
+        "category": "Medical",
+        "source_url": "https://www.appbrain.com/app/mychart/epic.mychart.android"
+    },
+    {
+        "app_name": "Airbnb",
+        "developer": "Airbnb",
+        "price": "Free to download",
+        "apk_size": "51.7 MB",
+        "maturity": "N/A",
+        "category": "Travel & Local",
+        "source_url": "https://www.appbrain.com/app/airbnb/com.airbnb.android"
+    },
+    {
+        "app_name": "Blood Pressure Tracker",
+        "developer": "AT Technologyy",
+        "price": "Free to download",
+        "apk_size": "64.0 MB",
+        "maturity": "N/A",
+        "category": "Health & Fitness",
+        "source_url": "https://www.appbrain.com/app/blood-pressure-tracker/com.cactus.tracker.bloodpressure"
+    },
+    {
+        "app_name": "Google Wallet",
+        "developer": "Google LLC",
+        "price": "Free to download",
+        "apk_size": "19.7 MB",
+        "maturity": "N/A",
+        "category": "Finance",
+        "source_url": "https://www.appbrain.com/app/google-wallet/com.google.android.apps.walletnfcrel"
+    },
+    {
+        "app_name": "Geotag Photo: Camera Location",
+        "developer": "MIA Studio Inc",
+        "price": "Free to download",
+        "apk_size": "23.2 MB",
+        "maturity": "N/A",
+        "category": "Photography",
+        "source_url": "https://www.appbrain.com/app/geotag-photo-camera-location/com.cameratag.geotagphoto.gpscamera"
+    },
+    {
+        "app_name": "AI Cleaner - Phone Cleaner",
+        "developer": "GRIMLAX TRADE, S.L.",
+        "price": "Free to download",
+        "apk_size": "N/A",
+        "maturity": "N/A",
+        "category": "Tools",
+        "source_url": "https://www.appbrain.com/app/ai-cleaner-phone-cleaner/ai.storage.cleaner.app"
+    },
+    {
+        "app_name": "Audible: Audio Entertainment",
+        "developer": "Audible, Inc.",
+        "price": "Free to download",
+        "apk_size": "160.2 MB",
+        "maturity": "Medium Maturity",
+        "category": "Books & Reference",
+        "source_url": "https://www.appbrain.com/app/audible-audio-entertainment/com.audible.application"
+    },
+    {
+        "app_name": "CoinSnap - Coin Identifier",
+        "developer": "Next Vision Limited",
+        "price": "Free to download",
+        "apk_size": "67.6 MB",
+        "maturity": "N/A",
+        "category": "Tools",
+        "source_url": "https://www.appbrain.com/app/coinsnap-coin-identifier/com.coinidentifyer.ai"
+    },
+    {
+        "app_name": "Sam’s Club: Pickup & Delivery",
+        "developer": "Sam's Club",
+        "price": "Free to download",
+        "apk_size": "92.1 MB",
+        "maturity": "N/A",
+        "category": "Shopping",
+        "source_url": "https://www.appbrain.com/app/sam%E2%80%99s-club-pickup-delivery/com.rfi.sams.android"
+    },
+    {
+        "app_name": "ZEPETO: Avatar, Connect & Live",
+        "developer": "Naver Z Corporation",
+        "price": "Free to download",
+        "apk_size": "192.4 MB",
+        "maturity": "Medium Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/zepeto-avatar-connect-live/me.zepeto.main"
+    },
+    {
+        "app_name": "Cash Giraffe: Games & Rewards",
+        "developer": "Cash Giraffe",
+        "price": "Free to download",
+        "apk_size": "82.5 MB",
+        "maturity": "N/A",
+        "category": "Lifestyle",
+        "source_url": "https://www.appbrain.com/app/cash-giraffe-games-rewards/cashgiraffe.app"
+    },
+    {
+        "app_name": "Open Browser - Smart & Safe",
+        "developer": "AdPulse INC",
+        "price": "Free to download",
+        "apk_size": "45.1 MB",
+        "maturity": "Medium Maturity",
+        "category": "Tools",
+        "source_url": "https://www.appbrain.com/app/open-browser-smart-safe/com.open.web.ai.browser"
+    },
+    {
+        "app_name": "RapidTV - Short Dramas",
+        "developer": "Kennedyy",
+        "price": "Free to download",
+        "apk_size": "28.4 MB",
+        "maturity": "Medium Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/rapidtv-short-dramas/com.rapid.short.tv"
+    },
+    {
+        "app_name": "Bigo Live - Live Streaming App",
+        "developer": "Bigo Technology Pte. Ltd.",
+        "price": "Free to download",
+        "apk_size": "61.7 MB",
+        "maturity": "Medium Maturity",
+        "category": "Social",
+        "source_url": "https://www.appbrain.com/app/bigo-live-live-streaming-app/sg.bigo.live"
+    },
+    {
+        "app_name": "BURGER KING® App",
+        "developer": "Burger King, Inc.",
+        "price": "Free to download",
+        "apk_size": "56.1 MB",
+        "maturity": "N/A",
+        "category": "Food & Drink",
+        "source_url": "https://www.appbrain.com/app/burger-king%C2%AE-app/com.emn8.mobilem8.nativeapp.bk"
+    },
+    {
+        "app_name": "Scoopz: Real Life, Real Video",
+        "developer": "Local AI, Inc.",
+        "price": "Free to download",
+        "apk_size": "69.0 MB",
+        "maturity": "High Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/scoopz-real-life-real-video/com.localaiapp.scoops"
+    },
+    {
+        "app_name": "YouTube Kids",
+        "developer": "Google LLC",
+        "price": "Free to download",
+        "apk_size": "33.8 MB",
+        "maturity": "N/A",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/youtube-kids/com.google.android.apps.youtube.kids"
+    },
+    {
+        "app_name": "Pocket FM: Audio Series",
+        "developer": "Pocket FM Corp.",
+        "price": "Free to download",
+        "apk_size": "83.7 MB",
+        "maturity": "Medium Maturity",
+        "category": "Music & Audio",
+        "source_url": "https://www.appbrain.com/app/pocket-fm-audio-series/com.radio.pocketfm"
+    },
+    {
+        "app_name": "Reddit",
+        "developer": "reddit Inc.",
+        "price": "Free to download",
+        "apk_size": "54.0 MB",
+        "maturity": "High Maturity",
+        "category": "Social",
+        "source_url": "https://www.appbrain.com/app/reddit/com.reddit.frontpage"
+    },
+    {
+        "app_name": "Ring - Always Home",
+        "developer": "Ring.com",
+        "price": "Free to download",
+        "apk_size": "177.4 MB",
+        "maturity": "N/A",
+        "category": "Lifestyle",
+        "source_url": "https://www.appbrain.com/app/ring-always-home/com.ringapp"
+    },
+    {
+        "app_name": "Fetch: America’s Rewards App",
+        "developer": "Fetch Rewards",
+        "price": "Free to download",
+        "apk_size": "207.0 MB",
+        "maturity": "N/A",
+        "category": "Shopping",
+        "source_url": "https://www.appbrain.com/app/fetch-america%E2%80%99s-rewards-app/com.fetchrewards.fetchrewards.hop"
+    },
+    {
+        "app_name": "PDF Reader – Reader & Editor",
+        "developer": "Ora Tools",
+        "price": "Free to download",
+        "apk_size": "64.8 MB",
+        "maturity": "N/A",
+        "category": "Tools",
+        "source_url": "https://www.appbrain.com/app/pdf-reader-reader-editor/pdf.reader.editor.office.ora"
+    },
+    {
+        "app_name": "WEBTOON: Manga, Comics, Manhwa",
+        "developer": "NAVER WEBTOON",
+        "price": "Free to download",
+        "apk_size": "64.2 MB",
+        "maturity": "Medium Maturity",
+        "category": "Comics",
+        "source_url": "https://www.appbrain.com/app/webtoon-manga-comics-manhwa/com.naver.linewebtoon"
+    },
+    {
+        "app_name": "PDF Reader - PDF Viewer",
+        "developer": "QR Code Scanner.",
+        "price": "Free to download",
+        "apk_size": "60.8 MB",
+        "maturity": "N/A",
+        "category": "Productivity",
+        "source_url": "https://www.appbrain.com/app/pdf-reader-pdf-viewer/pdf.pdfreader.viewer.editor.free"
+    },
+    {
+        "app_name": "FlareFlow: 1-Minute Dramas!",
+        "developer": "FlareFlow Pte. Ltd.",
+        "price": "Free to download",
+        "apk_size": "76.2 MB",
+        "maturity": "Medium Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/flareflow-1-minute-dramas/tv.flareflow.drama"
+    },
+    {
+        "app_name": "Signal Private Messenger",
+        "developer": "Signal Foundation",
+        "price": "Free to download",
+        "apk_size": "82.9 MB",
+        "maturity": "N/A",
+        "category": "Communication",
+        "source_url": "https://www.appbrain.com/app/signal-private-messenger/org.thoughtcrime.securesms"
+    },
+    {
+        "app_name": "Progressive",
+        "developer": "Progressive Insurance",
+        "price": "Free to download",
+        "apk_size": "153.9 MB",
+        "maturity": "N/A",
+        "category": "Finance",
+        "source_url": "https://www.appbrain.com/app/progressive/com.phonevalley.progressive"
+    },
+    {
+        "app_name": "WhatsApp Business",
+        "developer": "WhatsApp LLC",
+        "price": "Free to download",
+        "apk_size": "78.0 MB",
+        "maturity": "N/A",
+        "category": "Communication",
+        "source_url": "https://www.appbrain.com/app/whatsapp-business/com.whatsapp.w4b"
+    },
+    {
+        "app_name": "Vrbo Vacation Rentals",
+        "developer": "Vrbo",
+        "price": "Free to download",
+        "apk_size": "N/A",
+        "maturity": "N/A",
+        "category": "Travel & Local",
+        "source_url": "https://www.appbrain.com/app/vrbo-vacation-rentals/com.vrbo.android"
+    },
+    {
+        "app_name": "Weather Now Launcher - Radar",
+        "developer": "Homescreen Apps",
+        "price": "Free to download",
+        "apk_size": "56.4 MB",
+        "maturity": "N/A",
+        "category": "Weather",
+        "source_url": "https://www.appbrain.com/app/weather-now-launcher-radar/com.eet.weather.launcher"
+    },
+    {
+        "app_name": "Affirm: Buy now, pay over time",
+        "developer": "Affirm, Inc",
+        "price": "Free to download",
+        "apk_size": "56.9 MB",
+        "maturity": "N/A",
+        "category": "Shopping",
+        "source_url": "https://www.appbrain.com/app/affirm-buy-now-pay-over-time/com.affirm.central"
+    },
+    {
+        "app_name": "Instacart: Get Food Delivery",
+        "developer": "Instacart",
+        "price": "Free to download",
+        "apk_size": "53.6 MB",
+        "maturity": "N/A",
+        "category": "Food & Drink",
+        "source_url": "https://www.appbrain.com/app/instacart-get-food-delivery/com.instacart.client"
+    },
+    {
+        "app_name": "Simple Bible Daily Verse Alarm",
+        "developer": "Reminders & Alarms",
+        "price": "Free to download",
+        "apk_size": "65.1 MB",
+        "maturity": "N/A",
+        "category": "Education",
+        "source_url": "https://www.appbrain.com/app/simple-bible-daily-verse-alarm/com.holy.bible.study"
+    },
+    {
+        "app_name": "Video&Drama Player All Format",
+        "developer": "Griffin Atlas USA",
+        "price": "Free to download",
+        "apk_size": "52.2 MB",
+        "maturity": "N/A",
+        "category": "Video Players & Editors",
+        "source_url": "https://www.appbrain.com/app/video-drama-player-all-format/com.deep.useful.video"
+    },
+    {
+        "app_name": "Domino's Pizza USA",
+        "developer": "Domino's Pizza LLC",
+        "price": "Free to download",
+        "apk_size": "80.4 MB",
+        "maturity": "N/A",
+        "category": "Food & Drink",
+        "source_url": "https://www.appbrain.com/app/dominos-pizza-usa/com.dominospizza"
+    },
+    {
+        "app_name": "PlayWell: Play to Earn",
+        "developer": "PlayWell Team",
+        "price": "Free to download",
+        "apk_size": "31.2 MB",
+        "maturity": "Medium Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/playwell-play-to-earn/com.play.lucky.real.earn.money.free.fun.games.play.reward.income"
+    },
+    {
+        "app_name": "Chase Mobile",
+        "developer": "JPMorgan Chase",
+        "price": "Free to download",
+        "apk_size": "N/A",
+        "maturity": "N/A",
+        "category": "Finance",
+        "source_url": "https://www.appbrain.com/app/chase-mobile/com.chase.sig.android"
+    },
+    {
+        "app_name": "Adobe Acrobat Reader: Edit PDF",
+        "developer": "Adobe",
+        "price": "Free to download",
+        "apk_size": "118.4 MB",
+        "maturity": "N/A",
+        "category": "Productivity",
+        "source_url": "https://www.appbrain.com/app/adobe-acrobat-reader-edit-pdf/com.adobe.reader"
+    },
+    {
+        "app_name": "CVS Health",
+        "developer": "CVS Pharmacy",
+        "price": "Free to download",
+        "apk_size": "N/A",
+        "maturity": "N/A",
+        "category": "Medical",
+        "source_url": "https://www.appbrain.com/app/cvs-health/com.cvs.launchers.cvs"
+    },
+    {
+        "app_name": "Zelle®",
+        "developer": "Early Warning Services, LLC",
+        "price": "Free to download",
+        "apk_size": "N/A",
+        "maturity": "N/A",
+        "category": "Finance",
+        "source_url": "https://www.appbrain.com/app/zelle%C2%AE/com.zellepay.zelle"
+    },
+    {
+        "app_name": "Hulu: Stream TV shows & movies",
+        "developer": "Disney",
+        "price": "Free to download",
+        "apk_size": "17.9 MB",
+        "maturity": "Medium Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/hulu-stream-tv-shows-movies/com.hulu.plus"
+    },
+    {
+        "app_name": "Perplexity - Ask Anything",
+        "developer": "PerplexityAI",
+        "price": "Free to download",
+        "apk_size": "64.3 MB",
+        "maturity": "Medium Maturity",
+        "category": "Productivity",
+        "source_url": "https://www.appbrain.com/app/perplexity-ask-anything/ai.perplexity.app.android"
+    },
+    {
+        "app_name": "Chai: Chat AI Platform",
+        "developer": "Chai Research Corp.",
+        "price": "Free to download",
+        "apk_size": "69.0 MB",
+        "maturity": "High Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/chai-chat-ai-platform/com.Beauchamp.Messenger.external"
+    },
+    {
+        "app_name": "Pizza Hut - Delivery & Takeout",
+        "developer": "Pizza Hut Inc",
+        "price": "Free to download",
+        "apk_size": "150.0 MB",
+        "maturity": "N/A",
+        "category": "Food & Drink",
+        "source_url": "https://www.appbrain.com/app/pizza-hut-delivery-takeout/com.yum.pizzahut"
+    },
+    {
+        "app_name": "Zillow: Homes For Sale & Rent",
+        "developer": "Zillow",
+        "price": "Free to download",
+        "apk_size": "N/A",
+        "maturity": "N/A",
+        "category": "House & Home",
+        "source_url": "https://www.appbrain.com/app/zillow-homes-for-sale-rent/com.zillow.android.zillowmap"
+    },
+    {
+        "app_name": "Linky AI: Chat, Play, Connect",
+        "developer": "Skywork AI Pte. Ltd.",
+        "price": "Free to download",
+        "apk_size": "245.8 MB",
+        "maturity": "High Maturity",
+        "category": "Social",
+        "source_url": "https://www.appbrain.com/app/linky-ai-chat-play-connect/com.aigc.ushow.ichat"
+    },
+    {
+        "app_name": "Smart Remote - Easy TV Control",
+        "developer": "Figuredin",
+        "price": "Free to download",
+        "apk_size": "N/A",
+        "maturity": "N/A",
+        "category": "Tools",
+        "source_url": "https://www.appbrain.com/app/smart-remote-easy-tv-control/com.rokutv.remote.app"
+    },
+    {
+        "app_name": "OfferUp: Buy. Sell. Simple.",
+        "developer": "OfferUp Inc.",
+        "price": "Free to download",
+        "apk_size": "N/A",
+        "maturity": "N/A",
+        "category": "Shopping",
+        "source_url": "https://www.appbrain.com/app/offerup-buy-sell-simple/com.offerup"
+    },
+    {
+        "app_name": "Norton360 Antivirus & Security",
+        "developer": "NortonMobile",
+        "price": "Free to download",
+        "apk_size": "N/A",
+        "maturity": "N/A",
+        "category": "Tools",
+        "source_url": "https://www.appbrain.com/app/norton360-antivirus-security/com.symantec.mobilesecurity"
+    },
+    {
+        "app_name": "1Weather Forecasts & Radar",
+        "developer": "OneLouder Apps",
+        "price": "Free to download",
+        "apk_size": "59.0 MB",
+        "maturity": "N/A",
+        "category": "Weather",
+        "source_url": "https://www.appbrain.com/app/1weather-forecasts-radar/com.handmark.expressweather"
+    },
+    {
+        "app_name": "JustPlay: Earn Money or Donate",
+        "developer": "JustPlay GmbH",
+        "price": "Free to download",
+        "apk_size": "58.2 MB",
+        "maturity": "High Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/justplay-earn-money-or-donate/com.justplay.app"
+    },
+    {
+        "app_name": "Booking.com: Hotels & Travel",
+        "developer": "Booking.com Hotels & Vacation Rentals",
+        "price": "Free to download",
+        "apk_size": "99.9 MB",
+        "maturity": "N/A",
+        "category": "Travel & Local",
+        "source_url": "https://www.appbrain.com/app/booking-com-hotels-travel/com.booking"
+    },
+    {
+        "app_name": "Too Good To Go: End Food Waste",
+        "developer": "Too Good To Go Aps",
+        "price": "Free to download",
+        "apk_size": "39.1 MB",
+        "maturity": "N/A",
+        "category": "Food & Drink",
+        "source_url": "https://www.appbrain.com/app/too-good-to-go-end-food-waste/com.app.tgtg"
+    },
+    {
+        "app_name": "Planet Fitness",
+        "developer": "Planet Fitness",
+        "price": "Free to download",
+        "apk_size": "N/A",
+        "maturity": "N/A",
+        "category": "Health & Fitness",
+        "source_url": "https://www.appbrain.com/app/planet-fitness/com.planetfitness"
+    },
+    {
+        "app_name": "OnePay – Mobile Banking",
+        "developer": "ONE Finance, Inc.",
+        "price": "Free to download",
+        "apk_size": "109.0 MB",
+        "maturity": "N/A",
+        "category": "Finance",
+        "source_url": "https://www.appbrain.com/app/onepay-mobile-banking/com.onefinance.one"
+    },
+    {
+        "app_name": "VPN Proton: Fast & Secure VPN",
+        "developer": "Proton AG",
+        "price": "Free to download",
+        "apk_size": "35.9 MB",
+        "maturity": "N/A",
+        "category": "Tools",
+        "source_url": "https://www.appbrain.com/app/vpn-proton-fast-secure-vpn/ch.protonvpn.android"
+    },
+    {
+        "app_name": "Coinbase: Buy BTC, ETH, SOL",
+        "developer": "Coinbase Inc",
+        "price": "Free to download",
+        "apk_size": "164.5 MB",
+        "maturity": "N/A",
+        "category": "Finance",
+        "source_url": "https://www.appbrain.com/app/coinbase-buy-btc-eth-sol/com.coinbase.android"
+    },
+    {
+        "app_name": "Authenticator App - SafeAuth",
+        "developer": "SafeAuth Services.",
+        "price": "Free to download",
+        "apk_size": "31.5 MB",
+        "maturity": "N/A",
+        "category": "Tools",
+        "source_url": "https://www.appbrain.com/app/authenticator-app-safeauth/authenticator.two.factor.authentication.otp"
+    },
+    {
+        "app_name": "NordVPN – fast VPN for privacy",
+        "developer": "Nord Security",
+        "price": "Free to download",
+        "apk_size": "37.4 MB",
+        "maturity": "N/A",
+        "category": "Tools",
+        "source_url": "https://www.appbrain.com/app/nordvpn-fast-vpn-for-privacy/com.nordvpn.android"
+    },
+    {
+        "app_name": "Instabridge: WiFi Hotspot Map",
+        "developer": "Degoo Backup AB - Cloud",
+        "price": "Free to download",
+        "apk_size": "73.1 MB",
+        "maturity": "Medium Maturity",
+        "category": "Travel & Local",
+        "source_url": "https://www.appbrain.com/app/instabridge-wifi-hotspot-map/com.instabridge.android"
+    },
+    {
+        "app_name": "Costco Wholesale",
+        "developer": "Costco Wholesale",
+        "price": "Free to download",
+        "apk_size": "N/A",
+        "maturity": "N/A",
+        "category": "Shopping",
+        "source_url": "https://www.appbrain.com/app/costco-wholesale/com.costco.app.android"
+    },
+    {
+        "app_name": "Uber - Driver: Drive & Deliver",
+        "developer": "Uber Technologies, Inc.",
+        "price": "Free to download",
+        "apk_size": "175.5 MB",
+        "maturity": "N/A",
+        "category": "Business",
+        "source_url": "https://www.appbrain.com/app/uber-driver-drive-deliver/com.ubercab.driver"
+    },
+    {
+        "app_name": "AllTrails: Hike, Bike & Run",
+        "developer": "AllTrails, LLC",
+        "price": "Free to download",
+        "apk_size": "115.0 MB",
+        "maturity": "N/A",
+        "category": "Health & Fitness",
+        "source_url": "https://www.appbrain.com/app/alltrails-hike-bike-run/com.alltrails.alltrails"
+    },
+    {
+        "app_name": "Zangi Private Messenger",
+        "developer": "Secret Phone, Inc",
+        "price": "Free to download",
+        "apk_size": "71.9 MB",
+        "maturity": "N/A",
+        "category": "Communication",
+        "source_url": "https://www.appbrain.com/app/zangi-private-messenger/com.beint.zangi"
+    },
+    {
+        "app_name": "MISTPLAY: Play to Earn Money",
+        "developer": "MISTPLAY",
+        "price": "Free to download",
+        "apk_size": "52.7 MB",
+        "maturity": "Medium Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/mistplay-play-to-earn-money/com.mistplay.mistplay"
+    },
+    {
+        "app_name": "Warm Weather",
+        "developer": "LKW ELE",
+        "price": "Free to download",
+        "apk_size": "30.2 MB",
+        "maturity": "N/A",
+        "category": "Weather",
+        "source_url": "https://www.appbrain.com/app/warm-weather/com.warmweather.forecast.reporter"
+    },
+    {
+        "app_name": "Etsy: A Special Marketplace",
+        "developer": "Etsy, Inc",
+        "price": "Free to download",
+        "apk_size": "27.6 MB",
+        "maturity": "Medium Maturity",
+        "category": "Shopping",
+        "source_url": "https://www.appbrain.com/app/etsy-a-special-marketplace/com.etsy.android"
+    },
+    {
+        "app_name": "Xfinity",
+        "developer": "Comcast",
+        "price": "Free to download",
+        "apk_size": "N/A",
+        "maturity": "N/A",
+        "category": "Productivity",
+        "source_url": "https://www.appbrain.com/app/xfinity/com.xfinity.digitalhome"
+    },
+    {
+        "app_name": "State Farm®",
+        "developer": "State Farm Insurance",
+        "price": "Free to download",
+        "apk_size": "60.1 MB",
+        "maturity": "N/A",
+        "category": "Finance",
+        "source_url": "https://www.appbrain.com/app/state-farm%C2%AE/com.statefarm.pocketagent"
+    },
+    {
+        "app_name": "Zedge™ Wallpapers & Ringtones",
+        "developer": "Zedge",
+        "price": "Free to download",
+        "apk_size": "73.6 MB",
+        "maturity": "Medium Maturity",
+        "category": "Personalization",
+        "source_url": "https://www.appbrain.com/app/zedge%E2%84%A2-wallpapers-ringtones/net.zedge.android"
+    },
+    {
+        "app_name": "GoodShort - Movies & Dramas",
+        "developer": "GoodNovel",
+        "price": "Free to download",
+        "apk_size": "34.2 MB",
+        "maturity": "Medium Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/goodshort-movies-dramas/com.newreading.goodreels"
+    },
+    {
+        "app_name": "Impulse - Brain Training Games",
+        "developer": "GMRD Apps Limited",
+        "price": "Free to download",
+        "apk_size": "N/A",
+        "maturity": "N/A",
+        "category": "Health & Fitness",
+        "source_url": "https://www.appbrain.com/app/impulse-brain-training-games/gen.tech.impulse.android"
+    },
+    {
+        "app_name": "Photo Recovery & File Recovery",
+        "developer": "PixelArmor",
+        "price": "Free to download",
+        "apk_size": "24.3 MB",
+        "maturity": "N/A",
+        "category": "Tools",
+        "source_url": "https://www.appbrain.com/app/photo-recovery-file-recovery/wiac.gpak.nvqe.allrecovery"
+    },
+    {
+        "app_name": "ShotShort-Dramas&Shorts",
+        "developer": "SUNSHINING NETWORK LIMITED",
+        "price": "Free to download",
+        "apk_size": "66.9 MB",
+        "maturity": "High Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/shotshort-dramas-shorts/com.mediaradiance.shotshort"
+    },
+    {
+        "app_name": "Claude by Anthropic",
+        "developer": "Anthropic PBC",
+        "price": "Free to download",
+        "apk_size": "12.3 MB",
+        "maturity": "Medium Maturity",
+        "category": "Productivity",
+        "source_url": "https://www.appbrain.com/app/claude-by-anthropic/com.anthropic.claude"
+    },
+    {
+        "app_name": "CoinIn – Coin Scan Identifier",
+        "developer": "PlantIn",
+        "price": "Free to download",
+        "apk_size": "6.67 MB",
+        "maturity": "N/A",
+        "category": "Tools",
+        "source_url": "https://www.appbrain.com/app/coinin-coin-scan-identifier/com.coinin.app"
+    },
+    {
+        "app_name": "Google Earth",
+        "developer": "Google LLC",
+        "price": "Free to download",
+        "apk_size": "87.7 MB",
+        "maturity": "N/A",
+        "category": "Travel & Local",
+        "source_url": "https://www.appbrain.com/app/google-earth/com.google.earth"
+    },
+    {
+        "app_name": "Brave Private Web Browser, VPN",
+        "developer": "Brave Software",
+        "price": "Free to download",
+        "apk_size": "194.6 MB",
+        "maturity": "N/A",
+        "category": "Communication",
+        "source_url": "https://www.appbrain.com/app/brave-private-web-browser-vpn/com.brave.browser"
+    },
+    {
+        "app_name": "Robinhood: Trading & Investing",
+        "developer": "Robinhood",
+        "price": "Free to download",
+        "apk_size": "116.8 MB",
+        "maturity": "N/A",
+        "category": "Finance",
+        "source_url": "https://www.appbrain.com/app/robinhood-trading-investing/com.robinhood.android"
+    },
+    {
+        "app_name": "My Spectrum",
+        "developer": "Charter/Spectrum",
+        "price": "Free to download",
+        "apk_size": "N/A",
+        "maturity": "N/A",
+        "category": "Tools",
+        "source_url": "https://www.appbrain.com/app/my-spectrum/com.brighthouse.mybhn"
+    },
+    {
+        "app_name": "KJV Bible: Audio+Verse",
+        "developer": "JSK Developer",
+        "price": "Free to download",
+        "apk_size": "35.8 MB",
+        "maturity": "N/A",
+        "category": "Books & Reference",
+        "source_url": "https://www.appbrain.com/app/kjv-bible-audio-verse/com.liotek.lannbible"
+    },
+    {
+        "app_name": "Suno - AI Music & Songs",
+        "developer": "Suno, Inc",
+        "price": "Free to download",
+        "apk_size": "26.0 MB",
+        "maturity": "Medium Maturity",
+        "category": "Music & Audio",
+        "source_url": "https://www.appbrain.com/app/suno-ai-music-songs/com.suno.android"
+    },
+    {
+        "app_name": "Little Caesars",
+        "developer": "Little Caesar Enterprises, Inc.",
+        "price": "Free to download",
+        "apk_size": "37.9 MB",
+        "maturity": "N/A",
+        "category": "Food & Drink",
+        "source_url": "https://www.appbrain.com/app/little-caesars/com.littlecaesars"
+    },
+    {
+        "app_name": "Deepsearch AI Search Assistant",
+        "developer": "xStudios",
+        "price": "Free to download",
+        "apk_size": "101.0 MB",
+        "maturity": "Medium Maturity",
+        "category": "Lifestyle",
+        "source_url": "https://www.appbrain.com/app/deepsearch-ai-search-assistant/hubx.whois.ai.search"
+    },
+    {
+        "app_name": "ReciMe: Recipes & Meal Planner",
+        "developer": "ReciMe",
+        "price": "Free to download",
+        "apk_size": "N/A",
+        "maturity": "Medium Maturity",
+        "category": "Food & Drink",
+        "source_url": "https://www.appbrain.com/app/recime-recipes-meal-planner/com.recime.app"
+    },
+    {
+        "app_name": "The CW",
+        "developer": "The CW Network",
+        "price": "Free to download",
+        "apk_size": "26.9 MB",
+        "maturity": "Medium Maturity",
+        "category": "Entertainment",
+        "source_url": "https://www.appbrain.com/app/the-cw/com.cw.fullepisodes.android"
+    },
+    {
+        "app_name": "GroupMe",
+        "developer": "GroupMe",
+        "price": "Free to download",
+        "apk_size": "141.4 MB",
+        "maturity": "Medium Maturity",
+        "category": "Communication",
+        "source_url": "https://www.appbrain.com/app/groupme/com.groupme.android"
+    },
+    {
+        "app_name": "DuckDuckGo Browser, Search, AI",
+        "developer": "DuckDuckGo",
+        "price": "Free to download",
+        "apk_size": "47.9 MB",
+        "maturity": "N/A",
+        "category": "Productivity",
+        "source_url": "https://www.appbrain.com/app/duckduckgo-browser-search-ai/com.duckduckgo.mobile.android"
+    },
+    {
+        "app_name": "Rocket Money - Bills & Budgets",
+        "developer": "Rocket Money - Bills & Budgets",
+        "price": "Free to download",
+        "apk_size": "82.6 MB",
+        "maturity": "N/A",
+        "category": "Finance",
+        "source_url": "https://www.appbrain.com/app/rocket-money-bills-budgets/com.truebill"
+    },
+    {
+        "app_name": "Brigit: Cash Advance & Credit",
+        "developer": "Brigit",
+        "price": "Free to download",
+        "apk_size": "54.7 MB",
+        "maturity": "N/A",
+        "category": "Finance",
+        "source_url": "https://www.appbrain.com/app/brigit-cash-advance-credit/com.hellobrigit.Brigit"
+    },
+    {
+        "app_name": "Amazon Alexa",
+        "developer": "Amazon Mobile LLC",
+        "price": "Free to download",
+        "apk_size": "N/A",
+        "maturity": "N/A",
+        "category": "Lifestyle",
+        "source_url": "https://www.appbrain.com/app/amazon-alexa/com.amazon.dee.app"
+    },
+    {
+        "app_name": "UKG Pro",
+        "developer": "UKG, Inc.",
+        "price": "Free to download",
+        "apk_size": "78.9 MB",
+        "maturity": "N/A",
+        "category": "Business",
+        "source_url": "https://www.appbrain.com/app/ukg-pro/com.ukg.oneapp"
+    },
+    {
+        "app_name": "Tinder Dating App: Chat & Date",
+        "developer": "Tinder LLC",
+        "price": "Free to download",
+        "apk_size": "83.3 MB",
+        "maturity": "High Maturity",
+        "category": "Dating",
+        "source_url": "https://www.appbrain.com/app/tinder-dating-app-chat-date/com.tinder"
+    },
+    {
+        "app_name": "Universal TV Remote for All TV",
+        "developer": "BoostVision",
+        "price": "Free to download",
+        "apk_size": "80.4 MB",
+        "maturity": "N/A",
+        "category": "Tools",
+        "source_url": "https://www.appbrain.com/app/universal-tv-remote-for-all-tv/com.boost.universal.remote"
+    },
+    {
+        "app_name": "Wayfair - Shop All Things Home",
+        "developer": "Wayfair, LLC",
+        "price": "Free to download",
+        "apk_size": "N/A",
+        "maturity": "N/A",
+        "category": "Shopping",
+        "source_url": "https://www.appbrain.com/app/wayfair-shop-all-things-home/com.wayfair.wayfair"
+    },
+    {
+        "app_name": "Finch: Self-Care Pet",
+        "developer": "Finch Care Public Benefit Corporation",
+        "price": "Free to download",
+        "apk_size": "85.1 MB",
+        "maturity": "N/A",
+        "category": "Health & Fitness",
+        "source_url": "https://www.appbrain.com/app/finch-self-care-pet/com.finch.finch"
+    },
+    {
+        "app_name": "BandLab – Music Making Studio",
+        "developer": "BandLab Technologies",
+        "price": "Free to download",
+        "apk_size": "51.8 MB",
+        "maturity": "Medium Maturity",
+        "category": "Music & Audio",
+        "source_url": "https://www.appbrain.com/app/bandlab-music-making-studio/com.bandlab.bandlab"
+    },
+    {
+        "app_name": "TV Remote: Roku Remote Control",
+        "developer": "TV Master - Smart TV Remote Control",
+        "price": "Free to download",
+        "apk_size": "23.0 MB",
+        "maturity": "N/A",
+        "category": "Tools",
+        "source_url": "https://www.appbrain.com/app/tv-remote-roku-remote-control/com.roku.remote.control.tv.cast"
+    },
+    {
+        "app_name": "Cleo AI: Cash advance & Credit",
+        "developer": "Cleo AI",
+        "price": "Free to download",
+        "apk_size": "N/A",
+        "maturity": "Medium Maturity",
+        "category": "Finance",
+        "source_url": "https://www.appbrain.com/app/cleo-ai-cash-advance-credit/com.meetcleo.cleo"
+    },
+    {
+        "app_name": "ADP Mobile Solutions",
+        "developer": "ADP, INC.",
+        "price": "Free to download",
+        "apk_size": "92.7 MB",
+        "maturity": "N/A",
+        "category": "Business",
+        "source_url": "https://www.appbrain.com/app/adp-mobile-solutions/com.adpmobile.android"
+    },
+    {
+        "app_name": "The Home Depot",
+        "developer": "The Home Depot, Inc",
+        "price": "Free to download",
+        "apk_size": "78.0 MB",
+        "maturity": "N/A",
+        "category": "Shopping",
+        "source_url": "https://www.appbrain.com/app/the-home-depot/com.thehomedepot"
+    }
+]

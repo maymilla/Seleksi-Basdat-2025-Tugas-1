@@ -1,0 +1,1402 @@
+[
+    {
+        "app_name": "ChatGPT",
+        "rank": 1,
+        "rating": 4.8,
+        "total_installs": "630 M",
+        "recent_installs": "66 M"
+    },
+    {
+        "app_name": "TikTok - Videos, Shop & LIVE",
+        "rank": 2,
+        "rating": 4.1,
+        "total_installs": "3.8 B",
+        "recent_installs": "52 M"
+    },
+    {
+        "app_name": "Threads",
+        "rank": 3,
+        "rating": 4.0,
+        "total_installs": "450 M",
+        "recent_installs": "18 M"
+    },
+    {
+        "app_name": "WhatsApp Messenger",
+        "rank": 4,
+        "rating": 4.4,
+        "total_installs": "11 B",
+        "recent_installs": "110 M"
+    },
+    {
+        "app_name": "Temu: Shop Like a Billionaire",
+        "rank": 5,
+        "rating": 4.6,
+        "total_installs": "820 M",
+        "recent_installs": "37 M"
+    },
+    {
+        "app_name": "Instagram",
+        "rank": 6,
+        "rating": 3.9,
+        "total_installs": "6.5 B",
+        "recent_installs": "58 M"
+    },
+    {
+        "app_name": "TikTok Lite - Faster TikTok",
+        "rank": 7,
+        "rating": 4.3,
+        "total_installs": "5.1 M",
+        "recent_installs": "950 K"
+    },
+    {
+        "app_name": "DramaBox - Stream Drama Shorts",
+        "rank": 8,
+        "rating": 4.6,
+        "total_installs": "140 M",
+        "recent_installs": "15 M"
+    },
+    {
+        "app_name": "Cash App",
+        "rank": 9,
+        "rating": 4.7,
+        "total_installs": "120 M",
+        "recent_installs": "1.1 M"
+    },
+    {
+        "app_name": "Snapchat",
+        "rank": 10,
+        "rating": 4.1,
+        "total_installs": "3.6 B",
+        "recent_installs": "43 M"
+    },
+    {
+        "app_name": "Telegram",
+        "rank": 11,
+        "rating": 4.1,
+        "total_installs": "2.4 B",
+        "recent_installs": "32 M"
+    },
+    {
+        "app_name": "SHEIN-Shopping Online",
+        "rank": 12,
+        "rating": 3.9,
+        "total_installs": "830 M",
+        "recent_installs": "14 M"
+    },
+    {
+        "app_name": "ReelShort - Stream Drama & TV",
+        "rank": 13,
+        "rating": 4.6,
+        "total_installs": "100 M",
+        "recent_installs": "13 M"
+    },
+    {
+        "app_name": "Messenger",
+        "rank": 14,
+        "rating": 4.7,
+        "total_installs": "7.2 B",
+        "recent_installs": "37 M"
+    },
+    {
+        "app_name": "Pick Drama",
+        "rank": 15,
+        "rating": 3.7,
+        "total_installs": "5.7 M",
+        "recent_installs": "5.5 M"
+    },
+    {
+        "app_name": "Whatnot: Shop, Sell, Connect",
+        "rank": 16,
+        "rating": 4.6,
+        "total_installs": "6.9 M",
+        "recent_installs": "700 K"
+    },
+    {
+        "app_name": "Facebook",
+        "rank": 17,
+        "rating": 4.4,
+        "total_installs": "11 B",
+        "recent_installs": "74 M"
+    },
+    {
+        "app_name": "Grok - AI Assistant",
+        "rank": 18,
+        "rating": 4.8,
+        "total_installs": "53 M",
+        "recent_installs": "3.9 M"
+    },
+    {
+        "app_name": "Tea Dating Advice",
+        "rank": 19,
+        "rating": 4.0,
+        "total_installs": "470 K",
+        "recent_installs": "330 K"
+    },
+    {
+        "app_name": "Walmart: Shopping & Savings",
+        "rank": 20,
+        "rating": 4.7,
+        "total_installs": "120 M",
+        "recent_installs": "970 K"
+    },
+    {
+        "app_name": "Easy Homescreen",
+        "rank": 21,
+        "rating": 3.9,
+        "total_installs": "11 M",
+        "recent_installs": "670 K"
+    },
+    {
+        "app_name": "CapCut - Video Editor",
+        "rank": 22,
+        "rating": 3.5,
+        "total_installs": "1.4 B",
+        "recent_installs": "30 M"
+    },
+    {
+        "app_name": "Netflix",
+        "rank": 23,
+        "rating": 3.9,
+        "total_installs": "3.1 B",
+        "recent_installs": "29 M"
+    },
+    {
+        "app_name": "PayPal - Pay, Send, Save",
+        "rank": 24,
+        "rating": 4.3,
+        "total_installs": "420 M",
+        "recent_installs": "4.3 M"
+    },
+    {
+        "app_name": "Discord - Talk, Play, Hang Out",
+        "rank": 25,
+        "rating": 4.3,
+        "total_installs": "550 M",
+        "recent_installs": "7.3 M"
+    },
+    {
+        "app_name": "Tubi: Free Movies & Live TV",
+        "rank": 26,
+        "rating": 4.9,
+        "total_installs": "200 M",
+        "recent_installs": "1.8 M"
+    },
+    {
+        "app_name": "Indeed Job Search",
+        "rank": 27,
+        "rating": 4.7,
+        "total_installs": "230 M",
+        "recent_installs": "2.4 M"
+    },
+    {
+        "app_name": "Life360: Stay Connected & Safe",
+        "rank": 28,
+        "rating": 4.5,
+        "total_installs": "180 M",
+        "recent_installs": "2.6 M"
+    },
+    {
+        "app_name": "TextNow: Call + Text Unlimited",
+        "rank": 29,
+        "rating": 4.5,
+        "total_installs": "120 M",
+        "recent_installs": "830 K"
+    },
+    {
+        "app_name": "Pop Drama",
+        "rank": 30,
+        "rating": 4.8,
+        "total_installs": "400 K",
+        "recent_installs": "380 K"
+    },
+    {
+        "app_name": "McDonald's",
+        "rank": 31,
+        "rating": 4.4,
+        "total_installs": "71 M",
+        "recent_installs": "680 K"
+    },
+    {
+        "app_name": "Chime – Mobile Banking",
+        "rank": 32,
+        "rating": 4.7,
+        "total_installs": "33 M",
+        "recent_installs": "590 K"
+    },
+    {
+        "app_name": "HBO Max: Stream TV & Movies",
+        "rank": 33,
+        "rating": 4.8,
+        "total_installs": "130 M",
+        "recent_installs": "5 M"
+    },
+    {
+        "app_name": "PDF Reader and Photo to PDF",
+        "rank": 34,
+        "rating": 4.2,
+        "total_installs": "20 M",
+        "recent_installs": "5.9 M"
+    },
+    {
+        "app_name": "Prime Video",
+        "rank": 35,
+        "rating": 4.0,
+        "total_installs": "760 M",
+        "recent_installs": "8.9 M"
+    },
+    {
+        "app_name": "Duolingo: Language Lessons",
+        "rank": 36,
+        "rating": 4.5,
+        "total_installs": "750 M",
+        "recent_installs": "12 M"
+    },
+    {
+        "app_name": "Amazon Shopping",
+        "rank": 37,
+        "rating": 4.4,
+        "total_installs": "930 M",
+        "recent_installs": "9.9 M"
+    },
+    {
+        "app_name": "NetShort - Popular Dramas & TV",
+        "rank": 38,
+        "rating": 4.1,
+        "total_installs": "23 M",
+        "recent_installs": "4.4 M"
+    },
+    {
+        "app_name": "AliExpress - Shopping App",
+        "rank": 39,
+        "rating": 4.5,
+        "total_installs": "770 M",
+        "recent_installs": "6.2 M"
+    },
+    {
+        "app_name": "Pinterest",
+        "rank": 40,
+        "rating": 4.4,
+        "total_installs": "1.3 B",
+        "recent_installs": "18 M"
+    },
+    {
+        "app_name": "DoorDash: Food, Grocery, More",
+        "rank": 41,
+        "rating": 4.7,
+        "total_installs": "75 M",
+        "recent_installs": "750 K"
+    },
+    {
+        "app_name": "Venmo",
+        "rank": 42,
+        "rating": 4.2,
+        "total_installs": "62 M",
+        "recent_installs": "600 K"
+    },
+    {
+        "app_name": "Zoom Workplace",
+        "rank": 43,
+        "rating": 4.1,
+        "total_installs": "1.3 B",
+        "recent_installs": "10 M"
+    },
+    {
+        "app_name": "The Roku App (Official)",
+        "rank": 44,
+        "rating": 4.7,
+        "total_installs": "86 M",
+        "recent_installs": "1.1 M"
+    },
+    {
+        "app_name": "Spotify: Music and Podcasts",
+        "rank": 45,
+        "rating": 4.3,
+        "total_installs": "2.5 B",
+        "recent_installs": "33 M"
+    },
+    {
+        "app_name": "Google Gemini",
+        "rank": 46,
+        "rating": 4.5,
+        "total_installs": "550 M",
+        "recent_installs": "94 M"
+    },
+    {
+        "app_name": "Uber - Request a ride",
+        "rank": 47,
+        "rating": 4.4,
+        "total_installs": "990 M",
+        "recent_installs": "9.9 M"
+    },
+    {
+        "app_name": "Chick-fil-A®",
+        "rank": 48,
+        "rating": 4.6,
+        "total_installs": "24 M",
+        "recent_installs": "420 K"
+    },
+    {
+        "app_name": "Peacock TV: Stream TV & Movies",
+        "rank": 49,
+        "rating": 4.6,
+        "total_installs": "47 M",
+        "recent_installs": "660 K"
+    },
+    {
+        "app_name": "Alibaba.com - B2B marketplace",
+        "rank": 50,
+        "rating": 4.4,
+        "total_installs": "560 M",
+        "recent_installs": "7.1 M"
+    },
+    {
+        "app_name": "PlutoTV: Live TV & Free Movies",
+        "rank": 51,
+        "rating": 4.0,
+        "total_installs": "250 M",
+        "recent_installs": "2 M"
+    },
+    {
+        "app_name": "PictureThis - Plant Identifier",
+        "rank": 52,
+        "rating": 4.6,
+        "total_installs": "62 M",
+        "recent_installs": "1.2 M"
+    },
+    {
+        "app_name": "Shop: All your favorite brands",
+        "rank": 53,
+        "rating": 4.5,
+        "total_installs": "51 M",
+        "recent_installs": "800 K"
+    },
+    {
+        "app_name": "Brightest Flashlight Launcher",
+        "rank": 54,
+        "rating": 4.3,
+        "total_installs": "3.1 M",
+        "recent_installs": "330 K"
+    },
+    {
+        "app_name": "Microsoft Teams",
+        "rank": 55,
+        "rating": 4.6,
+        "total_installs": "520 M",
+        "recent_installs": "5.8 M"
+    },
+    {
+        "app_name": "KFC US - Ordering App",
+        "rank": 56,
+        "rating": 3.4,
+        "total_installs": "7.4 M",
+        "recent_installs": "250 K"
+    },
+    {
+        "app_name": "T-Life",
+        "rank": 57,
+        "rating": 4.7,
+        "total_installs": "28 M",
+        "recent_installs": "560 K"
+    },
+    {
+        "app_name": "The Roku Channel",
+        "rank": 58,
+        "rating": 4.0,
+        "total_installs": "2.7 M",
+        "recent_installs": "280 K"
+    },
+    {
+        "app_name": "Disney+",
+        "rank": 59,
+        "rating": 4.4,
+        "total_installs": "470 M",
+        "recent_installs": "6.2 M"
+    },
+    {
+        "app_name": "PhotoRescue-Recover Files",
+        "rank": 60,
+        "rating": 4.0,
+        "total_installs": "2.5 M",
+        "recent_installs": "1.2 M"
+    },
+    {
+        "app_name": "Microsoft Authenticator",
+        "rank": 61,
+        "rating": 4.6,
+        "total_installs": "170 M",
+        "recent_installs": "3 M"
+    },
+    {
+        "app_name": "Canva: AI Photo & Video Editor",
+        "rank": 62,
+        "rating": 4.8,
+        "total_installs": "570 M",
+        "recent_installs": "12 M"
+    },
+    {
+        "app_name": "AntiVirus Toolkit",
+        "rank": 63,
+        "rating": 4.5,
+        "total_installs": "6.5 M",
+        "recent_installs": "760 K"
+    },
+    {
+        "app_name": "Lyft",
+        "rank": 64,
+        "rating": 4.4,
+        "total_installs": "71 M",
+        "recent_installs": "610 K"
+    },
+    {
+        "app_name": "NewsBreak: Local News & Alerts",
+        "rank": 65,
+        "rating": 4.6,
+        "total_installs": "85 M",
+        "recent_installs": "630 K"
+    },
+    {
+        "app_name": "Microsoft Edge: AI browser",
+        "rank": 66,
+        "rating": 4.7,
+        "total_installs": "130 M",
+        "recent_installs": "2.8 M"
+    },
+    {
+        "app_name": "X (Formerly Twitter)",
+        "rank": 67,
+        "rating": 3.7,
+        "total_installs": "1.7 B",
+        "recent_installs": "9.7 M"
+    },
+    {
+        "app_name": "Photo Recover-File Recovery",
+        "rank": 68,
+        "rating": 3.5,
+        "total_installs": "4.2 M",
+        "recent_installs": "1.1 M"
+    },
+    {
+        "app_name": "PolyBuzz: Chat with AI Friends",
+        "rank": 69,
+        "rating": 3.8,
+        "total_installs": "31 M",
+        "recent_installs": "1.6 M"
+    },
+    {
+        "app_name": "DoorDash - Dasher",
+        "rank": 70,
+        "rating": 4.3,
+        "total_installs": "25 M",
+        "recent_installs": "390 K"
+    },
+    {
+        "app_name": "Crunchyroll",
+        "rank": 71,
+        "rating": 4.7,
+        "total_installs": "180 M",
+        "recent_installs": "5.6 M"
+    },
+    {
+        "app_name": "Uber Eats: Food Delivery",
+        "rank": 72,
+        "rating": 4.6,
+        "total_installs": "260 M",
+        "recent_installs": "1.7 M"
+    },
+    {
+        "app_name": "Facebook Lite",
+        "rank": 73,
+        "rating": 4.5,
+        "total_installs": "3.7 B",
+        "recent_installs": "35 M"
+    },
+    {
+        "app_name": "KashKick: Get paid to have fun",
+        "rank": 74,
+        "rating": 4.5,
+        "total_installs": "3.4 M",
+        "recent_installs": "330 K"
+    },
+    {
+        "app_name": "testerup - earn money",
+        "rank": 75,
+        "rating": 4.1,
+        "total_installs": "11 M",
+        "recent_installs": "440 K"
+    },
+    {
+        "app_name": "Paramount+",
+        "rank": 76,
+        "rating": 4.0,
+        "total_installs": "40 M",
+        "recent_installs": "440 K"
+    },
+    {
+        "app_name": "Capital One Mobile",
+        "rank": 77,
+        "rating": 4.5,
+        "total_installs": "48 M",
+        "recent_installs": "420 K"
+    },
+    {
+        "app_name": "Intuit Credit Karma",
+        "rank": 78,
+        "rating": 4.7,
+        "total_installs": "54 M",
+        "recent_installs": "440 K"
+    },
+    {
+        "app_name": "Lemon8 - Lifestyle Community",
+        "rank": 79,
+        "rating": 4.7,
+        "total_installs": "30 M",
+        "recent_installs": "1 M"
+    },
+    {
+        "app_name": "BESTPLAY Play to earn & donate",
+        "rank": 80,
+        "rating": 4.7,
+        "total_installs": "8.7 M",
+        "recent_installs": "1 M"
+    },
+    {
+        "app_name": "Twitch: Live Streaming",
+        "rank": 81,
+        "rating": 4.0,
+        "total_installs": "310 M",
+        "recent_installs": "4.6 M"
+    },
+    {
+        "app_name": "eBay online shopping & selling",
+        "rank": 82,
+        "rating": 4.7,
+        "total_installs": "390 M",
+        "recent_installs": "1.7 M"
+    },
+    {
+        "app_name": "Freecash: Earn Money & Rewards",
+        "rank": 83,
+        "rating": 4.3,
+        "total_installs": "16 M",
+        "recent_installs": "820 K"
+    },
+    {
+        "app_name": "QR & Barcode Scanner Launcher",
+        "rank": 84,
+        "rating": 4.2,
+        "total_installs": "4.3 M",
+        "recent_installs": "230 K"
+    },
+    {
+        "app_name": "Move to iOS",
+        "rank": 85,
+        "rating": 3.7,
+        "total_installs": "210 M",
+        "recent_installs": "2.9 M"
+    },
+    {
+        "app_name": "Hizen VPN - Fast & Secure VPN",
+        "rank": 86,
+        "rating": 4.8,
+        "total_installs": "5.2 M",
+        "recent_installs": "2.5 M"
+    },
+    {
+        "app_name": "Apple TV",
+        "rank": 87,
+        "rating": 3.7,
+        "total_installs": "80 M",
+        "recent_installs": "3.4 M"
+    },
+    {
+        "app_name": "FlickReels - Short Drama & TV",
+        "rank": 88,
+        "rating": 4.6,
+        "total_installs": "12 M",
+        "recent_installs": "2.8 M"
+    },
+    {
+        "app_name": "Plex: Stream Movies & TV",
+        "rank": 89,
+        "rating": 4.0,
+        "total_installs": "83 M",
+        "recent_installs": "1.8 M"
+    },
+    {
+        "app_name": "Pandora - Music & Podcasts",
+        "rank": 90,
+        "rating": 4.0,
+        "total_installs": "310 M",
+        "recent_installs": "630 K"
+    },
+    {
+        "app_name": "Upside: Cash Back - Gas & Food",
+        "rank": 91,
+        "rating": 4.6,
+        "total_installs": "17 M",
+        "recent_installs": "280 K"
+    },
+    {
+        "app_name": "Google Authenticator",
+        "rank": 92,
+        "rating": 3.7,
+        "total_installs": "250 M",
+        "recent_installs": "4.3 M"
+    },
+    {
+        "app_name": "Waze Navigation & Live Traffic",
+        "rank": 93,
+        "rating": 4.1,
+        "total_installs": "590 M",
+        "recent_installs": "5.1 M"
+    },
+    {
+        "app_name": "QR & Barcode Scanner",
+        "rank": 94,
+        "rating": 4.8,
+        "total_installs": "700 M",
+        "recent_installs": "8.1 M"
+    },
+    {
+        "app_name": "Samsung Smart Switch Mobile",
+        "rank": 95,
+        "rating": 3.9,
+        "total_installs": "1.5 B",
+        "recent_installs": "53 M"
+    },
+    {
+        "app_name": "Expedia: Hotels, Flights, Cars",
+        "rank": 96,
+        "rating": 4.8,
+        "total_installs": "68 M",
+        "recent_installs": "680 K"
+    },
+    {
+        "app_name": "Google Translate",
+        "rank": 97,
+        "rating": 4.3,
+        "total_installs": "1.5 B",
+        "recent_installs": "9 M"
+    },
+    {
+        "app_name": "Malwarebytes Mobile Security",
+        "rank": 98,
+        "rating": 4.5,
+        "total_installs": "42 M",
+        "recent_installs": "850 K"
+    },
+    {
+        "app_name": "Picsart AI Photo Editor, Video",
+        "rank": 99,
+        "rating": 4.1,
+        "total_installs": "1.3 B",
+        "recent_installs": "8.7 M"
+    },
+    {
+        "app_name": "MyChart",
+        "rank": 100,
+        "rating": 4.6,
+        "total_installs": "27 M",
+        "recent_installs": "350 K"
+    },
+    {
+        "app_name": "Airbnb",
+        "rank": 101,
+        "rating": 4.4,
+        "total_installs": "230 M",
+        "recent_installs": "2.6 M"
+    },
+    {
+        "app_name": "Blood Pressure Tracker",
+        "rank": 102,
+        "rating": 4.0,
+        "total_installs": "9.7 M",
+        "recent_installs": "1.3 M"
+    },
+    {
+        "app_name": "Google Wallet",
+        "rank": 103,
+        "rating": 4.5,
+        "total_installs": "1.4 B",
+        "recent_installs": "45 M"
+    },
+    {
+        "app_name": "Geotag Photo: Camera Location",
+        "rank": 104,
+        "rating": 0.0,
+        "total_installs": "18 M",
+        "recent_installs": "2.7 M"
+    },
+    {
+        "app_name": "AI Cleaner - Phone Cleaner",
+        "rank": 105,
+        "rating": 4.4,
+        "total_installs": "1.7 M",
+        "recent_installs": "700 K"
+    },
+    {
+        "app_name": "Audible: Audio Entertainment",
+        "rank": 106,
+        "rating": 4.6,
+        "total_installs": "250 M",
+        "recent_installs": "1.3 M"
+    },
+    {
+        "app_name": "CoinSnap - Coin Identifier",
+        "rank": 107,
+        "rating": 4.4,
+        "total_installs": "10 M",
+        "recent_installs": "350 K"
+    },
+    {
+        "app_name": "Sam’s Club: Pickup & Delivery",
+        "rank": 108,
+        "rating": 4.9,
+        "total_installs": "36 M",
+        "recent_installs": "360 K"
+    },
+    {
+        "app_name": "ZEPETO: Avatar, Connect & Live",
+        "rank": 109,
+        "rating": 4.6,
+        "total_installs": "210 M",
+        "recent_installs": "2 M"
+    },
+    {
+        "app_name": "Cash Giraffe: Games & Rewards",
+        "rank": 110,
+        "rating": 4.3,
+        "total_installs": "18 M",
+        "recent_installs": "430 K"
+    },
+    {
+        "app_name": "Open Browser - Smart & Safe",
+        "rank": 111,
+        "rating": 4.8,
+        "total_installs": "2.3 M",
+        "recent_installs": "1.3 M"
+    },
+    {
+        "app_name": "RapidTV - Short Dramas",
+        "rank": 112,
+        "rating": 4.6,
+        "total_installs": "45 M",
+        "recent_installs": "5.9 M"
+    },
+    {
+        "app_name": "Bigo Live - Live Streaming App",
+        "rank": 113,
+        "rating": 4.5,
+        "total_installs": "740 M",
+        "recent_installs": "5.2 M"
+    },
+    {
+        "app_name": "BURGER KING® App",
+        "rank": 114,
+        "rating": 4.5,
+        "total_installs": "25 M",
+        "recent_installs": "270 K"
+    },
+    {
+        "app_name": "Scoopz: Real Life, Real Video",
+        "rank": 115,
+        "rating": 4.7,
+        "total_installs": "7.9 M",
+        "recent_installs": "280 K"
+    },
+    {
+        "app_name": "YouTube Kids",
+        "rank": 116,
+        "rating": 4.2,
+        "total_installs": "780 M",
+        "recent_installs": "9.8 M"
+    },
+    {
+        "app_name": "Pocket FM: Audio Series",
+        "rank": 117,
+        "rating": 4.6,
+        "total_installs": "190 M",
+        "recent_installs": "3.1 M"
+    },
+    {
+        "app_name": "Reddit",
+        "rank": 118,
+        "rating": 4.6,
+        "total_installs": "200 M",
+        "recent_installs": "1.9 M"
+    },
+    {
+        "app_name": "Ring - Always Home",
+        "rank": 119,
+        "rating": 4.1,
+        "total_installs": "33 M",
+        "recent_installs": "500 K"
+    },
+    {
+        "app_name": "Fetch: America’s Rewards App",
+        "rank": 120,
+        "rating": 4.7,
+        "total_installs": "24 M",
+        "recent_installs": "310 K"
+    },
+    {
+        "app_name": "PDF Reader – Reader & Editor",
+        "rank": 121,
+        "rating": 3.9,
+        "total_installs": "130 K",
+        "recent_installs": "130 K"
+    },
+    {
+        "app_name": "WEBTOON: Manga, Comics, Manhwa",
+        "rank": 122,
+        "rating": 4.5,
+        "total_installs": "150 M",
+        "recent_installs": "1.5 M"
+    },
+    {
+        "app_name": "PDF Reader - PDF Viewer",
+        "rank": 123,
+        "rating": 4.6,
+        "total_installs": "260 M",
+        "recent_installs": "9.6 M"
+    },
+    {
+        "app_name": "FlareFlow: 1-Minute Dramas!",
+        "rank": 124,
+        "rating": 4.7,
+        "total_installs": "4.7 M",
+        "recent_installs": "1.7 M"
+    },
+    {
+        "app_name": "Signal Private Messenger",
+        "rank": 125,
+        "rating": 4.6,
+        "total_installs": "170 M",
+        "recent_installs": "1.7 M"
+    },
+    {
+        "app_name": "Progressive",
+        "rank": 126,
+        "rating": 4.6,
+        "total_installs": "22 M",
+        "recent_installs": "280 K"
+    },
+    {
+        "app_name": "WhatsApp Business",
+        "rank": 127,
+        "rating": 4.4,
+        "total_installs": "1.8 B",
+        "recent_installs": "31 M"
+    },
+    {
+        "app_name": "Vrbo Vacation Rentals",
+        "rank": 128,
+        "rating": 4.8,
+        "total_installs": "23 M",
+        "recent_installs": "310 K"
+    },
+    {
+        "app_name": "Weather Now Launcher - Radar",
+        "rank": 129,
+        "rating": 4.1,
+        "total_installs": "4.6 M",
+        "recent_installs": "230 K"
+    },
+    {
+        "app_name": "Affirm: Buy now, pay over time",
+        "rank": 130,
+        "rating": 4.8,
+        "total_installs": "14 M",
+        "recent_installs": "270 K"
+    },
+    {
+        "app_name": "Instacart: Get Food Delivery",
+        "rank": 131,
+        "rating": 4.1,
+        "total_installs": "24 M",
+        "recent_installs": "270 K"
+    },
+    {
+        "app_name": "Simple Bible Daily Verse Alarm",
+        "rank": 132,
+        "rating": 4.8,
+        "total_installs": "810 K",
+        "recent_installs": "160 K"
+    },
+    {
+        "app_name": "Video&Drama Player All Format",
+        "rank": 133,
+        "rating": 3.5,
+        "total_installs": "1 M",
+        "recent_installs": "720 K"
+    },
+    {
+        "app_name": "Domino's Pizza USA",
+        "rank": 134,
+        "rating": 4.7,
+        "total_installs": "33 M",
+        "recent_installs": "280 K"
+    },
+    {
+        "app_name": "PlayWell: Play to Earn",
+        "rank": 135,
+        "rating": 4.5,
+        "total_installs": "3.2 M",
+        "recent_installs": "160 K"
+    },
+    {
+        "app_name": "Chase Mobile",
+        "rank": 136,
+        "rating": 4.5,
+        "total_installs": "55 M",
+        "recent_installs": "350 K"
+    },
+    {
+        "app_name": "Adobe Acrobat Reader: Edit PDF",
+        "rank": 137,
+        "rating": 4.5,
+        "total_installs": "840 M",
+        "recent_installs": "6.5 M"
+    },
+    {
+        "app_name": "CVS Health",
+        "rank": 138,
+        "rating": 3.4,
+        "total_installs": "23 M",
+        "recent_installs": "250 K"
+    },
+    {
+        "app_name": "Zelle®",
+        "rank": 139,
+        "rating": 4.1,
+        "total_installs": "31 M",
+        "recent_installs": "270 K"
+    },
+    {
+        "app_name": "Hulu: Stream TV shows & movies",
+        "rank": 140,
+        "rating": 4.5,
+        "total_installs": "100 M",
+        "recent_installs": "390 K"
+    },
+    {
+        "app_name": "Perplexity - Ask Anything",
+        "rank": 141,
+        "rating": 4.7,
+        "total_installs": "26 M",
+        "recent_installs": "6.6 M"
+    },
+    {
+        "app_name": "Chai: Chat AI Platform",
+        "rank": 142,
+        "rating": 4.3,
+        "total_installs": "15 M",
+        "recent_installs": "820 K"
+    },
+    {
+        "app_name": "Pizza Hut - Delivery & Takeout",
+        "rank": 143,
+        "rating": 4.0,
+        "total_installs": "25 M",
+        "recent_installs": "220 K"
+    },
+    {
+        "app_name": "Zillow: Homes For Sale & Rent",
+        "rank": 144,
+        "rating": 4.8,
+        "total_installs": "54 M",
+        "recent_installs": "290 K"
+    },
+    {
+        "app_name": "Linky AI: Chat, Play, Connect",
+        "rank": 145,
+        "rating": 4.1,
+        "total_installs": "13 M",
+        "recent_installs": "1.1 M"
+    },
+    {
+        "app_name": "Smart Remote - Easy TV Control",
+        "rank": 146,
+        "rating": 4.6,
+        "total_installs": "1.7 M",
+        "recent_installs": "430 K"
+    },
+    {
+        "app_name": "OfferUp: Buy. Sell. Simple.",
+        "rank": 147,
+        "rating": 4.4,
+        "total_installs": "78 M",
+        "recent_installs": "290 K"
+    },
+    {
+        "app_name": "Norton360 Antivirus & Security",
+        "rank": 148,
+        "rating": 4.6,
+        "total_installs": "85 M",
+        "recent_installs": "1.2 M"
+    },
+    {
+        "app_name": "1Weather Forecasts & Radar",
+        "rank": 149,
+        "rating": 4.4,
+        "total_installs": "150 M",
+        "recent_installs": "3.6 M"
+    },
+    {
+        "app_name": "JustPlay: Earn Money or Donate",
+        "rank": 150,
+        "rating": 4.4,
+        "total_installs": "28 M",
+        "recent_installs": "450 K"
+    },
+    {
+        "app_name": "Booking.com: Hotels & Travel",
+        "rank": 151,
+        "rating": 4.8,
+        "total_installs": "740 M",
+        "recent_installs": "7.8 M"
+    },
+    {
+        "app_name": "Too Good To Go: End Food Waste",
+        "rank": 152,
+        "rating": 4.9,
+        "total_installs": "64 M",
+        "recent_installs": "910 K"
+    },
+    {
+        "app_name": "Planet Fitness",
+        "rank": 153,
+        "rating": 4.6,
+        "total_installs": "17 M",
+        "recent_installs": "250 K"
+    },
+    {
+        "app_name": "OnePay – Mobile Banking",
+        "rank": 154,
+        "rating": 4.7,
+        "total_installs": "4.7 M",
+        "recent_installs": "200 K"
+    },
+    {
+        "app_name": "VPN Proton: Fast & Secure VPN",
+        "rank": 155,
+        "rating": 4.7,
+        "total_installs": "62 M",
+        "recent_installs": "4.2 M"
+    },
+    {
+        "app_name": "Coinbase: Buy BTC, ETH, SOL",
+        "rank": 156,
+        "rating": 4.5,
+        "total_installs": "51 M",
+        "recent_installs": "450 K"
+    },
+    {
+        "app_name": "Authenticator App - SafeAuth",
+        "rank": 157,
+        "rating": 4.3,
+        "total_installs": "25 M",
+        "recent_installs": "1.5 M"
+    },
+    {
+        "app_name": "NordVPN – fast VPN for privacy",
+        "rank": 158,
+        "rating": 4.6,
+        "total_installs": "100 M",
+        "recent_installs": "1.8 M"
+    },
+    {
+        "app_name": "Instabridge: WiFi Hotspot Map",
+        "rank": 159,
+        "rating": 4.2,
+        "total_installs": "280 M",
+        "recent_installs": "3.8 M"
+    },
+    {
+        "app_name": "Costco Wholesale",
+        "rank": 160,
+        "rating": 4.7,
+        "total_installs": "19 M",
+        "recent_installs": "270 K"
+    },
+    {
+        "app_name": "Uber - Driver: Drive & Deliver",
+        "rank": 161,
+        "rating": 4.6,
+        "total_installs": "190 M",
+        "recent_installs": "2.1 M"
+    },
+    {
+        "app_name": "AllTrails: Hike, Bike & Run",
+        "rank": 162,
+        "rating": 4.7,
+        "total_installs": "39 M",
+        "recent_installs": "850 K"
+    },
+    {
+        "app_name": "Zangi Private Messenger",
+        "rank": 163,
+        "rating": 4.3,
+        "total_installs": "39 M",
+        "recent_installs": "1.7 M"
+    },
+    {
+        "app_name": "MISTPLAY: Play to Earn Money",
+        "rank": 164,
+        "rating": 4.5,
+        "total_installs": "46 M",
+        "recent_installs": "450 K"
+    },
+    {
+        "app_name": "Warm Weather",
+        "rank": 165,
+        "rating": 4.3,
+        "total_installs": "2.1 M",
+        "recent_installs": "1.1 M"
+    },
+    {
+        "app_name": "Etsy: A Special Marketplace",
+        "rank": 166,
+        "rating": 4.8,
+        "total_installs": "62 M",
+        "recent_installs": "670 K"
+    },
+    {
+        "app_name": "Xfinity",
+        "rank": 167,
+        "rating": 3.2,
+        "total_installs": "19 M",
+        "recent_installs": "260 K"
+    },
+    {
+        "app_name": "State Farm®",
+        "rank": 168,
+        "rating": 4.6,
+        "total_installs": "15 M",
+        "recent_installs": "210 K"
+    },
+    {
+        "app_name": "Zedge™ Wallpapers & Ringtones",
+        "rank": 169,
+        "rating": 4.7,
+        "total_installs": "610 M",
+        "recent_installs": "3 M"
+    },
+    {
+        "app_name": "GoodShort - Movies & Dramas",
+        "rank": 170,
+        "rating": 4.9,
+        "total_installs": "37 M",
+        "recent_installs": "3.2 M"
+    },
+    {
+        "app_name": "Impulse - Brain Training Games",
+        "rank": 171,
+        "rating": 4.5,
+        "total_installs": "18 M",
+        "recent_installs": "1.4 M"
+    },
+    {
+        "app_name": "Photo Recovery & File Recovery",
+        "rank": 172,
+        "rating": 3.6,
+        "total_installs": "3.1 M",
+        "recent_installs": "780 K"
+    },
+    {
+        "app_name": "ShotShort-Dramas&Shorts",
+        "rank": 173,
+        "rating": 4.7,
+        "total_installs": "6.7 M",
+        "recent_installs": "2.3 M"
+    },
+    {
+        "app_name": "Claude by Anthropic",
+        "rank": 174,
+        "rating": 4.7,
+        "total_installs": "6.3 M",
+        "recent_installs": "580 K"
+    },
+    {
+        "app_name": "CoinIn – Coin Scan Identifier",
+        "rank": 175,
+        "rating": 4.4,
+        "total_installs": "390 K",
+        "recent_installs": "230 K"
+    },
+    {
+        "app_name": "Google Earth",
+        "rank": 176,
+        "rating": 3.9,
+        "total_installs": "560 M",
+        "recent_installs": "2.7 M"
+    },
+    {
+        "app_name": "Brave Private Web Browser, VPN",
+        "rank": 177,
+        "rating": 4.7,
+        "total_installs": "210 M",
+        "recent_installs": "3.4 M"
+    },
+    {
+        "app_name": "Robinhood: Trading & Investing",
+        "rank": 178,
+        "rating": 4.2,
+        "total_installs": "24 M",
+        "recent_installs": "190 K"
+    },
+    {
+        "app_name": "My Spectrum",
+        "rank": 179,
+        "rating": 4.7,
+        "total_installs": "20 M",
+        "recent_installs": "250 K"
+    },
+    {
+        "app_name": "KJV Bible: Audio+Verse",
+        "rank": 180,
+        "rating": 4.6,
+        "total_installs": "2 M",
+        "recent_installs": "170 K"
+    },
+    {
+        "app_name": "Suno - AI Music & Songs",
+        "rank": 181,
+        "rating": 4.8,
+        "total_installs": "15 M",
+        "recent_installs": "1.4 M"
+    },
+    {
+        "app_name": "Little Caesars",
+        "rank": 182,
+        "rating": 4.7,
+        "total_installs": "21 M",
+        "recent_installs": "240 K"
+    },
+    {
+        "app_name": "Deepsearch AI Search Assistant",
+        "rank": 183,
+        "rating": 4.3,
+        "total_installs": "1.1 M",
+        "recent_installs": "680 K"
+    },
+    {
+        "app_name": "ReciMe: Recipes & Meal Planner",
+        "rank": 184,
+        "rating": 4.7,
+        "total_installs": "270 K",
+        "recent_installs": "160 K"
+    },
+    {
+        "app_name": "The CW",
+        "rank": 185,
+        "rating": 3.8,
+        "total_installs": "21 M",
+        "recent_installs": "130 K"
+    },
+    {
+        "app_name": "GroupMe",
+        "rank": 186,
+        "rating": 4.6,
+        "total_installs": "33 M",
+        "recent_installs": "210 K"
+    },
+    {
+        "app_name": "DuckDuckGo Browser, Search, AI",
+        "rank": 187,
+        "rating": 4.7,
+        "total_installs": "73 M",
+        "recent_installs": "1.1 M"
+    },
+    {
+        "app_name": "Rocket Money - Bills & Budgets",
+        "rank": 188,
+        "rating": 4.7,
+        "total_installs": "12 M",
+        "recent_installs": "180 K"
+    },
+    {
+        "app_name": "Brigit: Cash Advance & Credit",
+        "rank": 189,
+        "rating": 4.7,
+        "total_installs": "7.6 M",
+        "recent_installs": "170 K"
+    },
+    {
+        "app_name": "Amazon Alexa",
+        "rank": 190,
+        "rating": 4.2,
+        "total_installs": "180 M",
+        "recent_installs": "1.9 M"
+    },
+    {
+        "app_name": "UKG Pro",
+        "rank": 191,
+        "rating": 4.5,
+        "total_installs": "3.2 M",
+        "recent_installs": "210 K"
+    },
+    {
+        "app_name": "Tinder Dating App: Chat & Date",
+        "rank": 192,
+        "rating": 3.8,
+        "total_installs": "450 M",
+        "recent_installs": "3.4 M"
+    },
+    {
+        "app_name": "Universal TV Remote for All TV",
+        "rank": 193,
+        "rating": 4.3,
+        "total_installs": "21 M",
+        "recent_installs": "980 K"
+    },
+    {
+        "app_name": "Wayfair - Shop All Things Home",
+        "rank": 194,
+        "rating": 4.8,
+        "total_installs": "37 M",
+        "recent_installs": "290 K"
+    },
+    {
+        "app_name": "Finch: Self-Care Pet",
+        "rank": 195,
+        "rating": 4.9,
+        "total_installs": "11 M",
+        "recent_installs": "330 K"
+    },
+    {
+        "app_name": "BandLab – Music Making Studio",
+        "rank": 196,
+        "rating": 4.7,
+        "total_installs": "110 M",
+        "recent_installs": "1.6 M"
+    },
+    {
+        "app_name": "TV Remote: Roku Remote Control",
+        "rank": 197,
+        "rating": 4.7,
+        "total_installs": "14 M",
+        "recent_installs": "480 K"
+    },
+    {
+        "app_name": "Cleo AI: Cash advance & Credit",
+        "rank": 198,
+        "rating": 4.0,
+        "total_installs": "4.2 M",
+        "recent_installs": "160 K"
+    },
+    {
+        "app_name": "ADP Mobile Solutions",
+        "rank": 199,
+        "rating": 4.6,
+        "total_installs": "32 M",
+        "recent_installs": "280 K"
+    },
+    {
+        "app_name": "The Home Depot",
+        "rank": 200,
+        "rating": 4.5,
+        "total_installs": "29 M",
+        "recent_installs": "250 K"
+    }
+]

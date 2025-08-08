@@ -1,0 +1,1586 @@
+[
+    {
+        "developer_name": "OpenAI",
+        "active_since": "2023 July",
+        "app_count": "1",
+        "total_downloads": "600 million",
+        "average_rating": "4.78",
+        "total_rating_count": "23 million",
+        "source_url": "https://www.appbrain.com/dev/OpenAI/"
+    },
+    {
+        "developer_name": "TikTok Pte. Ltd.",
+        "active_since": "2015 July",
+        "app_count": "10",
+        "total_downloads": "7 billion",
+        "average_rating": "4.24",
+        "total_rating_count": "98 million",
+        "source_url": "https://www.appbrain.com/dev/TikTok+Pte.+Ltd./"
+    },
+    {
+        "developer_name": "Instagram",
+        "active_since": "2012 April",
+        "app_count": "4",
+        "total_downloads": "8 billion",
+        "average_rating": "3.94",
+        "total_rating_count": "160 million",
+        "source_url": "https://www.appbrain.com/dev/Instagram/"
+    },
+    {
+        "developer_name": "WhatsApp LLC",
+        "active_since": "2010 October",
+        "app_count": "2",
+        "total_downloads": "10 billion",
+        "average_rating": "4.41",
+        "total_rating_count": "220 million",
+        "source_url": "https://www.appbrain.com/dev/WhatsApp+LLC/"
+    },
+    {
+        "developer_name": "Temu",
+        "active_since": "2022 August",
+        "app_count": "2",
+        "total_downloads": "800 million",
+        "average_rating": "4.62",
+        "total_rating_count": "8.7 million",
+        "source_url": "https://www.appbrain.com/dev/Temu/"
+    },
+    {
+        "developer_name": "STORYMATRIX",
+        "active_since": "2022 February",
+        "app_count": "1",
+        "total_downloads": "100 million",
+        "average_rating": "4.64",
+        "total_rating_count": "2.8 million",
+        "source_url": "https://www.appbrain.com/dev/STORYMATRIX/"
+    },
+    {
+        "developer_name": "Block, Inc.",
+        "active_since": "2010 May",
+        "app_count": "15",
+        "total_downloads": "100 million",
+        "average_rating": "4.66",
+        "total_rating_count": "3.9 million",
+        "source_url": "https://www.appbrain.com/dev/Block%2C+Inc./"
+    },
+    {
+        "developer_name": "Snap Inc",
+        "active_since": "2012 October",
+        "app_count": "2",
+        "total_downloads": "4 billion",
+        "average_rating": "4.13",
+        "total_rating_count": "36 million",
+        "source_url": "https://www.appbrain.com/dev/Snap+Inc/"
+    },
+    {
+        "developer_name": "Telegram FZ-LLC",
+        "active_since": "2013 October",
+        "app_count": "2",
+        "total_downloads": "3 billion",
+        "average_rating": "4.11",
+        "total_rating_count": "16 million",
+        "source_url": "https://www.appbrain.com/dev/Telegram+FZ-LLC/"
+    },
+    {
+        "developer_name": "Roadget Business PTE. LTD.",
+        "active_since": "2014 March",
+        "app_count": "2",
+        "total_downloads": "900 million",
+        "average_rating": "3.95",
+        "total_rating_count": "6.7 million",
+        "source_url": "https://www.appbrain.com/dev/Roadget+Business+PTE.+LTD./"
+    },
+    {
+        "developer_name": "NewLeaf Publishing",
+        "active_since": "2022 August",
+        "app_count": "1",
+        "total_downloads": "100 million",
+        "average_rating": "4.58",
+        "total_rating_count": "1 million",
+        "source_url": "https://www.appbrain.com/dev/NewLeaf+Publishing/"
+    },
+    {
+        "developer_name": "Meta Platforms, Inc.",
+        "active_since": "N/A",
+        "app_count": "12",
+        "total_downloads": "20 billion",
+        "average_rating": "4.49",
+        "total_rating_count": "300 million",
+        "source_url": "https://www.appbrain.com/dev/Meta+Platforms%2C+Inc./"
+    },
+    {
+        "developer_name": "createwonderful",
+        "active_since": "2025 April",
+        "app_count": "1",
+        "total_downloads": "6 million",
+        "average_rating": "3.68",
+        "total_rating_count": "1.2 thousand",
+        "source_url": "https://www.appbrain.com/dev/createwonderful/"
+    },
+    {
+        "developer_name": "Whatnot Inc.",
+        "active_since": "2019 December",
+        "app_count": "1",
+        "total_downloads": "7 million",
+        "average_rating": "4.65",
+        "total_rating_count": "150 thousand",
+        "source_url": "https://www.appbrain.com/dev/Whatnot+Inc./"
+    },
+    {
+        "developer_name": "xAI",
+        "active_since": "2025 February",
+        "app_count": "1",
+        "total_downloads": "50 million",
+        "average_rating": "4.84",
+        "total_rating_count": "1 million",
+        "source_url": "https://www.appbrain.com/dev/xAI/"
+    },
+    {
+        "developer_name": "Tea Dating Advice Inc.",
+        "active_since": "2024 March",
+        "app_count": "1",
+        "total_downloads": "500 thousand",
+        "average_rating": "3.98",
+        "total_rating_count": "11 thousand",
+        "source_url": "https://www.appbrain.com/dev/Tea+Dating+Advice+Inc./"
+    },
+    {
+        "developer_name": "Walmart",
+        "active_since": "2011 May",
+        "app_count": "21",
+        "total_downloads": "100 million",
+        "average_rating": "4.71",
+        "total_rating_count": "6.1 million",
+        "source_url": "https://www.appbrain.com/dev/Walmart/"
+    },
+    {
+        "developer_name": "Homescreen Apps",
+        "active_since": "2023 January",
+        "app_count": "7",
+        "total_downloads": "20 million",
+        "average_rating": "3.97",
+        "total_rating_count": "200 thousand",
+        "source_url": "https://www.appbrain.com/dev/Homescreen+Apps/"
+    },
+    {
+        "developer_name": "Bytedance Pte. Ltd.",
+        "active_since": "2014 January",
+        "app_count": "3",
+        "total_downloads": "2 billion",
+        "average_rating": "3.57",
+        "total_rating_count": "12 million",
+        "source_url": "https://www.appbrain.com/dev/Bytedance+Pte.+Ltd./"
+    },
+    {
+        "developer_name": "Netflix, Inc.",
+        "active_since": "2011 May",
+        "app_count": "96",
+        "total_downloads": "4 billion",
+        "average_rating": "3.93",
+        "total_rating_count": "15 million",
+        "source_url": "https://www.appbrain.com/dev/Netflix%2C+Inc./"
+    },
+    {
+        "developer_name": "PayPal Mobile",
+        "active_since": "N/A",
+        "app_count": "4",
+        "total_downloads": "500 million",
+        "average_rating": "4.23",
+        "total_rating_count": "3.6 million",
+        "source_url": "https://www.appbrain.com/dev/PayPal+Mobile/"
+    },
+    {
+        "developer_name": "Discord Inc.",
+        "active_since": "2015 May",
+        "app_count": "1",
+        "total_downloads": "600 million",
+        "average_rating": "4.27",
+        "total_rating_count": "6 million",
+        "source_url": "https://www.appbrain.com/dev/Discord+Inc./"
+    },
+    {
+        "developer_name": "Tubi TV",
+        "active_since": "2012 March",
+        "app_count": "1",
+        "total_downloads": "200 million",
+        "average_rating": "4.86",
+        "total_rating_count": "1.9 million",
+        "source_url": "https://www.appbrain.com/dev/Tubi+TV/"
+    },
+    {
+        "developer_name": "Indeed Jobs",
+        "active_since": "2010 January",
+        "app_count": "3",
+        "total_downloads": "200 million",
+        "average_rating": "4.69",
+        "total_rating_count": "10 million",
+        "source_url": "https://www.appbrain.com/dev/Indeed+Jobs/"
+    },
+    {
+        "developer_name": "Life360",
+        "active_since": "2010 February",
+        "app_count": "1",
+        "total_downloads": "200 million",
+        "average_rating": "4.48",
+        "total_rating_count": "2.1 million",
+        "source_url": "https://www.appbrain.com/dev/Life360/"
+    },
+    {
+        "developer_name": "TextNow, Inc.",
+        "active_since": "2012 September",
+        "app_count": "2",
+        "total_downloads": "100 million",
+        "average_rating": "4.49",
+        "total_rating_count": "1.5 million",
+        "source_url": "https://www.appbrain.com/dev/TextNow%2C+Inc./"
+    },
+    {
+        "developer_name": "zhidalingtong",
+        "active_since": "2024 September",
+        "app_count": "3",
+        "total_downloads": "400 thousand",
+        "average_rating": "4.79",
+        "total_rating_count": "960",
+        "source_url": "https://www.appbrain.com/dev/zhidalingtong/"
+    },
+    {
+        "developer_name": "McDonalds USA, LLC",
+        "active_since": "2014 October",
+        "app_count": "1",
+        "total_downloads": "70 million",
+        "average_rating": "4.36",
+        "total_rating_count": "2.1 million",
+        "source_url": "https://www.appbrain.com/dev/McDonalds+USA%2C+LLC/"
+    },
+    {
+        "developer_name": "Chime",
+        "active_since": "2014 March",
+        "app_count": "2",
+        "total_downloads": "30 million",
+        "average_rating": "4.69",
+        "total_rating_count": "850 thousand",
+        "source_url": "https://www.appbrain.com/dev/Chime/"
+    },
+    {
+        "developer_name": "WarnerMedia Global Digital Services, LLC",
+        "active_since": "2015 July",
+        "app_count": "3",
+        "total_downloads": "100 million",
+        "average_rating": "4.79",
+        "total_rating_count": "3.7 million",
+        "source_url": "https://www.appbrain.com/dev/WarnerMedia+Global+Digital+Services%2C+LLC/"
+    },
+    {
+        "developer_name": "LG apps",
+        "active_since": "2023 October",
+        "app_count": "1",
+        "total_downloads": "20 million",
+        "average_rating": "4.22",
+        "total_rating_count": "53 thousand",
+        "source_url": "https://www.appbrain.com/dev/LG+apps/"
+    },
+    {
+        "developer_name": "Amazon Mobile LLC",
+        "active_since": "N/A",
+        "app_count": "54",
+        "total_downloads": "4 billion",
+        "average_rating": "4.30",
+        "total_rating_count": "33 million",
+        "source_url": "https://www.appbrain.com/dev/Amazon+Mobile+LLC/"
+    },
+    {
+        "developer_name": "Duolingo",
+        "active_since": "2013 May",
+        "app_count": "2",
+        "total_downloads": "800 million",
+        "average_rating": "4.45",
+        "total_rating_count": "33 million",
+        "source_url": "https://www.appbrain.com/dev/Duolingo/"
+    },
+    {
+        "developer_name": "NETSTORY PTE. LTD.",
+        "active_since": "2024 July",
+        "app_count": "1",
+        "total_downloads": "20 million",
+        "average_rating": "4.14",
+        "total_rating_count": "910 thousand",
+        "source_url": "https://www.appbrain.com/dev/NETSTORY+PTE.+LTD./"
+    },
+    {
+        "developer_name": "Alibaba Mobile",
+        "active_since": "2012 September",
+        "app_count": "3",
+        "total_downloads": "1 billion",
+        "average_rating": "4.46",
+        "total_rating_count": "18 million",
+        "source_url": "https://www.appbrain.com/dev/Alibaba+Mobile/"
+    },
+    {
+        "developer_name": "Pinterest",
+        "active_since": "2012 August",
+        "app_count": "3",
+        "total_downloads": "1 billion",
+        "average_rating": "4.38",
+        "total_rating_count": "11 million",
+        "source_url": "https://www.appbrain.com/dev/Pinterest/"
+    },
+    {
+        "developer_name": "DoorDash",
+        "active_since": "2013 December",
+        "app_count": "4",
+        "total_downloads": "100 million",
+        "average_rating": "4.63",
+        "total_rating_count": "5.8 million",
+        "source_url": "https://www.appbrain.com/dev/DoorDash/"
+    },
+    {
+        "developer_name": "Venmo",
+        "active_since": "2010 May",
+        "app_count": "1",
+        "total_downloads": "60 million",
+        "average_rating": "4.15",
+        "total_rating_count": "840 thousand",
+        "source_url": "https://www.appbrain.com/dev/Venmo/"
+    },
+    {
+        "developer_name": "zoom.com",
+        "active_since": "2013 January",
+        "app_count": "6",
+        "total_downloads": "1 billion",
+        "average_rating": "4.11",
+        "total_rating_count": "4.2 million",
+        "source_url": "https://www.appbrain.com/dev/zoom.com/"
+    },
+    {
+        "developer_name": "Roku, Inc. & its affiliates",
+        "active_since": "2012 March",
+        "app_count": "3",
+        "total_downloads": "90 million",
+        "average_rating": "4.69",
+        "total_rating_count": "3.5 million",
+        "source_url": "https://www.appbrain.com/dev/Roku%2C+Inc.+%26+its+affiliates/"
+    },
+    {
+        "developer_name": "Spotify AB",
+        "active_since": "2014 May",
+        "app_count": "6",
+        "total_downloads": "3 billion",
+        "average_rating": "4.31",
+        "total_rating_count": "32 million",
+        "source_url": "https://www.appbrain.com/dev/Spotify+AB/"
+    },
+    {
+        "developer_name": "Google LLC",
+        "active_since": "N/A",
+        "app_count": "159",
+        "total_downloads": "400 billion",
+        "average_rating": "4.16",
+        "total_rating_count": "610 million",
+        "source_url": "https://www.appbrain.com/dev/Google+LLC/"
+    },
+    {
+        "developer_name": "Uber Technologies, Inc.",
+        "active_since": "2010 October",
+        "app_count": "8",
+        "total_downloads": "2 billion",
+        "average_rating": "4.51",
+        "total_rating_count": "28 million",
+        "source_url": "https://www.appbrain.com/dev/Uber+Technologies%2C+Inc./"
+    },
+    {
+        "developer_name": "Chick-fil-A, Inc.",
+        "active_since": "2013 May",
+        "app_count": "3",
+        "total_downloads": "20 million",
+        "average_rating": "4.55",
+        "total_rating_count": "200 thousand",
+        "source_url": "https://www.appbrain.com/dev/Chick-fil-A%2C+Inc./"
+    },
+    {
+        "developer_name": "Peacock TV LLC",
+        "active_since": "2020 July",
+        "app_count": "1",
+        "total_downloads": "50 million",
+        "average_rating": "4.60",
+        "total_rating_count": "450 thousand",
+        "source_url": "https://www.appbrain.com/dev/Peacock+TV+LLC/"
+    },
+    {
+        "developer_name": "Pluto, Inc.",
+        "active_since": "2014 March",
+        "app_count": "1",
+        "total_downloads": "200 million",
+        "average_rating": "4.03",
+        "total_rating_count": "630 thousand",
+        "source_url": "https://www.appbrain.com/dev/Pluto%2C+Inc./"
+    },
+    {
+        "developer_name": "Glority Global Group Ltd.",
+        "active_since": "2017 July",
+        "app_count": "4",
+        "total_downloads": "100 million",
+        "average_rating": "4.60",
+        "total_rating_count": "850 thousand",
+        "source_url": "https://www.appbrain.com/dev/Glority+Global+Group+Ltd./"
+    },
+    {
+        "developer_name": "Shopify Inc.",
+        "active_since": "2014 September",
+        "app_count": "7",
+        "total_downloads": "80 million",
+        "average_rating": "4.46",
+        "total_rating_count": "670 thousand",
+        "source_url": "https://www.appbrain.com/dev/Shopify+Inc./"
+    },
+    {
+        "developer_name": "AtomApplications",
+        "active_since": "2023 February",
+        "app_count": "12",
+        "total_downloads": "20 million",
+        "average_rating": "4.26",
+        "total_rating_count": "100 thousand",
+        "source_url": "https://www.appbrain.com/dev/AtomApplications/"
+    },
+    {
+        "developer_name": "Microsoft Corporation",
+        "active_since": "2011 April",
+        "app_count": "75",
+        "total_downloads": "20 billion",
+        "average_rating": "4.64",
+        "total_rating_count": "71 million",
+        "source_url": "https://www.appbrain.com/dev/Microsoft+Corporation/"
+    },
+    {
+        "developer_name": "KFC US",
+        "active_since": "2021 February",
+        "app_count": "2",
+        "total_downloads": "7 million",
+        "average_rating": "3.39",
+        "total_rating_count": "24 thousand",
+        "source_url": "https://www.appbrain.com/dev/KFC+US/"
+    },
+    {
+        "developer_name": "T-Mobile USA",
+        "active_since": "N/A",
+        "app_count": "20",
+        "total_downloads": "200 million",
+        "average_rating": "4.48",
+        "total_rating_count": "1.3 million",
+        "source_url": "https://www.appbrain.com/dev/T-Mobile+USA/"
+    },
+    {
+        "developer_name": "Disney",
+        "active_since": "2010 June",
+        "app_count": "70",
+        "total_downloads": "800 million",
+        "average_rating": "4.43",
+        "total_rating_count": "7.3 million",
+        "source_url": "https://www.appbrain.com/dev/Disney/"
+    },
+    {
+        "developer_name": "SunnyTech Limited",
+        "active_since": "2021 August",
+        "app_count": "2",
+        "total_downloads": "3 million",
+        "average_rating": "4.06",
+        "total_rating_count": "3.1 thousand",
+        "source_url": "https://www.appbrain.com/dev/SunnyTech+Limited/"
+    },
+    {
+        "developer_name": "Canva",
+        "active_since": "2017 November",
+        "app_count": "1",
+        "total_downloads": "600 million",
+        "average_rating": "4.80",
+        "total_rating_count": "21 million",
+        "source_url": "https://www.appbrain.com/dev/Canva/"
+    },
+    {
+        "developer_name": "ApplineDev",
+        "active_since": "2023 August",
+        "app_count": "1",
+        "total_downloads": "6 million",
+        "average_rating": "4.54",
+        "total_rating_count": "51 thousand",
+        "source_url": "https://www.appbrain.com/dev/ApplineDev/"
+    },
+    {
+        "developer_name": "Lyft, Inc.",
+        "active_since": "2012 August",
+        "app_count": "17",
+        "total_downloads": "80 million",
+        "average_rating": "4.43",
+        "total_rating_count": "710 thousand",
+        "source_url": "https://www.appbrain.com/dev/Lyft%2C+Inc./"
+    },
+    {
+        "developer_name": "Particle Media Inc.",
+        "active_since": "2016 June",
+        "app_count": "2",
+        "total_downloads": "90 million",
+        "average_rating": "4.63",
+        "total_rating_count": "570 thousand",
+        "source_url": "https://www.appbrain.com/dev/Particle+Media+Inc./"
+    },
+    {
+        "developer_name": "X Corp.",
+        "active_since": "2010 April",
+        "app_count": "2",
+        "total_downloads": "2 billion",
+        "average_rating": "3.73",
+        "total_rating_count": "22 million",
+        "source_url": "https://www.appbrain.com/dev/X+Corp./"
+    },
+    {
+        "developer_name": "NetConnect",
+        "active_since": "2023 September",
+        "app_count": "2",
+        "total_downloads": "4 million",
+        "average_rating": "3.53",
+        "total_rating_count": "3.8 thousand",
+        "source_url": "https://www.appbrain.com/dev/NetConnect/"
+    },
+    {
+        "developer_name": "CLOUD WHALE INTERACTIVE TECHNOLOGY LLC.",
+        "active_since": "2023 April",
+        "app_count": "1",
+        "total_downloads": "30 million",
+        "average_rating": "3.83",
+        "total_rating_count": "560 thousand",
+        "source_url": "https://www.appbrain.com/dev/CLOUD+WHALE+INTERACTIVE+TECHNOLOGY+LLC./"
+    },
+    {
+        "developer_name": "Crunchyroll, LLC",
+        "active_since": "2010 December",
+        "app_count": "70",
+        "total_downloads": "200 million",
+        "average_rating": "4.72",
+        "total_rating_count": "3 million",
+        "source_url": "https://www.appbrain.com/dev/Crunchyroll%2C+LLC/"
+    },
+    {
+        "developer_name": "Besitos Corporation LLC",
+        "active_since": "2021 February",
+        "app_count": "1",
+        "total_downloads": "3 million",
+        "average_rating": "4.50",
+        "total_rating_count": "61 thousand",
+        "source_url": "https://www.appbrain.com/dev/Besitos+Corporation+LLC/"
+    },
+    {
+        "developer_name": "aestimium GmbH",
+        "active_since": "2017 June",
+        "app_count": "1",
+        "total_downloads": "10 million",
+        "average_rating": "4.13",
+        "total_rating_count": "160 thousand",
+        "source_url": "https://www.appbrain.com/dev/aestimium+GmbH/"
+    },
+    {
+        "developer_name": "CBS Interactive, Inc.",
+        "active_since": "N/A",
+        "app_count": "9",
+        "total_downloads": "90 million",
+        "average_rating": "4.10",
+        "total_rating_count": "760 thousand",
+        "source_url": "https://www.appbrain.com/dev/CBS+Interactive%2C+Inc./"
+    },
+    {
+        "developer_name": "Capital One Services, LLC",
+        "active_since": "2011 July",
+        "app_count": "6",
+        "total_downloads": "60 million",
+        "average_rating": "4.54",
+        "total_rating_count": "1.9 million",
+        "source_url": "https://www.appbrain.com/dev/Capital+One+Services%2C+LLC/"
+    },
+    {
+        "developer_name": "Credit Karma, LLC",
+        "active_since": "2013 February",
+        "app_count": "2",
+        "total_downloads": "60 million",
+        "average_rating": "4.68",
+        "total_rating_count": "3.1 million",
+        "source_url": "https://www.appbrain.com/dev/Credit+Karma%2C+LLC/"
+    },
+    {
+        "developer_name": "Bestplay",
+        "active_since": "2023 April",
+        "app_count": "1",
+        "total_downloads": "9 million",
+        "average_rating": "4.69",
+        "total_rating_count": "140 thousand",
+        "source_url": "https://www.appbrain.com/dev/Bestplay/"
+    },
+    {
+        "developer_name": "Twitch Interactive, Inc.",
+        "active_since": "2012 April",
+        "app_count": "2",
+        "total_downloads": "300 million",
+        "average_rating": "4.01",
+        "total_rating_count": "5.2 million",
+        "source_url": "https://www.appbrain.com/dev/Twitch+Interactive%2C+Inc./"
+    },
+    {
+        "developer_name": "eBay Mobile",
+        "active_since": "2010 February",
+        "app_count": "3",
+        "total_downloads": "400 million",
+        "average_rating": "4.66",
+        "total_rating_count": "4.7 million",
+        "source_url": "https://www.appbrain.com/dev/eBay+Mobile/"
+    },
+    {
+        "developer_name": "Freecash",
+        "active_since": "2021 August",
+        "app_count": "1",
+        "total_downloads": "20 million",
+        "average_rating": "4.35",
+        "total_rating_count": "180 thousand",
+        "source_url": "https://www.appbrain.com/dev/Freecash/"
+    },
+    {
+        "developer_name": "Apple",
+        "active_since": "2015 September",
+        "app_count": "7",
+        "total_downloads": "500 million",
+        "average_rating": "4.33",
+        "total_rating_count": "890 thousand",
+        "source_url": "https://www.appbrain.com/dev/Apple/"
+    },
+    {
+        "developer_name": "Appfusion",
+        "active_since": "2025 January",
+        "app_count": "1",
+        "total_downloads": "5 million",
+        "average_rating": "4.80",
+        "total_rating_count": "46 thousand",
+        "source_url": "https://www.appbrain.com/dev/Appfusion/"
+    },
+    {
+        "developer_name": "FARSUNPTE.LTD.",
+        "active_since": "2024 September",
+        "app_count": "1",
+        "total_downloads": "10 million",
+        "average_rating": "4.63",
+        "total_rating_count": "260 thousand",
+        "source_url": "https://www.appbrain.com/dev/FARSUNPTE.LTD./"
+    },
+    {
+        "developer_name": "Plex, Inc.",
+        "active_since": "2011 February",
+        "app_count": "5",
+        "total_downloads": "90 million",
+        "average_rating": "4.07",
+        "total_rating_count": "400 thousand",
+        "source_url": "https://www.appbrain.com/dev/Plex%2C+Inc./"
+    },
+    {
+        "developer_name": "Pandora",
+        "active_since": "N/A",
+        "app_count": "2",
+        "total_downloads": "300 million",
+        "average_rating": "3.95",
+        "total_rating_count": "3.2 million",
+        "source_url": "https://www.appbrain.com/dev/Pandora/"
+    },
+    {
+        "developer_name": "Upside Inc.",
+        "active_since": "2016 April",
+        "app_count": "1",
+        "total_downloads": "20 million",
+        "average_rating": "4.57",
+        "total_rating_count": "410 thousand",
+        "source_url": "https://www.appbrain.com/dev/Upside+Inc./"
+    },
+    {
+        "developer_name": "Waze",
+        "active_since": "N/A",
+        "app_count": "1",
+        "total_downloads": "600 million",
+        "average_rating": "4.14",
+        "total_rating_count": "8.6 million",
+        "source_url": "https://www.appbrain.com/dev/Waze/"
+    },
+    {
+        "developer_name": "Gamma Play",
+        "active_since": "2014 December",
+        "app_count": "17",
+        "total_downloads": "900 million",
+        "average_rating": "4.79",
+        "total_rating_count": "4.3 million",
+        "source_url": "https://www.appbrain.com/dev/Gamma+Play/"
+    },
+    {
+        "developer_name": "Samsung Electronics Co.,  Ltd.",
+        "active_since": "2011 February",
+        "app_count": "124",
+        "total_downloads": "60 billion",
+        "average_rating": "4.26",
+        "total_rating_count": "35 million",
+        "source_url": "https://www.appbrain.com/dev/Samsung+Electronics+Co.%2C++Ltd./"
+    },
+    {
+        "developer_name": "Expedia",
+        "active_since": "2011 May",
+        "app_count": "2",
+        "total_downloads": "70 million",
+        "average_rating": "4.80",
+        "total_rating_count": "1.2 million",
+        "source_url": "https://www.appbrain.com/dev/Expedia/"
+    },
+    {
+        "developer_name": "Malwarebytes",
+        "active_since": "2013 May",
+        "app_count": "3",
+        "total_downloads": "40 million",
+        "average_rating": "4.48",
+        "total_rating_count": "500 thousand",
+        "source_url": "https://www.appbrain.com/dev/Malwarebytes/"
+    },
+    {
+        "developer_name": "PicsArt, Inc.",
+        "active_since": "2011 November",
+        "app_count": "5",
+        "total_downloads": "1 billion",
+        "average_rating": "4.07",
+        "total_rating_count": "12 million",
+        "source_url": "https://www.appbrain.com/dev/PicsArt%2C+Inc./"
+    },
+    {
+        "developer_name": "Epic Systems Corporation",
+        "active_since": "2011 September",
+        "app_count": "7",
+        "total_downloads": "30 million",
+        "average_rating": "4.55",
+        "total_rating_count": "230 thousand",
+        "source_url": "https://www.appbrain.com/dev/Epic+Systems+Corporation/"
+    },
+    {
+        "developer_name": "Airbnb",
+        "active_since": "2012 January",
+        "app_count": "2",
+        "total_downloads": "200 million",
+        "average_rating": "4.44",
+        "total_rating_count": "1.7 million",
+        "source_url": "https://www.appbrain.com/dev/Airbnb/"
+    },
+    {
+        "developer_name": "AT Technologyy",
+        "active_since": "2022 June",
+        "app_count": "4",
+        "total_downloads": "10 million",
+        "average_rating": "4.02",
+        "total_rating_count": "8.3 thousand",
+        "source_url": "https://www.appbrain.com/dev/AT+Technologyy/"
+    },
+    {
+        "developer_name": "MIA Studio Inc",
+        "active_since": "2020 November",
+        "app_count": "32",
+        "total_downloads": "200 million",
+        "average_rating": "4.32",
+        "total_rating_count": "590 thousand",
+        "source_url": "https://www.appbrain.com/dev/MIA+Studio+Inc/"
+    },
+    {
+        "developer_name": "GRIMLAX TRADE, S.L.",
+        "active_since": "2024 December",
+        "app_count": "1",
+        "total_downloads": "2 million",
+        "average_rating": "4.38",
+        "total_rating_count": "32 thousand",
+        "source_url": "https://www.appbrain.com/dev/GRIMLAX+TRADE%2C+S.L./"
+    },
+    {
+        "developer_name": "Audible, Inc.",
+        "active_since": "2010 August",
+        "app_count": "1",
+        "total_downloads": "200 million",
+        "average_rating": "4.60",
+        "total_rating_count": "1.6 million",
+        "source_url": "https://www.appbrain.com/dev/Audible%2C+Inc./"
+    },
+    {
+        "developer_name": "Next Vision Limited",
+        "active_since": "2019 October",
+        "app_count": "12",
+        "total_downloads": "40 million",
+        "average_rating": "4.44",
+        "total_rating_count": "260 thousand",
+        "source_url": "https://www.appbrain.com/dev/Next+Vision+Limited/"
+    },
+    {
+        "developer_name": "Sam's Club",
+        "active_since": "2010 September",
+        "app_count": "2",
+        "total_downloads": "40 million",
+        "average_rating": "4.86",
+        "total_rating_count": "510 thousand",
+        "source_url": "https://www.appbrain.com/dev/Sam%27s+Club/"
+    },
+    {
+        "developer_name": "Naver Z Corporation",
+        "active_since": "2018 September",
+        "app_count": "2",
+        "total_downloads": "500 million",
+        "average_rating": "4.57",
+        "total_rating_count": "4.8 million",
+        "source_url": "https://www.appbrain.com/dev/Naver+Z+Corporation/"
+    },
+    {
+        "developer_name": "Cash Giraffe",
+        "active_since": "2022 July",
+        "app_count": "1",
+        "total_downloads": "20 million",
+        "average_rating": "4.30",
+        "total_rating_count": "450 thousand",
+        "source_url": "https://www.appbrain.com/dev/Cash+Giraffe/"
+    },
+    {
+        "developer_name": "AdPulse INC",
+        "active_since": "2025 April",
+        "app_count": "3",
+        "total_downloads": "2 million",
+        "average_rating": "4.82",
+        "total_rating_count": "37 thousand",
+        "source_url": "https://www.appbrain.com/dev/AdPulse+INC/"
+    },
+    {
+        "developer_name": "Kennedyy",
+        "active_since": "2023 September",
+        "app_count": "4",
+        "total_downloads": "50 million",
+        "average_rating": "4.56",
+        "total_rating_count": "79 thousand",
+        "source_url": "https://www.appbrain.com/dev/Kennedyy/"
+    },
+    {
+        "developer_name": "Bigo Technology Pte. Ltd.",
+        "active_since": "2016 March",
+        "app_count": "2",
+        "total_downloads": "800 million",
+        "average_rating": "4.46",
+        "total_rating_count": "6.3 million",
+        "source_url": "https://www.appbrain.com/dev/Bigo+Technology+Pte.+Ltd./"
+    },
+    {
+        "developer_name": "Burger King, Inc.",
+        "active_since": "2012 July",
+        "app_count": "29",
+        "total_downloads": "80 million",
+        "average_rating": "4.07",
+        "total_rating_count": "670 thousand",
+        "source_url": "https://www.appbrain.com/dev/Burger+King%2C+Inc./"
+    },
+    {
+        "developer_name": "Local AI, Inc.",
+        "active_since": "2023 July",
+        "app_count": "2",
+        "total_downloads": "8 million",
+        "average_rating": "4.71",
+        "total_rating_count": "65 thousand",
+        "source_url": "https://www.appbrain.com/dev/Local+AI%2C+Inc./"
+    },
+    {
+        "developer_name": "Pocket FM Corp.",
+        "active_since": "2018 September",
+        "app_count": "4",
+        "total_downloads": "200 million",
+        "average_rating": "4.56",
+        "total_rating_count": "4.1 million",
+        "source_url": "https://www.appbrain.com/dev/Pocket+FM+Corp./"
+    },
+    {
+        "developer_name": "reddit Inc.",
+        "active_since": "2014 September",
+        "app_count": "1",
+        "total_downloads": "200 million",
+        "average_rating": "4.63",
+        "total_rating_count": "4 million",
+        "source_url": "https://www.appbrain.com/dev/reddit+Inc./"
+    },
+    {
+        "developer_name": "Ring.com",
+        "active_since": "2014 November",
+        "app_count": "2",
+        "total_downloads": "40 million",
+        "average_rating": "4.21",
+        "total_rating_count": "440 thousand",
+        "source_url": "https://www.appbrain.com/dev/Ring.com/"
+    },
+    {
+        "developer_name": "Fetch Rewards",
+        "active_since": "2013 November",
+        "app_count": "1",
+        "total_downloads": "20 million",
+        "average_rating": "4.69",
+        "total_rating_count": "1.4 million",
+        "source_url": "https://www.appbrain.com/dev/Fetch+Rewards/"
+    },
+    {
+        "developer_name": "Ora Tools",
+        "active_since": "2023 January",
+        "app_count": "7",
+        "total_downloads": "10 million",
+        "average_rating": "4.72",
+        "total_rating_count": "99 thousand",
+        "source_url": "https://www.appbrain.com/dev/Ora+Tools/"
+    },
+    {
+        "developer_name": "NAVER WEBTOON",
+        "active_since": "2010 December",
+        "app_count": "3",
+        "total_downloads": "200 million",
+        "average_rating": "4.53",
+        "total_rating_count": "4.3 million",
+        "source_url": "https://www.appbrain.com/dev/NAVER+WEBTOON/"
+    },
+    {
+        "developer_name": "QR Code Scanner.",
+        "active_since": "2021 July",
+        "app_count": "11",
+        "total_downloads": "900 million",
+        "average_rating": "4.53",
+        "total_rating_count": "4.1 million",
+        "source_url": "https://www.appbrain.com/dev/QR+Code+Scanner./"
+    },
+    {
+        "developer_name": "FlareFlow Pte. Ltd.",
+        "active_since": "2025 March",
+        "app_count": "1",
+        "total_downloads": "5 million",
+        "average_rating": "4.71",
+        "total_rating_count": "55 thousand",
+        "source_url": "https://www.appbrain.com/dev/FlareFlow+Pte.+Ltd./"
+    },
+    {
+        "developer_name": "Signal Foundation",
+        "active_since": "2010 May",
+        "app_count": "1",
+        "total_downloads": "200 million",
+        "average_rating": "4.55",
+        "total_rating_count": "2.7 million",
+        "source_url": "https://www.appbrain.com/dev/Signal+Foundation/"
+    },
+    {
+        "developer_name": "Progressive Insurance",
+        "active_since": "2010 April",
+        "app_count": "2",
+        "total_downloads": "20 million",
+        "average_rating": "4.64",
+        "total_rating_count": "200 thousand",
+        "source_url": "https://www.appbrain.com/dev/Progressive+Insurance/"
+    },
+    {
+        "developer_name": "Vrbo",
+        "active_since": "2011 June",
+        "app_count": "3",
+        "total_downloads": "40 million",
+        "average_rating": "4.72",
+        "total_rating_count": "310 thousand",
+        "source_url": "https://www.appbrain.com/dev/Vrbo/"
+    },
+    {
+        "developer_name": "Affirm, Inc",
+        "active_since": "2016 June",
+        "app_count": "1",
+        "total_downloads": "10 million",
+        "average_rating": "4.83",
+        "total_rating_count": "470 thousand",
+        "source_url": "https://www.appbrain.com/dev/Affirm%2C+Inc/"
+    },
+    {
+        "developer_name": "Instacart",
+        "active_since": "2014 May",
+        "app_count": "6",
+        "total_downloads": "30 million",
+        "average_rating": "4.16",
+        "total_rating_count": "450 thousand",
+        "source_url": "https://www.appbrain.com/dev/Instacart/"
+    },
+    {
+        "developer_name": "Reminders & Alarms",
+        "active_since": "2023 May",
+        "app_count": "5",
+        "total_downloads": "2 million",
+        "average_rating": "4.72",
+        "total_rating_count": "47 thousand",
+        "source_url": "https://www.appbrain.com/dev/Reminders+%26+Alarms/"
+    },
+    {
+        "developer_name": "Griffin Atlas USA",
+        "active_since": "2024 November",
+        "app_count": "4",
+        "total_downloads": "1 million",
+        "average_rating": "3.42",
+        "total_rating_count": "300",
+        "source_url": "https://www.appbrain.com/dev/Griffin+Atlas+USA/"
+    },
+    {
+        "developer_name": "Domino's Pizza LLC",
+        "active_since": "2012 February",
+        "app_count": "15",
+        "total_downloads": "40 million",
+        "average_rating": "4.64",
+        "total_rating_count": "2.3 million",
+        "source_url": "https://www.appbrain.com/dev/Domino%27s+Pizza+LLC/"
+    },
+    {
+        "developer_name": "PlayWell Team",
+        "active_since": "2022 February",
+        "app_count": "1",
+        "total_downloads": "3 million",
+        "average_rating": "4.52",
+        "total_rating_count": "310 thousand",
+        "source_url": "https://www.appbrain.com/dev/PlayWell+Team/"
+    },
+    {
+        "developer_name": "JPMorgan Chase",
+        "active_since": "2010 November",
+        "app_count": "7",
+        "total_downloads": "60 million",
+        "average_rating": "4.49",
+        "total_rating_count": "2 million",
+        "source_url": "https://www.appbrain.com/dev/JPMorgan+Chase/"
+    },
+    {
+        "developer_name": "Adobe",
+        "active_since": "N/A",
+        "app_count": "22",
+        "total_downloads": "2 billion",
+        "average_rating": "4.56",
+        "total_rating_count": "16 million",
+        "source_url": "https://www.appbrain.com/dev/Adobe/"
+    },
+    {
+        "developer_name": "CVS Pharmacy",
+        "active_since": "2011 June",
+        "app_count": "4",
+        "total_downloads": "20 million",
+        "average_rating": "3.40",
+        "total_rating_count": "390 thousand",
+        "source_url": "https://www.appbrain.com/dev/CVS+Pharmacy/"
+    },
+    {
+        "developer_name": "Early Warning Services, LLC",
+        "active_since": "2017 September",
+        "app_count": "1",
+        "total_downloads": "30 million",
+        "average_rating": "4.09",
+        "total_rating_count": "160 thousand",
+        "source_url": "https://www.appbrain.com/dev/Early+Warning+Services%2C+LLC/"
+    },
+    {
+        "developer_name": "PerplexityAI",
+        "active_since": "2023 May",
+        "app_count": "1",
+        "total_downloads": "30 million",
+        "average_rating": "4.66",
+        "total_rating_count": "890 thousand",
+        "source_url": "https://www.appbrain.com/dev/PerplexityAI/"
+    },
+    {
+        "developer_name": "Chai Research Corp.",
+        "active_since": "2021 December",
+        "app_count": "1",
+        "total_downloads": "10 million",
+        "average_rating": "4.29",
+        "total_rating_count": "400 thousand",
+        "source_url": "https://www.appbrain.com/dev/Chai+Research+Corp./"
+    },
+    {
+        "developer_name": "Pizza Hut Inc",
+        "active_since": "2011 May",
+        "app_count": "2",
+        "total_downloads": "30 million",
+        "average_rating": "3.99",
+        "total_rating_count": "960 thousand",
+        "source_url": "https://www.appbrain.com/dev/Pizza+Hut+Inc/"
+    },
+    {
+        "developer_name": "Zillow",
+        "active_since": "2010 March",
+        "app_count": "6",
+        "total_downloads": "60 million",
+        "average_rating": "4.77",
+        "total_rating_count": "1.5 million",
+        "source_url": "https://www.appbrain.com/dev/Zillow/"
+    },
+    {
+        "developer_name": "Skywork AI Pte. Ltd.",
+        "active_since": "2023 July",
+        "app_count": "2",
+        "total_downloads": "10 million",
+        "average_rating": "4.08",
+        "total_rating_count": "87 thousand",
+        "source_url": "https://www.appbrain.com/dev/Skywork+AI+Pte.+Ltd./"
+    },
+    {
+        "developer_name": "Figuredin",
+        "active_since": "2024 September",
+        "app_count": "2",
+        "total_downloads": "2 million",
+        "average_rating": "4.60",
+        "total_rating_count": "8.1 thousand",
+        "source_url": "https://www.appbrain.com/dev/Figuredin/"
+    },
+    {
+        "developer_name": "OfferUp Inc.",
+        "active_since": "2013 October",
+        "app_count": "1",
+        "total_downloads": "80 million",
+        "average_rating": "4.38",
+        "total_rating_count": "1.2 million",
+        "source_url": "https://www.appbrain.com/dev/OfferUp+Inc./"
+    },
+    {
+        "developer_name": "NortonMobile",
+        "active_since": "N/A",
+        "app_count": "10",
+        "total_downloads": "100 million",
+        "average_rating": "4.56",
+        "total_rating_count": "2.3 million",
+        "source_url": "https://www.appbrain.com/dev/NortonMobile/"
+    },
+    {
+        "developer_name": "OneLouder Apps",
+        "active_since": "N/A",
+        "app_count": "1",
+        "total_downloads": "100 million",
+        "average_rating": "4.39",
+        "total_rating_count": "1.1 million",
+        "source_url": "https://www.appbrain.com/dev/OneLouder+Apps/"
+    },
+    {
+        "developer_name": "JustPlay GmbH",
+        "active_since": "2020 November",
+        "app_count": "1",
+        "total_downloads": "30 million",
+        "average_rating": "4.45",
+        "total_rating_count": "1.2 million",
+        "source_url": "https://www.appbrain.com/dev/JustPlay+GmbH/"
+    },
+    {
+        "developer_name": "Booking.com Hotels & Vacation Rentals",
+        "active_since": "2011 February",
+        "app_count": "3",
+        "total_downloads": "700 million",
+        "average_rating": "4.79",
+        "total_rating_count": "5 million",
+        "source_url": "https://www.appbrain.com/dev/Booking.com+Hotels+%26+Vacation+Rentals/"
+    },
+    {
+        "developer_name": "Too Good To Go Aps",
+        "active_since": "2016 January",
+        "app_count": "1",
+        "total_downloads": "60 million",
+        "average_rating": "4.85",
+        "total_rating_count": "1.7 million",
+        "source_url": "https://www.appbrain.com/dev/Too+Good+To+Go+Aps/"
+    },
+    {
+        "developer_name": "Planet Fitness",
+        "active_since": "2015 February",
+        "app_count": "3",
+        "total_downloads": "20 million",
+        "average_rating": "4.65",
+        "total_rating_count": "70 thousand",
+        "source_url": "https://www.appbrain.com/dev/Planet+Fitness/"
+    },
+    {
+        "developer_name": "ONE Finance, Inc.",
+        "active_since": "2016 September",
+        "app_count": "2",
+        "total_downloads": "7 million",
+        "average_rating": "4.77",
+        "total_rating_count": "160 thousand",
+        "source_url": "https://www.appbrain.com/dev/ONE+Finance%2C+Inc./"
+    },
+    {
+        "developer_name": "Proton AG",
+        "active_since": "2016 March",
+        "app_count": "6",
+        "total_downloads": "70 million",
+        "average_rating": "4.64",
+        "total_rating_count": "580 thousand",
+        "source_url": "https://www.appbrain.com/dev/Proton+AG/"
+    },
+    {
+        "developer_name": "Coinbase Inc",
+        "active_since": "2013 March",
+        "app_count": "1",
+        "total_downloads": "50 million",
+        "average_rating": "4.45",
+        "total_rating_count": "890 thousand",
+        "source_url": "https://www.appbrain.com/dev/Coinbase+Inc/"
+    },
+    {
+        "developer_name": "SafeAuth Services.",
+        "active_since": "2023 June",
+        "app_count": "1",
+        "total_downloads": "20 million",
+        "average_rating": "4.30",
+        "total_rating_count": "100 thousand",
+        "source_url": "https://www.appbrain.com/dev/SafeAuth+Services./"
+    },
+    {
+        "developer_name": "Nord Security",
+        "active_since": "2016 May",
+        "app_count": "5",
+        "total_downloads": "100 million",
+        "average_rating": "4.56",
+        "total_rating_count": "1.1 million",
+        "source_url": "https://www.appbrain.com/dev/Nord+Security/"
+    },
+    {
+        "developer_name": "Degoo Backup AB - Cloud",
+        "active_since": "2012 November",
+        "app_count": "4",
+        "total_downloads": "300 million",
+        "average_rating": "4.20",
+        "total_rating_count": "4.6 million",
+        "source_url": "https://www.appbrain.com/dev/Degoo+Backup+AB+-+Cloud/"
+    },
+    {
+        "developer_name": "Costco Wholesale",
+        "active_since": "2012 June",
+        "app_count": "11",
+        "total_downloads": "30 million",
+        "average_rating": "4.70",
+        "total_rating_count": "300 thousand",
+        "source_url": "https://www.appbrain.com/dev/Costco+Wholesale/"
+    },
+    {
+        "developer_name": "AllTrails, LLC",
+        "active_since": "N/A",
+        "app_count": "1",
+        "total_downloads": "40 million",
+        "average_rating": "4.70",
+        "total_rating_count": "370 thousand",
+        "source_url": "https://www.appbrain.com/dev/AllTrails%2C+LLC/"
+    },
+    {
+        "developer_name": "Secret Phone, Inc",
+        "active_since": "2014 November",
+        "app_count": "1",
+        "total_downloads": "40 million",
+        "average_rating": "4.30",
+        "total_rating_count": "180 thousand",
+        "source_url": "https://www.appbrain.com/dev/Secret+Phone%2C+Inc/"
+    },
+    {
+        "developer_name": "MISTPLAY",
+        "active_since": "2016 July",
+        "app_count": "1",
+        "total_downloads": "50 million",
+        "average_rating": "4.52",
+        "total_rating_count": "820 thousand",
+        "source_url": "https://www.appbrain.com/dev/MISTPLAY/"
+    },
+    {
+        "developer_name": "LKW ELE",
+        "active_since": "2024 December",
+        "app_count": "2",
+        "total_downloads": "2 million",
+        "average_rating": "4.32",
+        "total_rating_count": "2.4 thousand",
+        "source_url": "https://www.appbrain.com/dev/LKW+ELE/"
+    },
+    {
+        "developer_name": "Etsy, Inc",
+        "active_since": "2012 December",
+        "app_count": "2",
+        "total_downloads": "70 million",
+        "average_rating": "4.83",
+        "total_rating_count": "1.9 million",
+        "source_url": "https://www.appbrain.com/dev/Etsy%2C+Inc/"
+    },
+    {
+        "developer_name": "Comcast",
+        "active_since": "2011 February",
+        "app_count": "6",
+        "total_downloads": "40 million",
+        "average_rating": "3.18",
+        "total_rating_count": "390 thousand",
+        "source_url": "https://www.appbrain.com/dev/Comcast/"
+    },
+    {
+        "developer_name": "State Farm Insurance",
+        "active_since": "2010 April",
+        "app_count": "5",
+        "total_downloads": "20 million",
+        "average_rating": "4.46",
+        "total_rating_count": "500 thousand",
+        "source_url": "https://www.appbrain.com/dev/State+Farm+Insurance/"
+    },
+    {
+        "developer_name": "Zedge",
+        "active_since": "N/A",
+        "app_count": "4",
+        "total_downloads": "600 million",
+        "average_rating": "4.66",
+        "total_rating_count": "16 million",
+        "source_url": "https://www.appbrain.com/dev/Zedge/"
+    },
+    {
+        "developer_name": "GoodNovel",
+        "active_since": "2020 April",
+        "app_count": "5",
+        "total_downloads": "70 million",
+        "average_rating": "4.77",
+        "total_rating_count": "3.3 million",
+        "source_url": "https://www.appbrain.com/dev/GoodNovel/"
+    },
+    {
+        "developer_name": "GMRD Apps Limited",
+        "active_since": "2024 March",
+        "app_count": "1",
+        "total_downloads": "20 million",
+        "average_rating": "4.52",
+        "total_rating_count": "460 thousand",
+        "source_url": "https://www.appbrain.com/dev/GMRD+Apps+Limited/"
+    },
+    {
+        "developer_name": "PixelArmor",
+        "active_since": "2023 October",
+        "app_count": "2",
+        "total_downloads": "4 million",
+        "average_rating": "3.68",
+        "total_rating_count": "3 thousand",
+        "source_url": "https://www.appbrain.com/dev/PixelArmor/"
+    },
+    {
+        "developer_name": "SUNSHINING NETWORK LIMITED",
+        "active_since": "2023 December",
+        "app_count": "1",
+        "total_downloads": "7 million",
+        "average_rating": "4.72",
+        "total_rating_count": "38 thousand",
+        "source_url": "https://www.appbrain.com/dev/SUNSHINING+NETWORK+LIMITED/"
+    },
+    {
+        "developer_name": "Anthropic PBC",
+        "active_since": "2024 July",
+        "app_count": "1",
+        "total_downloads": "6 million",
+        "average_rating": "4.66",
+        "total_rating_count": "96 thousand",
+        "source_url": "https://www.appbrain.com/dev/Anthropic+PBC/"
+    },
+    {
+        "developer_name": "PlantIn",
+        "active_since": "2021 March",
+        "app_count": "2",
+        "total_downloads": "10 million",
+        "average_rating": "4.02",
+        "total_rating_count": "130 thousand",
+        "source_url": "https://www.appbrain.com/dev/PlantIn/"
+    },
+    {
+        "developer_name": "Brave Software",
+        "active_since": "2014 March",
+        "app_count": "3",
+        "total_downloads": "200 million",
+        "average_rating": "4.73",
+        "total_rating_count": "2.6 million",
+        "source_url": "https://www.appbrain.com/dev/Brave+Software/"
+    },
+    {
+        "developer_name": "Robinhood",
+        "active_since": "2015 August",
+        "app_count": "5",
+        "total_downloads": "20 million",
+        "average_rating": "4.22",
+        "total_rating_count": "530 thousand",
+        "source_url": "https://www.appbrain.com/dev/Robinhood/"
+    },
+    {
+        "developer_name": "Charter/Spectrum",
+        "active_since": "2011 December",
+        "app_count": "8",
+        "total_downloads": "40 million",
+        "average_rating": "4.72",
+        "total_rating_count": "1.3 million",
+        "source_url": "https://www.appbrain.com/dev/Charter%2FSpectrum/"
+    },
+    {
+        "developer_name": "JSK Developer",
+        "active_since": "2020 February",
+        "app_count": "3",
+        "total_downloads": "3 million",
+        "average_rating": "4.67",
+        "total_rating_count": "13 thousand",
+        "source_url": "https://www.appbrain.com/dev/JSK+Developer/"
+    },
+    {
+        "developer_name": "Suno, Inc",
+        "active_since": "2024 December",
+        "app_count": "1",
+        "total_downloads": "20 million",
+        "average_rating": "4.80",
+        "total_rating_count": "500 thousand",
+        "source_url": "https://www.appbrain.com/dev/Suno%2C+Inc/"
+    },
+    {
+        "developer_name": "Little Caesar Enterprises, Inc.",
+        "active_since": "2016 September",
+        "app_count": "2",
+        "total_downloads": "20 million",
+        "average_rating": "4.74",
+        "total_rating_count": "520 thousand",
+        "source_url": "https://www.appbrain.com/dev/Little+Caesar+Enterprises%2C+Inc./"
+    },
+    {
+        "developer_name": "xStudios",
+        "active_since": "2021 July",
+        "app_count": "3",
+        "total_downloads": "1 million",
+        "average_rating": "4.33",
+        "total_rating_count": "60 thousand",
+        "source_url": "https://www.appbrain.com/dev/xStudios/"
+    },
+    {
+        "developer_name": "ReciMe",
+        "active_since": "2023 June",
+        "app_count": "1",
+        "total_downloads": "300 thousand",
+        "average_rating": "4.68",
+        "total_rating_count": "5.2 thousand",
+        "source_url": "https://www.appbrain.com/dev/ReciMe/"
+    },
+    {
+        "developer_name": "The CW Network",
+        "active_since": "2012 March",
+        "app_count": "1",
+        "total_downloads": "20 million",
+        "average_rating": "3.81",
+        "total_rating_count": "320 thousand",
+        "source_url": "https://www.appbrain.com/dev/The+CW+Network/"
+    },
+    {
+        "developer_name": "GroupMe",
+        "active_since": "2010 November",
+        "app_count": "1",
+        "total_downloads": "30 million",
+        "average_rating": "4.60",
+        "total_rating_count": "590 thousand",
+        "source_url": "https://www.appbrain.com/dev/GroupMe/"
+    },
+    {
+        "developer_name": "DuckDuckGo",
+        "active_since": "2011 April",
+        "app_count": "1",
+        "total_downloads": "70 million",
+        "average_rating": "4.70",
+        "total_rating_count": "2.1 million",
+        "source_url": "https://www.appbrain.com/dev/DuckDuckGo/"
+    },
+    {
+        "developer_name": "Rocket Money - Bills & Budgets",
+        "active_since": "2016 July",
+        "app_count": "1",
+        "total_downloads": "10 million",
+        "average_rating": "4.65",
+        "total_rating_count": "100 thousand",
+        "source_url": "https://www.appbrain.com/dev/Rocket+Money+-+Bills+%26+Budgets/"
+    },
+    {
+        "developer_name": "Brigit",
+        "active_since": "2018 April",
+        "app_count": "1",
+        "total_downloads": "8 million",
+        "average_rating": "4.73",
+        "total_rating_count": "270 thousand",
+        "source_url": "https://www.appbrain.com/dev/Brigit/"
+    },
+    {
+        "developer_name": "UKG, Inc.",
+        "active_since": "2011 January",
+        "app_count": "14",
+        "total_downloads": "20 million",
+        "average_rating": "4.03",
+        "total_rating_count": "170 thousand",
+        "source_url": "https://www.appbrain.com/dev/UKG%2C+Inc./"
+    },
+    {
+        "developer_name": "Tinder LLC",
+        "active_since": "2013 July",
+        "app_count": "1",
+        "total_downloads": "500 million",
+        "average_rating": "3.79",
+        "total_rating_count": "8.2 million",
+        "source_url": "https://www.appbrain.com/dev/Tinder+LLC/"
+    },
+    {
+        "developer_name": "BoostVision",
+        "active_since": "2022 January",
+        "app_count": "9",
+        "total_downloads": "80 million",
+        "average_rating": "4.30",
+        "total_rating_count": "620 thousand",
+        "source_url": "https://www.appbrain.com/dev/BoostVision/"
+    },
+    {
+        "developer_name": "Wayfair, LLC",
+        "active_since": "2013 November",
+        "app_count": "7",
+        "total_downloads": "40 million",
+        "average_rating": "4.80",
+        "total_rating_count": "380 thousand",
+        "source_url": "https://www.appbrain.com/dev/Wayfair%2C+LLC/"
+    },
+    {
+        "developer_name": "Finch Care Public Benefit Corporation",
+        "active_since": "2021 May",
+        "app_count": "1",
+        "total_downloads": "10 million",
+        "average_rating": "4.91",
+        "total_rating_count": "430 thousand",
+        "source_url": "https://www.appbrain.com/dev/Finch+Care+Public+Benefit+Corporation/"
+    },
+    {
+        "developer_name": "BandLab Technologies",
+        "active_since": "2011 April",
+        "app_count": "2",
+        "total_downloads": "100 million",
+        "average_rating": "4.67",
+        "total_rating_count": "700 thousand",
+        "source_url": "https://www.appbrain.com/dev/BandLab+Technologies/"
+    },
+    {
+        "developer_name": "TV Master - Smart TV Remote Control",
+        "active_since": "2020 June",
+        "app_count": "8",
+        "total_downloads": "90 million",
+        "average_rating": "4.42",
+        "total_rating_count": "780 thousand",
+        "source_url": "https://www.appbrain.com/dev/TV+Master+-+Smart+TV+Remote+Control/"
+    },
+    {
+        "developer_name": "Cleo AI",
+        "active_since": "2019 February",
+        "app_count": "1",
+        "total_downloads": "4 million",
+        "average_rating": "3.98",
+        "total_rating_count": "85 thousand",
+        "source_url": "https://www.appbrain.com/dev/Cleo+AI/"
+    },
+    {
+        "developer_name": "ADP, INC.",
+        "active_since": "2011 May",
+        "app_count": "9",
+        "total_downloads": "40 million",
+        "average_rating": "4.58",
+        "total_rating_count": "720 thousand",
+        "source_url": "https://www.appbrain.com/dev/ADP%2C+INC./"
+    },
+    {
+        "developer_name": "The Home Depot, Inc",
+        "active_since": "2011 March",
+        "app_count": "3",
+        "total_downloads": "30 million",
+        "average_rating": "4.41",
+        "total_rating_count": "810 thousand",
+        "source_url": "https://www.appbrain.com/dev/The+Home+Depot%2C+Inc/"
+    }
+]
