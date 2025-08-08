@@ -3,19 +3,12 @@ import os
 import re
 
 def parse_apk_size_to_mb(size_string):
-    """
-    Mengurai string ukuran file dan mengonversinya ke MB.
-    Mengembalikan None jika input N/A atau tidak valid.
-    """
     if not isinstance(size_string, str) or "N/A" in size_string.upper():
-        return None # Diubah dari return None yang sudah ada, ini akan menjadi null di JSON
-
+        return None
     number_part = re.findall(r'[\d.]+', size_string)
     if not number_part:
         return None
-
     size = float(number_part[0])
-
     if 'GB' in size_string.upper():
         return size * 1024
     elif 'KB' in size_string.upper():
@@ -24,16 +17,14 @@ def parse_apk_size_to_mb(size_string):
         return size
 
 def preprocess_app_details_data(raw_data):
-    """
-    Melakukan preprocessing pada data dari app_details_200.json.
-    """
     clean_data = []
     for app in raw_data:
-        price_cleaned = "Free" if "free" in app.get("price", "").lower() else app.get("price")
-        
-        # Jika maturity N/A, biarkan. Jika tidak, bersihkan.
-        maturity_raw = app.get("maturity", "N/A")
-        maturity_cleaned = None if maturity_raw == "N/A" else maturity_raw.replace(" Maturity", "").strip()
+        # Memastikan 'price' ada sebelum diolah
+        raw_price = app.get("price", "") or "" # Mengatasi jika nilai price adalah None
+        price_cleaned = "Free" if "free" in raw_price.lower() else raw_price
+
+        raw_maturity = app.get("maturity", "N/A") or "N/A" # Mengatasi jika nilai maturity adalah None
+        maturity_cleaned = None if raw_maturity == "N/A" else raw_maturity.replace(" Maturity", "").strip()
 
         apk_size_mb = parse_apk_size_to_mb(app.get("apk_size"))
         
@@ -43,7 +34,7 @@ def preprocess_app_details_data(raw_data):
             "app_name": app.get("app_name"),
             "developer": app.get("developer"),
             "category": app.get("category"),
-            "price_text": price_cleaned,
+            "price_text": price_cleaned, 
             "price_numeric": price_numeric,
             "apk_size_mb": apk_size_mb,
             "maturity": maturity_cleaned,
@@ -52,7 +43,7 @@ def preprocess_app_details_data(raw_data):
         clean_data.append(processed_app)
     return clean_data
 
-# --- Bagian Utama Skrip (Tidak ada perubahan di sini) ---
+# --- Bagian Utama Skrip ---
 if __name__ == "__main__":
     input_dir = os.path.join('Data Scraping', 'data')
     input_filename = 'app_details_200.json'

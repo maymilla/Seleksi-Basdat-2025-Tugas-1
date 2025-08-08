@@ -2,7 +2,6 @@ import json
 import os
 import psycopg2
 
-# --- SESUAIKAN DETAIL KONEKSI DATABASE ANDA DI SINI ---
 DB_NAME = "seleksi_basdat"
 DB_USER = "postgres"
 DB_PASS = "basdathebat"
@@ -20,7 +19,6 @@ def load_data_from_json(filepath):
 
 def main():
     """Fungsi utama untuk menghubungkan ke DB dan memuat semua data."""
-    # Menyiapkan path ke file-file JSON yang sudah bersih
     input_dir = os.path.join('Data Scraping', 'data')
     ranking_data = load_data_from_json(os.path.join(input_dir, 'ranking_clean.json'))
     app_details_data = load_data_from_json(os.path.join(input_dir, 'app_details_clean.json'))
@@ -32,29 +30,28 @@ def main():
 
     conn = None
     try:
-        # Menghubungkan ke database PostgreSQL
         conn = psycopg2.connect(
             dbname=DB_NAME, user=DB_USER, password=DB_PASS, host=DB_HOST, port=DB_PORT
         )
         cur = conn.cursor()
         print("Koneksi ke database PostgreSQL berhasil.")
 
-        # URUTAN INSERT SANGAT PENTING KARENA FOREIGN KEY
-        
-        # 1. Masukkan data ke tabel dimensi (Categories, MaturityRatings)
-        all_categories = {app['category'] for app in app_details_data if app.get('category')}
-        all_maturities = {app['maturity'] for app in app_details_data if app.get('maturity')}
+        print("\nMengosongkan tabel operasional...")
+        cur.execute("TRUNCATE TABLE Rankings, DeveloperStats, Apps, Developers, Categories, MaturityRatings RESTART IDENTITY CASCADE;")
+
+        all_categories = {app.get('category') for app in app_details_data}
+        all_maturities = {app.get('maturity') for app in app_details_data}
 
         print("\nMemasukkan data ke tabel Categories...")
         for category in all_categories:
-            cur.execute("INSERT INTO Categories (category_name) VALUES (%s) ON CONFLICT (category_name) DO NOTHING;", (category,))
-        
+            if category:
+                cur.execute("INSERT INTO Categories (category_name) VALUES (%s) ON CONFLICT (category_name) DO NOTHING;", (category,))
+
         print("Memasukkan data ke tabel MaturityRatings...")
         for maturity in all_maturities:
-            if maturity: # Memastikan tidak memasukkan nilai null
+            if maturity:
                 cur.execute("INSERT INTO MaturityRatings (maturity_level) VALUES (%s) ON CONFLICT (maturity_level) DO NOTHING;", (maturity,))
 
-        # 2. Masukkan data ke tabel Developers
         print("Memasukkan data ke tabel Developers...")
         for dev in dev_details_data:
             cur.execute(
@@ -65,7 +62,6 @@ def main():
                 (dev['developer_name'], dev.get('active_year'), dev.get('active_month'), dev['source_url'])
             )
 
-        # 3. Masukkan data ke tabel DeveloperStats
         print("Memasukkan data ke tabel DeveloperStats...")
         for dev in dev_details_data:
             cur.execute("SELECT developer_id FROM Developers WHERE developer_name = %s;", (dev['developer_name'],))
@@ -80,7 +76,6 @@ def main():
                     (dev_id, dev.get('app_count'), dev.get('total_downloads'), dev.get('average_rating'), dev.get('total_rating_count'))
                 )
 
-        # 4. Masukkan data ke tabel Apps
         print("Memasukkan data ke tabel Apps...")
         for app in app_details_data:
             cur.execute("SELECT category_id FROM Categories WHERE category_name = %s;", (app.get('category'),))
@@ -97,13 +92,12 @@ def main():
 
             cur.execute(
                 """
-                INSERT INTO Apps (app_name, category_id, developer_id, maturity_id, price_numeric, apk_size_mb, source_url)
-                VALUES (%s, %s, %s, %s, %s, %s, %s) ON CONFLICT (source_url) DO NOTHING;
+                INSERT INTO Apps (app_name, category_id, developer_id, maturity_id, price_text, price_numeric, apk_size_mb, source_url)
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s) ON CONFLICT (source_url) DO NOTHING;
                 """,
-                (app['app_name'], cat_id, dev_id, mat_id, app.get('price_numeric'), app.get('apk_size_mb'), app.get('source_url'))
+                (app['app_name'], cat_id, dev_id, mat_id, app.get('price_text'), app.get('price_numeric'), app.get('apk_size_mb'), app.get('source_url'))
             )
 
-        # 5. Masukkan data ke tabel Rankings
         print("Memasukkan data ke tabel Rankings...")
         app_url_to_id_map = {}
         cur.execute("SELECT app_id, source_url FROM Apps;")
@@ -126,14 +120,12 @@ def main():
                         (app_id, rank_info['rank'], rank_info['rating'], rank_info['total_installs'], rank_info['recent_installs'])
                     )
         
-        # Simpan semua perubahan ke database
         conn.commit()
         print("\nSelamat! Semua data telah berhasil dimasukkan ke dalam database.")
 
     except psycopg2.Error as e:
         print(f"Gagal terhubung atau mengeksekusi perintah di database: {e}")
     finally:
-        # Tutup kursor dan koneksi
         if conn is not None:
             cur.close()
             conn.close()

@@ -67,7 +67,6 @@ while True:
         # Cari link <a> yang teksnya persis 'Next'
         next_button = driver.find_element(By.LINK_TEXT, "Next")
         
-        # --- PERBAIKAN DI SINI ---
         # Gunakan JavaScript untuk mengklik elemen, ini menghindari masalah tumpang tindih
         print("Menekan tombol 'Next' untuk ke halaman berikutnya...")
         driver.execute_script("arguments[0].click();", next_button)

@@ -5,7 +5,7 @@
 -- Dumped from database version 17.4
 -- Dumped by pg_dump version 17.4
 
--- Started on 2025-08-08 17:36:19
+-- Started on 2025-08-08 19:31:09
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -36,7 +36,8 @@ CREATE TABLE public.apps (
     maturity_id integer,
     price_numeric numeric(10,2),
     apk_size_mb real,
-    source_url text
+    source_url text,
+    price_text character varying(50)
 );
 
 
@@ -322,207 +323,207 @@ ALTER TABLE ONLY public.rankings ALTER COLUMN ranking_id SET DEFAULT nextval('pu
 -- Data for Name: apps; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.apps (app_id, app_name, category_id, developer_id, maturity_id, price_numeric, apk_size_mb, source_url) FROM stdin;
-1	ChatGPT	12	1	1	0.00	43.6	https://www.appbrain.com/app/chatgpt/com.openai.chatgpt
-2	TikTok - Videos, Shop & LIVE	17	2	1	0.00	158.7	https://www.appbrain.com/app/tiktok-videos-shop-live/com.zhiliaoapp.musically
-3	Threads	17	3	1	0.00	79.3	https://www.appbrain.com/app/threads/com.instagram.barcelona
-4	WhatsApp Messenger	13	4	\N	0.00	71.7	https://www.appbrain.com/app/whatsapp-messenger/com.whatsapp
-5	Temu: Shop Like a Billionaire	19	5	1	0.00	44.6	https://www.appbrain.com/app/temu-shop-like-a-billionaire/com.einnovation.temu
-6	Instagram	17	3	1	0.00	113.5	https://www.appbrain.com/app/instagram/com.instagram.android
-7	TikTok Lite - Faster TikTok	17	2	1	0.00	18.6	https://www.appbrain.com/app/tiktok-lite-faster-tiktok/com.tiktok.lite.go
-8	DramaBox - Stream Drama Shorts	25	6	1	0.00	59.7	https://www.appbrain.com/app/dramabox-stream-drama-shorts/com.storymatrix.drama
-9	Cash App	3	7	\N	0.00	43.6	https://www.appbrain.com/app/cash-app/com.squareup.cash
-10	Snapchat	13	8	1	0.00	128.3	https://www.appbrain.com/app/snapchat/com.snapchat.android
-11	Telegram	13	9	3	0.00	56.5	https://www.appbrain.com/app/telegram/org.telegram.messenger
-12	SHEIN-Shopping Online	19	10	1	0.00	100.7	https://www.appbrain.com/app/shein-shopping-online/com.zzkko
-13	ReelShort - Stream Drama & TV	25	11	1	0.00	52.2	https://www.appbrain.com/app/reelshort-stream-drama-tv/com.newleaf.app.android.victor
-14	Messenger	13	12	\N	0.00	85.2	https://www.appbrain.com/app/messenger/com.facebook.orca
-15	Pick Drama	25	13	1	0.00	39.7	https://www.appbrain.com/app/pick-drama/com.shortego.dramareels
-16	Whatnot: Shop, Sell, Connect	19	14	3	0.00	67.3	https://www.appbrain.com/app/whatnot-shop-sell-connect/com.whatnot_mobile
-17	Facebook	17	12	1	0.00	88.8	https://www.appbrain.com/app/facebook/com.facebook.katana
-18	Grok - AI Assistant	12	15	1	0.00	24.1	https://www.appbrain.com/app/grok-ai-assistant/ai.x.grok
-19	Tea Dating Advice	23	16	3	0.00	\N	https://www.appbrain.com/app/tea-dating-advice/com.tea.tea
-20	Walmart: Shopping & Savings	19	17	\N	0.00	110.6	https://www.appbrain.com/app/walmart-shopping-savings/com.walmart.android
-21	Easy Homescreen	15	18	\N	0.00	68.5	https://www.appbrain.com/app/easy-homescreen/easy.launcher
-22	CapCut - Video Editor	4	19	1	0.00	193.5	https://www.appbrain.com/app/capcut-video-editor/com.lemon.lvoverseas
-23	Netflix	25	20	1	0.00	36.6	https://www.appbrain.com/app/netflix/com.netflix.mediaclient
-24	PayPal - Pay, Send, Save	3	21	\N	0.00	118.5	https://www.appbrain.com/app/paypal-pay-send-save/com.paypal.android.p2pmobile
-25	Discord - Talk, Play, Hang Out	13	22	1	0.00	164.6	https://www.appbrain.com/app/discord-talk-play-hang-out/com.discord
-26	Tubi: Free Movies & Live TV	25	23	1	0.00	33	https://www.appbrain.com/app/tubi-free-movies-live-tv/com.tubitv
-27	Indeed Job Search	18	24	\N	0.00	82.3	https://www.appbrain.com/app/indeed-job-search/com.indeed.android.jobsearch
-28	Life360: Stay Connected & Safe	11	25	\N	0.00	\N	https://www.appbrain.com/app/life360-stay-connected-safe/com.life360.android.safetymapd
-29	TextNow: Call + Text Unlimited	13	26	\N	0.00	119.4	https://www.appbrain.com/app/textnow-call-text-unlimited/com.enflick.android.TextNow
-30	Pop Drama	25	27	3	0.00	32.2	https://www.appbrain.com/app/pop-drama/com.popdramas.top
-31	McDonald's	22	28	\N	0.00	105.7	https://www.appbrain.com/app/mcdonalds/com.mcdonalds.app
-32	Chime – Mobile Banking	3	29	\N	0.00	\N	https://www.appbrain.com/app/chime-mobile-banking/com.onedebit.chime
-33	HBO Max: Stream TV & Movies	25	30	1	0.00	63.2	https://www.appbrain.com/app/hbo-max-stream-tv-movies/com.wbd.stream
-34	PDF Reader and Photo to PDF	12	31	\N	0.00	39.4	https://www.appbrain.com/app/pdf-reader-and-photo-to-pdf/com.pdf.editor.viewer.pdfreader.pdfviewer
-35	Prime Video	25	32	1	0.00	62	https://www.appbrain.com/app/prime-video/com.amazon.avod.thirdpartyclient
-36	Duolingo: Language Lessons	10	33	\N	0.00	44.9	https://www.appbrain.com/app/duolingo-language-lessons/com.duolingo
-37	Amazon Shopping	19	32	1	0.00	101.3	https://www.appbrain.com/app/amazon-shopping/com.amazon.mShop.android.shopping
-38	NetShort - Popular Dramas & TV	25	34	1	0.00	78.7	https://www.appbrain.com/app/netshort-popular-dramas-tv/com.netshort.abroad
-39	AliExpress - Shopping App	19	35	1	0.00	39.5	https://www.appbrain.com/app/aliexpress-shopping-app/com.alibaba.aliexpresshd
-40	Pinterest	11	36	1	0.00	47.7	https://www.appbrain.com/app/pinterest/com.pinterest
-41	DoorDash: Food, Grocery, More	22	37	\N	0.00	121.5	https://www.appbrain.com/app/doordash-food-grocery-more/com.dd.doordash
-42	Venmo	3	38	\N	0.00	94.8	https://www.appbrain.com/app/venmo/com.venmo
-43	Zoom Workplace	18	39	\N	0.00	195.1	https://www.appbrain.com/app/zoom-workplace/us.zoom.videomeetings
-44	The Roku App (Official)	25	40	1	0.00	30.6	https://www.appbrain.com/app/the-roku-app-official/com.roku.remote
-45	Spotify: Music and Podcasts	20	41	1	0.00	55.5	https://www.appbrain.com/app/spotify-music-and-podcasts/com.spotify.music
-46	Google Gemini	12	42	1	0.00	2.88	https://www.appbrain.com/app/google-gemini/com.google.android.apps.bard
-47	Uber - Request a ride	14	43	\N	0.00	130.7	https://www.appbrain.com/app/uber-request-a-ride/com.ubercab
-48	Chick-fil-A®	22	44	\N	0.00	61.1	https://www.appbrain.com/app/chick-fil-a%C2%AE/com.chickfila.cfaflagship
-49	Peacock TV: Stream TV & Movies	25	45	1	0.00	44.9	https://www.appbrain.com/app/peacock-tv-stream-tv-movies/com.peacocktv.peacockandroid
-50	Alibaba.com - B2B marketplace	19	35	1	0.00	72.3	https://www.appbrain.com/app/alibaba-com-b2b-marketplace/com.alibaba.intl.android.apps.poseidon
-51	PlutoTV: Live TV & Free Movies	25	46	1	0.00	25.7	https://www.appbrain.com/app/plutotv-live-tv-free-movies/tv.pluto.android
-52	PictureThis - Plant Identifier	10	47	\N	0.00	54.9	https://www.appbrain.com/app/picturethis-plant-identifier/cn.danatech.xingseus
-53	Shop: All your favorite brands	19	48	\N	0.00	85.3	https://www.appbrain.com/app/shop-all-your-favorite-brands/com.shopify.arrive
-54	Brightest Flashlight Launcher	7	49	\N	0.00	\N	https://www.appbrain.com/app/brightest-flashlight-launcher/com.flashlight.bright.led.light
-55	Microsoft Teams	18	50	\N	0.00	187.5	https://www.appbrain.com/app/microsoft-teams/com.microsoft.teams
-56	KFC US - Ordering App	22	51	\N	0.00	39.9	https://www.appbrain.com/app/kfc-us-ordering-app/com.kfc.us.mobile
-57	T-Life	11	52	\N	0.00	152.3	https://www.appbrain.com/app/t-life/com.tmobile.tuesdays
-58	The Roku Channel	25	40	1	0.00	\N	https://www.appbrain.com/app/the-roku-channel/com.roku.web.trc
-59	Disney+	25	53	1	0.00	23.2	https://www.appbrain.com/app/disney/com.disney.disneyplus
-60	PhotoRescue-Recover Files	7	54	\N	0.00	32.7	https://www.appbrain.com/app/photorescue-recover-files/com.rescue.psoeprs.solf
-61	Microsoft Authenticator	18	50	\N	0.00	113.8	https://www.appbrain.com/app/microsoft-authenticator/com.azure.authenticator
-62	Canva: AI Photo & Video Editor	8	55	2	0.00	15.7	https://www.appbrain.com/app/canva-ai-photo-video-editor/com.canva.editor
-63	AntiVirus Toolkit	7	56	\N	0.00	33.7	https://www.appbrain.com/app/antivirus-toolkit/com.utils.antivirustoolkit
-64	Lyft	14	57	\N	0.00	68.6	https://www.appbrain.com/app/lyft/me.lyft.android
-65	NewsBreak: Local News & Alerts	9	58	1	0.00	32.6	https://www.appbrain.com/app/newsbreak-local-news-alerts/com.particlenews.newsbreak
-66	Microsoft Edge: AI browser	13	50	\N	0.00	189.3	https://www.appbrain.com/app/microsoft-edge-ai-browser/com.microsoft.emmx
-67	X (Formerly Twitter)	9	59	3	0.00	85.7	https://www.appbrain.com/app/x-formerly-twitter/com.twitter.android
-68	Photo Recover-File Recovery	7	60	\N	0.00	35.9	https://www.appbrain.com/app/photo-recover-file-recovery/com.pvoercase.recover
-69	PolyBuzz: Chat with AI Friends	25	61	1	0.00	75.7	https://www.appbrain.com/app/polybuzz-chat-with-ai-friends/ai.socialapps.speakmaster
-70	DoorDash - Dasher	18	37	\N	0.00	233.5	https://www.appbrain.com/app/doordash-dasher/com.doordash.driverapp
-71	Crunchyroll	25	62	1	0.00	55.9	https://www.appbrain.com/app/crunchyroll/com.crunchyroll.crunchyroid
-72	Uber Eats: Food Delivery	22	43	\N	0.00	101.3	https://www.appbrain.com/app/uber-eats-food-delivery/com.ubercab.eats
-73	Facebook Lite	17	12	1	0.00	2.82	https://www.appbrain.com/app/facebook-lite/com.facebook.lite
-74	KashKick: Get paid to have fun	11	63	3	0.00	\N	https://www.appbrain.com/app/kashkick-get-paid-to-have-fun/com.kashkick.kashkickapp
-75	testerup - earn money	3	64	\N	0.00	56	https://www.appbrain.com/app/testerup-earn-money/de.empfohlen
-76	Paramount+	25	65	1	0.00	43.9	https://www.appbrain.com/app/paramount/com.cbs.app
-77	Capital One Mobile	3	66	\N	0.00	\N	https://www.appbrain.com/app/capital-one-mobile/com.konylabs.capitalone
-78	Intuit Credit Karma	3	67	\N	0.00	42.2	https://www.appbrain.com/app/intuit-credit-karma/com.creditkarma.mobile
-79	Lemon8 - Lifestyle Community	11	2	1	0.00	83	https://www.appbrain.com/app/lemon8-lifestyle-community/com.bd.nproject
-80	BESTPLAY Play to earn & donate	25	68	3	0.00	44.5	https://www.appbrain.com/app/bestplay-play-to-earn-donate/com.bestplay.app
-81	Twitch: Live Streaming	25	69	1	0.00	91.9	https://www.appbrain.com/app/twitch-live-streaming/tv.twitch.android.app
-82	eBay online shopping & selling	19	70	1	0.00	69	https://www.appbrain.com/app/ebay-online-shopping-selling/com.ebay.mobile
-83	Freecash: Earn Money & Rewards	3	71	3	0.00	12	https://www.appbrain.com/app/freecash-earn-money-rewards/com.freecash.app2
-84	QR & Barcode Scanner Launcher	7	49	\N	0.00	\N	https://www.appbrain.com/app/qr-barcode-scanner-launcher/com.qr.code.reader.scanner.qrscan.android
-85	Move to iOS	7	72	\N	0.00	9.96	https://www.appbrain.com/app/move-to-ios/com.apple.movetoios
-86	Hizen VPN - Fast & Secure VPN	7	73	\N	0.00	26.7	https://www.appbrain.com/app/hizen-vpn-fast-secure-vpn/com.hizen.vpn
-87	Apple TV	25	72	1	0.00	\N	https://www.appbrain.com/app/apple-tv/com.apple.atve.androidtv.appletv
-88	FlickReels - Short Drama & TV	25	74	1	0.00	63	https://www.appbrain.com/app/flickreels-short-drama-tv/com.zyhwplatform.shortplay
-89	Plex: Stream Movies & TV	25	75	1	0.00	35.3	https://www.appbrain.com/app/plex-stream-movies-tv/com.plexapp.android
-90	Pandora - Music & Podcasts	20	76	1	0.00	69.6	https://www.appbrain.com/app/pandora-music-podcasts/com.pandora.android
-91	Upside: Cash Back - Gas & Food	6	77	\N	0.00	24.2	https://www.appbrain.com/app/upside-cash-back-gas-food/com.upside.consumer.android
-92	Google Authenticator	7	42	\N	0.00	6	https://www.appbrain.com/app/google-authenticator/com.google.android.apps.authenticator2
-93	Waze Navigation & Live Traffic	14	78	\N	0.00	79.7	https://www.appbrain.com/app/waze-navigation-live-traffic/com.waze
-94	QR & Barcode Scanner	7	79	\N	0.00	14.9	https://www.appbrain.com/app/qr-barcode-scanner/com.gamma.scan
-95	Samsung Smart Switch Mobile	7	80	\N	0.00	39.1	https://www.appbrain.com/app/samsung-smart-switch-mobile/com.sec.android.easyMover
-96	Expedia: Hotels, Flights, Cars	6	81	\N	0.00	\N	https://www.appbrain.com/app/expedia-hotels-flights-cars/com.expedia.bookings
-97	Google Translate	7	42	\N	0.00	43.7	https://www.appbrain.com/app/google-translate/com.google.android.apps.translate
-98	Malwarebytes Mobile Security	7	82	\N	0.00	33	https://www.appbrain.com/app/malwarebytes-mobile-security/org.malwarebytes.antimalware
-99	Picsart AI Photo Editor, Video	2	83	1	0.00	62.7	https://www.appbrain.com/app/picsart-ai-photo-editor-video/com.picsart.studio
-100	MyChart	24	84	\N	0.00	44.6	https://www.appbrain.com/app/mychart/epic.mychart.android
-101	Airbnb	6	85	\N	0.00	51.7	https://www.appbrain.com/app/airbnb/com.airbnb.android
-102	Blood Pressure Tracker	16	86	\N	0.00	64	https://www.appbrain.com/app/blood-pressure-tracker/com.cactus.tracker.bloodpressure
-103	Google Wallet	3	42	\N	0.00	19.7	https://www.appbrain.com/app/google-wallet/com.google.android.apps.walletnfcrel
-104	Geotag Photo: Camera Location	2	87	\N	0.00	23.2	https://www.appbrain.com/app/geotag-photo-camera-location/com.cameratag.geotagphoto.gpscamera
-105	AI Cleaner - Phone Cleaner	7	88	\N	0.00	\N	https://www.appbrain.com/app/ai-cleaner-phone-cleaner/ai.storage.cleaner.app
-106	Audible: Audio Entertainment	26	89	1	0.00	160.2	https://www.appbrain.com/app/audible-audio-entertainment/com.audible.application
-107	CoinSnap - Coin Identifier	7	90	\N	0.00	67.6	https://www.appbrain.com/app/coinsnap-coin-identifier/com.coinidentifyer.ai
-108	Sam’s Club: Pickup & Delivery	19	91	\N	0.00	92.1	https://www.appbrain.com/app/sam%E2%80%99s-club-pickup-delivery/com.rfi.sams.android
-109	ZEPETO: Avatar, Connect & Live	25	92	1	0.00	192.4	https://www.appbrain.com/app/zepeto-avatar-connect-live/me.zepeto.main
-110	Cash Giraffe: Games & Rewards	11	93	\N	0.00	82.5	https://www.appbrain.com/app/cash-giraffe-games-rewards/cashgiraffe.app
-111	Open Browser - Smart & Safe	7	94	1	0.00	45.1	https://www.appbrain.com/app/open-browser-smart-safe/com.open.web.ai.browser
-112	RapidTV - Short Dramas	25	95	1	0.00	28.4	https://www.appbrain.com/app/rapidtv-short-dramas/com.rapid.short.tv
-113	Bigo Live - Live Streaming App	17	96	1	0.00	61.7	https://www.appbrain.com/app/bigo-live-live-streaming-app/sg.bigo.live
-114	BURGER KING® App	22	97	\N	0.00	56.1	https://www.appbrain.com/app/burger-king%C2%AE-app/com.emn8.mobilem8.nativeapp.bk
-115	Scoopz: Real Life, Real Video	25	98	3	0.00	69	https://www.appbrain.com/app/scoopz-real-life-real-video/com.localaiapp.scoops
-116	YouTube Kids	25	42	\N	0.00	33.8	https://www.appbrain.com/app/youtube-kids/com.google.android.apps.youtube.kids
-117	Pocket FM: Audio Series	20	99	1	0.00	83.7	https://www.appbrain.com/app/pocket-fm-audio-series/com.radio.pocketfm
-118	Reddit	17	100	3	0.00	54	https://www.appbrain.com/app/reddit/com.reddit.frontpage
-119	Ring - Always Home	11	101	\N	0.00	177.4	https://www.appbrain.com/app/ring-always-home/com.ringapp
-120	Fetch: America’s Rewards App	19	102	\N	0.00	207	https://www.appbrain.com/app/fetch-america%E2%80%99s-rewards-app/com.fetchrewards.fetchrewards.hop
-121	PDF Reader – Reader & Editor	7	103	\N	0.00	64.8	https://www.appbrain.com/app/pdf-reader-reader-editor/pdf.reader.editor.office.ora
-122	WEBTOON: Manga, Comics, Manhwa	1	104	1	0.00	64.2	https://www.appbrain.com/app/webtoon-manga-comics-manhwa/com.naver.linewebtoon
-123	PDF Reader - PDF Viewer	12	105	\N	0.00	60.8	https://www.appbrain.com/app/pdf-reader-pdf-viewer/pdf.pdfreader.viewer.editor.free
-124	FlareFlow: 1-Minute Dramas!	25	106	1	0.00	76.2	https://www.appbrain.com/app/flareflow-1-minute-dramas/tv.flareflow.drama
-125	Signal Private Messenger	13	107	\N	0.00	82.9	https://www.appbrain.com/app/signal-private-messenger/org.thoughtcrime.securesms
-126	Progressive	3	108	\N	0.00	153.9	https://www.appbrain.com/app/progressive/com.phonevalley.progressive
-127	WhatsApp Business	13	4	\N	0.00	78	https://www.appbrain.com/app/whatsapp-business/com.whatsapp.w4b
-128	Vrbo Vacation Rentals	6	109	\N	0.00	\N	https://www.appbrain.com/app/vrbo-vacation-rentals/com.vrbo.android
-129	Weather Now Launcher - Radar	21	18	\N	0.00	56.4	https://www.appbrain.com/app/weather-now-launcher-radar/com.eet.weather.launcher
-130	Affirm: Buy now, pay over time	19	110	\N	0.00	56.9	https://www.appbrain.com/app/affirm-buy-now-pay-over-time/com.affirm.central
-131	Instacart: Get Food Delivery	22	111	\N	0.00	53.6	https://www.appbrain.com/app/instacart-get-food-delivery/com.instacart.client
-132	Simple Bible Daily Verse Alarm	10	112	\N	0.00	65.1	https://www.appbrain.com/app/simple-bible-daily-verse-alarm/com.holy.bible.study
-133	Video&Drama Player All Format	4	113	\N	0.00	52.2	https://www.appbrain.com/app/video-drama-player-all-format/com.deep.useful.video
-134	Domino's Pizza USA	22	114	\N	0.00	80.4	https://www.appbrain.com/app/dominos-pizza-usa/com.dominospizza
-135	PlayWell: Play to Earn	25	115	1	0.00	31.2	https://www.appbrain.com/app/playwell-play-to-earn/com.play.lucky.real.earn.money.free.fun.games.play.reward.income
-136	Chase Mobile	3	116	\N	0.00	\N	https://www.appbrain.com/app/chase-mobile/com.chase.sig.android
-137	Adobe Acrobat Reader: Edit PDF	12	117	\N	0.00	118.4	https://www.appbrain.com/app/adobe-acrobat-reader-edit-pdf/com.adobe.reader
-138	CVS Health	24	118	\N	0.00	\N	https://www.appbrain.com/app/cvs-health/com.cvs.launchers.cvs
-139	Zelle®	3	119	\N	0.00	\N	https://www.appbrain.com/app/zelle%C2%AE/com.zellepay.zelle
-140	Hulu: Stream TV shows & movies	25	53	1	0.00	17.9	https://www.appbrain.com/app/hulu-stream-tv-shows-movies/com.hulu.plus
-141	Perplexity - Ask Anything	12	120	1	0.00	64.3	https://www.appbrain.com/app/perplexity-ask-anything/ai.perplexity.app.android
-142	Chai: Chat AI Platform	25	121	3	0.00	69	https://www.appbrain.com/app/chai-chat-ai-platform/com.Beauchamp.Messenger.external
-143	Pizza Hut - Delivery & Takeout	22	122	\N	0.00	150	https://www.appbrain.com/app/pizza-hut-delivery-takeout/com.yum.pizzahut
-144	Zillow: Homes For Sale & Rent	5	123	\N	0.00	\N	https://www.appbrain.com/app/zillow-homes-for-sale-rent/com.zillow.android.zillowmap
-145	Linky AI: Chat, Play, Connect	17	124	3	0.00	245.8	https://www.appbrain.com/app/linky-ai-chat-play-connect/com.aigc.ushow.ichat
-146	Smart Remote - Easy TV Control	7	125	\N	0.00	\N	https://www.appbrain.com/app/smart-remote-easy-tv-control/com.rokutv.remote.app
-147	OfferUp: Buy. Sell. Simple.	19	126	\N	0.00	\N	https://www.appbrain.com/app/offerup-buy-sell-simple/com.offerup
-148	Norton360 Antivirus & Security	7	127	\N	0.00	\N	https://www.appbrain.com/app/norton360-antivirus-security/com.symantec.mobilesecurity
-149	1Weather Forecasts & Radar	21	128	\N	0.00	59	https://www.appbrain.com/app/1weather-forecasts-radar/com.handmark.expressweather
-150	JustPlay: Earn Money or Donate	25	129	3	0.00	58.2	https://www.appbrain.com/app/justplay-earn-money-or-donate/com.justplay.app
-151	Booking.com: Hotels & Travel	6	130	\N	0.00	99.9	https://www.appbrain.com/app/booking-com-hotels-travel/com.booking
-152	Too Good To Go: End Food Waste	22	131	\N	0.00	39.1	https://www.appbrain.com/app/too-good-to-go-end-food-waste/com.app.tgtg
-153	Planet Fitness	16	132	\N	0.00	\N	https://www.appbrain.com/app/planet-fitness/com.planetfitness
-154	OnePay – Mobile Banking	3	133	\N	0.00	109	https://www.appbrain.com/app/onepay-mobile-banking/com.onefinance.one
-155	VPN Proton: Fast & Secure VPN	7	134	\N	0.00	35.9	https://www.appbrain.com/app/vpn-proton-fast-secure-vpn/ch.protonvpn.android
-156	Coinbase: Buy BTC, ETH, SOL	3	135	\N	0.00	164.5	https://www.appbrain.com/app/coinbase-buy-btc-eth-sol/com.coinbase.android
-157	Authenticator App - SafeAuth	7	136	\N	0.00	31.5	https://www.appbrain.com/app/authenticator-app-safeauth/authenticator.two.factor.authentication.otp
-158	NordVPN – fast VPN for privacy	7	137	\N	0.00	37.4	https://www.appbrain.com/app/nordvpn-fast-vpn-for-privacy/com.nordvpn.android
-159	Instabridge: WiFi Hotspot Map	6	138	1	0.00	73.1	https://www.appbrain.com/app/instabridge-wifi-hotspot-map/com.instabridge.android
-160	Costco Wholesale	19	139	\N	0.00	\N	https://www.appbrain.com/app/costco-wholesale/com.costco.app.android
-161	Uber - Driver: Drive & Deliver	18	43	\N	0.00	175.5	https://www.appbrain.com/app/uber-driver-drive-deliver/com.ubercab.driver
-162	AllTrails: Hike, Bike & Run	16	140	\N	0.00	115	https://www.appbrain.com/app/alltrails-hike-bike-run/com.alltrails.alltrails
-163	Zangi Private Messenger	13	141	\N	0.00	71.9	https://www.appbrain.com/app/zangi-private-messenger/com.beint.zangi
-164	MISTPLAY: Play to Earn Money	25	142	1	0.00	52.7	https://www.appbrain.com/app/mistplay-play-to-earn-money/com.mistplay.mistplay
-165	Warm Weather	21	143	\N	0.00	30.2	https://www.appbrain.com/app/warm-weather/com.warmweather.forecast.reporter
-166	Etsy: A Special Marketplace	19	144	1	0.00	27.6	https://www.appbrain.com/app/etsy-a-special-marketplace/com.etsy.android
-167	Xfinity	12	145	\N	0.00	\N	https://www.appbrain.com/app/xfinity/com.xfinity.digitalhome
-168	State Farm®	3	146	\N	0.00	60.1	https://www.appbrain.com/app/state-farm%C2%AE/com.statefarm.pocketagent
-169	Zedge™ Wallpapers & Ringtones	15	147	1	0.00	73.6	https://www.appbrain.com/app/zedge%E2%84%A2-wallpapers-ringtones/net.zedge.android
-170	GoodShort - Movies & Dramas	25	148	1	0.00	34.2	https://www.appbrain.com/app/goodshort-movies-dramas/com.newreading.goodreels
-171	Impulse - Brain Training Games	16	149	\N	0.00	\N	https://www.appbrain.com/app/impulse-brain-training-games/gen.tech.impulse.android
-172	Photo Recovery & File Recovery	7	150	\N	0.00	24.3	https://www.appbrain.com/app/photo-recovery-file-recovery/wiac.gpak.nvqe.allrecovery
-173	ShotShort-Dramas&Shorts	25	151	3	0.00	66.9	https://www.appbrain.com/app/shotshort-dramas-shorts/com.mediaradiance.shotshort
-174	Claude by Anthropic	12	152	1	0.00	12.3	https://www.appbrain.com/app/claude-by-anthropic/com.anthropic.claude
-175	CoinIn – Coin Scan Identifier	7	153	\N	0.00	6.67	https://www.appbrain.com/app/coinin-coin-scan-identifier/com.coinin.app
-176	Google Earth	6	42	\N	0.00	87.7	https://www.appbrain.com/app/google-earth/com.google.earth
-177	Brave Private Web Browser, VPN	13	154	\N	0.00	194.6	https://www.appbrain.com/app/brave-private-web-browser-vpn/com.brave.browser
-178	Robinhood: Trading & Investing	3	155	\N	0.00	116.8	https://www.appbrain.com/app/robinhood-trading-investing/com.robinhood.android
-179	My Spectrum	7	156	\N	0.00	\N	https://www.appbrain.com/app/my-spectrum/com.brighthouse.mybhn
-180	KJV Bible: Audio+Verse	26	157	\N	0.00	35.8	https://www.appbrain.com/app/kjv-bible-audio-verse/com.liotek.lannbible
-181	Suno - AI Music & Songs	20	158	1	0.00	26	https://www.appbrain.com/app/suno-ai-music-songs/com.suno.android
-182	Little Caesars	22	159	\N	0.00	37.9	https://www.appbrain.com/app/little-caesars/com.littlecaesars
-183	Deepsearch AI Search Assistant	11	160	1	0.00	101	https://www.appbrain.com/app/deepsearch-ai-search-assistant/hubx.whois.ai.search
-184	ReciMe: Recipes & Meal Planner	22	161	1	0.00	\N	https://www.appbrain.com/app/recime-recipes-meal-planner/com.recime.app
-185	The CW	25	162	1	0.00	26.9	https://www.appbrain.com/app/the-cw/com.cw.fullepisodes.android
-186	GroupMe	13	163	1	0.00	141.4	https://www.appbrain.com/app/groupme/com.groupme.android
-187	DuckDuckGo Browser, Search, AI	12	164	\N	0.00	47.9	https://www.appbrain.com/app/duckduckgo-browser-search-ai/com.duckduckgo.mobile.android
-188	Rocket Money - Bills & Budgets	3	165	\N	0.00	82.6	https://www.appbrain.com/app/rocket-money-bills-budgets/com.truebill
-189	Brigit: Cash Advance & Credit	3	166	\N	0.00	54.7	https://www.appbrain.com/app/brigit-cash-advance-credit/com.hellobrigit.Brigit
-190	Amazon Alexa	11	32	\N	0.00	\N	https://www.appbrain.com/app/amazon-alexa/com.amazon.dee.app
-191	UKG Pro	18	167	\N	0.00	78.9	https://www.appbrain.com/app/ukg-pro/com.ukg.oneapp
-192	Tinder Dating App: Chat & Date	23	168	3	0.00	83.3	https://www.appbrain.com/app/tinder-dating-app-chat-date/com.tinder
-193	Universal TV Remote for All TV	7	169	\N	0.00	80.4	https://www.appbrain.com/app/universal-tv-remote-for-all-tv/com.boost.universal.remote
-194	Wayfair - Shop All Things Home	19	170	\N	0.00	\N	https://www.appbrain.com/app/wayfair-shop-all-things-home/com.wayfair.wayfair
-195	Finch: Self-Care Pet	16	171	\N	0.00	85.1	https://www.appbrain.com/app/finch-self-care-pet/com.finch.finch
-196	BandLab – Music Making Studio	20	172	1	0.00	51.8	https://www.appbrain.com/app/bandlab-music-making-studio/com.bandlab.bandlab
-197	TV Remote: Roku Remote Control	7	173	\N	0.00	23	https://www.appbrain.com/app/tv-remote-roku-remote-control/com.roku.remote.control.tv.cast
-198	Cleo AI: Cash advance & Credit	3	174	1	0.00	\N	https://www.appbrain.com/app/cleo-ai-cash-advance-credit/com.meetcleo.cleo
-199	ADP Mobile Solutions	18	175	\N	0.00	92.7	https://www.appbrain.com/app/adp-mobile-solutions/com.adpmobile.android
-200	The Home Depot	19	176	\N	0.00	78	https://www.appbrain.com/app/the-home-depot/com.thehomedepot
+COPY public.apps (app_id, app_name, category_id, developer_id, maturity_id, price_numeric, apk_size_mb, source_url, price_text) FROM stdin;
+1	ChatGPT	20	1	2	0.00	43.6	https://www.appbrain.com/app/chatgpt/com.openai.chatgpt	Free
+2	TikTok - Videos, Shop & LIVE	14	2	2	0.00	158.7	https://www.appbrain.com/app/tiktok-videos-shop-live/com.zhiliaoapp.musically	Free
+3	Threads	14	3	2	0.00	79.3	https://www.appbrain.com/app/threads/com.instagram.barcelona	Free
+4	WhatsApp Messenger	16	4	\N	0.00	71.7	https://www.appbrain.com/app/whatsapp-messenger/com.whatsapp	Free
+5	Temu: Shop Like a Billionaire	2	5	2	0.00	44.6	https://www.appbrain.com/app/temu-shop-like-a-billionaire/com.einnovation.temu	Free
+6	Instagram	14	3	2	0.00	113.5	https://www.appbrain.com/app/instagram/com.instagram.android	Free
+7	TikTok Lite - Faster TikTok	14	2	2	0.00	18.6	https://www.appbrain.com/app/tiktok-lite-faster-tiktok/com.tiktok.lite.go	Free
+8	DramaBox - Stream Drama Shorts	4	6	2	0.00	59.7	https://www.appbrain.com/app/dramabox-stream-drama-shorts/com.storymatrix.drama	Free
+9	Cash App	11	7	\N	0.00	43.6	https://www.appbrain.com/app/cash-app/com.squareup.cash	Free
+10	Snapchat	16	8	2	0.00	128.3	https://www.appbrain.com/app/snapchat/com.snapchat.android	Free
+11	Telegram	16	9	1	0.00	56.5	https://www.appbrain.com/app/telegram/org.telegram.messenger	Free
+12	SHEIN-Shopping Online	2	10	2	0.00	100.7	https://www.appbrain.com/app/shein-shopping-online/com.zzkko	Free
+13	ReelShort - Stream Drama & TV	4	11	2	0.00	52.2	https://www.appbrain.com/app/reelshort-stream-drama-tv/com.newleaf.app.android.victor	Free
+14	Messenger	16	12	\N	0.00	85.2	https://www.appbrain.com/app/messenger/com.facebook.orca	Free
+15	Pick Drama	4	13	2	0.00	39.7	https://www.appbrain.com/app/pick-drama/com.shortego.dramareels	Free
+16	Whatnot: Shop, Sell, Connect	2	14	1	0.00	67.3	https://www.appbrain.com/app/whatnot-shop-sell-connect/com.whatnot_mobile	Free
+17	Facebook	14	12	2	0.00	88.8	https://www.appbrain.com/app/facebook/com.facebook.katana	Free
+18	Grok - AI Assistant	20	15	2	0.00	24.1	https://www.appbrain.com/app/grok-ai-assistant/ai.x.grok	Free
+19	Tea Dating Advice	21	16	1	0.00	\N	https://www.appbrain.com/app/tea-dating-advice/com.tea.tea	Free
+20	Walmart: Shopping & Savings	2	17	\N	0.00	110.6	https://www.appbrain.com/app/walmart-shopping-savings/com.walmart.android	Free
+21	Easy Homescreen	22	18	\N	0.00	68.5	https://www.appbrain.com/app/easy-homescreen/easy.launcher	Free
+22	CapCut - Video Editor	7	19	2	0.00	193.5	https://www.appbrain.com/app/capcut-video-editor/com.lemon.lvoverseas	Free
+23	Netflix	4	20	2	0.00	36.6	https://www.appbrain.com/app/netflix/com.netflix.mediaclient	Free
+24	PayPal - Pay, Send, Save	11	21	\N	0.00	118.5	https://www.appbrain.com/app/paypal-pay-send-save/com.paypal.android.p2pmobile	Free
+25	Discord - Talk, Play, Hang Out	16	22	2	0.00	164.6	https://www.appbrain.com/app/discord-talk-play-hang-out/com.discord	Free
+26	Tubi: Free Movies & Live TV	4	23	2	0.00	33	https://www.appbrain.com/app/tubi-free-movies-live-tv/com.tubitv	Free
+27	Indeed Job Search	26	24	\N	0.00	82.3	https://www.appbrain.com/app/indeed-job-search/com.indeed.android.jobsearch	Free
+28	Life360: Stay Connected & Safe	23	25	\N	0.00	\N	https://www.appbrain.com/app/life360-stay-connected-safe/com.life360.android.safetymapd	Free
+29	TextNow: Call + Text Unlimited	16	26	\N	0.00	119.4	https://www.appbrain.com/app/textnow-call-text-unlimited/com.enflick.android.TextNow	Free
+30	Pop Drama	4	27	1	0.00	32.2	https://www.appbrain.com/app/pop-drama/com.popdramas.top	Free
+31	McDonald's	24	28	\N	0.00	105.7	https://www.appbrain.com/app/mcdonalds/com.mcdonalds.app	Free
+32	Chime – Mobile Banking	11	29	\N	0.00	\N	https://www.appbrain.com/app/chime-mobile-banking/com.onedebit.chime	Free
+33	HBO Max: Stream TV & Movies	4	30	2	0.00	63.2	https://www.appbrain.com/app/hbo-max-stream-tv-movies/com.wbd.stream	Free
+34	PDF Reader and Photo to PDF	20	31	\N	0.00	39.4	https://www.appbrain.com/app/pdf-reader-and-photo-to-pdf/com.pdf.editor.viewer.pdfreader.pdfviewer	Free
+35	Prime Video	4	32	2	0.00	62	https://www.appbrain.com/app/prime-video/com.amazon.avod.thirdpartyclient	Free
+36	Duolingo: Language Lessons	17	33	\N	0.00	44.9	https://www.appbrain.com/app/duolingo-language-lessons/com.duolingo	Free
+37	Amazon Shopping	2	32	2	0.00	101.3	https://www.appbrain.com/app/amazon-shopping/com.amazon.mShop.android.shopping	Free
+38	NetShort - Popular Dramas & TV	4	34	2	0.00	78.7	https://www.appbrain.com/app/netshort-popular-dramas-tv/com.netshort.abroad	Free
+39	AliExpress - Shopping App	2	35	2	0.00	39.5	https://www.appbrain.com/app/aliexpress-shopping-app/com.alibaba.aliexpresshd	Free
+40	Pinterest	23	36	2	0.00	47.7	https://www.appbrain.com/app/pinterest/com.pinterest	Free
+41	DoorDash: Food, Grocery, More	24	37	\N	0.00	121.5	https://www.appbrain.com/app/doordash-food-grocery-more/com.dd.doordash	Free
+42	Venmo	11	38	\N	0.00	94.8	https://www.appbrain.com/app/venmo/com.venmo	Free
+43	Zoom Workplace	26	39	\N	0.00	195.1	https://www.appbrain.com/app/zoom-workplace/us.zoom.videomeetings	Free
+44	The Roku App (Official)	4	40	2	0.00	30.6	https://www.appbrain.com/app/the-roku-app-official/com.roku.remote	Free
+45	Spotify: Music and Podcasts	10	41	2	0.00	55.5	https://www.appbrain.com/app/spotify-music-and-podcasts/com.spotify.music	Free
+46	Google Gemini	20	42	2	0.00	2.88	https://www.appbrain.com/app/google-gemini/com.google.android.apps.bard	Free
+47	Uber - Request a ride	1	43	\N	0.00	130.7	https://www.appbrain.com/app/uber-request-a-ride/com.ubercab	Free
+48	Chick-fil-A®	24	44	\N	0.00	61.1	https://www.appbrain.com/app/chick-fil-a%C2%AE/com.chickfila.cfaflagship	Free
+49	Peacock TV: Stream TV & Movies	4	45	2	0.00	44.9	https://www.appbrain.com/app/peacock-tv-stream-tv-movies/com.peacocktv.peacockandroid	Free
+50	Alibaba.com - B2B marketplace	2	35	2	0.00	72.3	https://www.appbrain.com/app/alibaba-com-b2b-marketplace/com.alibaba.intl.android.apps.poseidon	Free
+51	PlutoTV: Live TV & Free Movies	4	46	2	0.00	25.7	https://www.appbrain.com/app/plutotv-live-tv-free-movies/tv.pluto.android	Free
+52	PictureThis - Plant Identifier	17	47	\N	0.00	54.9	https://www.appbrain.com/app/picturethis-plant-identifier/cn.danatech.xingseus	Free
+53	Shop: All your favorite brands	2	48	\N	0.00	85.3	https://www.appbrain.com/app/shop-all-your-favorite-brands/com.shopify.arrive	Free
+54	Brightest Flashlight Launcher	18	49	\N	0.00	\N	https://www.appbrain.com/app/brightest-flashlight-launcher/com.flashlight.bright.led.light	Free
+55	Microsoft Teams	26	50	\N	0.00	187.5	https://www.appbrain.com/app/microsoft-teams/com.microsoft.teams	Free
+56	KFC US - Ordering App	24	51	\N	0.00	39.9	https://www.appbrain.com/app/kfc-us-ordering-app/com.kfc.us.mobile	Free
+57	T-Life	23	52	\N	0.00	152.3	https://www.appbrain.com/app/t-life/com.tmobile.tuesdays	Free
+58	The Roku Channel	4	40	2	0.00	\N	https://www.appbrain.com/app/the-roku-channel/com.roku.web.trc	Free
+59	Disney+	4	53	2	0.00	23.2	https://www.appbrain.com/app/disney/com.disney.disneyplus	Free
+60	PhotoRescue-Recover Files	18	54	\N	0.00	32.7	https://www.appbrain.com/app/photorescue-recover-files/com.rescue.psoeprs.solf	Free
+61	Microsoft Authenticator	26	50	\N	0.00	113.8	https://www.appbrain.com/app/microsoft-authenticator/com.azure.authenticator	Free
+62	Canva: AI Photo & Video Editor	12	55	3	0.00	15.7	https://www.appbrain.com/app/canva-ai-photo-video-editor/com.canva.editor	Free
+63	AntiVirus Toolkit	18	56	\N	0.00	33.7	https://www.appbrain.com/app/antivirus-toolkit/com.utils.antivirustoolkit	Free
+64	Lyft	1	57	\N	0.00	68.6	https://www.appbrain.com/app/lyft/me.lyft.android	Free
+65	NewsBreak: Local News & Alerts	5	58	2	0.00	32.6	https://www.appbrain.com/app/newsbreak-local-news-alerts/com.particlenews.newsbreak	Free
+66	Microsoft Edge: AI browser	16	50	\N	0.00	189.3	https://www.appbrain.com/app/microsoft-edge-ai-browser/com.microsoft.emmx	Free
+67	X (Formerly Twitter)	5	59	1	0.00	85.7	https://www.appbrain.com/app/x-formerly-twitter/com.twitter.android	Free
+68	Photo Recover-File Recovery	18	60	\N	0.00	35.9	https://www.appbrain.com/app/photo-recover-file-recovery/com.pvoercase.recover	Free
+69	PolyBuzz: Chat with AI Friends	4	61	2	0.00	75.7	https://www.appbrain.com/app/polybuzz-chat-with-ai-friends/ai.socialapps.speakmaster	Free
+70	DoorDash - Dasher	26	37	\N	0.00	233.5	https://www.appbrain.com/app/doordash-dasher/com.doordash.driverapp	Free
+71	Crunchyroll	4	62	2	0.00	55.9	https://www.appbrain.com/app/crunchyroll/com.crunchyroll.crunchyroid	Free
+72	Uber Eats: Food Delivery	24	43	\N	0.00	101.3	https://www.appbrain.com/app/uber-eats-food-delivery/com.ubercab.eats	Free
+73	Facebook Lite	14	12	2	0.00	2.82	https://www.appbrain.com/app/facebook-lite/com.facebook.lite	Free
+74	KashKick: Get paid to have fun	23	63	1	0.00	\N	https://www.appbrain.com/app/kashkick-get-paid-to-have-fun/com.kashkick.kashkickapp	Free
+75	testerup - earn money	11	64	\N	0.00	56	https://www.appbrain.com/app/testerup-earn-money/de.empfohlen	Free
+76	Paramount+	4	65	2	0.00	43.9	https://www.appbrain.com/app/paramount/com.cbs.app	Free
+77	Capital One Mobile	11	66	\N	0.00	\N	https://www.appbrain.com/app/capital-one-mobile/com.konylabs.capitalone	Free
+78	Intuit Credit Karma	11	67	\N	0.00	42.2	https://www.appbrain.com/app/intuit-credit-karma/com.creditkarma.mobile	Free
+79	Lemon8 - Lifestyle Community	23	2	2	0.00	83	https://www.appbrain.com/app/lemon8-lifestyle-community/com.bd.nproject	Free
+80	BESTPLAY Play to earn & donate	4	68	1	0.00	44.5	https://www.appbrain.com/app/bestplay-play-to-earn-donate/com.bestplay.app	Free
+81	Twitch: Live Streaming	4	69	2	0.00	91.9	https://www.appbrain.com/app/twitch-live-streaming/tv.twitch.android.app	Free
+82	eBay online shopping & selling	2	70	2	0.00	69	https://www.appbrain.com/app/ebay-online-shopping-selling/com.ebay.mobile	Free
+83	Freecash: Earn Money & Rewards	11	71	1	0.00	12	https://www.appbrain.com/app/freecash-earn-money-rewards/com.freecash.app2	Free
+84	QR & Barcode Scanner Launcher	18	49	\N	0.00	\N	https://www.appbrain.com/app/qr-barcode-scanner-launcher/com.qr.code.reader.scanner.qrscan.android	Free
+85	Move to iOS	18	72	\N	0.00	9.96	https://www.appbrain.com/app/move-to-ios/com.apple.movetoios	Free
+86	Hizen VPN - Fast & Secure VPN	18	73	\N	0.00	26.7	https://www.appbrain.com/app/hizen-vpn-fast-secure-vpn/com.hizen.vpn	Free
+87	Apple TV	4	72	2	0.00	\N	https://www.appbrain.com/app/apple-tv/com.apple.atve.androidtv.appletv	Free
+88	FlickReels - Short Drama & TV	4	74	2	0.00	63	https://www.appbrain.com/app/flickreels-short-drama-tv/com.zyhwplatform.shortplay	Free
+89	Plex: Stream Movies & TV	4	75	2	0.00	35.3	https://www.appbrain.com/app/plex-stream-movies-tv/com.plexapp.android	Free
+90	Pandora - Music & Podcasts	10	76	2	0.00	69.6	https://www.appbrain.com/app/pandora-music-podcasts/com.pandora.android	Free
+91	Upside: Cash Back - Gas & Food	9	77	\N	0.00	24.2	https://www.appbrain.com/app/upside-cash-back-gas-food/com.upside.consumer.android	Free
+92	Google Authenticator	18	42	\N	0.00	6	https://www.appbrain.com/app/google-authenticator/com.google.android.apps.authenticator2	Free
+93	Waze Navigation & Live Traffic	1	78	\N	0.00	79.7	https://www.appbrain.com/app/waze-navigation-live-traffic/com.waze	Free
+94	QR & Barcode Scanner	18	79	\N	0.00	14.9	https://www.appbrain.com/app/qr-barcode-scanner/com.gamma.scan	Free
+95	Samsung Smart Switch Mobile	18	80	\N	0.00	39.1	https://www.appbrain.com/app/samsung-smart-switch-mobile/com.sec.android.easyMover	Free
+96	Expedia: Hotels, Flights, Cars	9	81	\N	0.00	\N	https://www.appbrain.com/app/expedia-hotels-flights-cars/com.expedia.bookings	Free
+97	Google Translate	18	42	\N	0.00	43.7	https://www.appbrain.com/app/google-translate/com.google.android.apps.translate	Free
+98	Malwarebytes Mobile Security	18	82	\N	0.00	33	https://www.appbrain.com/app/malwarebytes-mobile-security/org.malwarebytes.antimalware	Free
+99	Picsart AI Photo Editor, Video	8	83	2	0.00	62.7	https://www.appbrain.com/app/picsart-ai-photo-editor-video/com.picsart.studio	Free
+100	MyChart	15	84	\N	0.00	44.6	https://www.appbrain.com/app/mychart/epic.mychart.android	Free
+101	Airbnb	9	85	\N	0.00	51.7	https://www.appbrain.com/app/airbnb/com.airbnb.android	Free
+102	Blood Pressure Tracker	3	86	\N	0.00	64	https://www.appbrain.com/app/blood-pressure-tracker/com.cactus.tracker.bloodpressure	Free
+103	Google Wallet	11	42	\N	0.00	19.7	https://www.appbrain.com/app/google-wallet/com.google.android.apps.walletnfcrel	Free
+104	Geotag Photo: Camera Location	8	87	\N	0.00	23.2	https://www.appbrain.com/app/geotag-photo-camera-location/com.cameratag.geotagphoto.gpscamera	Free
+105	AI Cleaner - Phone Cleaner	18	88	\N	0.00	\N	https://www.appbrain.com/app/ai-cleaner-phone-cleaner/ai.storage.cleaner.app	Free
+106	Audible: Audio Entertainment	19	89	2	0.00	160.2	https://www.appbrain.com/app/audible-audio-entertainment/com.audible.application	Free
+107	CoinSnap - Coin Identifier	18	90	\N	0.00	67.6	https://www.appbrain.com/app/coinsnap-coin-identifier/com.coinidentifyer.ai	Free
+108	Sam’s Club: Pickup & Delivery	2	91	\N	0.00	92.1	https://www.appbrain.com/app/sam%E2%80%99s-club-pickup-delivery/com.rfi.sams.android	Free
+109	ZEPETO: Avatar, Connect & Live	4	92	2	0.00	192.4	https://www.appbrain.com/app/zepeto-avatar-connect-live/me.zepeto.main	Free
+110	Cash Giraffe: Games & Rewards	23	93	\N	0.00	82.5	https://www.appbrain.com/app/cash-giraffe-games-rewards/cashgiraffe.app	Free
+111	Open Browser - Smart & Safe	18	94	2	0.00	45.1	https://www.appbrain.com/app/open-browser-smart-safe/com.open.web.ai.browser	Free
+112	RapidTV - Short Dramas	4	95	2	0.00	28.4	https://www.appbrain.com/app/rapidtv-short-dramas/com.rapid.short.tv	Free
+113	Bigo Live - Live Streaming App	14	96	2	0.00	61.7	https://www.appbrain.com/app/bigo-live-live-streaming-app/sg.bigo.live	Free
+114	BURGER KING® App	24	97	\N	0.00	56.1	https://www.appbrain.com/app/burger-king%C2%AE-app/com.emn8.mobilem8.nativeapp.bk	Free
+115	Scoopz: Real Life, Real Video	4	98	1	0.00	69	https://www.appbrain.com/app/scoopz-real-life-real-video/com.localaiapp.scoops	Free
+116	YouTube Kids	4	42	\N	0.00	33.8	https://www.appbrain.com/app/youtube-kids/com.google.android.apps.youtube.kids	Free
+117	Pocket FM: Audio Series	10	99	2	0.00	83.7	https://www.appbrain.com/app/pocket-fm-audio-series/com.radio.pocketfm	Free
+118	Reddit	14	100	1	0.00	54	https://www.appbrain.com/app/reddit/com.reddit.frontpage	Free
+119	Ring - Always Home	23	101	\N	0.00	177.4	https://www.appbrain.com/app/ring-always-home/com.ringapp	Free
+120	Fetch: America’s Rewards App	2	102	\N	0.00	207	https://www.appbrain.com/app/fetch-america%E2%80%99s-rewards-app/com.fetchrewards.fetchrewards.hop	Free
+121	PDF Reader – Reader & Editor	18	103	\N	0.00	64.8	https://www.appbrain.com/app/pdf-reader-reader-editor/pdf.reader.editor.office.ora	Free
+122	WEBTOON: Manga, Comics, Manhwa	6	104	2	0.00	64.2	https://www.appbrain.com/app/webtoon-manga-comics-manhwa/com.naver.linewebtoon	Free
+123	PDF Reader - PDF Viewer	20	105	\N	0.00	60.8	https://www.appbrain.com/app/pdf-reader-pdf-viewer/pdf.pdfreader.viewer.editor.free	Free
+124	FlareFlow: 1-Minute Dramas!	4	106	2	0.00	76.2	https://www.appbrain.com/app/flareflow-1-minute-dramas/tv.flareflow.drama	Free
+125	Signal Private Messenger	16	107	\N	0.00	82.9	https://www.appbrain.com/app/signal-private-messenger/org.thoughtcrime.securesms	Free
+126	Progressive	11	108	\N	0.00	153.9	https://www.appbrain.com/app/progressive/com.phonevalley.progressive	Free
+127	WhatsApp Business	16	4	\N	0.00	78	https://www.appbrain.com/app/whatsapp-business/com.whatsapp.w4b	Free
+128	Vrbo Vacation Rentals	9	109	\N	0.00	\N	https://www.appbrain.com/app/vrbo-vacation-rentals/com.vrbo.android	Free
+129	Weather Now Launcher - Radar	25	18	\N	0.00	56.4	https://www.appbrain.com/app/weather-now-launcher-radar/com.eet.weather.launcher	Free
+130	Affirm: Buy now, pay over time	2	110	\N	0.00	56.9	https://www.appbrain.com/app/affirm-buy-now-pay-over-time/com.affirm.central	Free
+131	Instacart: Get Food Delivery	24	111	\N	0.00	53.6	https://www.appbrain.com/app/instacart-get-food-delivery/com.instacart.client	Free
+132	Simple Bible Daily Verse Alarm	17	112	\N	0.00	65.1	https://www.appbrain.com/app/simple-bible-daily-verse-alarm/com.holy.bible.study	Free
+133	Video&Drama Player All Format	7	113	\N	0.00	52.2	https://www.appbrain.com/app/video-drama-player-all-format/com.deep.useful.video	Free
+134	Domino's Pizza USA	24	114	\N	0.00	80.4	https://www.appbrain.com/app/dominos-pizza-usa/com.dominospizza	Free
+135	PlayWell: Play to Earn	4	115	2	0.00	31.2	https://www.appbrain.com/app/playwell-play-to-earn/com.play.lucky.real.earn.money.free.fun.games.play.reward.income	Free
+136	Chase Mobile	11	116	\N	0.00	\N	https://www.appbrain.com/app/chase-mobile/com.chase.sig.android	Free
+137	Adobe Acrobat Reader: Edit PDF	20	117	\N	0.00	118.4	https://www.appbrain.com/app/adobe-acrobat-reader-edit-pdf/com.adobe.reader	Free
+138	CVS Health	15	118	\N	0.00	\N	https://www.appbrain.com/app/cvs-health/com.cvs.launchers.cvs	Free
+139	Zelle®	11	119	\N	0.00	\N	https://www.appbrain.com/app/zelle%C2%AE/com.zellepay.zelle	Free
+140	Hulu: Stream TV shows & movies	4	53	2	0.00	17.9	https://www.appbrain.com/app/hulu-stream-tv-shows-movies/com.hulu.plus	Free
+141	Perplexity - Ask Anything	20	120	2	0.00	64.3	https://www.appbrain.com/app/perplexity-ask-anything/ai.perplexity.app.android	Free
+142	Chai: Chat AI Platform	4	121	1	0.00	69	https://www.appbrain.com/app/chai-chat-ai-platform/com.Beauchamp.Messenger.external	Free
+143	Pizza Hut - Delivery & Takeout	24	122	\N	0.00	150	https://www.appbrain.com/app/pizza-hut-delivery-takeout/com.yum.pizzahut	Free
+144	Zillow: Homes For Sale & Rent	13	123	\N	0.00	\N	https://www.appbrain.com/app/zillow-homes-for-sale-rent/com.zillow.android.zillowmap	Free
+145	Linky AI: Chat, Play, Connect	14	124	1	0.00	245.8	https://www.appbrain.com/app/linky-ai-chat-play-connect/com.aigc.ushow.ichat	Free
+146	Smart Remote - Easy TV Control	18	125	\N	0.00	\N	https://www.appbrain.com/app/smart-remote-easy-tv-control/com.rokutv.remote.app	Free
+147	OfferUp: Buy. Sell. Simple.	2	126	\N	0.00	\N	https://www.appbrain.com/app/offerup-buy-sell-simple/com.offerup	Free
+148	Norton360 Antivirus & Security	18	127	\N	0.00	\N	https://www.appbrain.com/app/norton360-antivirus-security/com.symantec.mobilesecurity	Free
+149	1Weather Forecasts & Radar	25	128	\N	0.00	59	https://www.appbrain.com/app/1weather-forecasts-radar/com.handmark.expressweather	Free
+150	JustPlay: Earn Money or Donate	4	129	1	0.00	58.2	https://www.appbrain.com/app/justplay-earn-money-or-donate/com.justplay.app	Free
+151	Booking.com: Hotels & Travel	9	130	\N	0.00	99.9	https://www.appbrain.com/app/booking-com-hotels-travel/com.booking	Free
+152	Too Good To Go: End Food Waste	24	131	\N	0.00	39.1	https://www.appbrain.com/app/too-good-to-go-end-food-waste/com.app.tgtg	Free
+153	Planet Fitness	3	132	\N	0.00	\N	https://www.appbrain.com/app/planet-fitness/com.planetfitness	Free
+154	OnePay – Mobile Banking	11	133	\N	0.00	109	https://www.appbrain.com/app/onepay-mobile-banking/com.onefinance.one	Free
+155	VPN Proton: Fast & Secure VPN	18	134	\N	0.00	35.9	https://www.appbrain.com/app/vpn-proton-fast-secure-vpn/ch.protonvpn.android	Free
+156	Coinbase: Buy BTC, ETH, SOL	11	135	\N	0.00	164.5	https://www.appbrain.com/app/coinbase-buy-btc-eth-sol/com.coinbase.android	Free
+157	Authenticator App - SafeAuth	18	136	\N	0.00	31.5	https://www.appbrain.com/app/authenticator-app-safeauth/authenticator.two.factor.authentication.otp	Free
+158	NordVPN – fast VPN for privacy	18	137	\N	0.00	37.4	https://www.appbrain.com/app/nordvpn-fast-vpn-for-privacy/com.nordvpn.android	Free
+159	Instabridge: WiFi Hotspot Map	9	138	2	0.00	73.1	https://www.appbrain.com/app/instabridge-wifi-hotspot-map/com.instabridge.android	Free
+160	Costco Wholesale	2	139	\N	0.00	\N	https://www.appbrain.com/app/costco-wholesale/com.costco.app.android	Free
+161	Uber - Driver: Drive & Deliver	26	43	\N	0.00	175.5	https://www.appbrain.com/app/uber-driver-drive-deliver/com.ubercab.driver	Free
+162	AllTrails: Hike, Bike & Run	3	140	\N	0.00	115	https://www.appbrain.com/app/alltrails-hike-bike-run/com.alltrails.alltrails	Free
+163	Zangi Private Messenger	16	141	\N	0.00	71.9	https://www.appbrain.com/app/zangi-private-messenger/com.beint.zangi	Free
+164	MISTPLAY: Play to Earn Money	4	142	2	0.00	52.7	https://www.appbrain.com/app/mistplay-play-to-earn-money/com.mistplay.mistplay	Free
+165	Warm Weather	25	143	\N	0.00	30.2	https://www.appbrain.com/app/warm-weather/com.warmweather.forecast.reporter	Free
+166	Etsy: A Special Marketplace	2	144	2	0.00	27.6	https://www.appbrain.com/app/etsy-a-special-marketplace/com.etsy.android	Free
+167	Xfinity	20	145	\N	0.00	\N	https://www.appbrain.com/app/xfinity/com.xfinity.digitalhome	Free
+168	State Farm®	11	146	\N	0.00	60.1	https://www.appbrain.com/app/state-farm%C2%AE/com.statefarm.pocketagent	Free
+169	Zedge™ Wallpapers & Ringtones	22	147	2	0.00	73.6	https://www.appbrain.com/app/zedge%E2%84%A2-wallpapers-ringtones/net.zedge.android	Free
+170	GoodShort - Movies & Dramas	4	148	2	0.00	34.2	https://www.appbrain.com/app/goodshort-movies-dramas/com.newreading.goodreels	Free
+171	Impulse - Brain Training Games	3	149	\N	0.00	\N	https://www.appbrain.com/app/impulse-brain-training-games/gen.tech.impulse.android	Free
+172	Photo Recovery & File Recovery	18	150	\N	0.00	24.3	https://www.appbrain.com/app/photo-recovery-file-recovery/wiac.gpak.nvqe.allrecovery	Free
+173	ShotShort-Dramas&Shorts	4	151	1	0.00	66.9	https://www.appbrain.com/app/shotshort-dramas-shorts/com.mediaradiance.shotshort	Free
+174	Claude by Anthropic	20	152	2	0.00	12.3	https://www.appbrain.com/app/claude-by-anthropic/com.anthropic.claude	Free
+175	CoinIn – Coin Scan Identifier	18	153	\N	0.00	6.67	https://www.appbrain.com/app/coinin-coin-scan-identifier/com.coinin.app	Free
+176	Google Earth	9	42	\N	0.00	87.7	https://www.appbrain.com/app/google-earth/com.google.earth	Free
+177	Brave Private Web Browser, VPN	16	154	\N	0.00	194.6	https://www.appbrain.com/app/brave-private-web-browser-vpn/com.brave.browser	Free
+178	Robinhood: Trading & Investing	11	155	\N	0.00	116.8	https://www.appbrain.com/app/robinhood-trading-investing/com.robinhood.android	Free
+179	My Spectrum	18	156	\N	0.00	\N	https://www.appbrain.com/app/my-spectrum/com.brighthouse.mybhn	Free
+180	KJV Bible: Audio+Verse	19	157	\N	0.00	35.8	https://www.appbrain.com/app/kjv-bible-audio-verse/com.liotek.lannbible	Free
+181	Suno - AI Music & Songs	10	158	2	0.00	26	https://www.appbrain.com/app/suno-ai-music-songs/com.suno.android	Free
+182	Little Caesars	24	159	\N	0.00	37.9	https://www.appbrain.com/app/little-caesars/com.littlecaesars	Free
+183	Deepsearch AI Search Assistant	23	160	2	0.00	101	https://www.appbrain.com/app/deepsearch-ai-search-assistant/hubx.whois.ai.search	Free
+184	ReciMe: Recipes & Meal Planner	24	161	2	0.00	\N	https://www.appbrain.com/app/recime-recipes-meal-planner/com.recime.app	Free
+185	The CW	4	162	2	0.00	26.9	https://www.appbrain.com/app/the-cw/com.cw.fullepisodes.android	Free
+186	GroupMe	16	163	2	0.00	141.4	https://www.appbrain.com/app/groupme/com.groupme.android	Free
+187	DuckDuckGo Browser, Search, AI	20	164	\N	0.00	47.9	https://www.appbrain.com/app/duckduckgo-browser-search-ai/com.duckduckgo.mobile.android	Free
+188	Rocket Money - Bills & Budgets	11	165	\N	0.00	82.6	https://www.appbrain.com/app/rocket-money-bills-budgets/com.truebill	Free
+189	Brigit: Cash Advance & Credit	11	166	\N	0.00	54.7	https://www.appbrain.com/app/brigit-cash-advance-credit/com.hellobrigit.Brigit	Free
+190	Amazon Alexa	23	32	\N	0.00	\N	https://www.appbrain.com/app/amazon-alexa/com.amazon.dee.app	Free
+191	UKG Pro	26	167	\N	0.00	78.9	https://www.appbrain.com/app/ukg-pro/com.ukg.oneapp	Free
+192	Tinder Dating App: Chat & Date	21	168	1	0.00	83.3	https://www.appbrain.com/app/tinder-dating-app-chat-date/com.tinder	Free
+193	Universal TV Remote for All TV	18	169	\N	0.00	80.4	https://www.appbrain.com/app/universal-tv-remote-for-all-tv/com.boost.universal.remote	Free
+194	Wayfair - Shop All Things Home	2	170	\N	0.00	\N	https://www.appbrain.com/app/wayfair-shop-all-things-home/com.wayfair.wayfair	Free
+195	Finch: Self-Care Pet	3	171	\N	0.00	85.1	https://www.appbrain.com/app/finch-self-care-pet/com.finch.finch	Free
+196	BandLab – Music Making Studio	10	172	2	0.00	51.8	https://www.appbrain.com/app/bandlab-music-making-studio/com.bandlab.bandlab	Free
+197	TV Remote: Roku Remote Control	18	173	\N	0.00	23	https://www.appbrain.com/app/tv-remote-roku-remote-control/com.roku.remote.control.tv.cast	Free
+198	Cleo AI: Cash advance & Credit	11	174	2	0.00	\N	https://www.appbrain.com/app/cleo-ai-cash-advance-credit/com.meetcleo.cleo	Free
+199	ADP Mobile Solutions	26	175	\N	0.00	92.7	https://www.appbrain.com/app/adp-mobile-solutions/com.adpmobile.android	Free
+200	The Home Depot	2	176	\N	0.00	78	https://www.appbrain.com/app/the-home-depot/com.thehomedepot	Free
 \.
 
 
@@ -533,32 +534,32 @@ COPY public.apps (app_id, app_name, category_id, developer_id, maturity_id, pric
 --
 
 COPY public.categories (category_id, category_name) FROM stdin;
-1	Comics
-2	Photography
-3	Finance
-4	Video Players & Editors
-5	House & Home
-6	Travel & Local
-7	Tools
-8	Art & Design
-9	News & Magazines
-10	Education
-11	Lifestyle
-12	Productivity
-13	Communication
-14	Maps & Navigation
-15	Personalization
-16	Health & Fitness
-17	Social
-18	Business
-19	Shopping
-20	Music & Audio
-21	Weather
-22	Food & Drink
-23	Dating
-24	Medical
-25	Entertainment
-26	Books & Reference
+1	Maps & Navigation
+2	Shopping
+3	Health & Fitness
+4	Entertainment
+5	News & Magazines
+6	Comics
+7	Video Players & Editors
+8	Photography
+9	Travel & Local
+10	Music & Audio
+11	Finance
+12	Art & Design
+13	House & Home
+14	Social
+15	Medical
+16	Communication
+17	Education
+18	Tools
+19	Books & Reference
+20	Productivity
+21	Dating
+22	Personalization
+23	Lifestyle
+24	Food & Drink
+25	Weather
+26	Business
 \.
 
 
@@ -941,9 +942,9 @@ COPY public.developerstats (stat_id, developer_id, app_count, total_downloads, a
 --
 
 COPY public.maturityratings (maturity_id, maturity_level) FROM stdin;
-1	Medium
-2	Low
-3	High
+1	High
+2	Medium
+3	Low
 \.
 
 
@@ -1346,7 +1347,7 @@ ALTER TABLE ONLY public.rankings
     ADD CONSTRAINT rankings_app_id_fkey FOREIGN KEY (app_id) REFERENCES public.apps(app_id) ON DELETE CASCADE;
 
 
--- Completed on 2025-08-08 17:36:19
+-- Completed on 2025-08-08 19:31:10
 
 --
 -- PostgreSQL database dump complete
