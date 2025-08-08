@@ -13,50 +13,7 @@ Proyek ini merupakan implementasi alur kerja ETL (Extract, Transform, Load) untu
 
 ---
 
-## Struktur Folder Proyek
-.
-├── Data Scraping
-│   ├── data
-│   │   ├── ranking.json (raw)
-│   │   ├── app_details_200.json (raw)
-│   │   ├── developer_details_top200.json (raw)
-│   │   ├── ranking_clean.json
-│   │   ├── app_details_clean.json
-│   │   └── developer_details_clean.json
-│   └── src
-│       ├── Rank Scraper.py
-│       ├── app_details_scraper.py
-│       ├── developer_details_scraper.py
-│       ├── preprocess_ranking.py
-│       ├── preprocess_app_details.py
-│       └── preprocess_developer_details.py
-│
-├── Data Storing
-│   ├── design
-│   │   ├── ERD.png
-│   │   └── Relational_Diagram.png
-│   ├── export
-│   │   └── seleksi_basdat_export.sql
-│   ├── screenshots
-│   │   └── [CONTOH_SCREENSHOT_SELECT.png]
-│   └── src
-│       ├── create_tables.sql
-│       └── load_data.py
-│
-├── Data Warehouse
-│   ├── design
-│   │   └── DWH_Star_Schema.png
-│   ├── export
-│   │   └── seleksi_basdat_dwh_export.sql
-│   ├── screenshots
-│   │   └── [CONTOH_KUERI_ANALITIK.png]
-│   └── src
-│       ├── create_dwh_tables.sql
-│       └── load_dwh.py
-│
-└── README.md
-
-Tahap 1: Data Scraping & Preprocessing
+## Tahap 1: Data Scraping & Preprocessing
 Cara Penggunaan
 Instalasi Library
 Pastikan Python dan pip sudah terinstal. Jalankan perintah berikut untuk menginstal semua library yang dibutuhkan:
@@ -92,7 +49,9 @@ developer_details_clean.json: Menyimpan detail dan statistik agregat setiap deve
 
 developer_name (string), active_year (integer), active_month (integer), app_count (integer), total_downloads (integer), average_rating (float), total_rating_count (integer), source_url (string).
 
-Tahap 2: Data Modeling & Storing (Database Operasional)
+---
+
+## Tahap 2: Data Modeling & Storing (Database Operasional)
 ERD & Skema Relasional
 Berikut adalah rancangan ERD dan Skema Relasional untuk database operasional seleksi_basdat.
 
@@ -112,7 +71,11 @@ psql -U postgres -d seleksi_basdat -f "Data Storing/src/create_tables.sql"
 Load Data: Jalankan skrip load_data.py untuk memuat data dari file _clean.json ke dalam tabel-tabel yang sudah dibuat.
 
 python "Data Storing/src/load_data.py"
-Bonus: Implementasi Data Warehouse
+
+---
+
+## Bonus: Implementasi Data Warehouse
+
 Sebagai tugas bonus, sebuah data warehouse diimplementasikan menggunakan pendekatan Star Schema untuk menyediakan struktur yang dioptimalkan untuk kebutuhan kueri analitik.
 
 Desain Star Schema
@@ -130,7 +93,9 @@ Data di dalam tabel Apps (Database Operasional):
 
 Contoh Kueri Analitik pada Data Warehouse:
 
-Referensi
+---
+
+## Referensi
 Sumber Data: AppBrain - Google Play Ranking (https://www.appbrain.com/stats/google-play-rankings/)
 
 Library Pihak Ketiga:
