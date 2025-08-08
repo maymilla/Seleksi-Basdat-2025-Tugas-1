@@ -15,38 +15,39 @@ Proyek ini merupakan implementasi alur kerja ETL (Extract, Transform, Load) untu
 
 ## Tahap 1: Data Scraping & Preprocessing
 Cara Penggunaan
-Instalasi Library
+
+1. Instalasi Library
 Pastikan Python dan pip sudah terinstal. Jalankan perintah berikut untuk menginstal semua library yang dibutuhkan:
 
 pip install selenium beautifulsoup4 webdriver-manager psycopg2-binary
-Menjalankan Scraper (Extract)
+
+2. Menjalankan Scraper (Extract)
 Jalankan skrip-skrip berikut secara berurutan untuk mengumpulkan data mentah. Skrip akan menyimpan hasilnya dalam format JSON di folder Data Scraping/data/.
 
-# Mengambil data peringkat dasar
+- Mengambil data peringkat dasar
 python "Data Scraping/src/Rank Scraper.py"
 
-# Mengambil detail 200 aplikasi
+- Mengambil detail 200 aplikasi
 python "Data Scraping/src/app_details_scraper.py"
 
-# Mengambil detail developer dari 200 aplikasi
+- Mengambil detail developer dari 200 aplikasi
 python "Data Scraping/src/developer_details_scraper.py"
-Menjalankan Preprocessing (Transform)
+
+3. Menjalankan Preprocessing (Transform)
 Setelah data mentah terkumpul, jalankan skrip berikut untuk membersihkan, mem-parsing, dan mentransformasi data mentah menjadi format yang bersih dan siap pakai.
 
-python "Data Scraping/src/preprocess_ranking.py"
-python "Data Scraping/src/preprocess_app_details.py"
-python "Data Scraping/src/preprocess_developer_details.py"
-Struktur File JSON Bersih
-ranking_clean.json: Menyimpan data peringkat dasar setiap aplikasi.
+-python "Data Scraping/src/preprocess_ranking.py"
+-python "Data Scraping/src/preprocess_app_details.py"
+-python "Data Scraping/src/preprocess_developer_details.py"
 
+Struktur File JSON Bersih
+1. ranking_clean.json: Menyimpan data peringkat dasar setiap aplikasi.
 app_name (string), rank (integer), rating (float), total_installs (integer), recent_installs (integer).
 
-app_details_clean.json: Menyimpan detail spesifik setiap aplikasi.
-
+2. app_details_clean.json: Menyimpan detail spesifik setiap aplikasi.
 app_name (string), developer (string), category (string), price_text (string), price_numeric (float), apk_size_mb (float), maturity (string), source_url (string).
 
-developer_details_clean.json: Menyimpan detail dan statistik agregat setiap developer.
-
+3. developer_details_clean.json: Menyimpan detail dan statistik agregat setiap developer.
 developer_name (string), active_year (integer), active_month (integer), app_count (integer), total_downloads (integer), average_rating (float), total_rating_count (integer), source_url (string).
 
 ---
