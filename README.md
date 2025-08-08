@@ -89,16 +89,14 @@ Desain Star Schema
 Skema ini terdiri dari satu tabel fakta (Fact_AppRanking) dan empat tabel dimensi (Dim_Apps, Dim_Developers, Dim_Categories, Dim_MaturityRatings) yang memberikan konteks pada data.
 
 Cara Implementasi DWH
-Buat Database & Tabel DWH: Buat database seleksi_basdat_dwh, lalu jalankan skrip di bawah ini untuk membuat semua tabel DWH.
-
+- Buat Database & Tabel DWH: Buat database seleksi_basdat_dwh, lalu jalankan skrip di bawah ini untuk membuat semua tabel DWH.
 psql -U postgres -d seleksi_basdat_dwh -f "Data Warehouse/src/create_dwh_tables.sql"
-Load Data ke DWH: Jalankan skrip load_dwh.py untuk melakukan proses ETL dari database operasional ke data warehouse.
 
+- Load Data ke DWH: Jalankan skrip load_dwh.py untuk melakukan proses ETL dari database operasional ke data warehouse.
 python "Data Warehouse/src/load_dwh.py"
+
 Bukti Implementasi (Screenshots)
 Data di dalam tabel Apps (Database Operasional):
-
-Contoh Kueri Analitik pada Data Warehouse:
 <img width="1680" height="591" alt="Screenshot 2025-08-08 200858" src="https://github.com/user-attachments/assets/160e2c7f-e299-458b-8e55-5c556bb25f84" />
 
 ---
