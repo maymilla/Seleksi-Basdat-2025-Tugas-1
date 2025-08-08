@@ -1,7 +1,8 @@
 # ETL Project: Data Scraping, Database Modeling, and Data Storing
 
 **Author:**  
-Nama : **Kenlyn Tesalonika Winata**
+
+Nama : **Kenlyn Tesalonika Winata**<br>
 NIM  : **18223098**
 
 ## Deskripsi Singkat
