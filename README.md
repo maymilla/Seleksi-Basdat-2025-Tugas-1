@@ -1,3 +1,9 @@
+# ETL Project: Data Scraping, Database Modeling, and Data Storing
+
+**Author:**  
+Nama : **Kenlyn Tesalonika Winata**
+NIM  : **18223098**
+
 ## Deskripsi Singkat
 
 Pada proyek ETL ini, data yang digunakan adalah **Top 100 Dishes in the World** yang bersumber dari [TasteAtlas](https://www.tasteatlas.com/best-rated-dishes-in-the-world), sebuah platform ensiklopedia kuliner global yang memuat informasi hidangan, resep, hingga restoran dari seluruh dunia.
