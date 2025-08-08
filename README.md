@@ -164,11 +164,11 @@ Berisi rekapitulasi perolehan medali per negara.
 
 ### Entity-Relationship Diagram (ERD)
 
-![ERD](./Data%20Storing/screenshot/ERD_Paris_Olympic_2024.jpg)
+![ERD](./Data%20Storing/design/ERD_Paris_Olympic_2024.jpg)
 
 **Diagram Relasional:**
 
-![Diagram Relasional](./Data%20Storing/screenshot/Diagram_Relasional_Paris_Olympic_2024.jpg)
+![Diagram Relasional](./Data%20Storing/design/Diagram_Relasional_Paris_Olympic_2024.jpg)
 
 #### Proses Translasi ERD ke Diagram Relasional
 
