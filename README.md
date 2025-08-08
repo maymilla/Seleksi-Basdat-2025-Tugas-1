@@ -75,6 +75,7 @@ Load Data: Jalankan skrip load_data.py untuk memuat data dari file _clean.json k
 python "Data Storing/src/load_data.py"
 
 Contoh Kueri Analitik pada Data Storing:
+<img width="1418" height="877" alt="Screenshot 2025-08-08 174412" src="https://github.com/user-attachments/assets/7a6d2908-b7c8-4da7-b7c3-ba6494e0a7da" />
 
 ****
 
@@ -98,6 +99,7 @@ Bukti Implementasi (Screenshots)
 Data di dalam tabel Apps (Database Operasional):
 
 Contoh Kueri Analitik pada Data Warehouse:
+<img width="1680" height="591" alt="Screenshot 2025-08-08 200858" src="https://github.com/user-attachments/assets/160e2c7f-e299-458b-8e55-5c556bb25f84" />
 
 ---
 
