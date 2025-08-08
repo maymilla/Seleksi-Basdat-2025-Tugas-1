@@ -1,0 +1,1101 @@
+[
+  {
+    "dish_id": "dis001",
+    "recipe_id": "rec001",
+    "variation_name": "Pizza Margherita",
+    "prep": "1h",
+    "cook": "5min",
+    "ready_in": "9h 5min",
+    "rating": "4.9",
+    "desc": "The recipe is the one codified by Associazione Verace Pizza Napoletana (VPN Association), meaning only pizzas prepared in this manner can hold the denomination \"original Neapolitan pizza\". One pizza is one serving, and the number of pizzas that can be made with the amounts stated here ranges from eight to eleven, depending on the amount of flour the water absorbs, which changes daily. That said, if you are not making a huge batch, half a liter (2 1/4 cups) of water makes for approximately five to seven pizzas, so adjust the amounts accordingly. If you do not own a wood-fired oven but want good results, apply the suggestions from our \"at-home preparation\" tip."
+  },
+  {
+    "dish_id": "dis001",
+    "variation_name": "Pizza Margherita for Home Ovens",
+    "prep": null,
+    "cook": null,
+    "ready_in": "Ready in 9h 16min",
+    "rating": "4.7",
+    "desc": "This recipe for an at-home preparation of pizza Margherita is the creation of the pizzaiolo Davide Civitello. Unlike the traditional recipe for pizza Margherita, here, oil and sugar are also added to the dough — sugar to help with browning and oil to make the pizza crispier since it bakes longer than one baked in a wood-fired oven."
+  },
+  {
+    "dish_id": "dis002",
+    "recipe_id": "rec002",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis003",
+    "recipe_id": "rec003",
+    "variation_name": "Picanha Steak With Rice And Beans",
+    "prep": "30min",
+    "cook": "1h",
+    "ready_in": "2h 10min",
+    "rating": "4.1",
+    "desc": null
+  },
+  {
+    "dish_id": "dis004",
+    "recipe_id": "rec004",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis005",
+    "recipe_id": "rec005",
+    "variation_name": "Shanghai-Style Xiaolongbao",
+    "prep": "40min",
+    "cook": "10min",
+    "ready_in": "50min",
+    "rating": "3.8",
+    "desc": "The following is the recipe for traditional Shanghai-style xiaolongbao dumplings. It gives instructions on how to make the wrappers and the pork and jelly filling from scratch. The recipe comes from Clarissa Wei, a freelance journalist and expert on Taiwanese and Chinese cuisine. Made in Taiwan is her first cookbook. We suggest using two wrappers to practice forming a dumpling then use the remaining eight for making the dumplings."
+  },
+  {
+    "dish_id": "dis005",
+    "variation_name": "Wuxi-style Xiaolongbao",
+    "prep": null,
+    "cook": null,
+    "ready_in": "Ready in 55min",
+    "rating": "4.8",
+    "desc": "The following is the recipe for Wuxi-style xiaolongbao dumplings, which are sweeter and have thinner skin than those from Shanghai. In this variant, the filling is seasoned with oyster sauce, which is both salty and sweet, and sugar, thus resulting in sweeter-tasting dumplings. The recipe gives instructions on how to prepare the wrappers, the pork jelly for the filling, and the filling from scratch. For even more sweet flavor, it's best to pair these dumplings with Chinese black vinegar, which has a slightly sweet and acidic taste."
+  },
+  {
+    "dish_id": "dis006",
+    "recipe_id": "rec006",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis007",
+    "recipe_id": "rec007",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis008",
+    "recipe_id": "rec008",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis009",
+    "recipe_id": "rec009",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis010",
+    "recipe_id": "rec010",
+    "variation_name": "Hakata Ramen",
+    "prep": "2h",
+    "cook": "12h",
+    "ready_in": "14h",
+    "rating": "3.8",
+    "desc": "This recipe is adapted from the SeriousEats.com website. If you'd like to keep it as traditional as possible, do not add the ramen egg and just skip that part of the recipe."
+  },
+  {
+    "dish_id": "dis011",
+    "recipe_id": "rec011",
+    "variation_name": "Lebanese Shawarma",
+    "prep": "15min",
+    "cook": "20min",
+    "ready_in": "12h 35min",
+    "rating": "3.6",
+    "desc": null
+  },
+  {
+    "dish_id": "dis011",
+    "variation_name": "Homemade Beef Shawarma",
+    "prep": null,
+    "cook": null,
+    "ready_in": "Ready in 12h 35min",
+    "rating": "4.8",
+    "desc": "This recipe shows how to make shawarma at home without a rotating cone. After marinating overnight, the meat can be prepared on an electric grill or in an oven, and if you wish, you can partially replace a part of the beef with lamb — preferably, choose a piece that is not completely lean. Also, the recipe suggests serving shawarma wrapped in pita bread together with French fries, among other things, which, although not traditional, is a very common practice these days."
+  },
+  {
+    "dish_id": "dis012",
+    "recipe_id": "rec012",
+    "variation_name": "Chateaubriand In The Style Of Escoffier",
+    "prep": "20min",
+    "cook": "20min",
+    "ready_in": "40min",
+    "rating": "4.2",
+    "desc": null
+  },
+  {
+    "dish_id": "dis013",
+    "recipe_id": "rec013",
+    "variation_name": "Foolproof Chikin",
+    "prep": "20min",
+    "cook": "40min",
+    "ready_in": "1h 30min",
+    "rating": "4.7",
+    "desc": null
+  },
+  {
+    "dish_id": "dis013",
+    "variation_name": "Seasoned Korean Fried Chicken",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": "4.7",
+    "desc": "This is the seasoned, sauced-up version of classic Korean fried chicken — ultra-crispy and coated in a sweet, spicy glaze. The chicken is first marinated with salt, pepper, and a light egg and flour-starch batter, then double-fried for maximum crunch. After frying, it’s tossed in a bold garlic gochujang sauce that makes every bite sticky, savory, and irresistible. The recipe is adapted from the website of Emily Kim, also Maangchi, a South Korean-born American YouTuber and author that The New York Times has proclaimed \"YouTube's Korean Julia Child.\""
+  },
+  {
+    "dish_id": "dis014",
+    "recipe_id": "rec014",
+    "variation_name": "Pollo A La Brasa",
+    "prep": "30min",
+    "cook": "40min",
+    "ready_in": "13h 10min",
+    "rating": "4.5",
+    "desc": null
+  },
+  {
+    "dish_id": "dis015",
+    "recipe_id": "rec015",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis016",
+    "recipe_id": "rec016",
+    "variation_name": "Traditional Shashlik",
+    "prep": "30min",
+    "cook": "20min",
+    "ready_in": "4h 50min",
+    "rating": "4.5",
+    "desc": null
+  },
+  {
+    "dish_id": "dis016",
+    "variation_name": "Soviet Shashlik",
+    "prep": null,
+    "cook": null,
+    "ready_in": "Ready in 4h",
+    "rating": "4.3",
+    "desc": "The following recipe is adapted from the iconic Soviet cookbook The Book of Tasty and Healthy Food. Unlike the traditional recipe, here, the marinade is further intensified with lemon juice and vinegar. The recipe suggests serving the meat with tomatoes, lemon slices, and green onions. Unorthodoxly, perhaps, they suggest serving the meat with a side of rice."
+  },
+  {
+    "dish_id": "dis017",
+    "recipe_id": "rec017",
+    "variation_name": "Authentic Pork Phanaeng Curry",
+    "prep": "1h",
+    "cook": "40min",
+    "ready_in": "2h 55min",
+    "rating": "4.7",
+    "desc": null
+  },
+  {
+    "dish_id": "dis018",
+    "recipe_id": "rec018",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis019",
+    "recipe_id": "rec019",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis020",
+    "recipe_id": "rec020",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis021",
+    "recipe_id": "rec021",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis022",
+    "recipe_id": "rec022",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis023",
+    "recipe_id": "rec023",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis024",
+    "recipe_id": "rec024",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis025",
+    "recipe_id": "rec025",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis026",
+    "recipe_id": "rec026",
+    "variation_name": "Classic Puff Pastry Croissants",
+    "prep": "50min",
+    "cook": "20min",
+    "ready_in": "6h 10min",
+    "rating": "4.1",
+    "desc": "This recipe was adapted from Cuisine Larousse website and gives instructions for preparing classic, puff-pastry French croissants from scratch using the turning technique. Make sure you start the preparation on time since the dough needs to rest for 5 hours overall."
+  },
+  {
+    "dish_id": "dis026",
+    "variation_name": "Larousse Gastronomique's Croissants With Leavened Dough",
+    "prep": null,
+    "cook": null,
+    "ready_in": "Ready in 4h 40min",
+    "rating": "4.8",
+    "desc": "Adapted from The New Larousse Gastronomique cookbook, this recipe offers an alternative approach to the classic puff pastry croissants. In this version, they are prepared with leavened dough which makes the process significantly shorter."
+  },
+  {
+    "dish_id": "dis027",
+    "recipe_id": "rec027",
+    "variation_name": "Spaghetti Alla Carbonara",
+    "prep": "8min",
+    "cook": "10min",
+    "ready_in": "18min",
+    "rating": "4.3",
+    "desc": "This is the traditional carbonara recipe made with just guanciale, pecorino Romano, egg yolks, pepper, and pasta. Depending on the texture you prefer, you can opt between cutting the guanciale into dices or strips — dices will be soft on the inside, while strips will end up being more on the crisp side when sautéed."
+  },
+  {
+    "dish_id": "dis027",
+    "variation_name": "Luciano Monosilio’s Carbonara - Carbonara by Rome’s Carbonara King",
+    "prep": null,
+    "cook": null,
+    "ready_in": "Ready in 35min",
+    "rating": "4.8",
+    "desc": "This recipe is adapted from the recipe card Luciano Monosilio gives in his restaurant Luciano - Cucina Italiana with each order of carbonara. Luciano's carbonara is made with a mixture of pecorino Romano and Grana Padano, which is added to reduce the overall saltiness of the dish. The sauce is thickened in a bain-marie, so the eggs are cooked but not scrambled, and the sauce is thick and creamy."
+  },
+  {
+    "dish_id": "dis028",
+    "recipe_id": "rec028",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis029",
+    "recipe_id": "rec029",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis030",
+    "recipe_id": "rec030",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis031",
+    "recipe_id": "rec031",
+    "variation_name": "Italian Academy Of Cuisine'S Lasagne Verdi Alla Bolognese",
+    "prep": "2h",
+    "cook": "30min",
+    "ready_in": "3h",
+    "rating": "4.3",
+    "desc": null
+  },
+  {
+    "dish_id": "dis031",
+    "variation_name": "Academia Barilla's Lasagne Verdi alla Bolognese",
+    "prep": null,
+    "cook": null,
+    "ready_in": "Ready in 3h",
+    "rating": "4.9",
+    "desc": "In this version of the recipe, published by Academia Barilla, the first international center dedicated to the development and promotion of Italian gastronomic culture, the ingredients you can find in the ragù are dry red wine and the tomato concentrate. All other steps in preparing the lasagne alla Bolognese are more or less similar to the recipe above. This recipe suggests 2 liters of béchamel sauce."
+  },
+  {
+    "dish_id": "dis032",
+    "recipe_id": "rec032",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis033",
+    "recipe_id": "rec033",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis034",
+    "recipe_id": "rec034",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis035",
+    "recipe_id": "rec035",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": "4.8",
+    "desc": null
+  },
+  {
+    "dish_id": "dis036",
+    "recipe_id": "rec036",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis037",
+    "recipe_id": "rec037",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis038",
+    "recipe_id": "rec038",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis039",
+    "recipe_id": "rec039",
+    "variation_name": "Steak Au Poivre",
+    "prep": "10min",
+    "cook": "6min",
+    "ready_in": "16min",
+    "rating": "4.3",
+    "desc": "The following recipe is adapted from the Larousse Cuisine website. The dish as prepared here is often served in French bistros."
+  },
+  {
+    "dish_id": "dis040",
+    "recipe_id": "rec040",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis041",
+    "recipe_id": "rec041",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis042",
+    "recipe_id": "rec042",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis043",
+    "recipe_id": "rec043",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis044",
+    "recipe_id": "rec044",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis045",
+    "recipe_id": "rec045",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis046",
+    "recipe_id": "rec046",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis047",
+    "recipe_id": "rec047",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis048",
+    "recipe_id": "rec048",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis049",
+    "recipe_id": "rec049",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis050",
+    "recipe_id": "rec050",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis051",
+    "recipe_id": "rec051",
+    "variation_name": "Biang Biang Noodles",
+    "prep": "1h",
+    "cook": "30min",
+    "ready_in": "4h 30min",
+    "rating": "4.6",
+    "desc": null
+  },
+  {
+    "dish_id": "dis052",
+    "recipe_id": "rec052",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis053",
+    "recipe_id": "rec053",
+    "variation_name": "Linguine Allo Scoglio With Tomatoes",
+    "prep": "40min",
+    "cook": "20min",
+    "ready_in": "1h",
+    "rating": "4.1",
+    "desc": null
+  },
+  {
+    "dish_id": "dis054",
+    "recipe_id": "rec054",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis055",
+    "recipe_id": "rec055",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis056",
+    "recipe_id": "rec056",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis057",
+    "recipe_id": "rec057",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis058",
+    "recipe_id": "rec058",
+    "variation_name": "Boiled Maine Lobster",
+    "prep": "30min",
+    "cook": "15min",
+    "ready_in": "50min",
+    "rating": "4.5",
+    "desc": null
+  },
+  {
+    "dish_id": "dis059",
+    "recipe_id": "rec059",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis060",
+    "recipe_id": "rec060",
+    "variation_name": "Bougatsa",
+    "prep": "30min",
+    "cook": "1h",
+    "ready_in": "1h 45min",
+    "rating": "4.6",
+    "desc": null
+  },
+  {
+    "dish_id": "dis060",
+    "variation_name": "Sweet Mizithra Cheese Bougatsa",
+    "prep": null,
+    "cook": null,
+    "ready_in": "Ready in 50min",
+    "rating": "4.4",
+    "desc": "This sweet mizithra bougatsa wraps a rich, creamy filling of sour mizithra cheese and optional staka in layers of buttery phyllo, folded like an envelope for a crisp, golden finish. The cheese mixture is gently cooked with flour, butter, and milk, then sealed between multiple layers of pastry before baking. Served warm and dusted with sugar, it's a delicate and indulgent twist on the classic Greek bougatsa."
+  },
+  {
+    "dish_id": "dis061",
+    "recipe_id": "rec061",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis062",
+    "recipe_id": "rec062",
+    "variation_name": "Pierogi Ruskie",
+    "prep": "2h",
+    "cook": "30min",
+    "ready_in": "3h",
+    "rating": "4.7",
+    "desc": "This recipe gives instructions on how to make the classic pierogi ruskie with a filling of potatoes, cheese, and onion. However, if you'd like to make the recipe as close to traditional as possible, do not add butter to the dough. Butter is often added because it makes for a more pliable, easier-to-work-with dough."
+  },
+  {
+    "dish_id": "dis063",
+    "recipe_id": "rec063",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis064",
+    "recipe_id": "rec064",
+    "variation_name": "Traditional Mercimek Çorbası",
+    "prep": "25min",
+    "cook": "35min",
+    "ready_in": "1h",
+    "rating": "n/a",
+    "desc": null
+  },
+  {
+    "dish_id": "dis065",
+    "recipe_id": "rec065",
+    "variation_name": "Cochinita Pibil",
+    "prep": "1h",
+    "cook": "4h",
+    "ready_in": "5h 50min",
+    "rating": "4.6",
+    "desc": null
+  },
+  {
+    "dish_id": "dis066",
+    "recipe_id": "rec066",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis067",
+    "recipe_id": "rec067",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis068",
+    "recipe_id": "rec068",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis069",
+    "recipe_id": "rec069",
+    "variation_name": "Dakos",
+    "prep": "20min",
+    "cook": null,
+    "ready_in": "25min",
+    "rating": "4.5",
+    "desc": null
+  },
+  {
+    "dish_id": "dis070",
+    "recipe_id": "rec070",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis071",
+    "recipe_id": "rec071",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis072",
+    "recipe_id": "rec072",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis073",
+    "recipe_id": "rec073",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis074",
+    "recipe_id": "rec074",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis075",
+    "recipe_id": "rec075",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis076",
+    "recipe_id": "rec076",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis077",
+    "recipe_id": "rec077",
+    "variation_name": "Ceviche Mixto",
+    "prep": "20min",
+    "cook": null,
+    "ready_in": "20min",
+    "rating": "4.1",
+    "desc": null
+  },
+  {
+    "dish_id": "dis078",
+    "recipe_id": "rec078",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis079",
+    "recipe_id": "rec079",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis080",
+    "recipe_id": "rec080",
+    "variation_name": "Classic Païdakia",
+    "prep": "20min",
+    "cook": "15min",
+    "ready_in": "8h 35min",
+    "rating": "4.3",
+    "desc": null
+  },
+  {
+    "dish_id": "dis080",
+    "variation_name": "Roasted Païdakia",
+    "prep": null,
+    "cook": null,
+    "ready_in": "Ready in 1h 45min",
+    "rating": "4.5",
+    "desc": "The following recipe has been adapted from VisitGreece.org, the official promotional website of The Greek Tourism Organization. It showcases how to prepare païdakia in the oven. The marinade is applied to the meat, but there's no need for marination, and the meat is cooked long, 1 ½ hours to be exact."
+  },
+  {
+    "dish_id": "dis081",
+    "recipe_id": "rec081",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis082",
+    "recipe_id": "rec082",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis083",
+    "recipe_id": "rec083",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis084",
+    "recipe_id": "rec084",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis085",
+    "recipe_id": "rec085",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis086",
+    "recipe_id": "rec086",
+    "variation_name": "Authentic Bánh Mì Thịt With Vietnamese Sausage Cha Lua And Pâté",
+    "prep": "1h",
+    "cook": "55min",
+    "ready_in": "4h 55min",
+    "rating": "4.5",
+    "desc": null
+  },
+  {
+    "dish_id": "dis086",
+    "variation_name": "Bánh Mì Thịt by Andrea Nguyen",
+    "prep": null,
+    "cook": null,
+    "ready_in": "Ready in 1h 45min",
+    "rating": "4.5",
+    "desc": "The following is the authentic bánh mì thịt recipe. It consists of Vietnamese rolls, seasoned ground pork, various cold cuts, mayonnaise, the ubiquitous pickled vegetables, cilantro, cucumber, and chili oil. Instructions for pickled vegetables and seasoned ground pork are included in this recipe. The recipe is courtesy of Andrea Nguyen, a Vietnamese-born American teacher, food writer, cookbook author, and chef living in the San Francisco area. She is a James Beard Award winner and is considered the utmost authority on Asian cuisines, specifically Vietnamese."
+  },
+  {
+    "dish_id": "dis087",
+    "recipe_id": "rec087",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis088",
+    "recipe_id": "rec088",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis089",
+    "recipe_id": "rec089",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis090",
+    "recipe_id": "rec090",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis091",
+    "recipe_id": "rec091",
+    "variation_name": "Pappardelle Al Cinghiale",
+    "prep": "45min",
+    "cook": "3h",
+    "ready_in": "16h",
+    "rating": "4.7",
+    "desc": null
+  },
+  {
+    "dish_id": "dis092",
+    "recipe_id": "rec092",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis093",
+    "recipe_id": "rec093",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis094",
+    "recipe_id": "rec094",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis095",
+    "recipe_id": "rec095",
+    "variation_name": "Focaccia Di Recco Col Formaggio",
+    "prep": "45min",
+    "cook": "30min",
+    "ready_in": "2h 45min",
+    "rating": "4.8",
+    "desc": null
+  },
+  {
+    "dish_id": "dis096",
+    "recipe_id": "rec096",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis097",
+    "recipe_id": "rec097",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis098",
+    "recipe_id": "rec098",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis099",
+    "recipe_id": "rec099",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  },
+  {
+    "dish_id": "dis100",
+    "recipe_id": "rec100",
+    "variation_name": "N/A",
+    "prep": null,
+    "cook": null,
+    "ready_in": null,
+    "rating": null,
+    "desc": null
+  }
+]

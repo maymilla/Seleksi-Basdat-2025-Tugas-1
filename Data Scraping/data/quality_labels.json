@@ -1,0 +1,134 @@
+[
+  {
+    "label_id": "lab001",
+    "label_name": "Presidia - Rare",
+    "label_img": "https://www.tasteatlas.com/images/certificates/6c42738aa7314be3ba4deb8d14212fd7.png?mw=205",
+    "desc": "The Presidia program is a key initiative of Slow Food, designed to safeguard traditional and artisanal food products that are at risk of disappearing. Presidia producers promote sustainable practices by adhering to agroecological principles, protecting biodiversity, and fostering local economies while supporting rural communities."
+  },
+  {
+    "label_id": "lab002",
+    "label_name": "Presidia - Indigenous",
+    "label_img": "https://www.tasteatlas.com/images/certificates/4c3a1f4a43dd47c7886a7e915444a025.png?mw=205",
+    "desc": "The Presidia program is a key initiative of Slow Food, designed to safeguard traditional and artisanal food products that are at risk of disappearing. Presidia producers promote sustainable practices by adhering to agroecological principles, protecting biodiversity, and fostering local economies while supporting rural communities."
+  },
+  {
+    "label_id": "lab003",
+    "label_name": "Ark of Taste - Rare",
+    "label_img": "https://www.tasteatlas.com/images/certificates/1861fd5ae28c48089c8c87c1ff61ba0a.png?mw=205",
+    "desc": "The Ark of Taste is a catalog of cultural and traditional biodiversity related to food and agriculture. Slow Food has identified thousands of plant varieties, animal breeds, and traditional food products, highlighting the risk of their disappearance, saving them from extinction, and educating institutions and consumers about the need to protect them."
+  },
+  {
+    "label_id": "lab004",
+    "label_name": "Ark of Taste - Indigenous",
+    "label_img": "https://www.tasteatlas.com/images/certificates/20f9cccab6114a878a1d82e41b211289.png?mw=205",
+    "desc": "The Ark of Taste is a catalog of cultural and traditional biodiversity related to food and agriculture. Slow Food has identified thousands of plant varieties, animal breeds, and traditional food products, highlighting the risk of their disappearance, saving them from extinction, and educating institutions and consumers about the need to protect them."
+  },
+  {
+    "label_id": "lab005",
+    "label_name": "Presidia",
+    "label_img": "https://www.tasteatlas.com/images/certificates/8785a2544395432eaa27156656ee8c34.png?mw=205",
+    "desc": "The Presidia program is a key initiative of Slow Food, designed to safeguard traditional and artisanal food products that are at risk of disappearing. Presidia producers promote sustainable practices by adhering to agroecological principles, protecting biodiversity, and fostering local economies while supporting rural communities."
+  },
+  {
+    "label_id": "lab006",
+    "label_name": "IBA (Contemporary Classics)",
+    "label_img": "https://www.tasteatlas.com/images/certificates/98978f32e1c348ce80151ea73d501608.png?mw=205",
+    "desc": "The IBA (Contemporary Classics) certificate, issued by the International Bartenders Association, recognizes modern cocktail recipes that have gained widespread popularity and acceptance in international mixology circles."
+  },
+  {
+    "label_id": "lab007",
+    "label_name": "PDO (Protected Designation of Origin)",
+    "label_img": "https://www.tasteatlas.com/images/certificates/1698568b9d93465194c0a759af6033cf.png?mw=205",
+    "desc": "The PDO (Protected Designation of Origin) certificate ensures that a product is produced, processed, and prepared in a specific geographical area of the European Union, using recognized know-how and distinct characteristics tied to its place of origin."
+  },
+  {
+    "label_id": "lab008",
+    "label_name": "GI (Geographical Indication)",
+    "label_img": "https://www.tasteatlas.com/images/certificates/69a4618b7dc3412fbdbb19cffa99aba0.png?mw=205",
+    "desc": "The GI (Geographical Indication) certificate denotes products that have a specific geographical origin and possess qualities, reputation, or characteristics inherent to that location."
+  },
+  {
+    "label_id": "lab009",
+    "label_name": "PGI (Protected Geographical Indication)",
+    "label_img": "https://www.tasteatlas.com/images/certificates/e70394c7c5144237be400474c7cacd41.png?mw=205",
+    "desc": "The PGI (Protected Geographical Indication) certificate designates that a product possesses qualities, reputation, or other characteristics linked to its geographical origin, covering a broader range than the PDO."
+  },
+  {
+    "label_id": "lab010",
+    "label_name": "DOCG",
+    "label_img": "https://www.tasteatlas.com/images/certificates/b984e0b6d88c40178d64a76347f53018.png?mw=205",
+    "desc": "The DOCG (Denominazione di Origine Controllata e Garantita) certificate is the highest classification for Italian wines, ensuring not only their regional origin but also strict adherence to rigorous production and quality standards."
+  },
+  {
+    "label_id": "lab011",
+    "label_name": "DOC",
+    "label_img": "https://www.tasteatlas.com/images/certificates/2494ee5cb903469493983ef50e53ae2e.png?mw=205",
+    "desc": "The DOC (Denominazione di Origine Controllata) certificate is an Italian designation that guarantees a wine's origin and quality, ensuring it adheres to specific regional production standards and characteristics."
+  },
+  {
+    "label_id": "lab012",
+    "label_name": "TSG (Traditional Speciality Guaranteed)",
+    "label_img": "https://www.tasteatlas.com/images/certificates/4b2a6da5d56e4f169a09be6ebc8803f3.png?mw=205",
+    "desc": "The TSG (Traditional Speciality Guaranteed) certificate designates products with a traditional character, either in terms of composition or means of production, without being linked to a specific geographical area."
+  },
+  {
+    "label_id": "lab013",
+    "label_name": "PAT (Prodotto agroalimentare tradizionale)",
+    "label_img": "https://www.tasteatlas.com/images/certificates/ce1e03605eb742eea580a0c49fbf90fd.png?mw=205",
+    "desc": "The PAT (Prodotti Agroalimentari Tradizionali) certificate is an Italian designation that highlights traditional agricultural and food products, celebrating their regional origins and time-honored production techniques."
+  },
+  {
+    "label_id": "lab014",
+    "label_name": "AOC",
+    "label_img": "https://www.tasteatlas.com/images/certificates/a6793fb05dc5400b877b5ca18e243839.png?mw=205",
+    "desc": "The AOC (Appellation d'Origine Contrôlée) certificate is a French designation that guarantees a product's geographical origin and adherence to traditional production methods."
+  },
+  {
+    "label_id": "lab015",
+    "label_name": "IBA (International Bartenders Association)",
+    "label_img": "https://www.tasteatlas.com/images/certificates/60795ff0fa9f49b88ea4c5471711b479.png?mw=205",
+    "desc": "The International Bartenders Association (IBA) certificate is a globally recognized accreditation that validates a bartender's professional skills and knowledge in the art of mixology, and sanctions a list of official cocktails."
+  },
+  {
+    "label_id": "lab016",
+    "label_name": "UNESCO Intangible Cultural Heritage",
+    "label_img": "https://www.tasteatlas.com/images/certificates/e00038b788e44103a0862238accc6e49.png?mw=205",
+    "desc": "The UNESCO Intangible Cultural Heritage certificate recognizes and protects cultural practices, expressions, and traditions that are deemed invaluable to humanity's shared heritage and require safeguarding for future generations."
+  },
+  {
+    "label_id": "lab017",
+    "label_name": "IGT (Indicazione Geografica Tipica)",
+    "label_img": "https://www.tasteatlas.com/images/certificates/818a23df96b540308604ff9df855a0cc.png?mw=205",
+    "desc": "The IGT (Indicazione Geografica Tipica) wine certificate indicates an Italian wine's specific geographical region of production, ensuring a certain level of quality and authenticity."
+  },
+  {
+    "label_id": "lab018",
+    "label_name": "Ark of Taste",
+    "label_img": "https://www.tasteatlas.com/images/certificates/84410bacd37e4d86983add8b82682da8.png?mw=205",
+    "desc": "The Ark of Taste is a catalog of cultural and traditional biodiversity related to food and agriculture. Slow Food has identified thousands of plant varieties, animal breeds, and traditional food products, highlighting the risk of their disappearance, saving them from extinction, and educating institutions and consumers about the need to protect them."
+  },
+  {
+    "label_id": "lab019",
+    "label_name": "IBA (Unforgettables)",
+    "label_img": "https://www.tasteatlas.com/images/certificates/ceccff3efdc14515a20e23f10b07829d.png?mw=205",
+    "desc": "The IBA (Unforgettables) certificate, bestowed by the International Bartenders Association, honors timeless cocktail recipes that have left an indelible mark on the history of mixology."
+  },
+  {
+    "label_id": "lab020",
+    "label_name": "Original Srbija",
+    "label_img": "https://www.tasteatlas.com/images/certificates/249a6b6761f14069a54cbd72d9769641.png?mw=205",
+    "desc": "The Original Srbija certificate is a designation that recognizes and promotes authentic Serbian products, ensuring their quality, origin, and adherence to traditional production methods."
+  },
+  {
+    "label_id": "lab021",
+    "label_name": "Districtus Austriae Controllatus (DAC)",
+    "label_img": "https://www.tasteatlas.com/images/certificates/f184da099bec4480a87b9aea570d41fe.png?mw=205",
+    "desc": "The Districtus Austriae Controllatus (DAC) certificate is an Austrian wine appellation system that ensures the origin and quality of wines based on specific regional characteristics and styles."
+  },
+  {
+    "label_id": "lab022",
+    "label_name": "IBA (New Era Drinks)",
+    "label_img": "https://www.tasteatlas.com/images/certificates/566deba780a04669a0301bbc6f21f7ec.png?mw=205",
+    "desc": "The IBA (New Era Drinks) certificate, awarded by the International Bartenders Association, acknowledges innovative cocktail recipes that represent the evolving trends and tastes of the modern mixology scene."
+  }
+]

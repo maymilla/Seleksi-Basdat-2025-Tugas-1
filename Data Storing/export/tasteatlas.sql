@@ -1,0 +1,993 @@
+--
+-- PostgreSQL database dump
+--
+
+-- Dumped from database version 17.5
+-- Dumped by pg_dump version 17.5
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET transaction_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+--
+-- Name: check_rating_range(); Type: FUNCTION; Schema: public; Owner: postgres
+--
+
+CREATE FUNCTION public.check_rating_range() RETURNS trigger
+    LANGUAGE plpgsql
+    AS $$
+BEGIN
+    IF NEW.rating < 0 OR NEW.rating > 5 THEN
+        RAISE EXCEPTION 'Rating harus antara 0 dan 5';
+    END IF;
+    RETURN NEW;
+END;
+$$;
+
+
+ALTER FUNCTION public.check_rating_range() OWNER TO postgres;
+
+SET default_tablespace = '';
+
+SET default_table_access_method = heap;
+
+--
+-- Name: categories; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.categories (
+    category_id character varying(10) NOT NULL,
+    category_name character varying(100) NOT NULL
+);
+
+
+ALTER TABLE public.categories OWNER TO postgres;
+
+--
+-- Name: comments; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.comments (
+    comment_id character varying(10) NOT NULL,
+    dish_id character varying(10),
+    email character varying(255),
+    content text,
+    rate numeric(3,2),
+    created_at date,
+    likes integer,
+    dislikes integer,
+    CONSTRAINT comments_rate_check CHECK (((rate >= (0)::numeric) AND (rate <= (5)::numeric)))
+);
+
+
+ALTER TABLE public.comments OWNER TO postgres;
+
+--
+-- Name: countries; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.countries (
+    country_id character varying(10) NOT NULL,
+    country_name character varying(100) NOT NULL,
+    continent character varying(100)
+);
+
+
+ALTER TABLE public.countries OWNER TO postgres;
+
+--
+-- Name: dish_label; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.dish_label (
+    dish_id character varying(10) NOT NULL,
+    label_id character varying(10) NOT NULL
+);
+
+
+ALTER TABLE public.dish_label OWNER TO postgres;
+
+--
+-- Name: dishes; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.dishes (
+    dish_id character varying(10) NOT NULL,
+    dish_name character varying(200) NOT NULL,
+    category_id character varying(10),
+    country_id character varying(10),
+    ranking integer,
+    city character varying(100),
+    average_rating numeric(3,2),
+    "desc" text,
+    image text,
+    link text,
+    CONSTRAINT dishes_average_rating_check CHECK (((average_rating >= (0)::numeric) AND (average_rating <= (5)::numeric))),
+    CONSTRAINT dishes_ranking_check CHECK ((ranking > 0))
+);
+
+
+ALTER TABLE public.dishes OWNER TO postgres;
+
+--
+-- Name: quality_labels; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.quality_labels (
+    label_id character varying(10) NOT NULL,
+    label_name character varying(200) NOT NULL,
+    label_img text,
+    "desc" text
+);
+
+
+ALTER TABLE public.quality_labels OWNER TO postgres;
+
+--
+-- Name: recipes; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.recipes (
+    recipe_id character varying(20) NOT NULL,
+    dish_id character varying(10),
+    variation_name character varying(200),
+    prep character varying(50),
+    cook character varying(50),
+    "desc" text,
+    rating numeric(3,2),
+    CONSTRAINT recipes_rating_check CHECK (((rating >= (0)::numeric) AND (rating <= (5)::numeric)))
+);
+
+
+ALTER TABLE public.recipes OWNER TO postgres;
+
+--
+-- Name: restaurants; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.restaurants (
+    resto_id character varying(10) NOT NULL,
+    name character varying(200) NOT NULL,
+    city character varying(100),
+    country_id character varying(10),
+    address text,
+    website text,
+    rating numeric(3,2),
+    CONSTRAINT restaurants_rating_check CHECK (((rating >= (0)::numeric) AND (rating <= (5)::numeric)))
+);
+
+
+ALTER TABLE public.restaurants OWNER TO postgres;
+
+--
+-- Name: resto_menu; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.resto_menu (
+    dish_id character varying(10) NOT NULL,
+    resto_id character varying(10) NOT NULL
+);
+
+
+ALTER TABLE public.resto_menu OWNER TO postgres;
+
+--
+-- Name: users; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.users (
+    email character varying(255) NOT NULL,
+    first_name character varying(100),
+    last_name character varying(100),
+    username character varying(100),
+    password text NOT NULL
+);
+
+
+ALTER TABLE public.users OWNER TO postgres;
+
+--
+-- Name: users_favorites; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.users_favorites (
+    email character varying(200) NOT NULL,
+    dish_id character varying(10) NOT NULL,
+    fav_ranking integer
+);
+
+
+ALTER TABLE public.users_favorites OWNER TO postgres;
+
+--
+-- Data for Name: categories; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.categories (category_id, category_name) FROM stdin;
+cat001	Appetizers
+cat002	Aspics
+cat003	Assorted Small Dishes or Rituals
+cat004	Base Seasonings
+cat005	Breads
+cat006	Breakfasts
+cat007	Casseroles
+cat008	Cheese Dishes
+cat009	Cooked Sausages
+cat010	Deep-fried Dishes
+cat011	Desserts
+cat012	Dips
+cat013	Dipping Sauces
+cat014	Dressings
+cat015	Dumplings
+cat016	Egg Dishes
+cat017	Feasts
+cat018	Frog Dishes
+cat019	Fruit Salads
+cat020	Insect Dishes
+cat021	Meat Dishes
+cat022	Mushroom Dishes
+cat023	Noodle Dishes
+cat024	Offal Dishes
+cat025	Pancakes
+cat026	Pasta
+cat027	Pastries
+cat028	Pies
+cat029	Pizzas
+cat030	Porridges
+cat031	Potato Dishes
+cat032	Rice Dishes
+cat033	Salads
+cat034	Salsas
+cat035	Sandwiches and Wraps
+cat036	Sauces
+cat037	Sausage Dishes
+cat038	Seafood Dishes
+cat039	Side Dishes
+cat040	Snacks
+cat041	Snail Dishes
+cat042	Soups
+cat043	Spreads
+cat044	Stews
+cat045	Stir-fry Dishes
+cat046	Street Food
+cat047	Swallows
+cat048	Sweet Breads
+cat049	Techniques
+cat050	Vegetable Dishes
+cat051	Vegetarian Dishes
+cat052	Pizza
+cat053	Assorted Small Dishes
+cat054	Brazilian Beef Cut
+cat055	Barbecue
+cat056	Flatbread
+cat057	Beef Dish
+cat058	Fried Chicken Dish
+cat059	Chicken Dish
+cat060	Rice Dish
+cat061	Meat Dish
+cat062	Stew
+cat063	Beef Cut
+cat064	Ice Cream
+cat065	Technique
+cat066	Pork Dish
+cat067	Duck Dish
+cat068	Chocolate Dessert
+cat069	Cheese Dessert
+cat070	French Beef Cut
+cat071	Seafood Dish
+cat072	American Beef Cut
+cat073	Noodle Soup
+cat074	Chicken Soup
+cat075	Lobster Dish
+cat076	Chocolate Cake
+cat077	Vegetable Soup
+cat078	Savory Pastry
+cat079	Pastry
+cat080	Salmon Dish
+cat081	Cheese Dish
+cat082	Stir-Fry
+cat083	Lamb Dish
+cat084	Fish Soup
+cat085	Sandwich
+cat086	Deep-Fried Dessert
+cat087	Bread
+cat088	Meat Soup
+cat089	Snack
+\.
+
+
+--
+-- Data for Name: comments; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.comments (comment_id, dish_id, email, content, rate, created_at, likes, dislikes) FROM stdin;
+\.
+
+
+--
+-- Data for Name: countries; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.countries (country_id, country_name, continent) FROM stdin;
+ctr002	Afghanistan	Asia
+ctr003	Bahrain	Asia
+ctr004	Bangladesh	Asia
+ctr005	Bhutan	Asia
+ctr006	Brunei	Asia
+ctr007	Cambodia	Asia
+ctr008	China	Asia
+ctr009	East Timor	Asia
+ctr010	India	Asia
+ctr011	Indonesia	Asia
+ctr012	Iran	Asia
+ctr013	Iraq	Asia
+ctr014	Israel	Asia
+ctr015	Japan	Asia
+ctr016	Jordan	Asia
+ctr017	Kazakhstan	Asia
+ctr018	Kuwait	Asia
+ctr019	Kyrgyzstan	Asia
+ctr020	Laos	Asia
+ctr021	Lebanon	Asia
+ctr022	Malaysia	Asia
+ctr023	Maldives	Asia
+ctr024	Mongolia	Asia
+ctr025	Myanmar	Asia
+ctr026	Nepal	Asia
+ctr027	North Korea	Asia
+ctr028	Oman	Asia
+ctr029	Pakistan	Asia
+ctr030	Palestine	Asia
+ctr031	Philippines	Asia
+ctr032	Qatar	Asia
+ctr033	Saudi Arabia	Asia
+ctr034	Singapore	Asia
+ctr035	South Korea	Asia
+ctr036	Sri Lanka	Asia
+ctr037	Syria	Asia
+ctr038	Taiwan	Asia
+ctr039	Tajikistan	Asia
+ctr040	Thailand	Asia
+ctr041	Turkiye	Asia
+ctr042	Turkmenistan	Asia
+ctr043	United Arab Emirates	Asia
+ctr044	Uzbekistan	Asia
+ctr045	Vietnam	Asia
+ctr046	Yemen	Asia
+ctr047	American Samoa	Australia
+ctr048	Australia	Australia
+ctr049	Federated States of Micronesia	Australia
+ctr050	Fiji	Australia
+ctr051	French Polynesia	Australia
+ctr052	Guam	Australia
+ctr053	Kiribati	Australia
+ctr054	Marshall Islands	Australia
+ctr055	Nauru	Australia
+ctr056	New Caledonia	Australia
+ctr057	New Zealand	Australia
+ctr058	Palau	Australia
+ctr059	Papua New Guinea	Australia
+ctr060	Samoa	Australia
+ctr061	Solomon Islands	Australia
+ctr062	Tonga	Australia
+ctr063	Tuvalu	Australia
+ctr064	Vanuatu	Australia
+ctr065	Albania	Europe
+ctr066	Andorra	Europe
+ctr067	Armenia	Europe
+ctr068	Austria	Europe
+ctr069	Azerbaijan	Europe
+ctr070	Belarus	Europe
+ctr071	Belgium	Europe
+ctr072	Bosnia and Herzegovina	Europe
+ctr073	British Virgin Islands	Europe
+ctr074	Bulgaria	Europe
+ctr075	Croatia	Europe
+ctr076	Cyprus	Europe
+ctr077	Czech Republic	Europe
+ctr078	Denmark	Europe
+ctr079	England	Europe
+ctr080	Estonia	Europe
+ctr081	Faroe Islands	Europe
+ctr082	Finland	Europe
+ctr083	France	Europe
+ctr084	Georgia	Europe
+ctr085	Germany	Europe
+ctr086	Greece	Europe
+ctr087	Hungary	Europe
+ctr088	Iceland	Europe
+ctr089	Ireland	Europe
+ctr090	Italy	Europe
+ctr091	Kosovo	Europe
+ctr092	Latvia	Europe
+ctr093	Liechtenstein	Europe
+ctr094	Lithuania	Europe
+ctr095	Luxembourg	Europe
+ctr096	Malta	Europe
+ctr097	Moldova	Europe
+ctr098	Monaco	Europe
+ctr099	Montenegro	Europe
+ctr100	Netherlands	Europe
+ctr101	North Macedonia	Europe
+ctr102	Northern Ireland	Europe
+ctr103	Norway	Europe
+ctr104	Poland	Europe
+ctr105	Portugal	Europe
+ctr106	Romania	Europe
+ctr107	Russia	Europe
+ctr108	San Marino	Europe
+ctr109	Scotland	Europe
+ctr110	Serbia	Europe
+ctr111	Slovakia	Europe
+ctr112	Slovenia	Europe
+ctr113	Spain	Europe
+ctr114	Sweden	Europe
+ctr115	Switzerland	Europe
+ctr116	Ukraine	Europe
+ctr117	Vatican City	Europe
+ctr118	Wales	Europe
+ctr119	Antigua and Barbuda	North America
+ctr120	Aruba	North America
+ctr121	Barbados	North America
+ctr122	Bermuda	North America
+ctr123	Bonaire	North America
+ctr124	Canada	North America
+ctr125	Cuba	North America
+ctr126	Curaçao	North America
+ctr127	Dominica	North America
+ctr128	Dominican Republic	North America
+ctr129	Greenland	North America
+ctr130	Grenada	North America
+ctr131	Haiti	North America
+ctr132	Jamaica	North America
+ctr133	Mexico	North America
+ctr134	Puerto Rico	North America
+ctr135	Saint Kitts and Nevis	North America
+ctr136	Saint Lucia	North America
+ctr137	Saint Vincent and the Grenadines	North America
+ctr138	The Bahamas	North America
+ctr139	Trinidad and Tobago	North America
+ctr140	United States of America	North America
+ctr141	Argentina	South America
+ctr142	Bolivia	South America
+ctr143	Brazil	South America
+ctr144	Chile	South America
+ctr145	Colombia	South America
+ctr146	Ecuador	South America
+ctr147	Guyana	South America
+ctr148	Paraguay	South America
+ctr149	Peru	South America
+ctr150	Suriname	South America
+ctr151	Uruguay	South America
+ctr152	Venezuela	South America
+\.
+
+
+--
+-- Data for Name: dish_label; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.dish_label (dish_id, label_id) FROM stdin;
+\.
+
+
+--
+-- Data for Name: dishes; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.dishes (dish_id, dish_name, category_id, country_id, ranking, city, average_rating, "desc", image, link) FROM stdin;
+dis001	Pizza Napoletana	cat052	ctr090	1	NAPLES	\N	Italys most emblematic culinary creation, the genuine pizza Napoletana is made with just a few simple ingredients and prepared in only two variations marinara, the basic Neapolitan pizza topped with a tomato-based sauce flavored with garlic and oregano, and margherita, which is topped with tomatoes, mozzarella, and fresh basil leaves, a delicious combination whose colors are said to represent the Italian flag. The crust is very thin at the base, and the dough puffs up on the sides, which results in airy crust that should have typical charred leopard spots if baked properly. The origins of this iconic Neapolitan dish can be traced to the early 1700s, when what we know today as pizza marinara was first described by Italian chef, writer, and philosopher Vincenzo Corrado in his treatise on the eating habits of the people of Naples. Almost 200 years later, in 1889, the premier Neapolitan master pizzaiolo Raffaele Esposito added mozzarella to the mix and invented the margherita, which is now generally cited as the first modern pizza. Originally dubbed la pizza tricolore, Espositos creation is said to have been made in honor of and named after Margherita of Savoy, the Queen consort of the Kingdom of Italy, who was visiting Naples at the time. In 2010, as one of Italys most popular foods worldwide, pizza Napoletana was officially recognized by the European Union and granted the designation of Traditional Specialty Guaranteed. And remember, a good pizza Napoletana doesnt need any additions other than the designated toppings.	https://www.tasteatlas.com/images/dishes/dfdf97034d724fe4a93591a6b3fcc49b.jpg?mw=1300	https://www.tasteatlas.com/pizza-napoletana
+dis002	Kahvalt	cat053	ctr041	2	\N	\N	Kahvalt refers to breakfast in Turkish, and its an essential and often lavish meal in Turkish culture. The word "kahvalt " is derived from two words: "kahve" (coffee) and "alt " (under/before), which translates to "before coffee." Its a meal that traditionally happens before coffee is consumed, as in the Ottoman times, coffee was considered a beverage to be enjoyed after meals rather than during or before them. Traditional Turkish kahvalt showcases an expansive array of dishes, typically blending a multitude of flavors, textures, and food categories. The table is adorned with both sweet and savory items, spanning cheeses, olives, vegetables, local breads, eggs, b rek, baklava or other sweet pastries, and more, accompanied by hot beverages such as Turkish tea ( ay). It is celebrated for its diversity, abundance, and the act of bringing individuals together, often extending for several hours, particularly during weekends and holidays.	https://www.tasteatlas.com/images/dishes/7be46070a4b74e21846e07b608102003.jpg?mw=1300	https://www.tasteatlas.com/kahvalti
+dis003	Picanha	cat054	ctr143	3	\N	\N	Picanha is a fresh cut of beef thats especially popular and highly prized in Brazil. In the US, its called sirloin cap, and in the UK, its known as the rump cap. Picanha is situated on the back side of the animal, above the butt, where it sits on a fat cap. Its mostly used for churrasco the meat is first grilled, then sliced off of a skewer. This cut holds very little fat in the meat, so it must be cooked perfectly in order not to make it tough. In Brazil, every churrasco has picanha, and all of the best churrascarias feature picanha on their menus. The name picanha is derived from the word picana, referring to the ranchers pole used for herding cattle in Portugal and Spain. The technique was brought over to Brazil where the word picanha was used to refer to the part of the cow that was poked by ranchers with the pole.	https://www.tasteatlas.com/images/dishes/241e35fbdc0846d08c4260bc94c0541a.jpg?mw=1300	https://www.tasteatlas.com/picanha
+dis004	Parrilla	cat055	ctr141	4	\N	\N	Parrilla is an Argentine word with two meanings it can be used to describe a typical Argentine steakhouse restaurant, or it can denote a metal grill used for preparing the meat and fish. The metal grill is a part of traditional asado barbecues. It comes in many shapes and sizes, but it typically consists of a main grill with a firebox (called brasero) on the side. Firewood or charcoal are loaded into the firebox, and once the embers drop to the bottom, the coals are placed under the main grill. The plate is often tilted on a decline so that the excess juices can drip downward in order not to cause any flare-ups. Parrillas can be found in numerous homes and restaurants in Argentina, and the meat grilled on it typically includes chitterlings, morcilla blood sausages, chorizo sausages, salchichas parrilleras, ribs, sirloin, skirt steaks, and tenderloin.	https://www.tasteatlas.com/images/dishes/e9dcce95767845c6920253fc1b44db2d.jpg?mw=1300	https://www.tasteatlas.com/parrilla
+dis005	Xiaolongbao	cat015	ctr008	5	SHANGHAI	\N	Xiaolongbao are soup-filled dumplings originating from the 19th-century Nan Xiang, what is today Shanghais Jiading district. It is believed that the first form of xiaolongbao was sold by Huang Mingxian, a shop owner who wanted to evolve the classic dumpling due to the increased competition of neighboring vendors. The dumplings are usually filled with a large volume of soup and minced pork, then steamed in a specially-designed bamboo steamer. Sometimes, xiaolongbao can also be filled with crab or shrimp meat. The dough is quite thin, and it is believed that it should be thicker than tang bao, but not as thick as shen jian bao. It is recommended to serve xiaolongbao dumplings while they are still hot, preferably with a vinegar and ginger dip on the side.	https://www.tasteatlas.com/Images/Dishes/30dd0ba19548459885ba41337e739e5c.jpg?mw=1300	https://www.tasteatlas.com/xiaolongbao
+dis006	Butter garlic naan	cat056	ctr010	6	\N	\N	Butter garlic naan is a traditional flatbread and one of the most popular versions of naan. Its made with flour, baking powder, salt, sugar, and dahi. Once the dough has been baked in a hot tandoor oven, the golden naan is taken out and brushed with butter or ghee, then topped with minced garlic. Its recommended to serve butter garlic naan with a variety of Indian dishes such as curries, butter chicken, dal makhani, malai kofta, or shahi paneer.	https://www.tasteatlas.com/images/dishes/9e5711f517764fcdbe8c1c6b51638cd3.jpg?mw=1300	https://www.tasteatlas.com/butter-garlic-naan
+dis007	Pastel de Bel m	cat027	ctr105	7	BEL M	\N	Pastel de Bel m is a traditional egg custard tart and a predecessor to the famous pastel de nata. The tarts are made with a pastry shell thats filled with a combination of milk, eggs, sugar, lemon, and cinnamon. The first recipe for pastel de Bel m dates back to 1837 when it was produced by the monks of the Jer nimos monastery. Only the custard tarts produced at the F brica Past is de Bel m can be called pastel de Bel m, while all the others, produced by other patisseries in Lisbon are called pastel de nata. Regardless of the name, these tarts can be served hot or cold and in 2009, The Guardian listed pastel de Bel m as one of the 50 best things to eat in the world.	https://www.tasteatlas.com/images/dishes/55e28517babd479ab6980d547be90d29.jpg?mw=1300	https://www.tasteatlas.com/pastel-de-belem
+dis008	Quesabirria	cat046	ctr133	8	TIJUANA	\N	Quesabirria is a popular Mexican street food dish, a fusion between birria (a traditional Mexican meat stew) and quesadillas. The dish originates from Tijuana and typically consists of large tortillas filled with birria-style cooked meat (usually beef) and a generous amount of melted cheese. The tortillas are cooked on the stove until the cheese melts and the outside of the tortilla becomes crispy. Quesabirria is often accompanied by a side of broth, or consom , for dipping, adding another layer of flavor to the dish.	https://www.tasteatlas.com/images/dishes/e99e078011b14a6b842ae57c66481da9.jpg?mw=1300	https://www.tasteatlas.com/quesabirria
+dis009	Aji criollo	cat034	ctr149	9	\N	\N	Aji criollo or salsa de aji is a spicy Peruvian salsa prepared with a combination of yellow aji chili peppers and oil. The sauce is usually pleasantly spicy, but it can also be extremely hot and spicy, so one should be careful when tasting it for the first time. The sauce is traditionally used as an accompaniment to various meat and fish dishes, but its also often used as a dip for french fries and teque os. Although it shares the name with an Ecuadorian sauce, those two differ significantly, both in appearance (Ecuadorian version is green), and in the method of preparation and ingredients used.	https://www.tasteatlas.com/images/dishes/671006629fca4aefa823646c10c4c5f8.jpg?mw=1300	https://www.tasteatlas.com/aji-criollo
+dis010	Tonkotsu ramen	cat023	ctr015	10	FUKUOKA	\N	Tonkotsu is a unique style of ramen consisting of an extremely rich, fatty pork broth, fresh noodles, soft-yolk eggs, and tender pork belly that melts in the mouth. It is so popular and special that it could be a dish of its own, not just a ramen style. The ramen is usually topped with scallions for brightness and vibrancy, bamboo shoots for a crunchy, nutty flavor, nori seaweed for crispness, and sweet corn for an even better flavor. The rich broth is developed by cooking the pork bones for a very long time, until the collagen and fat dissolve, resulting in a unique, creamy texture of the dish. In recent years, it has been quite trendy to add some mayu (burnt sesame or garlic oil) to the dish, giving it an even richer, bolder flavor.	https://www.tasteatlas.com/Images/Dishes/f3cb11ab70d746d9aaac7cde4c6b744c.jpg?mw=1300	https://www.tasteatlas.com/tonkotsu-ramen
+dis011	Shawarma	cat046	ctr021	11	\N	\N	Marinated and spit-roasted, shawarma is a delicious Middle Eastern meat treat whose origins can be traced back to the Ottoman Empire era, while its name stems from the Arabic pronunciation of the Turkish word evirme (lit. to turn; turning), and refers to the rotating skewer on which the meat is cooked. Shawarmas are made with either lamb, turkey, chicken, beef, or a mix of different meats which are slow-cooked for hours and basted in their own juices and fat, gaining an incomparable succulence, but the real secret to a perfect shawarma is in the marinade. Depending on the variety, the meat must be marinated for at least a day, preferably two, especially when using beef. These marinades are either yogurt or vinegar-based and typically include spices and flavorings such as cinnamon, cloves, cardamom, nutmeg, black pepper, allspice, dried lime, spicy paprika, garlic, ginger, lemon, bay leaf, and sometimes even orange slices. READ MORE	https://www.tasteatlas.com/images/dishes/a2a68bb8904548639a51bbb609c50821.jpg?mw=1300	https://www.tasteatlas.com/shawarma
+dis012	Ch teaubriand	cat057	ctr083	12	\N	\N	Contrary to popular belief, the word Ch teaubriand does not refer only to a cut of beef, but to a method used to grill or roast a thick cut of beef tenderloin. The steak was originally prepared by a chef named Montmireil in 1822 for a French author, diplomat, and statesman Francois Ren Vicomte de Chateaubriand. When served in France, Ch teaubriand will always be accompanied by a sauce most often either a traditional red wine sauce or B arnaise sauce. The steak is usually served with a side of roasted new potatoes or tiny chateau potatoes.	https://www.tasteatlas.com/images/dishes/e52f4ecd217a4e8abea8a9dd43199eaa.jpg?mw=1300	https://www.tasteatlas.com/chateaubriand
+dis013	Chikin	cat058	ctr035	13	\N	\N	Chikin, or Korean fried chicken (KFC), is a popular dish in Korean cuisine that consists of battered and deep-fried chicken pieces. Fried chicken was introduced to South Korea by the American military during the Korean War in the 1950s. American soldiers brought the concept of fried chicken to the country, and it quickly gained popularity among Koreans. In the 1970s and 1980s, the fried chicken industry in South Korea expanded with the emergence of various fried chicken restaurant chains. These chains started experimenting with different flavors and sauces, moving beyond the original, stripped-down version of fried chicken. Finally, at the beginning of the 21st century, Korean fried chicken gained international popularity, mostly because of its unique preparation methods, distinct flavors, and crunchy texture. A few key characteristics differentiate Korean fried chicken from other types of fried chicken. READ MORE	https://www.tasteatlas.com/images/dishes/ae4a5cc2223a4bb7bd7c81e743eca09e.jpg?mw=1300	https://www.tasteatlas.com/chikin
+dis014	Pollo a la brasa	cat059	ctr149	14	LIMA	\N	Pollo a la brasa is a popular Peruvian dish consisting of crunchy and juicy charcoal-grilled chicken that is traditionally served with French fries and salads. Today, it is one of the most consumed meals in Peru, so much that 27 million Peruvians eat it daily. The dish was first invented in Lima in the 1950s, when it was seasoned only with salt, but nowadays the chicken is often marinated in a special combination of ingredients, usually consisting of vinegar, salt, pepper, rosemary, chili, and dark beer.	https://www.tasteatlas.com/Images/Dishes/f785d68dec86440f84fe510a351b5830.jpg?mw=1300	https://www.tasteatlas.com/pollo-a-la-brasa
+dis015	Kaisendon	cat060	ctr015	15	\N	\N	One of the most popular fresh seafood one-bowl donburi dishes, kaisendon consists of thinly sliced, assorted raw seafood called sashimi laid over freshly steamed rice. What kind of sashimi will be used in a kaisendon dish is not fixed, but the seafood selection depends on both location and season, and most often includes maguro (tuna), tai (sea bream), ama ebi (deep-water shrimps), hotate (scallops), uni (sea urchin), kani (crab), and sometimes even marinated ikura (salmon roe). Apart from sashimi, kaisendon is typically topped with toasted nori seaweed, myoga ginger, shiso or Japanese basil, cucumber, onions, and either fresh or pickled ginger. Before being placed on a bed of steamy rice, all of the ingredients are drizzled with wasabi-laced soy sauce, and the kaisendon bowl is lastly garnished with some white sesame seeds, white radish sprouts, and wasabi paste. In Japan, fresh seafood donburi dishes have a huge following; light yet nutritious, they make for a great lunch option and can be found at any sushi restaurant.	https://www.tasteatlas.com/Images/Dishes/4039121fa808484ba6229f8f8973fefd.jpg?mw=1300	https://www.tasteatlas.com/kaisendon
+dis016	Shashlik	cat061	ctr107	16	\N	\N	Shashlik is the name for a traditional Central and West Asian barbecue consisting of marinated, skewered, and grilled chunks of meat such as lamb, beef, or pork, depending on regional and religious preferences. Lamb, beef, or pork is usually combined with chunks of vegetables such as bell peppers, onions, mushrooms, or tomatoes. The meat is typically marinated overnight in vinegar, herbs, spices, and dry wine. In Russia, barbecue is traditionally reserved for men, who are in charge of the whole grilling process, while the women are usually busy slicing vegetables and setting the tables. Shashlik is traditionally prepared for events with a large number of people gathered around the fire, cooperating and socializing in the process, making the dish a communal affair. Because the origins of the dish lie between Turkey and Russia, many believe that the name is derived from the Turkish word shish, meaning skewer. In Georgia, shashlik is known as mtsvadi.	https://www.tasteatlas.com/Images/Dishes/d7f03d04d7de4e7ba0b26b8ef368f47e.jpg?mw=1300	https://www.tasteatlas.com/shashlik
+dis017	Phanaeng Curry	cat062	ctr040	17	\N	\N	Phanaeng curry is a variety of Thai curry that is characterized by a thick texture and salty-sweet peanut flavor. It consists of meat that is stewed with coconut milk, panang curry paste, makrut lime leaves, fish sauce, and palm sugar. The meat used in phanaeng curry is usually beef, chicken, duck, or pork, and the dish traditionally does not include any vegetables. The name of the dish is derived from the word panang, meaning cross, which refers to the ancient way of preparing chicken with its legs crossed and set in an upright position. Though the origins of phanaeng curry are somewhat murky, it is often associated with the Malaysian state of Penang, but there is little evidence to support this claim. However, the earliest known recipe is found in Maawm Sohm Jeens book Tam Raa Gap Khao, dating back to 1890. Once finished, the curry is garnished with thinly sliced makrut lime leaves and Thai spur chili slices, and a bit of coconut milk can be poured over the curry.	https://www.tasteatlas.com/Images/Dishes/fe7489959eb04196b52925b11480137e.jpg?mw=1300	https://www.tasteatlas.com/phanaeng-curry
+dis018	Roti canai	cat056	ctr022	18	\N	\N	Roti canai is a traditional pan-fried flatbread made with flour, water, eggs, and fat of Indian origin, but mainly associated with Malaysia, and surrounding countries like Indonesia, Brunei, and Thailand. The dough for roti canai is repeatedly folded, so the final product has a layered texture, a soft interior, and a crispy outer layer. The most common fat used in roti canai is ghee, the traditional Indian clarified butter. It is believed that the dish originated in India when the Indian laborers who migrated to Malaysia brought the recipe and the tradition of preparing this crispy pastry to the foreign country. Usually, it is served plain in its traditional round form, as an accompaniment to curries. READ MORE	https://www.tasteatlas.com/Images/Dishes/f2879064246e4cc8abce0ed0d865f8ce.jpg?mw=1300	https://www.tasteatlas.com/roti-canai
+dis019	Esquites	cat046	ctr133	19	\N	\N	Esquites is the name for popular Mexican street food that is usually consumed as a snack on the go. It is made with mature corn kernels, epazote, and salt. Corn is either grilled and shaved, or cooked with epazote, and it is then typically served in small cups, topped with chili peppers, lime juice, or cotija cheese. Sour cream, mayonnaise, and pequin chili powder are sometimes served on the side so everyone can add the ingredients according to personal preferences. The name esquites is derived from the Nahuatl word izquitl, meaning toasted corn.	https://www.tasteatlas.com/images/dishes/5eb6dea2e1e3455ba2c07248bbc71018.jpg?mw=1300	https://www.tasteatlas.com/esquites
+dis020	Toum	cat036	ctr021	20	\N	\N	Toum is an authentic Lebanese and Syrian garlic paste. It is made with whole garlic cloves, which are slowly crushed using a mortar and pestle, or nowadays simply ground in a food processor. During this process, oil (preferably neutral oil such as canola, or the flavorful olive oil) is gently added to create a homogeneous garlic paste with an unusual, fluffy texture. Finally, salt and lemon juice are added to the mix, giving the paste a salty flavor and ivory color. Toum is used for marinades, sauces, and dips, and can enrich any meal. It is usually combined with chicken in traditional dishes such as roast chicken, chicken skewers or chicken shawarma, but is also commonly combined with beef, lamb, or goat meat. It is often used as a spread in the famous Lebanese pita sandwiches and wraps, or as a simple spread over bread, which is served as a starter or a snack. Toum can be made in advance and can keep up as long as three weeks. Since it is highly versatile, numerous ingredients, such as mint, can be added to diversify its flavor and texture. This delightful, pungent garlic spread and its adaptations can also be found in eastern Mediterranean countries, Egypt, and Iraq.	https://www.tasteatlas.com/images/dishes/4e8e0479374f4e29961bc95f07049786.jpg?mw=1300	https://www.tasteatlas.com/toum
+dis021	Pan de bono	cat005	ctr145	21	\N	\N	Pan de bono is a traditional bread consisting of cassava starch, cornmeal or corn flour, queso fresco, eggs, and sugar. The bread is shaped into bagels or balls that are slightly larger than golf balls. Pan de bono is similar to other South American cheese breads like pan de queso, difference being added conr flour or cornmeal, and a hint of sweeteness due to the addition of sugar. It is usually served warm with a cup of hot chocolate on the side. Some claim that the name pan de bono was created after an Italian baker in Cali who used to yell pane del buono (good bread), while others say that it is named after a place called Hacienda El Bono, where it was first made.	https://www.tasteatlas.com/images/dishes/955c42f1f59c4589bebec13335ddfb06.jpg?mw=1300	https://www.tasteatlas.com/pan-de-bono
+dis022	Central Texas-Style Barbecue	cat055	ctr140	22	TEXAS	\N	Central Texas-style barbecue originated in the Czech and German meat markets in the late 19th century. This barbecue style is typically associated with cooking brisket (the fattier portion is called point, while the leaner portion is called flat) low and slow, usually over post oak fire. The meat is seasoned with salt, pepper, and maybe a bit of cayenne or garlic powder. It is then cooked in offset smokers, while the heat and smoke from the fire go across the meat, adding an irresistible smoky flavor to the brisket (although shoulder clod, chuck short ribs, and larger short ribs are also popular). The meat is carved in front of the customer, and it is traditionally served on butcher paper (as an homage to the meat markets of yore), most often without any type of barbecue sauce on the side.	https://www.tasteatlas.com/images/dishes/37183985d0bb445a91d2e035b6d6eaaa.jpg?mw=1300	https://www.tasteatlas.com/central-texas-style-barbecue
+dis023	Otoro nigiri sushi	cat060	ctr015	23	\N	\N	Otoro nigiri sushi is a traditional type of nigiri sushi. It consists of hand-pressed sushi rice thats topped with slices of fatty cuts of tuna. Different cuts of tuna are classified as otoro (fatty), chutoro (medium-fatty), and akami (red meat). The dish has a rich flavor and a melt-in-the-mouth texture that makes it quite expensive. Traditionally, this type of sushi is eaten by hand in a single bite. Its usually accompanied by soy sauce, wasabi, or pickled ginger (gari) on the side.	https://www.tasteatlas.com/images/dishes/84299bcc3447446c8c5d3aeadc7ef3ac.jpg?mw=1300	https://www.tasteatlas.com/otoro-nigiri-sushi
+dis024	Bife de chorizo	cat063	ctr141	24	\N	\N	Bife de chorizo is an Argentinian beef cut equivalent to the US New York strip steak, strip steak, sirloin, and top loin traditionally used for asado. It is a thick, juicy steak with a sizable layer of fat on top. It comes in several varieties, namely the bife de chorizo angosto (thin sirloin) and the bife de chorizo mariposa (butterflied sirloin). And if you want to judge the quality of someones barbecue or the quality of a barbecue place, ask for this steak. Also, if you get one with more than a generous amount of fat, know youve been served a cheap and bad-quality one.	https://www.tasteatlas.com/images/dishes/913891c87f814c73aaa1aae404111922.jpg?mw=1300	https://www.tasteatlas.com/bife-de-chorizo
+dis025	Trigona panoramatos	cat027	ctr086	25	THESSALONIKI	\N	Trigona panoramatos is a traditional sweet pastry originating from the outskirts of Thessaloniki. These crispy and buttery triangular (cone-shaped) phyllo pastries are typically soaked in syrup and filled with creamy custard. The custard is usually made with a combination of egg yolks, flour, butter, milk, sugar, vanilla, and heavy cream. The phyllo triangles are baked until golden brown, dipped in cold syrup consisting of sugar and water, and then filled with the chilled custard. Trigona is often garnished with chopped nuts before consumption.	https://www.tasteatlas.com/images/dishes/0628f715791d465daf14661d9a48d50c.jpg?mw=1300	https://www.tasteatlas.com/trigona-panoramatos
+dis026	Croissant	cat027	ctr083	26	\N	\N	These flaky, golden-colored, crescent-shaped pastries are best made with pure butter and a slightly sweet yeast dough. If made properly, the yellow-white interior should be just the slightest bit elastic when pulled from the center, ready to be covered with a pad of butter or some fresh jam. Experts agree that the croissant was heavily influenced by Austrian kipfels. This pastry originated in 1683 as a celebration of the Austrian victory over the Ottoman Empire, its shape supposedly mimicking the crescent moon found on the Turkish flag. However, the croissant became French the moment people began to make it with puff pastry, a French innovation. Today, French croissants come filled with chocolate, jam, raisins, or even cream cheese. Sold fresh at numerous French boulangeries, they are mainly consumed as a breakfast item.	https://www.tasteatlas.com/Images/Dishes/c56fcbeaa87e4bfd9f178daeb4cb47a5.jpg?mw=1300	https://www.tasteatlas.com/croissant
+dis027	Carbonara	cat026	ctr090	27	ROME	\N	The carbonara we know today is prepared by simply tossing spaghetti with guanciale (cured pork jowl), egg yolks, and Pecorino Romano cheese. Despite its simplicity, this dish remains one of Romes favorites, equally popular throughout the country. Even though carbonara is considered a typical Roman dish today, its origins are quite vague and often disputed. The name is said to have been derived from the carbonari, woodcutters and charcoal-makers who lived in the Appenine mountains northeast of Rome, and who supposedly cooked their pasta over a hardwood charcoal fire and tossed it with eggs and cheese. Another popular theory claims that carbonara was invented after the liberation of Rome in 1944, when food shortages were so severe that Allied troops distributed bacon and powdered eggs, which the local population would then mix with water to make pasta sauce.	https://www.tasteatlas.com/images/dishes/e2ccb480947b455c98a0b01228eefea3.jpg?mw=1300	https://www.tasteatlas.com/carbonara
+dis028	Tagliatelle al rag alla Bolognese	cat026	ctr090	28	BOLOGNA	\N	Tagliatelle al rag alla Bolognese is a traditional dish originating from Bologna, consisting of tagliatelle pasta and a rich rag made with a mixture of minced beef and pork, and tomatoes as key ingredients. Even though they are often thought to be synonymous, tagliatelle al rag one of Bolognas signature dishes bears little or no resemblance to the dish known as spaghetti Bolognese in the rest of the world. In fact, the world famous Italian rag alla Bolognese meat sauce is never served with spaghetti in Bologna. Instead, when it isnt served over fresh tagliatelle, you will most often find it topping a bed of some other other ribbon-like pasta, such as fettuccine or pappardelle. Regardless of the type of pasta used, what makes or breaks this classic Emilian dish is the rag itself. Experts nowadays tend to consider the recipe for rag alla Bolognese registered by the Italian Academy of Cuisine in October 1982 the most authentic version. However, chances are that every restaurant and trattoria in Emilia Romagna dishes out its own version of tagliatelle al rag , and each version is surely worth trying.	https://www.tasteatlas.com/images/dishes/cf89d353646b469091094e6420d81360.jpg?mw=1300	https://www.tasteatlas.com/bolognese
+dis029	Guacamole	cat012	ctr133	29	\N	\N	Guacamole is a world-famous buttery delicacy dating back all the way to the Aztec empire of the 1500s. Its a healthy blend of ripe, mashed avocados, onions, chiles, optional tomatillos and selected seasonings such as sea salt and coriander. The star of this incredibly simple dish is the avocado, high in unsaturated fat, potassium, vitamins, minerals and protein, its name stemming from the Aztec ahuacatl, meaning testicle or testicle tree, which is why it was believed that it was an aphrodisiac by the Aztecs. Guacamole is sometimes prepared in the molcajete, a traditional Mexican mortar and pestle where onions, chiles, and salt are ground to a paste and added to the coarsely mashed avocados. Of course, guacamole is only as good as the avocados it is prepared with, and among the best are the nutty and creamy Hass and smooth Fuerte avocados. It is usually accompanied by corn chips, nachos or tortillas on the side, so guacamole is typically enjoyed as a dip. Regardless of its position on the table, the only important thing is to serve it fresh before it oxidizes and changes its vivid green color to a darker brown hue.	https://www.tasteatlas.com/Images/Dishes/cd8d563ba33a4486abaa5b2d615f9b5d.jpg?mw=1300	https://www.tasteatlas.com/guacamole
+dis030	Tiramis	cat011	ctr090	30	FRIULI-VENEZIA GIULIA	\N	Even though tiramis is actually a fairly recent invention, this dessert of coffee-soaked ladyfingers layered with mascarpone cream enjoys an iconic status among Italian desserts. Its name stems from the phrase tirami s , an Italian expression which literally means pick me up, a reference to the uplifting effects of sugar, liquor, and coffee. The origins of tiramis are heavily disputed between Veneto and Friuli-Venezia Giulia regions, but it is often suggested that the first was made in Veneto in the early 1960s. The earliest documented recipe for tiramis (interestingly, without alcohol!) was printed in the 1981 spring edition of Vin Veneto magazine in an article on coffee-based desserts by Giuseppe Maffioli, a renowned food critic and member of the Italian Academy of Cuisine. However, in August 2017, Friuli-Venezia Giulias tiramisu was officially added to the list of traditional regional dishes, but a Veneto local won the Tiramisu World Cup in November 2017, so the playing field is somewhat levelled once again. Regardless of these disputes, the perfect tiramis should always deliver a serious caffeine kick from a shot of strong espresso, while brandy-fortified Marsala wine adds a nice sweet buzz. In 2021, Ado Campeol, the owner of the restaurant where tiramis is widely thought to have been invented, has died.	https://www.tasteatlas.com/Images/Dishes/d382e315805b49a3afddbbf1232c8292.jpg?mw=1300	https://www.tasteatlas.com/tiramisu
+dis031	Lasagne alla Bolognese	cat026	ctr090	31	BOLOGNA	\N	This rich and filling piatto unico (lit. single plate; one-dish meal) is traditionally made from layers of homemade, typically spinach-flavored fresh egg lasagna pasta that is topped with b chamel sauce and a rich meat sauce called rag alla Bolognese. Lastly, lasagne alla Bolognese is generously sprinkled with the Emilian king of cheeses, Parmigiano-Reggiano, and baked until tender on the inside with a perfectly crisp, browned top. This oven-baked classic is a typical dish of the Emilia-Romagna region, and of the city of Bologna specifically. However, it has become so popular over time that it now enjoys a position as a worldwide symbol of Italian cuisine. Unfortunately, as is often the case with timeless dishes, changes to the original recipe or the substitution of lower-quality ingredients cause many renditions of lasagne alla Bolognese that fail to live up to the splendor of the original. Interestingly enough, in many bolognese households, there is a special deep oven casserole with handles called ruola, made of aluminum and used for baking lasagne alla bolognese.	https://www.tasteatlas.com/images/dishes/d8cf5af177274c3d9760ed59e92d3ec0.jpg?mw=1300	https://www.tasteatlas.com/lasagne-bolognese
+dis032	Dondurma	cat064	ctr041	32	KAHRAMANMARA	\N	Turkish ice cream is believed to originate from the city of Mara hence the name and what really sets it apart from other varieties is its resistance to melting and a particularly dense, chewy texture. These qualities are brought by adding two thickening agents to the basic milk and sugar mixture: Arab gum, also known as mastic resin, and salep a type of flour made from the root of the early purple orchid. In fact, in the Kahramanmara region, ice cream typically contains distinctly more salep than usual, which is why it is sometimes called kesme dondurma from the Turkish kesmek, meaning to cut which is the reason why this ice cream variety is usually eaten with a knife and fork. In T rkiye, ice cream is commonly sold in the streets but also in specialized dondurmas shops, whose owners will often go out of their way by producing their own salep, apart from using exclusively natural flavorings and milk from goats fed only with thyme, orchid flowers, and milkvetch.	https://www.tasteatlas.com/images/dishes/fe96f8fb9ec848bfb3dd109472d1c188.jpg?mw=1300	https://www.tasteatlas.com/maras-dondurmas
+dis033	Karaage	cat065	ctr015	33	\N	\N	Also known as dry-frying, karaage is a Japanese cooking technique in which various foods are first lightly coated in arrowroot starch, then deep-fried. The use of arrowroot starch preserves the natural water content of fried foods and produces a crispy outer surface, but alternatively, other coating ingredients such as wheat flour, tapioca, or potato starch can also be used. Karaage can be used for frying various meats and fish, but it is most often associated with chicken, and involves a special variant called tatsutaage, where pieces of chicken are first marinated in a mixture of sake, soy sauce, and sugar which are then lightly covered with arrowroot starch and deep-fried. This method makes the meat succulent on the inside and particularly crispy on the outside. If not specified otherwise, karaage usually refers to fried chicken, but apart from chicken, the technique is sometimes used with other ingredients such as askarei (flounder), ika (bits of squid), and gobo (burdock root). Japanese karaage dishes are usually seasoned with garlic and ginger, and served with soy sauce on the side. They are a staple of informal Japanese gastropubs called izakayas, casual places for after-work drinks and snacks, but they are also available freshly fried as take-out food in numerous supermarkets and convenience stores.	https://www.tasteatlas.com/Images/Dishes/e59670f2af424cce982da41273b5d56e.jpg?mw=1300	https://www.tasteatlas.com/karaage
+dis034	Barbacoa	cat065	ctr133	34	\N	\N	Barbacoa is a term that is mostly associated with Mexico and refers to an ancient technique of cooking meat in underground ovens. There are numerous regional varieties, which usually differ in the type of meat or the cut, but the most common options include lamb, goat, or mutton and animal heads are traditionally regarded as a favorite barbacoa specialty. Mexican barbacoa involved digging a hole in the ground, lining the bottom and the sides with rocks, and adding a layer of burning wood, which would then be covered with agave leaves. They would then place the meat on the leaves, and the hole would be covered and sealed. An additional flame would be lit on top to keep animals away, and the meat would be left to cook overnight. Throughout history, the word barbacoa has been associated with numerous meanings. READ MORE	https://www.tasteatlas.com/Images/Dishes/c0e73281376f44eba55501137ea1d7fd.jpg?mw=1300	https://www.tasteatlas.com/barbacoa
+dis035	Dulce de leche	cat011	ctr141	35	\N	\N	Dulce de leche is a type of condensed milk sweet from Argentina and Uruguay. Traditionally, it is made by heating sweetened cows milk until it caramelizes and achieves a thick consistency, enough to act as a spread, a filling for cakes and pies, or an ice cream topping. The legend says that dulce de leche originated in Buenos Aires in 1829, when a maid of Argentinian leader Juan Manuel de Rosas was preparing la lechada by heating sugar and milk. As she left it on the fire a bit longer than usual, she noticed it had become a dark brown substance, and thats how dulce de leche was born. Other food historians claim it was first created in 1804 by Napoleons cooks, while others theorize the recipe originated in Indonesia. Either way, it spread through Latin America, and nowadays almost every country in South and Central America has its unique variation. Still, only Argentina and Urugay call it "dulce de leche", and dispute over the exact place of origin. Today, dulce de leche is sometimes flavored with vanilla, lemon, or cinnamon, and is used to flavor candies, cakes, cookies, waffles, and ice creams.	https://www.tasteatlas.com/images/dishes/ee778683c16549f690b2d350e8cefbcc.jpg?mw=1300	https://www.tasteatlas.com/dulce-de-leche
+dis036	Carnitas	cat066	ctr133	36	MICHOAC N	\N	Originating from the Mexican state of Michoac n, carnitas is a flavorful dish made from pork (usually front sections or pork shoulder) that is braised, roasted, or slow-cooked in its own fat for a long time until fully tender and succulent. The heat is then turned up until the meat is crispy on the exterior and can be shredded. Carnitas, which translates to little meats, is often served with tortillas, accompanied by salsas, beans, guacamole, lime, or fresh vegetables. In Michoac n, carnitas are found everywhere from street stalls to upscale restaurants, although the dish is more often made for special occasions such as Christmas, anniversaries, or birthdays. Tender, fresh, and tasty, carnitas are a special treat for meat lovers worldwide.	https://www.tasteatlas.com/Images/Dishes/d21c3f479a6c4591884a3d813a4cbc3d.jpg?mw=1300	https://www.tasteatlas.com/carnitas
+dis037	P czki	cat027	ctr104	37	\N	\N	P czki are traditional Polish doughnuts are made from yeast-leavened dough thats rich in eggs, sugar, milk, and fats. A touch of spirit, such as rum, is often added to the dough for p czki to prevent the absorption of oil during frying. They are darker and larger than their Austrian cousin krapfen and often ball-like in shape rather than round. Traditional fillings are plum preserve and rose jam. They are placed at the center of the dough and then wrapped around it to make a ball-like shape. P czki are much more than just a tasty treat; they hold cultural significance in Poland and among Polish communities worldwide. Consuming p czki on the last Thursday before Lent begins is a centuries-old tradition, marking a time to indulge in rich foods before the fasting period of Lent. The popularity of p czki has spread beyond Poland, with many bakeries in the United States, especially those in areas with large Polish populations, offering them in the lead-up to Lent.	https://www.tasteatlas.com/images/dishes/79ac7927383541fdbf5a64476e6921cc.jpg?mw=1300	https://www.tasteatlas.com/paczki
+dis038	Samgyeopsal	cat066	ctr035	38	\N	\N	Samgyeopsal is a South Korean delicacy consisting only of pork belly, the most expensive cut of pork in the country. It is so popular in South Korea that the residents eat it approximately once every four days. The name of the dish consists of three words: sam (three), gyeop (layered), and sal (meat), so it can be literally translated as three-layered meat, referring to the three visible layers of the meat. It is believed that the dish became popular in the 1960s, when the price of soju decreased and people needed a dish to go with it, so they chose pork belly due to its low price at the time. Whether at home or in restaurants, samgyeopsal is traditionally cooked at the table in a special pan which is designed to let the fat run off the sides of it. The dish is most commonly accompanied by lettuce, raw garlic, green chili peppers, kimchi, and green onions. Two dipping sauces are traditionally served on the side: one is ssamjang, consisting of sesame oil, chili paste, and soybean paste, and the other is gireumjang, consisting of sesame oil, salt, and black pepper.	https://www.tasteatlas.com/Images/Dishes/c14230796c20417186ae4b39681094be.jpg?mw=1300	https://www.tasteatlas.com/samgyeopsal
+dis039	Steak au poivre	cat057	ctr083	39	\N	\N	Steak au poivre is a French dish consisting of a beef steak that is coated in crushed peppercorns and fried. It is served with a sauce that is made in the same pan that the steak was cooked in. Typically, the dish is accompanied by potatoes and a salad on the side. According to Francis Marie, a famous steak specialist, the dish originated in the 19th century in Normandys bistros, where men took women for late dinners of steak au poivre, due to the peppers purported aphrodisiac properties. Numerous chefs claimed the invention of the dish, the most famous of them being mile Lerch, the owner of Restaurant Albert on the Champs- lys es, who stated that he first made the dish in 1930. Regardless of the inventor, steak au poivre remains a staple of typical French cuisine.	https://www.tasteatlas.com/images/dishes/0d5c54eb9cd64db6a2832aeb115bb57d.jpg?mw=1300	https://www.tasteatlas.com/steak-au-poivre
+dis040	Beijing kao ya	cat067	ctr008	40	BEIJING	\N	The history of Peking duck goes back to Chinas Yuan Dynasty of the 13th century. Bianyifang, Beijings oldest restaurant specializing in Peking duck has been in business since the Jiajing reign of the 16th century, serving as a testament to the popularity of this succulent, tantalizing dish. The duck is cooked until the skin turns golden and crispy and the meat becomes tender, slightly sweet, and moist. Both the meat and the skin are then folded in thin pancakes or steamed white buns. To make an authentic Beijing kao ya, the duck must be a white feathered American Pekin, hung for 24 hours, and pumped with air through a small puncture between the breasts and wings. It is usually brushed with a mixture of ginger, oil, hoisin sauce, honey, and rice vinegar, then vertically hung and slowly roasted to perfection. When the dish is served, the skin will often come first as an appetizer, followed by the meat which is accompanied by cucumbers, scallions, hoisin sauce, buns, and pancakes. With its 400-year history, exquisite flavors, and elaborate preparation, it comes as no surprise that Peking duck is one of the most famous Chinese dishes.	https://www.tasteatlas.com/Images/Dishes/e221ac6aa49d49beb3232b8d033a61ae.jpg?mw=1300	https://www.tasteatlas.com/peking-duck
+dis041	Dan Dan noodles	cat023	ctr008	41	SICHUAN	\N	Traditional dan dan noodles are a true classic of Chinese cuisine. The star of the dish is a spicy sauce served with the noodles. Made with chili oil, preserved vegetables, Sichuan peppercorn, and sometimes sesame or peanut paste, the sauce bursts with heat and complex flavors. The meat, most commonly minced pork or beef, is also commonly included, but mainly acts as a garnish. In China, the varieties differ only slightly, but worldwide the traditional dan dan noodles have been adjusted to the more gentle western palate and use significantly fewer spices. The dish originated in the Sichuan province, and it is still one of the most common dishes in the area. The name itself comes from the way the noodles were initially offered to the Sichuan citizens and refers to the bamboo pole carried on the shoulders, which was used to transport the dish through the city streets. READ MORE	https://www.tasteatlas.com/Images/Dishes/148ba9db636c40f699567b013e9828c5.jpg?mw=1300	https://www.tasteatlas.com/dan-dan-noodles
+dis042	Souffl au chocolat	cat068	ctr083	42	\N	\N	Chocolate souffl is an exquisite French dessert that combines dark chocolate with a creamy egg yolk base and fluffy egg whites. Typically prepared in small ramekins, it should always be lightly baked in order to stay soft and velvety in the middle, with a delectable, crunchy top. Just like other souffl varieties, the chocolate version is also considered to be technically challenging, but if done properly, it results in a wonderfully delicate sweet treat. Even though it is not considered to be one of the first souffl versions, which were originally prepared as savory dishes, today it is one of the most popular interpretations of this internationally acclaimed dessert.	https://www.tasteatlas.com/images/dishes/764da6201d5645479c0d52b7e97902cd.jpg?mw=1300	https://www.tasteatlas.com/chocolate-souffle
+dis043	Sernik	cat069	ctr104	43	\N	\N	Sernik is a cheesecake from Poland, stemming from old Christian and Jewish traditions. It is made with eggs, sugar, and twar g - a type of curd cheese that has been used in desserts for hundreds of years. It is believed that sernik originated in the 17th century, when King Jan III Sobieski brought the recipe with him after his victory against the Turks at the Battle of Vienna. Today, there are many varieties of sernik, some baked, some unbaked, but it is usually made on a layer of crumbly cake. Often times raisins, chocolate sauce, or fruits are also added to sernik, and one of the most popular varieties of the dessert has a sponge cake as its base and is covered with jelly and fruit on top. The krakowski version of sernik has a lattice crust on top to differentiate it from other types of this cheesecake. Sernik can either be prepared at home or found in many Polish stores and supermarkets.	https://www.tasteatlas.com/images/dishes/e85ec10aa7e243f79fc14ddecc649b8b.jpg?mw=1300	https://www.tasteatlas.com/sernik
+dis044	Jianbing	cat025	ctr008	44	TIANJIN	\N	A favorite breakfast item in China sold by numerous street food vendors early in the morning, jianbing or fried pancake is a thin and savory cr pe-like pancake that is made by spreading batter over a hot, cast-iron slab with a wooden paddle. The batter can be made with a variety of different flour, with the most common types being mung bean flour, black bean flour, and wheat flour. Always freshly prepared and warm, this fried pancake is usually topped with eggs, then flavored with various sauces such as chili sauce, hoisin sauce, or tianmianjiang (savory bean paste) sauce, and filled with ingredients such as spring onions, mustard pickles, radishes, scallions, cilantro, or even a protein such as Chinese sausage or chicken. A type of crispy-fried dough sticks called guozi or strips of crispy wonton are traditionally added to the pancake filling for extra crunchiness. The variations on this dish are endless as are the ingredients that can be added inside the cr pe wrapper. Typical of Tianjin, versions of this Chinese dish can also be found in some of the largest cities in the world including New York, Sydney, and London.	https://www.tasteatlas.com/images/dishes/defa8ce09af6421b9cd2a270bfa18435.jpg?mw=1300	https://www.tasteatlas.com/jianbing
+dis045	Khinkali	cat015	ctr084	45	\N	\N	These delicious Georgian dumplings known as khinkali are considered to be one of the national dishes of the country. The dumplings are filled with meat and spices, then traditionally twisted into a knot at the top. Regional differences influence the fillings and every part of Georgia has their distinctive variety. For example, in the mountainous regions, the most traditional filling is lamb, however; the most frequent variety throughout entire Georgia is a mixture of pork and beef. The vegetarian versions made with traditional Imeretian cheese or mushrooms are also quite popular. The traditional recipe was developed over time, and now includes fresh herbs such as cilantro or parsley. The meat for khinkali is never precooked therefore, all of the juices are tucked inside the dumplings. Eating khinkali is also a part of traditional Georgian folklore: the top, where the dough is twisted into a knot, should never be eaten because it serves as a handle to hold the dumpling, and it is usually left on the plate as an indication of how many dumplings have been eaten. These flavorful dumplings are served plain or paired with freshly ground black pepper.	https://www.tasteatlas.com/Images/Dishes/fd4d93d5164446d08b4b020e06c42ca4.jpg?mw=1300	https://www.tasteatlas.com/khinkali
+dis046	Kaiserschmarrn	cat025	ctr068	46	\N	\N	Also known as the Emperors mess, this Austrian dessert can be described as a fluffy, lightly caramelized, scrambled pancake. Legend has it that kaiserschmarrn was the favorite dessert of Kaiser Franz Joseph I, after whom it was named. The dish is traditionally served either with zwetschkenr ster (plum compote) or with a big spoonful of apple, pear, or berry preserve. Lavishly dusted with icing sugar, kaiserschmarrn is the perfect comfort food, indeed fit for an emperor and easily one of the best desserts Austria has to offer. Apart from the beloved, old-fashioned kaiserschmarrn, depending on the filling, some of the modern takes on this Austrian classic include apfelschmarrn (apples), kirschschmarrn (cherries), mirabellenschmarrn (mirabelle plums), nu schmarrn (walnuts, almonds, hazelnuts) and sauerrahmschmarrn (sour cream). Besides Austria, kaiserschmarrn is also a popular and common dessert in the German region of Bavaria. It can also be found in countries that were once part of the Austro-Hungarian Empire.	https://www.tasteatlas.com/images/dishes/b56f2045b1be44f7b716175bf58e9fda.jpg?mw=1300	https://www.tasteatlas.com/kaiserschmarrn
+dis047	Entrec te	cat070	ctr083	47	\N	\N	Entrec te is a type of beef steak thats cut from between the ribs, but its more commonly known as a thin and boneless rib-eye steak. The butchers cut bone-in rib-eyes with the bone on each side, but there are also six leftover boneless steaks from the meat between each bone-in rib-eye, and theyre known as the entrec tes. Due to the fact that these cuts are thin, it makes them great for quick cooking on the grill or in a pan (high heat), but its important not to overcook them. The steaks are juicy, tender, and generously marbled. This type of meat cut is popular in France and Europe, and the word entrec te means between the ribs.	https://www.tasteatlas.com/images/dishes/b0bc28cca0ac414ba7443de63b344223.jpg?mw=1300	https://www.tasteatlas.com/entrecote
+dis048	Piadina Romagnola	cat046	ctr090	48	EMILIA-ROMAGNA	\N	Even though today this griddled Italian flatbread is typically enjoyed as a sandwich (one of the most popular fillings includes prosciutto, creamy soft cheeses like squacquerone, tomatoes, and a handful of peppery wild arugula), Piada or piadina Romagnola was once merely a staple of the poor, often made with maize flour and called la pjida ad furmantoun in Romagnolan dialect. In his poem entitled La Piada, which is sort of an ode to the beloved Romagnolan piadina, a 19th century Italian poet Giovanni Pascoli calls it "the bread of poverty, humanity, and freedom", describing it as "smooth as a leaf and as big as the moon." Since then, the humble, rustic piadina has come a long way and even today takes a special place in the regional cuisine, having been awarded the Protected Geographical Indication status. Le piadine, in plural, can take virtually any ingredients as their filling, and they can be easily found freshly prepared at numerous street kiosks called piadinerie, as it is best to eat a piadina only minutes after it comes off the cast-iron griddle while its still pliable and warm - the perfect frame for the almost-melting soft cheese and delectable, thinly sliced charcuterie.	https://www.tasteatlas.com/Images/Dishes/54519ef8aa834498b5838b0abd48aead.jpg?mw=1300	https://www.tasteatlas.com/piadina-romagnola
+dis049	Pernil	cat066	ctr134	49	\N	\N	Pernil is one of Puerto Ricos most famous dishes, a succulent roasted pork shoulder that is traditionally seasoned in a marinade called adobo mojado, consisting of paprika, salt, vinegar, garlic, and oregano. The name of the dish is derived from the Spanish word pierna, meaning leg, but it is also a Catalan word for ham, referring to the traditional recipe that calls for fresh ham. Because pork shoulder is more available and costs less than ham, it has become a key ingredient in pernil. Many people prefer it since it is believed to be much more flavorful than ham. The dish is a staple at numerous Puerto Rican festivities such as birthdays or weddings, where many people feast on the crunchy skin and tender meat that falls off the bone.	https://www.tasteatlas.com/Images/Dishes/c45da6da13db40f990d9bffe7c4f664a.jpg?mw=1300	https://www.tasteatlas.com/pernil
+dis050	P o de queijo	cat005	ctr143	50	MINAS GERAIS	\N	Literally translated to cheese bread, p o de queijo has its origins in the culinary inventions of African slaves, when they started to use the residue of the cassava plant. A fine white powder, or starch, was rolled into balls and baked. At the time, no cheese was added, so it was just baked starch, but at the end of the 19th century, when slavery ended, other foods started to become available to the Afro-Brazilians for the first time. In the state of Minas Gerais, the dairy center of Brazil, cheese and milk started to be added to the starchy balls, and p o de queijo was created. Today, it is a popular Brazilian snack or breakfast food that is also widely consumed in northern Argentina, sold at numerous coffee shops, snack bars, and bakeries.	https://www.tasteatlas.com/Images/Dishes/5f9b1130da3347da8c1ec071b9b55c28.jpg?mw=1300	https://www.tasteatlas.com/pao-de-queijo
+dis051	Biang Biang noodles	cat023	ctr008	51	SHAANXI	\N	Biangbiang noodles, also known as belt noodles due to their broadness and length, are a specialty of Shaanxi province in China. The noodles are usually topped with vegetables and herbs such as spring onions, garlic, leeks, coriander, Sichuan peppercorns, cumin, and chili. There are two stories about the origin of these unusual noodles: one says that the name stems from the sound of handmade noodles being stretched and flapped, and the other one says that the word biangbiang was invented by a Chinese Emperor. Unusually, the word biang doesnt exist in the Chinese language, and it is made up of 57 strokes, the most of any Chinese character. Originally, the noodles were part of workers meals, but they have recently become popular in elegant restaurants.	https://www.tasteatlas.com/Images/Dishes/f417c973168f4e2bba292267095d9669.jpg?mw=1300	https://www.tasteatlas.com/biangbiang-noodles
+dis052	Fritto misto	cat071	ctr090	52	\N	\N	Fritto misto is one of those dishes that differs widely across the country. Along the Italian seaside, it will always include crustaceans and mollusks, typically shrimp and squid, and often paranza, which is a collective name for very small whole fish such as fresh anchovies, sardines, baby mackerel, or mullet. In northern parts of the country, particularly in Piedmont, fritto misto is mostly made with vegetables and, depending on the season, includes semolina, veal brain, brochettes of cheese and prosciutto, sometimes even apples and amaretti biscuits. In the Marche region, every frittura mista includes the famous olive ascolane, green olives stuffed with finely minced meat, often accompanied by fried semolina, squash blossoms and lamb chops; while in the Neapolitan area fritto misto is prepared with no fish other than a few anchovies, crumbed fried mozzarella, and various seasonal vegetables such as cauliflower and artichokes in winter, eggplant and zucchini in summer. Moreover, the Naples-style frittura will sometimes also include sweetbreads, brains and liver with some vegetables and local specialties such as the deep-fried ravioli called panzarotti and Sicilian arancini, fried rice balls. The fritto misto alla Fiorentina contains no fish or fruit, but lambs brains, crumbed lamb cutlets, rabbit legs, batter-dipped and deep-fried cauliflower florets, whole artichokes, zucchini batons, chicken thighs, and animelle or sweetbreads instead of the aforementioned ingredients. Also depending on the region, fritto misto is sometimes batter-fried, but the simplest method of preparing it is lightly coating the food in flour and quickly deep-frying it in hot oil until it forms a nice golden brown crust.	https://www.tasteatlas.com/images/dishes/35db17c2493b41d0a04a3a066ac4dc00.jpg?mw=1300	https://www.tasteatlas.com/fritto-misto
+dis053	Linguine allo scoglio	cat026	ctr090	53	CAMPANIA	\N	One of Italys all-time favorites, linguine allo scoglio, often also dubbed linguine ai frutti di mare is a typical southern Italian seafood dish or piatto di mare. Back in the 1980s in the wider Neapolitan area, as well as along the entire southern Italian coast, there was reportedly not a single restaurant that didnt offer some version of such a timeless classic on its menu. This pasta entr e is made with either linguine or spaghetti, and a combination of seafood and shellfish, preferably coming from fresh local catch of the day. Considering seafood seasonality, what Neapolitan and any other scoglio (lit. reef; rock) has to offer varies from month to month, so there is no precise recipe for this dish, and there are countless variations in existence, but the most traditional ones always include clams, mussels, shrimps, and sometimes even calamaretti or baby squids. Pasta allo scoglio is typically flavored with white wine and garlic, and it can be prepared either in rosso or in bianco, meaning in red or white - with or without tomatoes, respectively.	https://www.tasteatlas.com/Images/Dishes/86cf5a2c8c6149c785a81b989e7e65d5.jpg?mw=1300	https://www.tasteatlas.com/linguine-allo-scoglio
+dis054	Brisket	cat072	ctr140	54	\N	\N	In the American, English and German systems of primal beef cuts, the brisket (or rinderbrust) is a cut that comes from the breast or lower chest of the cow. The brisket is one of the nine primal cuts of beef and is particularly known for its size and for having a significant amount of connective tissue. This cut consists of two different muscles: the pectoralis major, known as the "flat," and the pectoralis minor, or the "point." The flat is leaner, while the point has more fat and marbling. Because of the high amount of connective tissue, brisket needs to be cooked slowly, over low heat, to allow the collagen in the meat to break down and become tender. This makes it a popular choice for slow cooking methods like smoking, braising, or slow roasting. Brisket is notably used in a variety of regional American barbecue traditions, particularly Texas-style barbecue, where its often smoked for many hours. Its also traditionally used for making corned beef and pastrami.	https://www.tasteatlas.com/images/dishes/86c5299ea7f5485fb7b8fadb69283af1.jpg?mw=1300	https://www.tasteatlas.com/brisket
+dis055	Ph b	cat073	ctr045	55	\N	\N	This beef-based version of pho is prepared with assorted cuts and parts of beef the stock is made from beef bones, shank, ox tail, and neck, while the toppings include thinly sliced fatty brisket (g u), flank, eye-round steak, tripe, cooked and raw beef (t i n m), tendon (g n), or beef balls (ph b vi n), but the latter version is not that popular in Vietnam. Beef pho is usually flavored with dried spices such as cinnamon, star anise, cloves, cardamom, and coriander. The dish is served piping hot in a bowl along with rice noodles, and its typically topped with cilantro, sliced onions, and chopped green onions. On the side, you can often find a platter with bean sprouts, lime wedges, and sliced hot peppers so each person can add the garnishes to his or her liking. Hoisin and Sriracha sauces are also often-seen staples on the side.	https://www.tasteatlas.com/images/dishes/d539ca9ae55d46be96d936f6a43a8c3e.jpg?mw=1300	https://www.tasteatlas.com/pho-bo
+dis056	Espetada	cat057	ctr105	56	MADEIRA	\N	Espetada is a traditional dish and a specialty of the island of Madeira. It consists of big pieces of beef that are marinated in salt and garlic, then skewered on a bay leaf stick. The stick is placed over hot coals until the meat is properly cooked. It is the most popular dish to serve at picnics or parties in Madeira. Espetada is often served with the skewer hung vertically from a hook, so that the flavorful juices can drip down onto a plate filled with thick-sliced, crusty bread. Pork, sausages, and squid can all act as a substitute for beef in espetada, but then it is not a typical Madeira dish anymore. Since it is a great summer dish, it is recommended to pair espetada with a glass of cold sangria.	https://www.tasteatlas.com/Images/Dishes/9d6b5529303d43ab8f1ca8faf42bf686.jpg?mw=1300	https://www.tasteatlas.com/espetada
+dis057	Tom kha gai	cat074	ctr040	57	CENTRAL THAILAND	\N	Tom kha gai is Thailands delicious national dish coming from the central part of the country and bearing the influence of neighbouring Laos. It is a soup whose name translates to boiled galangal chicken soup, consisting of coconut milk, chicken chunks or shreds, galangal (reddish-brown or pink woody plant related to ginger), lemongrass, garlic, birds eye chili peppers, kaffir lime leaves, fish sauce, and shiitake mushrooms. Galangals peppery, pungent, slightly sour and floral flavors provide an interesting contrast to the creaminess of coconut milk, creating a wonderfully aromatic dish in the process. Tom kha gai is highly nutritious with great medicinal properties, such as the ability to soothe the gastro-intestinal tract. Since the dish is very popular, there are also other versions of the soup - vegetarian, tofu, seafood, and pork tom kha are just some of its varieties. It is traditionally served with rice on the side, garnished with coriander leaves and diced tomatoes.	https://www.tasteatlas.com/Images/Dishes/9bf54bc8b6ae431db23b5919b7442ce9.jpg?mw=1300	https://www.tasteatlas.com/tom-kha-gai
+dis058	Boiled Maine Lobster	cat075	ctr140	58	MAINE	\N	Boiling is the most popular and simplest way of preparing a Maine lobster. Live lobsters are plopped into a large pot of boiling water seasoned with sea salt and cooked depending on the size of the lobster the bigger the lobster, the longer the cooking time. Once the lobster is in the water, its important to time the cooking so it doesnt overcook, as the meat will be tough and rubbery. Also, lobsters need to be treated humanely. Hence, placing the lobsters in the freezer for 30-60 minutes before cooking is recommended so they fall asleep. When sleeping lobsters are placed in boiling water, they will not feel any pain. Serve with melted butter, bibs, and a bucket for shells.	https://www.tasteatlas.com/Images/Dishes/f2bfb397f40848d89f7d16a816be0690.jpg?mw=1300	https://www.tasteatlas.com/boiled-maine-lobster
+dis059	Katmer	cat027	ctr041	59	GAZIANTEP	\N	A type of sweet b rek, katmer is a specialty of Gaziantep, or simply Antep T rkiyes gastronomic capital and a rich melting pot of diverse cultures and cuisines nestled in southeastern Anatolia an ancient city whose claim to fame is being home to worlds finest pistachios and the delicious Antep baklavas . Katmer is what most locals start their day with: in fact, there are bakeries and caf s in Gaziantep open from early morning until noon serving katmer for breakfast. Traditionally, it is also the first meal eaten by newlyweds after their first wedding night, as it represents the sweetness they hope to find in their marriage. Filled with pistachios and kaymak Turkish clotted cream made with water buffalo milk, which is often referred to as kayma n kayma , meaning cr me de la cr me these flaky, crunchy pastries must be served fresh from the oven, while theyre still warm. For a perfect Turkish breakfast, have your katmer drizzled with a little honey, sprinkled with crushed pistachios, and paired with a nice cup of tea.	https://www.tasteatlas.com/Images/Dishes/1cf6cc2aa8964235ae8e1cf1e4a2907e.jpg?mw=1300	https://www.tasteatlas.com/katmer
+dis060	Bougatsa	cat027	ctr086	60	MACEDONIA	\N	Bougatsa is a traditional, rustic Greek pie consisting of a phyllo pastry layered with a filling of semolina custard, although there are variations with minced meat or cheese. The name of the dish is a derivation of the Ottoman word pogatsa, denoting a pie filled with cheese. Bougatsa has origins from the Byzantine period, when Constantinople was Greek, and it began as a dough that was stuffed with numerous sweet and savory fillings. Over time, bougatsa evolved to incorporate a thinly rolled, hand-made phyllo pastry. As many Turkish immigrants settled in Northen Greece, bougatsa became a specialty of Serres and Thessaloniki. Today, the pies can be found throughout Greece in specialty shops called bougatsopolia, selling bougatsas exclusively.	https://www.tasteatlas.com/Images/Dishes/c3fca903114b4c809d62883711255188.jpg?mw=1300	https://www.tasteatlas.com/bougatsa
+dis061	Pasta alla gricia	cat026	ctr090	61	GRISCIANO	\N	As with so many classic Italian dishes, the story of pasta alla gricia is one of unclear and often disputed origin. Pasta alla gricia is sometimes called amatriciana bianca (lit. white amatriciana), which reflects the common root of these two pasta dishes, though gricia is known to be older than the tomato-based amatriciana sauce. Moreover, gricia is said to have originated in Grisciano, a small hamlet not far from Amatrice, the birthplace of spaghetti allamatriciana. These two mountain towns nestled in the Apennine peaks between the neighboring regions of Lazio and Abruzzo have long been known as home to semi-nomadic shepherds, who were often credited with inventing this simple sauce. While tending herds during their long months of transhumance, the shepherds used guanciale (cured pork jowl) and tangy pecorino cheese tossed with pasta to prepare quick and humble meals like cacio e unto (lit. cheese and lard), as gricia sauce was once called. Even today, the list of ingredients goes no further than guanciale, pecorino, and black pepper more than enough to result in the divine flavor of pasta alla gricia, which is typically served with bucatini, spaghetti, or rigatoni.	https://www.tasteatlas.com/images/dishes/c026efc47b2d40c0ad23573be8c80460.jpg?mw=1300	https://www.tasteatlas.com/pastaallagricia
+dis062	Pierogi Ruskie	cat015	ctr104	62	SUBCARPATHIAN VOIVODESHIP	\N	Originating from the historical region of Red Ruthenia, these soft, crescent-shaped dumplings are filled with a combination of potatoes and cheese, which is occasionally modified with various seasonings or fried onions. Pierogi ruskie are usually boiled and shortly fried until they develop a crispy texture. The dumplings are often served sprinkled with cracklings, crispy fried onions, or bacon, and can be enjoyed as a hearty appetizer or as a main course. In Ukraine, the pierogis are called varenyky, and they are so popular that there is even a monument celebrating varenyky in the city of Cherkasy. The sweet, fruit-filled version of varenyky is typically served with sugar and sour cream.	https://www.tasteatlas.com/images/dishes/88d22d671ee441499e80bb72b910c411.jpg?mw=1300	https://www.tasteatlas.com/pierogi-ruskie
+dis063	Kladdkaka	cat076	ctr114	63	\N	\N	One of the most popular Swedish desserts is a rich chocolate cake known as kladdkaka. This classic Swedish creation combines eggs, cocoa (or chocolate), butter, sugar, and flour into a dense and luscious dessert. During baking, the cake should always remain moist in the center, while the outer layer is transformed into a thin, crunchy coating. Since the cake is incredibly dense, and typically heavy on the bitter chocolate or cocoa, it is usually dusted with a delicate layer of powdered sugar, and traditionally served with a dollop of ice cream or whipped cream on the side. It is one the most beloved Swedish desserts, typically enjoyed during fika, a traditional Swedish coffee break.	https://www.tasteatlas.com/Images/Dishes/f2aa0db307e447f98bdef0e1e0bbb0cc.jpg?mw=1300	https://www.tasteatlas.com/kladdkaka
+dis064	Mercimek orbas	cat077	ctr041	64	\N	\N	Mercimek orbas is a beloved Turkish soup made with red lentils, chicken stock, onions, and carrots. It is often seasoned with salt, pepper, cumin, or paprika. Easy to prepare, filling, and warming, the soup is consumed for breakfast, lunch, or dinner in rural parts of Turkey, especially in local eateries known as lokantas.	https://www.tasteatlas.com/Images/Dishes/51beed5e91d749d9a8c47fd05e3d7ea8.jpg?mw=1300	https://www.tasteatlas.com/mercimek-corbas
+dis065	Cochinita pibil	cat066	ctr133	65	YUCAT N	\N	Cochinita pibil is a Mexican pork dish originating from Yucatan. Pork is marinated in a combination of annatto paste, bitter orange juice, and garlic. It is slowly baked and then shredded and served on tortillas, tacos, or on its own with shallots, pickled onions, salsa, and various roasted vegetables. Cochinita pibil is characterized by the red color of the meat, imparted by the annatto seeds from the marinade. Originally, pork was wrapped in banana leaves prior to baking, but today a foil or any other suitable wrapping can be used instead. Since cochinita means baby pig, and pibil means buried or underground, it acts as a proof that the original recipe used a whole suckling pig that was buried in a pit for roasting. This Mayan-influenced dish is most often served on weekends in many Mexican homes, usually as a Sunday family ritual.	https://www.tasteatlas.com/images/dishes/341bb47b4ee84349a333547284718af7.jpg?mw=1300	https://www.tasteatlas.com/cochinita-pibil
+dis066	Banitsa sas sirene	cat078	ctr074	66	\N	\N	The Bulgarian pie banitsa made with cheese is the main version of this traditional pie. Its made by layering sheets of buttered phyllo pastry with a combination of eggs, yogurt, and cheese such as sirene and feta. Theres an optional ingredient in the preparation of banitsa and its baking soda, which makes the yogurt rise and makes the pie fluffier and richer in flavor. Traditionally, banitsa with cheese was prepared and served on Christmas and New Years Eve, but nowadays it can also be bought throughout the year at grocery stores, street vendors, kiosks, and pretty much everywhere. Apart from this basic variety, there are also other types of savory or sweet banitsa pies filled with various vegetables and fruits.	https://www.tasteatlas.com/images/dishes/a81f74eb6e6e4ec29d4025973065bee1.jpg?mw=1300	https://www.tasteatlas.com/banitsa-cheese
+dis067	Chilaquiles	cat006	ctr133	67	\N	\N	Chilaquiles are, at their most basic, an assembly of fried tortilla pieces drenched in chili sauce with optional meat and vegetables. The dish is popular both in Mexico and the United States as a great way to use up leftover, stale tortillas. The name of the dish is derived from chil-a-quilitl, meaning greens or herbs in a chili broth. Today, there is a great number of regional variations of the dish, so in Sinaloa it is prepared with a white sauce, and in Mexico City, the dish is traditionally topped with epazote sprigs.	https://www.tasteatlas.com/images/dishes/bc94480536124dd5aecd34da0d1479e6.jpg?mw=1300	https://www.tasteatlas.com/chilaquiles
+dis068	Empanadas Argentinas	cat079	ctr141	68	\N	\N	Empanadas argentinas, or Argentinian empanadas, make up a group of traditional Argentinian pastries filled with a variety of ingredients, from meat to cheese and vegetables. Although they are mostly enjoyed in their savory form, there are sweet dessert varieties filled with ingredients such as dulce de leche and quince. The dough, typically made with wheat flour, is rolled thin and folded over a filling, and the resulting parcel is then baked or fried to golden perfection. Traditional empanadas often feature ingredients such as ground beef, onions, and spices, giving them a robust and savory flavor. Still, each region of Argentina boasts its own unique style and flavor profiles - small and spicy from Salta, large Mendoza-style ones with garlic and olives, ones from Cordillera with lamb, and so on. Empanadas argentinas are not just a culinary delight; they are also a cultural symbol (empanadas criollas have even been declared a Cultural Heritage of Food and Gastronomy by the Argentine Ministry of Culture). They are enjoyed as a quick snack, a light lunch, or a hearty dinner and are often served during parties and various festivities.	https://www.tasteatlas.com/images/dishes/b0cf723888fd4aa5b4c470db7ac37da7.jpg?mw=1300	https://www.tasteatlas.com/empanadas-argentinas
+dis069	Dakos	cat001	ctr086	69	CRETE	\N	Dakos or ntakos is a traditional Cretan dish consisting of a dry barley rusk called paximadi that is topped with crumbled myzithra cheese, chopped ripe tomatoes, whole olives, capers, fresh oregano, and a few generous splashes of high-quality olive oil. Its recommended to use olive varieties such as Koroneiki, Lianes, or Tsounates. Myzithra cheese is traditionally used, and not feta, which is usually reserved for tourist restaurants. The rusk is often gently rubbed with a small piece of garlic and lightly sprinkled with sea salt. If available, kritamo (sea fennel) is also sometimes added to dakos. The dish is usually served as a meze or light dinner.	https://www.tasteatlas.com/images/dishes/902120f96d1a4b89aa0516f0fe2d7439.jpg?mw=1300	https://www.tasteatlas.com/dakos
+dis070	Gravlax	cat080	\N	70	\N	\N	Gravlax is a Scandinavian dish consisting of raw, salt-cured salmon that is traditionally seasoned with dill. Originally, the dish was made by fishermen who used to bury the salt, sugar, and dill-rubbed salmon above the line of high tide and leave it to ferment. At the time, it was characterized by its pungent flavor and odor, but today, gravlax is cured under refrigeration. The name gravlax comes from a combination of two words, grav, meaning buried, and lax, meaning salmon, referring to the original method of production. This delicacy is usually thinly sliced and served as an appetizer. It pairs well with crackers and pickled vegetables, but it can also be used as a stuffing for bagel sandwiches.	https://www.tasteatlas.com/Images/Dishes/56e5ec9da4044fa7904f6ac4e021a2da.jpg?mw=1300	https://www.tasteatlas.com/gravlax
+dis071	Bistecca alla Fiorentina	cat063	ctr090	71	FLORENCE	\N	Known as the holiest of holies of Italian cuisine, the Florentine-style beef steak is prepared exclusively with dry-aged beef from the Chianina cattle, which is particularly prized for its tenderness. Even though bistecca alla Fiorentina is often described as a T-bone steak, it is much closer to a porterhouse - since its cut closer to the center, the tenderloin is much larger than the one on a regular T-bone. Also, bistecca alla Fiorentina must be thick; the cut needs to be at least three fingers wide so that when the meat is grilled over a very hot flame, a nice, slightly charred crust forms on the outside of the steak while the inside remains succulent. In fact, bistecca alla Fiorentina is never, ever served medium or well-done, as any true Tuscan will insist that this dream of a steak should only be eaten sanguinoso, meaning rare. To enjoy your Florentine-style steak the Italian way, simplicity is the way to go - highlight the rich flavor of grilled beef with nothing more than a drizzle of extra virgin olive oil, rosemary, and salt.	https://www.tasteatlas.com/images/dishes/72bb294fc07d429ab5eac348e2f07b2d.jpg?mw=1300	https://www.tasteatlas.com/fiorentina
+dis081	Tinginys	cat068	ctr094	81	\N	\N	Even though it is very much alike the famous Italian chocolate salami, this simple, no-bake dessert, translated as the lazy man is regarded as an authentic Lithuanian delicacy. It is prepared with a blend of crumbled cookies, cocoa, condensed milk, butter, and sugar, shaped into the desired form, and left to set. According to a widely accepted anecdote, tinginys was created by accident, but immediately became the nations favorite. Because of its neutral taste, it is easily adjusted with additional ingredients, such as nuts or dry fruit. It is recommended to enjoy tinginys with a cup of coffee or tea on the side.	https://www.tasteatlas.com/Images/Dishes/a98b3f18d0054544a4217e8028116c4f.jpg?mw=1300	https://www.tasteatlas.com/tinginys
+dis072	Saganaki	cat081	ctr086	72	\N	\N	Saganaki is a highly popular Greek appetizer where various vegetables, meats, or seafood such as shrimp or mussels are wrapped in cheese, then pan-fried or seared. The cheese can also be prepared on its own, without any accompaniments. It is then pan-seared until it develops its distinctive golden crust, and served in the so-called sagani, a small, two-handled pan in which it was fried. In the past, the word saganaki referred to a method of spicing up the local cheese by Greek peasants, who would pan-fry different varieties of cheese such as feta, kashkaval or manori. While regional variations of the dish include the use of formaela cheese in Arachova and halloumi in Cyprus, the cheese used in a typical Greek saganaki is usually graviera, kefalograviera, kasseri, kefalotyri, sheeps milk feta or any other firm cheese that melts well without losing its shape. Saganaki is sometimes enlivened by a splash of traditional Greek spirits like Metaxa brandy or Ouzo, an anise-flavored aperitif. Outside of Greece, particularly in the US, saganaki is typically flamb ed at the table, and this flaming culinary showmanship is a tradition which reportedly first started in Chicagos Greektown. When the lighter comes out to ignite the pan, one can often hear "Opa!", the Greek expression for joy. After cheering, the diners usually cut off chunks of cheese that are crispy on the outside and soft and runny on the inside, and then sprinkle their saganaki with lemon juice, savoring it with some freshly baked pita bread.	https://www.tasteatlas.com/images/dishes/bd39e99002604c93bd5cfc6c2c409420.jpg?mw=1300	https://www.tasteatlas.com/saganaki
+dis073	Frozen custard	cat064	ctr140	73	WISCONSIN	\N	Frozen custard comes from the "Custard Capital of the World", Milwaukee, Wisconsin, where its sold more than anywhere else around the globe. It is a gourmet ice cream treat made with eggs, cream, and sugar, and it originated from Coney Island, New York, when it was a popular carnival treat. As the popularity of frozen custard grew, it quickly spread to the Midwest. As there is far less air added than in other similar treats, the result is a thick and dense custard with tons of flavor. A lot of frozen custard fans believe it is better than ice cream since it is served before being refrozen and mantains a soft, yet heavy consistency, so it is a unique regional treat in which you can really feel the difference when talking about flavor.	https://www.tasteatlas.com/Images/Dishes/c44c1a332cf94d9ab513230c5792c72a.jpg?mw=1300	https://www.tasteatlas.com/frozen-custard
+dis074	Hyderabadi biryani	cat060	ctr010	74	HYDERABAD	\N	Hyderabadi biryani is a South Indian dish consisting of basmati rice, goat, mutton, or chicken meat, lemon, yogurt, onions, and saffron. There are two main varieties of the dish kachchi (raw) and pakki (cooked). It is said that Hyderabadi biryanis richness of flavor is due to the unique process of cooking raw rice and raw meat together with exotic spices, unlike other places where meat and rice are cooked separately. The special cooking style, known as dum, is believed to have come from Persia during the Mughals regime in India.	https://www.tasteatlas.com/images/dishes/83894121d8a941d9ab413f63d7562240.jpg?mw=1300	https://www.tasteatlas.com/hyderabadi-biryani
+dis075	You bao xia	cat082	ctr008	75	SHANGHAI	\N	Stir-fry shrimps or you bao xia is a Chinese dish where whole shrimps are stir-fried in a wok until crispy. They are then soaked in a savory sauce that typically consists of chicken broth, black vinegar, sesame oil, sugar, and Shaoxing wine. Scallions and ginger slices are often used during the cooking process, but they might also be used as garnishes before the dish is served. Stir-fry shrimps are especially popular at Chinese New Year celebrations.	https://www.tasteatlas.com/Images/Dishes/d89e3029be1e430fb1a78377e6cf8add.jpg?mw=1300	https://www.tasteatlas.com/stirfry-shrimps
+dis076	H nkar be endi	cat062	ctr041	76	ISTANBUL	\N	H nkar be endi is a traditional dish consisting of a flavorful lamb stew that is served on top of a creamy roasted eggplant pur e. The pur e is often thickened with milk and cheese, while the whole dish is sometimes topped with a tomato-based sauce or garnished with freshly chopped parsley. It is believed that the dish is native to Istanbul and was first prepared for the wife of Napoleon III in the late 19th century.	https://www.tasteatlas.com/images/dishes/bed8425612de464390042377b575d2d5.jpg?mw=1300	https://www.tasteatlas.com/hunkar-begendi
+dis077	Ceviche mixto	cat071	ctr149	77	\N	\N	Ceviche mixto is a classic Peruvian appetizer that differentiates itself from other types of ceviche by the addition of various seafood ingredients to regularly used fish. Those include shrimp, squid, octopus, clams, or scallops. A few mussels or small crabs are sometimes also added to the dish. The seafood is typically marinated in lime juice, onions, garlic, celery, coriander, hot chili peppers, and salt. Ceviche mixto is often served with glazed sweet potatoes and Peruvian corn.	https://www.tasteatlas.com/images/dishes/f37e6e511b8f4ecd9db7fb9d73330211.jpg?mw=1300	https://www.tasteatlas.com/ceviche-mixto
+dis078	Cr pes sucr es	cat025	ctr083	78	\N	\N	Cr pes sucr es are sweet crepes, a type of very thin pancake originating from France. The term "sucr es" means "sugared" in French, indicating that these crepes are meant to be served with sweet fillings or toppings. They are made from a simple batter consisting of flour, milk, eggs, a pinch of salt, and sometimes a bit of sugar and butter. Unlike their savory counterpart, known as "cr pes sal es" (or "galettes" in some regions of France), sweet cr pes are usually made with white wheat flour and often have a bit of sugar added to the batter. Sweet crepes can be filled or topped with a variety of ingredients such as powdered sugar, whipped cream, fruit preserves, fresh fruits, nutella, honey, and maple syrup. Cr pes sucr es are enjoyed as a dessert, a sweet snack, or even as a breakfast dish in France and around the world.	https://www.tasteatlas.com/images/dishes/c7033f7e748a431eab52ed4d740950d3.jpg?mw=1300	https://www.tasteatlas.com/crepes-sucrees
+dis079	Parmigiana alla napoletana	cat007	ctr090	79	CAMPANIA	\N	This version of eggplant parmigiana is the most popular outside of Italy. Hailing from Campania, this variation on a dish is made with eggplants, olive oil, onions, basil, tomatoes, mozzarella or fior di latte cheese, and grated Parmigiano-Reggiano. The eggplants are peeled, sliced, and shortly fried, then arranged in a baking dish over the tomato sauce along with the cheese, basil leaves, and grated Parmigiano-Reggiano. The layers are repeated, and the final one should end with tomato sauce and grated cheese. The dish is baked until the surface becomes crisp, and it is then served, ideally at room temperature.	https://www.tasteatlas.com/images/dishes/7c38cbb1b82b485288100f0558dee5a2.jpg?mw=1300	https://www.tasteatlas.com/parmigiana-campania
+dis080	Pa dakia	cat083	ctr086	80	\N	\N	Grilled lamb chops are a traditional Greek dish that is popular throughout the country and usually enjoyed as the main course. Lamb chops are usually marinated in various combinations of olive oil, lemon juice, and a variety of fresh herbs before they are grilled on traditional charcoal barbecues. They are commonly paired with potatoes, salads, or the creamy and refreshing tzatziki sauce.	https://www.tasteatlas.com/images/dishes/400a808b02d54ead9e3986b1dbc8d824.jpg?mw=1300	https://www.tasteatlas.com/paidakia
+dis082	Gaziantep baklavas	cat027	ctr041	82	GAZIANTEP	\N	The ancient Anatolian city of Antep, today known as Gaziantep, is T rkiyes gastronomic capital famous for being home to the worlds finest pistachios and the delicious Antep baklavas . Originally an Ottoman legacy, baklava is regarded as one of the greatest creations from the pastry chefs at Topkap Saray , the major royal residence of Ottoman sultans from the 15th to the 19th century. Baklava was traditionally prepared for Eid-al-Fitr, also known in T rkiye as Ramazan or eker Bayram , a religious holiday when Muslims celebrate the ending of Ramadan, the Islamic holy month of fasting. Today, this Turkish treat is available year-round, and with more than 500 baklava bakeries in the city of Gaziantep, it is definitely not to be missed, especially during the pistachio harvest from midsummer to September, when these emerald-colored nuts are just the right size for baklava. READ MORE	https://www.tasteatlas.com/Images/Dishes/68da53fa27e349378480f63dce8587b1.jpg?mw=1300	https://www.tasteatlas.com/antep-baklavasi
+dis083	Karipap	cat078	ctr022	83	\N	\N	Karipap or curry puff is a small, deep-fried or baked pastry shell filled with thick chicken and potatoes curry. It is believed that the flavorful snack was invented by the Malays from the Malay Peninsula and parts of Sumatra and Borneo. It is a popular breakfast item or an afternoon snack which can be found at numerous stores, bars, and markets. Because of its simplicity and flavor, karipap quickly became popular outside Malaysia, especially in Thailand and Singapore. Today there are numerous versions of karipap, so instead of potato and chicken curry, it can be filled with various other ingredients such as tuna, sardines, and beef rendang. Crispy and flaky on the exterior, hot and soft on the interior, karipap is a snack that remains a staple of Southeast Asian cuisine.	https://www.tasteatlas.com/Images/Dishes/3a8e62fe25c34af0a4b5d766d89c3565.jpg?mw=1300	https://www.tasteatlas.com/karipap
+dis084	Nasi goreng ayam	cat082	ctr011	84	\N	\N	Nasi goreng ayam is a traditional fried rice dish thats also popular in Singapore, Brunei, and Malaysia. Although there are many versions of this nasi goreng variety, it is usually made with a combination of chicken thighs, oil, salt, white pepper, shallots, rice, turmeric, soy sauce, fish sauce, galangal, ginger, garlic, scallions, kecap manis, and hot peppers. Most of the ingredients are fried with rice, and the dish is then topped with fried eggs, fried shallots, and sliced chili peppers. Its recommended to serve nasi goreng ayam with prawn crackers on the side.	https://www.tasteatlas.com/images/dishes/8267f641538448af93221623a7fc6d3d.jpg?mw=1300	https://www.tasteatlas.com/nasi-goreng-ayam
+dis085	Lohikeitto	cat084	ctr082	85	\N	\N	Lohikeitto is a creamy Finish salmon soup, similar to laxsoppa in Sweden. Apart from chunks of salmon fillet, it traditionally incorporates diced potatoes and carrots cooked in a flavorful, buttery broth infused with fish stock and cream. This comforting winter dish is generously seasoned with dill and served alongside buttered rye bread or lemon wedges.	https://www.tasteatlas.com/Images/Dishes/66710210f5264d5b873e8a171ca38e28.jpg?mw=1300	https://www.tasteatlas.com/lohikeitto
+dis086	B nh m th t	cat085	ctr045	86	\N	\N	B nh m th t is a traditional b nh m sandwich variation in which th t means meat. As the name suggests, the sandwich is made with various Vietnamese cold cuts such as sliced roasted pork, sliced pork belly, ch (sliced ham), or ch l a pork sausage, along with cucumbers, mayonnaise, pickled carrots and daikon, and liver p t stuffed into a b nh m roll. The sandwich is often garnished with ingredients such as coriander, black pepper, and sliced chili peppers. These meat-filled sandwiches are common throughout Vietnam and theyre a staple of school children and factory workers. B nh m th t is usually enjoyed for breakfast and lunch, but the sandwiches can be eaten for any meal of the day if bought from street stall vendors.	https://www.tasteatlas.com/images/dishes/761444e624ab407f870c6118abb80fbc.png?mw=1300	https://www.tasteatlas.com/banh-mi-thit
+dis087	Gelato al pistacchio	cat064	ctr090	87	\N	\N	Pistachio is one of the most popular flavors of Italian gelato. A mainstay in every gelateria, in its original form, this frozen treat combines pistachio paste with the classic base of milk, cream, eggs, and sugar. Occasionally, crushed and toasted pistachios can be added, but the basic texture should always remain dense and creamy. Due to the high prices of pistachios and pistachio paste, many gelaterias nowadays opt for cheaper replacements, but the best pistachio is considered to be the grown in a small Sicilian town of Bronte.	https://www.tasteatlas.com/images/dishes/a5cc0b3db80446939cf08d5132fe16fc.jpg?mw=1300	https://www.tasteatlas.com/gelato-al-pistacchio
+dis088	Pisang goreng	cat086	ctr011	88	\N	\N	Fried bananas or plantains are a common everyday snack eaten throughout Indonesia. They come in numerous versions in which the fruit is simply fried in shallow oil, but more often sliced banana pieces are coated in batter before they are fried until golden. Besides numerous other varieties, fried bananas also appear under different names such as godoh biu on Bali or gedhang gor ng on Java. They are traditionally sold at street stalls and carts and belong to a group of gorengan dishes Indonesian deep-fried snacks. The more elaborate version of pisang goreng are served dusted with powdered sugar and cinnamon, drizzled with chocolate, or accompanied by jams or ice cream. Similar banana-based dishes are found in other Southeast Asian regions and countries such as Singapore, the Philippines (maruya) and Malaysia (kuih kodok).	https://www.tasteatlas.com/images/dishes/a5c2d94a0aa54ee89f6c5844ab648183.jpg?mw=1300	https://www.tasteatlas.com/pisang-goreng
+dis089	Risotto ai funghi porcini	cat060	ctr090	89	\N	\N	Risotto ai funghi porcini is a traditional type of risotto prepared with porcini mushrooms as the key ingredient. Apart from fresh or dried porcini, the dish also contains carnaroli or arborio rice, olive oil, butter, shallots, white wine, meat stock, grated Parmigiano-Reggiano, salt, and pepper. The onion is saut ed in butter and olive oil, followed by the mushrooms, rice, and white wine. The stock is added as the risotto is cooking. Near the end of cooking, a knob of butter is added to the pan, while grated cheese can be mixed into the risotto in the end or it can be served at the table so that each person can put the desired amount of cheese on their risotto.	https://www.tasteatlas.com/images/dishes/b4aad95a58d1446382b984a6886d5a02.jpg?mw=1300	https://www.tasteatlas.com/risotto-ai-funghi-porcini
+dis090	Cordero asado	cat083	ctr113	90	CASTILE AND LE N	\N	Cordero asado is a popular Castillan dish made by roasting a whole lamb over an open fire. The lamb is usually marinated with lemon, garlic, and various fresh herbs such as rosemary and thyme. Once it is properly cooked, cordero asado is typically accompanied by roasted potatoes and onions on the side. The dish is especially popular during the Christmas season.	https://www.tasteatlas.com/images/dishes/506247ebd71c411ebc2fee0b2e18d2a7.jpg?mw=1300	https://www.tasteatlas.com/cordero-asado
+dis091	Pappardelle al cinghiale	cat026	ctr090	91	TUSCANY	\N	Pappardelle is a famous Tuscan pasta variety. When paired with rag di cinghiale (made with wild boar), they become one of the regions best gastronomic experiences. Unlike classic rag , the one prepared with wild boar has an intense, much stronger flavor achieved by long, slow simmering in a rich sauce of tomatoes and red wine. The tender meat paired with fresh egg pasta is a combination full of flavors and tradition in every single bite - rich and delicious, topped with a generous amount of chopped fresh parsley and a sprinkle of Parmigiano, pappardelle al rag di cinghiale make a perfect, comforting winter dish, especially when paired with a glass of Tuscan red wine.	https://www.tasteatlas.com/images/dishes/bcb53181b4ce4cba8468161a720f07f8.jpg?mw=1300	https://www.tasteatlas.com/pappardelle-al-cinghiale
+dis092	Carne de porco Alentejana	cat066	ctr105	92	ALGARVE	\N	This traditional Portugal dish combines marinated pieces of pork with clams and a lightly spicy, wine-infused sauce. Though the name of this classic might imply it originated in Alentejo, it is believed that it initially appeared in the Algarve region, but was given its current name because of the highly-prized black pigs that are most commonly reared in Alentejo. The dish is a restaurant staple that is found throughout Portugal. It is usually garnished with fresh cilantro and paired with lemon wedges, pan-fried potatoes, and country-style bread on the side.	https://www.tasteatlas.com/images/dishes/e1f989a6dfa140bf992d3d290b6aa4ce.jpg?mw=1300	https://www.tasteatlas.com/carne-de-porco-a-alentejana
+dis093	Bolo do caco	cat087	ctr105	93	MADEIRA	\N	Hailing from Madeira, this rustic, leavened bread is prepared with wheat flour, mashed sweet potatoes, water, and salt. Traditionally baked on large basalt stone slabs, bolo do caco is typically flat and round, though it can vary in size. It is the most common bread variety on Madeira that is usually served as a warm appetizer with garlic butter spread, but it can also be enjoyed as a sandwich or an accompaniment to various traditional Portuguese dishes.	https://www.tasteatlas.com/images/dishes/f2fcbf5dc2d0454f8cd6542470b0b144.jpg?mw=1300	https://www.tasteatlas.com/bolo-do-caco
+dis094	Inasal na manok	cat059	ctr031	94	WESTERN VISAYAS	\N	Inasal na manok is a unique Filipino grilled chicken dish which originated in Western Visayas and became the signature dish of the entire region. It employs various chicken cuts marinated in a mixture of vinegar and numerous spices such as lemongrass, garlic, and ginger. During grilling, the meat is brushed with the annatto-infused oil which provides the chicken with an appetizing golden color and a unique peppery flavor. The dish is usually served alongside annatto-flavored garlic rice and spiced vinegar. In 2022, the city of Bacolod declared the dish an important cultural property.	https://www.tasteatlas.com/images/dishes/a093a8930f4f4e8e8bb7237998a54957.jpg?mw=1300	https://www.tasteatlas.com/inasal-na-manok
+dis095	Focaccia di Recco col formaggio	cat078	ctr090	95	RECCO	\N	This delectable cheese-filled focaccia hails from the town of Recco, Ligurias gastronomic capital where it can be found in every bakery, pizzeria, and restaurant. It was reportedly invented in the 12th century when, according to legend, the citizens of Recco were preparing this dish for the Crusaders with the little they had: flour, water, olive oil, and some cheese. Unlike most other focaccia flatbreads, this one is made without yeast, and features a paper-thin, hand-pulled crust filled with the soft, mild-flavored cows milk cheese from Alpine pastures called stracchino or crescenza. By the end of the 1800s, focaccia di Recco had become traditionally associated with the celebration of All Saints Day, but today it is prepared and enjoyed throughout the year. Moreover, ever since 1955, the town of Recco has been hosting the so-called Festa della Focaccia, an annual festival held every last week of May.	https://www.tasteatlas.com/Images/Dishes/ec84be038bbc4f4e99fcbc64272457ea.jpg?mw=1300	https://www.tasteatlas.com/focaccia-di-recco
+dis096	Focaccia Barese	cat056	ctr090	96	BARI	\N	This Apulian delicacy is traditionally prepared with a soft, yeasted dough that combines semolina, wheat flour, and mashed potatoes. It is usually topped with cherry tomatoes and olives, but some varieties occasionally employ other combination of ingredients, such as different vegetables, coarse salt, or rosemary. Always baked in round tins, focaccia is usually doused in olive oil and is best served lukewarm.	https://www.tasteatlas.com/images/dishes/cdf419615369478f8c8bb3bbca07bf6e.jpg?mw=1300	https://www.tasteatlas.com/focaccia-barese
+dis097	Mahjouba	cat056	\N	97	\N	\N	Mahjouba is a traditional flatbread that is one of the most popular street food items in the country. These thick and flaky crepe-like flatbreads are made with semolina, then filled with a combination of tomatoes and caramelized onions. Mahjouba is often paired with harissa sauce on the side, but the condiment is completely optional.	https://www.tasteatlas.com/images/dishes/609374d8a1974d0aa7d84fb582262aa4.jpg?mw=1300	https://www.tasteatlas.com/mahjouba
+dis098	Sinigang na baboy	cat088	ctr031	98	\N	\N	This variety of sinigang - Filipino savory and sour soup - consists of various pork cuts that are simmered along tamarind fruit. Tomatoes, onions, garlic, okra, white radish, water spinach and green long peppers are also commonly used for this soup. There is also a similar dish in Malaysian cuisine called siniggang. A version of the pork sinigang is sinigang na miso, which uses the Japanese seasoning made from fermented rice and barley or soybeans. Nowadays, sinigang mix is available in supermarkets, but enjoying the dish made from scratch represents the full experience.	https://www.tasteatlas.com/images/dishes/906dd0157c7f4dbe8f95e0ca5722b05f.jpg?mw=1300	https://www.tasteatlas.com/sinigang-na-baboy
+dis099	Zemiakov placky	cat089	ctr111	99	\N	\N	These rustic, crispy potato pancakes belong to the traditional Slovak cuisine. They consist of a thick batter made with grated potatoes, eggs, flour, and a variety of spices. Pan-fried for a short period of time until golden-brown in color, these filling snacks are usually enjoyed as the main course accompanied by various milk products, or as a side dish that is typically served alongside hearty Slovak stews.	https://www.tasteatlas.com/Images/Dishes/f0fc8436172e4ae78b59b7369c5e42e4.jpg?mw=1300	https://www.tasteatlas.com/zemiakove-placky
+dis100	Kepta duona	cat089	ctr094	100	\N	\N	Kepta duona is a simple Lithuanian snack consisting of sliced rye bread that is shortly fried until crispy. The bread is usually sliced into thin strips before it is pan-fried in oil, and it is usually rubbed with garlic (duona su esnaku), while modern varieties often come topped with cheese (duona su s riu) or mayonnaise. This snack is commonly served in bars, and it is often paired with beer or gira (kvass).	https://www.tasteatlas.com/images/dishes/d51029ddc3d14830a9955557f3266f2c.jpg?mw=1300	https://www.tasteatlas.com/kepta-duona
+\.
+
+
+--
+-- Data for Name: quality_labels; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.quality_labels (label_id, label_name, label_img, "desc") FROM stdin;
+lab001	Presidia - Rare	\N	The Presidia program is a key initiative of Slow Food, designed to safeguard traditional and artisanal food products that are at risk of disappearing. Presidia producers promote sustainable practices by adhering to agroecological principles, protecting biodiversity, and fostering local economies while supporting rural communities.
+lab002	Presidia - Indigenous	\N	The Presidia program is a key initiative of Slow Food, designed to safeguard traditional and artisanal food products that are at risk of disappearing. Presidia producers promote sustainable practices by adhering to agroecological principles, protecting biodiversity, and fostering local economies while supporting rural communities.
+lab003	Ark of Taste - Rare	\N	The Ark of Taste is a catalog of cultural and traditional biodiversity related to food and agriculture. Slow Food has identified thousands of plant varieties, animal breeds, and traditional food products, highlighting the risk of their disappearance, saving them from extinction, and educating institutions and consumers about the need to protect them.
+lab004	Ark of Taste - Indigenous	\N	The Ark of Taste is a catalog of cultural and traditional biodiversity related to food and agriculture. Slow Food has identified thousands of plant varieties, animal breeds, and traditional food products, highlighting the risk of their disappearance, saving them from extinction, and educating institutions and consumers about the need to protect them.
+lab005	Presidia	\N	The Presidia program is a key initiative of Slow Food, designed to safeguard traditional and artisanal food products that are at risk of disappearing. Presidia producers promote sustainable practices by adhering to agroecological principles, protecting biodiversity, and fostering local economies while supporting rural communities.
+lab006	IBA (Contemporary Classics)	\N	The IBA (Contemporary Classics) certificate, issued by the International Bartenders Association, recognizes modern cocktail recipes that have gained widespread popularity and acceptance in international mixology circles.
+lab007	PDO (Protected Designation of Origin)	\N	The PDO (Protected Designation of Origin) certificate ensures that a product is produced, processed, and prepared in a specific geographical area of the European Union, using recognized know-how and distinct characteristics tied to its place of origin.
+lab008	GI (Geographical Indication)	\N	The GI (Geographical Indication) certificate denotes products that have a specific geographical origin and possess qualities, reputation, or characteristics inherent to that location.
+lab009	PGI (Protected Geographical Indication)	\N	The PGI (Protected Geographical Indication) certificate designates that a product possesses qualities, reputation, or other characteristics linked to its geographical origin, covering a broader range than the PDO.
+lab010	DOCG	\N	The DOCG (Denominazione di Origine Controllata e Garantita) certificate is the highest classification for Italian wines, ensuring not only their regional origin but also strict adherence to rigorous production and quality standards.
+lab011	DOC	\N	The DOC (Denominazione di Origine Controllata) certificate is an Italian designation that guarantees a wines origin and quality, ensuring it adheres to specific regional production standards and characteristics.
+lab012	TSG (Traditional Speciality Guaranteed)	\N	The TSG (Traditional Speciality Guaranteed) certificate designates products with a traditional character, either in terms of composition or means of production, without being linked to a specific geographical area.
+lab013	PAT (Prodotto agroalimentare tradizionale)	\N	The PAT (Prodotti Agroalimentari Tradizionali) certificate is an Italian designation that highlights traditional agricultural and food products, celebrating their regional origins and time-honored production techniques.
+lab014	AOC	\N	The AOC (Appellation dOrigine Contr l e) certificate is a French designation that guarantees a products geographical origin and adherence to traditional production methods.
+lab015	IBA (International Bartenders Association)	\N	The International Bartenders Association (IBA) certificate is a globally recognized accreditation that validates a bartenders professional skills and knowledge in the art of mixology, and sanctions a list of official cocktails.
+lab016	UNESCO Intangible Cultural Heritage	\N	The UNESCO Intangible Cultural Heritage certificate recognizes and protects cultural practices, expressions, and traditions that are deemed invaluable to humanitys shared heritage and require safeguarding for future generations.
+lab017	IGT (Indicazione Geografica Tipica)	\N	The IGT (Indicazione Geografica Tipica) wine certificate indicates an Italian wines specific geographical region of production, ensuring a certain level of quality and authenticity.
+lab018	Ark of Taste	\N	The Ark of Taste is a catalog of cultural and traditional biodiversity related to food and agriculture. Slow Food has identified thousands of plant varieties, animal breeds, and traditional food products, highlighting the risk of their disappearance, saving them from extinction, and educating institutions and consumers about the need to protect them.
+lab019	IBA (Unforgettables)	\N	The IBA (Unforgettables) certificate, bestowed by the International Bartenders Association, honors timeless cocktail recipes that have left an indelible mark on the history of mixology.
+lab020	Original Srbija	\N	The Original Srbija certificate is a designation that recognizes and promotes authentic Serbian products, ensuring their quality, origin, and adherence to traditional production methods.
+lab021	Districtus Austriae Controllatus (DAC)	\N	The Districtus Austriae Controllatus (DAC) certificate is an Austrian wine appellation system that ensures the origin and quality of wines based on specific regional characteristics and styles.
+lab022	IBA (New Era Drinks)	\N	The IBA (New Era Drinks) certificate, awarded by the International Bartenders Association, acknowledges innovative cocktail recipes that represent the evolving trends and tastes of the modern mixology scene.
+\.
+
+
+--
+-- Data for Name: recipes; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.recipes (recipe_id, dish_id, variation_name, prep, cook, "desc", rating) FROM stdin;
+rec001	dis001	Pizza Margherita	1h	5min	The recipe is the one codified by Associazione Verace Pizza Napoletana (VPN Association), meaning only pizzas prepared in this manner can hold the denomination "original Neapolitan pizza". One pizza is one serving, and the number of pizzas that can be made with the amounts stated here ranges from eight to eleven, depending on the amount of flour the water absorbs, which changes daily. That said, if you are not making a huge batch, half a liter (2 1/4 cups) of water makes for approximately five to seven pizzas, so adjust the amounts accordingly. If you do not own a wood-fired oven but want good results, apply the suggestions from our "at-home preparation" tip.	4.90
+rec_new_001	dis001	Pizza Margherita for Home Ovens	\N	\N	This recipe for an at-home preparation of pizza Margherita is the creation of the pizzaiolo Davide Civitello. Unlike the traditional recipe for pizza Margherita, here, oil and sugar are also added to the dough sugar to help with browning and oil to make the pizza crispier since it bakes longer than one baked in a wood-fired oven.	4.70
+rec003	dis003	Picanha Steak With Rice And Beans	30min	1h	\N	4.10
+rec005	dis005	Shanghai-Style Xiaolongbao	40min	10min	The following is the recipe for traditional Shanghai-style xiaolongbao dumplings. It gives instructions on how to make the wrappers and the pork and jelly filling from scratch. The recipe comes from Clarissa Wei, a freelance journalist and expert on Taiwanese and Chinese cuisine. Made in Taiwan is her first cookbook. We suggest using two wrappers to practice forming a dumpling then use the remaining eight for making the dumplings.	3.80
+rec_new_002	dis005	Wuxi-style Xiaolongbao	\N	\N	The following is the recipe for Wuxi-style xiaolongbao dumplings, which are sweeter and have thinner skin than those from Shanghai. In this variant, the filling is seasoned with oyster sauce, which is both salty and sweet, and sugar, thus resulting in sweeter-tasting dumplings. The recipe gives instructions on how to prepare the wrappers, the pork jelly for the filling, and the filling from scratch. For even more sweet flavor, its best to pair these dumplings with Chinese black vinegar, which has a slightly sweet and acidic taste.	4.80
+rec010	dis010	Hakata Ramen	2h	12h	This recipe is adapted from the SeriousEats.com website. If youd like to keep it as traditional as possible, do not add the ramen egg and just skip that part of the recipe.	3.80
+rec011	dis011	Lebanese Shawarma	15min	20min	\N	3.60
+rec_new_003	dis011	Homemade Beef Shawarma	\N	\N	This recipe shows how to make shawarma at home without a rotating cone. After marinating overnight, the meat can be prepared on an electric grill or in an oven, and if you wish, you can partially replace a part of the beef with lamb preferably, choose a piece that is not completely lean. Also, the recipe suggests serving shawarma wrapped in pita bread together with French fries, among other things, which, although not traditional, is a very common practice these days.	4.80
+rec012	dis012	Chateaubriand In The Style Of Escoffier	20min	20min	\N	4.20
+rec013	dis013	Foolproof Chikin	20min	40min	\N	4.70
+rec_new_004	dis013	Seasoned Korean Fried Chicken	\N	\N	This is the seasoned, sauced-up version of classic Korean fried chicken ultra-crispy and coated in a sweet, spicy glaze. The chicken is first marinated with salt, pepper, and a light egg and flour-starch batter, then double-fried for maximum crunch. After frying, its tossed in a bold garlic gochujang sauce that makes every bite sticky, savory, and irresistible. The recipe is adapted from the website of Emily Kim, also Maangchi, a South Korean-born American YouTuber and author that The New York Times has proclaimed "YouTubes Korean Julia Child."	4.70
+rec014	dis014	Pollo A La Brasa	30min	40min	\N	4.50
+rec016	dis016	Traditional Shashlik	30min	20min	\N	4.50
+rec_new_005	dis016	Soviet Shashlik	\N	\N	The following recipe is adapted from the iconic Soviet cookbook The Book of Tasty and Healthy Food. Unlike the traditional recipe, here, the marinade is further intensified with lemon juice and vinegar. The recipe suggests serving the meat with tomatoes, lemon slices, and green onions. Unorthodoxly, perhaps, they suggest serving the meat with a side of rice.	4.30
+rec017	dis017	Authentic Pork Phanaeng Curry	1h	40min	\N	4.70
+rec026	dis026	Classic Puff Pastry Croissants	50min	20min	This recipe was adapted from Cuisine Larousse website and gives instructions for preparing classic, puff-pastry French croissants from scratch using the turning technique. Make sure you start the preparation on time since the dough needs to rest for 5 hours overall.	4.10
+rec_new_006	dis026	Larousse Gastronomiques Croissants With Leavened Dough	\N	\N	Adapted from The New Larousse Gastronomique cookbook, this recipe offers an alternative approach to the classic puff pastry croissants. In this version, they are prepared with leavened dough which makes the process significantly shorter.	4.80
+rec027	dis027	Spaghetti Alla Carbonara	8min	10min	This is the traditional carbonara recipe made with just guanciale, pecorino Romano, egg yolks, pepper, and pasta. Depending on the texture you prefer, you can opt between cutting the guanciale into dices or strips dices will be soft on the inside, while strips will end up being more on the crisp side when saut ed.	4.30
+rec_new_007	dis027	Luciano Monosilios Carbonara - Carbonara by Romes Carbonara King	\N	\N	This recipe is adapted from the recipe card Luciano Monosilio gives in his restaurant Luciano - Cucina Italiana with each order of carbonara. Lucianos carbonara is made with a mixture of pecorino Romano and Grana Padano, which is added to reduce the overall saltiness of the dish. The sauce is thickened in a bain-marie, so the eggs are cooked but not scrambled, and the sauce is thick and creamy.	4.80
+rec031	dis031	Italian Academy Of CuisineS Lasagne Verdi Alla Bolognese	2h	30min	\N	4.30
+rec_new_008	dis031	Academia Barillas Lasagne Verdi alla Bolognese	\N	\N	In this version of the recipe, published by Academia Barilla, the first international center dedicated to the development and promotion of Italian gastronomic culture, the ingredients you can find in the rag are dry red wine and the tomato concentrate. All other steps in preparing the lasagne alla Bolognese are more or less similar to the recipe above. This recipe suggests 2 liters of b chamel sauce.	4.90
+rec039	dis039	Steak Au Poivre	10min	6min	The following recipe is adapted from the Larousse Cuisine website. The dish as prepared here is often served in French bistros.	4.30
+rec051	dis051	Biang Biang Noodles	1h	30min	\N	4.60
+rec053	dis053	Linguine Allo Scoglio With Tomatoes	40min	20min	\N	4.10
+rec058	dis058	Boiled Maine Lobster	30min	15min	\N	4.50
+rec060	dis060	Bougatsa	30min	1h	\N	4.60
+rec_new_009	dis060	Sweet Mizithra Cheese Bougatsa	\N	\N	This sweet mizithra bougatsa wraps a rich, creamy filling of sour mizithra cheese and optional staka in layers of buttery phyllo, folded like an envelope for a crisp, golden finish. The cheese mixture is gently cooked with flour, butter, and milk, then sealed between multiple layers of pastry before baking. Served warm and dusted with sugar, its a delicate and indulgent twist on the classic Greek bougatsa.	4.40
+rec062	dis062	Pierogi Ruskie	2h	30min	This recipe gives instructions on how to make the classic pierogi ruskie with a filling of potatoes, cheese, and onion. However, if youd like to make the recipe as close to traditional as possible, do not add butter to the dough. Butter is often added because it makes for a more pliable, easier-to-work-with dough.	4.70
+rec064	dis064	Traditional Mercimek orbas	25min	35min	\N	\N
+rec065	dis065	Cochinita Pibil	1h	4h	\N	4.60
+rec069	dis069	Dakos	20min	\N	\N	4.50
+rec077	dis077	Ceviche Mixto	20min	\N	\N	4.10
+rec080	dis080	Classic Pa dakia	20min	15min	\N	4.30
+rec_new_010	dis080	Roasted Pa dakia	\N	\N	The following recipe has been adapted from VisitGreece.org, the official promotional website of The Greek Tourism Organization. It showcases how to prepare pa dakia in the oven. The marinade is applied to the meat, but theres no need for marination, and the meat is cooked long, 1 hours to be exact.	4.50
+rec086	dis086	Authentic B nh M Th t With Vietnamese Sausage Cha Lua And P t	1h	55min	\N	4.50
+rec_new_011	dis086	B nh M Th t by Andrea Nguyen	\N	\N	The following is the authentic b nh m th t recipe. It consists of Vietnamese rolls, seasoned ground pork, various cold cuts, mayonnaise, the ubiquitous pickled vegetables, cilantro, cucumber, and chili oil. Instructions for pickled vegetables and seasoned ground pork are included in this recipe. The recipe is courtesy of Andrea Nguyen, a Vietnamese-born American teacher, food writer, cookbook author, and chef living in the San Francisco area. She is a James Beard Award winner and is considered the utmost authority on Asian cuisines, specifically Vietnamese.	4.50
+rec091	dis091	Pappardelle Al Cinghiale	45min	3h	\N	4.70
+rec095	dis095	Focaccia Di Recco Col Formaggio	45min	30min	\N	4.80
+\.
+
+
+--
+-- Data for Name: restaurants; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.restaurants (resto_id, name, city, country_id, address, website, rating) FROM stdin;
+res001	LAntica Pizzeria da Michele	Naples	ctr090	Via Cesare Sersale, 1, 80139 Naples, Italy	http://www.damichele.net/	4.40
+res003	Restaurante do Z	Cabo Frio	ctr143	Tv. Na es Unidas, 33 - Centro, Cabo Frio - RJ, 28906-450, Brazil	\N	4.50
+res004	Don Julio	Buenos Aires	ctr141	Guatemala 4699, 1425 Buenos Aires, Argentina	http://www.parrilladonjulio.com.ar/	4.50
+res005	Din Tai Fung Shanghai	Shanghai	ctr008	Shanghai Centre Shop 104A, 1376 West Nanjing Road, Jingan, Shanghai, China	\N	4.50
+res007	Past is de Bel m	Lisbon	ctr105	Rua de Bel m 84-92, 1300-085 Lisbon, Portugal	http://www.pasteisdebelem.pt/	4.60
+res008	Birreria Las 9 Esquinas	Guadalajara	ctr133	Avenida Crist bal Col n 384, Centro Historico, 44100 Guadalajara, Jal., Mexico	http://www.las9esquinas.com/	4.50
+res010	Ichiran Nakasu	Fukuoka	ctr015	5 Chome-3-2 Nakasu, Hakata Ward, Fukuoka, Japan	https://www.tasteatlas.com/www.ichiran.co.jp	4.10
+res011	Barbar	Beirut	ctr021	El Akhtal El Saghir, Beirut, Lebanon	\N	4.10
+res012	Chez Julien	Paris	ctr083	1 Rue Du Pont Louis-Philippe, 75004 Paris, France	http://www.chezjulien.paris/	3.80
+res014	Pardos Chicken	Lima District	\N	Pasaje Santa Rosa 153, Lima 15001, Peru	http://www.pardoschicken.pe/	4.20
+res015	Yamasan Sushi	Kanazawa	ctr015	1-1 Kinoshinbomachi, Kanazawa 920-0858, Ishikawa prefecture, Japan	\N	4.10
+res016	Khachapuri	Moscow	ctr107	Bolshoy Gnezdnikovskiy pereulok, 10, Moskva, Russia	https://www.hacha.ru/	4.60
+res017	Baan Rim Pa Patong	Phuket	ctr040	223 Prabaramee Road Patong, Kathu Phuket 83150, Thailand	http://www.baanrimpa.com/thai-restaurant/	4.20
+res018	Valentine Roti	Kuala Lumpur	ctr022	Stor No. 1, Jalan Semarak, 54000 Kuala Lumpur, Malaysia	http://valentineroti.letseat.at/	4.10
+res019	Porfirios Masaryk	Mexico City	ctr133	Av. Pdte. Masaryk 214, Polanco, Polanco V Secc, Miguel Hidalgo, 11580 Mexico City, CDMX, Mexico	https://porfirios.com.mx/	4.50
+res021	Panaderia y Pasteleria KUTY	Santiago de Cali	ctr145	Av. 6 Nte., Cali, Valle del Cauca, Colombia	http://panaderiakuty.com/	4.50
+res022	The Salt Lick BBQ	Driftwood	ctr140	18300 Farm to Market Rd 1826, Driftwood, TX 78619, USA	http://www.saltlickbbq.com/	4.60
+res023	Sushi Kanesaka	Ch	\N	8-10-3 Ginza, Chuo, Tokyo, Japan	http://www.sushi-kanesaka.com/	3.90
+res025	Trigona Elenidi	Thessaloniki	ctr086	Dim. Gounari 13, Thessaloniki 546 22, Greece	https://elenidis.gr/	4.70
+res026	Bl Sucr	Paris	ctr083	7 Rue Antoine Vollon, 75012 Paris, France	\N	4.60
+res027	Roscioli	Rome	ctr090	Via dei Giubbonari, 21/22, 00186 Rome, Italy	http://www.salumeriaroscioli.com/	4.40
+res028	Osteria dell Orsa	Bologna	ctr090	Via Mentana 1, 40126 Bologna, Italy	http://www.osteriadellorsa.com/	4.20
+res029	Nicos	Mexico City	ctr133	Av. Cuitl huac 3102, Claveria, 02080 Mexico City, D.F., Mexico	http://www.nicosmexico.mx/	4.30
+res030	Da Enzo al 29	Rome	ctr090	Via dei Vascellari, 29, 00186 Rome, Italy	http://www.daenzoal29.com/	4.40
+res031	Trattoria Anna Maria	Bologna	ctr090	Via delle Belle Arti, 17, 40126 Bologna, Italy	http://www.trattoriannamaria.com/	4.00
+res032	Mini Dondurma	Be ikta	\N	Bebek Mh., Cevdet Pa a Cd. 38/A, 34342 Be ikta /Istanbul, Turkey	\N	4.60
+res033	Torian Hatagaya	Shibuya	\N	2-8-9 Hatagaya, Shibuya 151-0072, Tokyo Prefecture, Japan	https://www.facebook.com/TorianHatagayaTen/	\N
+res034	El Hidalguense	Mexico City	ctr133	Campeche 155, Roma Sur, Cuauht moc, 06760 Mexico City, CDMX, Mexico	\N	4.40
+res035	El Bodegon de Miraflores	Miraflores	\N	Avenida Tarapaca 197, Miraflores, Lima, Peru	https://www.elbodegon.com.pe/	4.60
+res036	Los Panchos	Mexico City	ctr133	Calle Tolstoi 9, Miguel Hidalgo, Anzures, 11590 Mexico City, CDMX, Mexico	http://www.lospanchos.mx/	4.30
+res037	P czkarnia	Krak w	ctr104	Grodzka 25, 31-044 Krak w, Poland	https://paczkarniamanufaktura.pl/	4.40
+res038	Kang Ho Dong Baekjeong Myeongdong	Seoul	ctr035	19-3, Myeongdong 10-gil, Jung-gu, Seoul 04537, South Korea	http://www.baekjeong.co.kr/	3.40
+res039	Bistrot Paul Bert	Paris	ctr083	18 Rue Paul Bert, 75011 Paris, France	\N	4.20
+res040	Beijing Da Dong	Dongcheng District	\N	Dongsi 10th Alley, Dongcheng, Beijing, China	http://www.dadongdadong.com/	4.30
+res041	Li Xuan	Chengdu	ctr008	269 Shuncheng St, LuoMaShi, Qingyang Qu, Chengdu Shi, China	http://www.ritzcarlton.com/en/hotels/china/chengdu/dining/li-xuan	\N
+res042	Le R camier	Paris	ctr083	4 Rue R camier, 75007 Paris, France	http://www.lerecamier.com/fr/	4.30
+res045	Maspindzelo	Tbilisi	ctr084	7 Vakhtang Gorgasali Street, Tbilisi, Georgia	http://www.mgroup.ge/	4.40
+res046	Caf Landtmann	Vienna	ctr068	Universit tsring 4, 1010 Vienna, Austria	http://www.landtmann.at/	4.40
+res047	Antica Trattoria Gianna	Recorfano	ctr090	Via Maggiore 12, 26030 Voltido CR, Italy	http://www.anticatrattoriagianna.com/	4.70
+res048	Casina del Bosco	Rimini	ctr090	Viale Antonio Beccadelli, 15, 47921 Rimini RN, Italy	http://www.casinadelbosco.it/	4.50
+res049	El Jibarito	San Juan	ctr134	280 Calle Sol, San Juan, 00901, Puerto Rico	https://eljibarito.business.site/	4.30
+res050	A P o de Queijaria	Belo Horizonte	ctr143	Rua Ant nio de Albuquerque, 856 - Funcion rios, Belo Horizonte, Brazil	http://www.facebook.com/APaoDeQueijaria	4.60
+res051	Yau Yuen Siu Tsui	Hong Kong	ctr008	G/F, 36 Man Yuen St, Jordan, Hong Kong	\N	4.10
+res052	Il Pescato Cucinato	Riomaggiore	ctr090	Via Colombo, 199, Riomaggiore, Italy	http://www.facebook.com/Il-pescato-cucinato-280031868784026/	4.60
+res053	Sicilia In Tavola	Syracuse	ctr090	Via Cavour 28, 96100 Syracuse SR, Italy	http://www.siciliaintavola.eu/	4.40
+res054	Franklin Barbecue	Austin	ctr140	900 E 11th St, Austin, TX 78702, USA	http://www.franklinbbq.com/	4.70
+res055	Ph Gia Truy n B t n	Hanoi	ctr045	49 Bat Dan, Hanoi, Vietnam	\N	4.20
+res056	Santo Ant nio	Estreito de C mara de Lobos	ctr105	Estrada Jo o Gon alves Zarco 656, Estreito C mara de Lobos, 9325-087 Madeira, Portugal	http://www.santoantonioespetada.com/	4.70
+res057	Nahm Restaurant	Bangkok	ctr040	27 S Sathorn Rd | Hotel Metropolitan by COMO, Bangkok 10120, Thailand	http://www.comohotels.com/metropolitanbangkok/dining/nahm	4.00
+res058	Thurstons Lobster Pound	Bernard	ctr140	9 Thurston Rd, Bernard, ME 04612, USA	http://www.thurstonforlobster.com/	4.70
+res059	Katmerci Zekeriya Usta	ahinbey	ctr041	ukur Mh. K r kc Sok. B Hilmi Gecidi No: 16/C-D Sahinbey, Gaziantep, Turkey	http://www.katmercizekeriya.com/	4.30
+res060	Bougatsa Iordanis	Chania City	ctr086	24 Apokoronou, Chania Town, Crete 731 35, Greece	http://www.iordanis.gr/#	4.50
+res061	Armando al Pantheon	Rome	ctr090	Salita d Crescenzi 31, 00186 Rome, Italy	http://www.armandoalpantheon.it/	4.40
+res062	Pod Baranem	Krak w	ctr104	w. Gertrudy 21, 30-001 Krakow, Poland	http://www.podbaranem.com/	4.60
+res063	Chokladkoppen	Stockholm	ctr114	Stortorget 18, 11129 Stockholm, Sweden	http://www.chokladkoppen.se/	4.20
+res064	Cafe afak	G reme	ctr041	M ze Cd. No:28, 50180 G reme/Nev ehir Merkez/Nev ehir, T rkiye	https://cafesafak.weebly.com/	4.30
+res065	Taquer a El Turix	Mexico City	ctr133	Calle Emilio Castelar 212, Esquina Henrik ibsen, Polanco lll secci n, 11550 Miguel Hidalgo, Mexico City, Mexico	\N	4.30
+res067	El Cardenal	Mexico City	ctr133	Calle Palma 23, Cuauht moc, Colonia Centro, 06000 Mexico City, D.F., Mexico	http://www.restauranteelcardenal.com/	4.60
+res068	La Cocina	Buenos Aires	ctr141	Av. Pueyrred n 1508, Buenos Aires, C1118AAS CABA, Argentina	\N	4.60
+res069	Peskesi	Heraklion	ctr086	Kapetan Haralampi 6-8, Heraklion, Crete 71202 Greece	https://peskesicrete.gr/en/	4.80
+res070	Ulla Winbladh	Stockholm	ctr114	Rosendalsv gen 8, 115 21 Stockholm, Sweden	https://www.ullawinbladh.se/	4.40
+res071	Buca Lapi	Florence	ctr090	Via del Trebbio 1r, 50123 Florence, Italy	http://www.bucalapi.com/	4.60
+res072	To Tsipouradiko	Corfu City	ctr086	Prosalendou & Gida 41, Corfu City 49100, Greece	https://to-tsipouradiko-corfu.business.site/?utm_source=gmb&utm_medium=referral	4.60
+res073	Ted Drewes Frozen Custard	St. Louis	ctr140	6726 Chippewa St, St. Louis, MO 63109, USA	http://www.teddrewes.com/	4.80
+res074	Hotel Shadab	Hyderabad	ctr010	21-1-140-144, Charminar, High Court Road, Ghansi Bazaar, Hyderabad, Telangana 500012, India	http://www.shadabfoodcourt.com/	4.00
+res075	Din Tai Fung Hong Kong	Hong Kong	ctr008	Shop G3-11, G/F, 68 Yee Wo St., Causeway Bay, Hong Kong	http://www.dintaifung.com.hk/	4.20
+res076	Hac Abdullah Lokantas	Beyo lu	\N	A a Camii At f Y lmaz Caddesi, Eski Sak za ac Cad. 9/A, 34435 Beyo lu/Istanbul, Turkey	http://www.haciabdullah.com.tr/	4.40
+res077	Chez Wong	Lima District	\N	Enrique Le n Garc a 114, Distrito de Lima 15034, Peru	\N	4.40
+res078	La Coupole	Paris	ctr083	102 Boulevard Du Montparnasse, 75014 Paris, France	https://www.lacoupole-paris.com/en/	4.30
+res079	Mim alla Ferrovia	Naples	ctr090	Via Alfonso DAragona, 19, 80139 Naples NA, Italy	https://www.mimiallaferrovia.it/	4.30
+res080	To Steki Tou Ilia	Athens	ctr086	Eptachalkou 5, Athens 118 51, Greece	https://www.tasteatlas.com/+302103458052	4.30
+res082	Kocak Baklava	Gaziantep	ctr041	Ali Fuat Cebesoy Bulv., . M. Engin zdin Sok. No:3, ehitkamil/Gaziantep, Turkey	\N	\N
+res083	Rolina Traditional Hainanese Curry Puff	Singapore	\N	6 Tanjong Pagar Plaza #02-15, Singapore 081006, Singapore	http://www.rolinasingapore.strikingly.com/	4.10
+res085	Restaurant Sea Horse	Helsinki	ctr082	Kapteeninkatu 11, 00140 Helsinki, Finland	http://www.seahorse.fi/	4.30
+res087	Gelateria dei Gracchi	Rome	ctr090	Via dei Gracchi, 272, 00193 Rome RM, Italy	http://www.gelateriadeigracchi.it/	4.40
+res088	Warung Kopi Klotok	Yogyakarta	ctr011	Jl. Kaliurang km 16, Pakembinangun, Sleman, 55582 Yogyakarta, Indonesia	\N	4.50
+res089	Trattoria di Campagna	Sarre	ctr090	Frazione Saint Maurice, 57, 11010 Sarre AO, Italy	https://www.trattoriadicampagna.it/	4.20
+res091	Osteria del Cinghiale Bianco	Florence	ctr090	Borgo San Jacopo, 43R, 50125 Florence, Italy	http://www.cinghialebianco.com/	4.50
+res092	Restaurante Fialho	vora	ctr105	Travessa das Mascarenhas 16, 7000-557 vora, Portugal	http://restaurantefialho.pt/?lang=en	4.40
+res093	Santo Ant nio	Estreito de C mara de Lobos	ctr105	Estrada Jo o Gon alves Zarco 656, Estreito C mara de Lobos, 9325-087 Madeira, Portugal	http://www.santoantonioespetada.com/	4.70
+res094	Aidas Manokan	Bacolod	ctr031	San Juan St, Brgy. 12, Bacolod, 6100 Negros Occidental, Philippines	http://www.facebook.com/Aidas-Manokan-462216613822043/	\N
+res095	Manuelina	Recco	ctr090	Via Roma, 296, Recco GE, Italy	http://www.manuelina.it/	4.30
+res096	Panificio Fiore Bari	Bari	ctr090	Str. Palazzo di Citt , 38, 70122 Bari BA, Italy	\N	4.60
+res098	Maxs Restaurant	Quezon City	ctr031	1407 Quezon Avenue, West Triangle, Quezon City, Philippines	https://www.maxschicken.com/	4.20
+res099	U Hromadov	Rajeck Lesn	ctr111	Rajeck Lesn 430, 013 15 Rajeck Lesn , Slovakia	http://www.penzionuhromadov.sk/	4.70
+res100	Forto Dvaras Vilnius	Vilnius	ctr094	Pilies g. 16, Vilnius 01123, Lithuania	http://www.fortodvaras.lt/	4.50
+\.
+
+
+--
+-- Data for Name: resto_menu; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.resto_menu (dish_id, resto_id) FROM stdin;
+\.
+
+
+--
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.users (email, first_name, last_name, username, password) FROM stdin;
+\.
+
+
+--
+-- Data for Name: users_favorites; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.users_favorites (email, dish_id, fav_ranking) FROM stdin;
+\.
+
+
+--
+-- Name: categories categories_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.categories
+    ADD CONSTRAINT categories_pkey PRIMARY KEY (category_id);
+
+
+--
+-- Name: comments comments_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.comments
+    ADD CONSTRAINT comments_pkey PRIMARY KEY (comment_id);
+
+
+--
+-- Name: countries countries_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.countries
+    ADD CONSTRAINT countries_pkey PRIMARY KEY (country_id);
+
+
+--
+-- Name: dish_label dish_label_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.dish_label
+    ADD CONSTRAINT dish_label_pkey PRIMARY KEY (dish_id, label_id);
+
+
+--
+-- Name: dishes dishes_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.dishes
+    ADD CONSTRAINT dishes_pkey PRIMARY KEY (dish_id);
+
+
+--
+-- Name: quality_labels quality_labels_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.quality_labels
+    ADD CONSTRAINT quality_labels_pkey PRIMARY KEY (label_id);
+
+
+--
+-- Name: recipes recipes_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.recipes
+    ADD CONSTRAINT recipes_pkey PRIMARY KEY (recipe_id);
+
+
+--
+-- Name: restaurants restaurants_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.restaurants
+    ADD CONSTRAINT restaurants_pkey PRIMARY KEY (resto_id);
+
+
+--
+-- Name: resto_menu resto_menu_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.resto_menu
+    ADD CONSTRAINT resto_menu_pkey PRIMARY KEY (dish_id, resto_id);
+
+
+--
+-- Name: users_favorites users_favorites_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.users_favorites
+    ADD CONSTRAINT users_favorites_pkey PRIMARY KEY (email, dish_id);
+
+
+--
+-- Name: users users_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.users
+    ADD CONSTRAINT users_pkey PRIMARY KEY (email);
+
+
+--
+-- Name: users users_username_key; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.users
+    ADD CONSTRAINT users_username_key UNIQUE (username);
+
+
+--
+-- Name: recipes trg_check_dish_rating; Type: TRIGGER; Schema: public; Owner: postgres
+--
+
+CREATE TRIGGER trg_check_dish_rating BEFORE INSERT OR UPDATE ON public.recipes FOR EACH ROW EXECUTE FUNCTION public.check_rating_range();
+
+
+--
+-- Name: restaurants trg_check_restaurant_rating; Type: TRIGGER; Schema: public; Owner: postgres
+--
+
+CREATE TRIGGER trg_check_restaurant_rating BEFORE INSERT OR UPDATE ON public.restaurants FOR EACH ROW EXECUTE FUNCTION public.check_rating_range();
+
+
+--
+-- Name: comments comments_dish_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.comments
+    ADD CONSTRAINT comments_dish_id_fkey FOREIGN KEY (dish_id) REFERENCES public.dishes(dish_id);
+
+
+--
+-- Name: comments comments_email_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.comments
+    ADD CONSTRAINT comments_email_fkey FOREIGN KEY (email) REFERENCES public.users(email);
+
+
+--
+-- Name: dish_label dish_label_dish_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.dish_label
+    ADD CONSTRAINT dish_label_dish_id_fkey FOREIGN KEY (dish_id) REFERENCES public.dishes(dish_id);
+
+
+--
+-- Name: dish_label dish_label_label_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.dish_label
+    ADD CONSTRAINT dish_label_label_id_fkey FOREIGN KEY (label_id) REFERENCES public.quality_labels(label_id);
+
+
+--
+-- Name: dishes dishes_category_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.dishes
+    ADD CONSTRAINT dishes_category_id_fkey FOREIGN KEY (category_id) REFERENCES public.categories(category_id);
+
+
+--
+-- Name: dishes dishes_country_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.dishes
+    ADD CONSTRAINT dishes_country_id_fkey FOREIGN KEY (country_id) REFERENCES public.countries(country_id);
+
+
+--
+-- Name: recipes recipes_dish_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.recipes
+    ADD CONSTRAINT recipes_dish_id_fkey FOREIGN KEY (dish_id) REFERENCES public.dishes(dish_id);
+
+
+--
+-- Name: restaurants restaurants_country_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.restaurants
+    ADD CONSTRAINT restaurants_country_id_fkey FOREIGN KEY (country_id) REFERENCES public.countries(country_id);
+
+
+--
+-- Name: resto_menu resto_menu_dish_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.resto_menu
+    ADD CONSTRAINT resto_menu_dish_id_fkey FOREIGN KEY (dish_id) REFERENCES public.dishes(dish_id);
+
+
+--
+-- Name: resto_menu resto_menu_resto_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.resto_menu
+    ADD CONSTRAINT resto_menu_resto_id_fkey FOREIGN KEY (resto_id) REFERENCES public.restaurants(resto_id);
+
+
+--
+-- Name: users_favorites users_favorites_dish_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.users_favorites
+    ADD CONSTRAINT users_favorites_dish_id_fkey FOREIGN KEY (dish_id) REFERENCES public.dishes(dish_id);
+
+
+--
+-- Name: users_favorites users_favorites_email_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.users_favorites
+    ADD CONSTRAINT users_favorites_email_fkey FOREIGN KEY (email) REFERENCES public.users(email);
+
+
+--
+-- PostgreSQL database dump complete
+--
+

@@ -1,0 +1,4072 @@
+[
+  {
+    "comment_id": "com00101",
+    "dish_id": "dis001",
+    "username": "Kenlyn Tesalonika Winata",
+    "content": "\"So good\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JULY 31, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00102",
+    "dish_id": "dis001",
+    "username": "Sneider Segura Sudario",
+    "content": "\"demasiado delicioso\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 22, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00103",
+    "dish_id": "dis001",
+    "username": "Tommaso Zenone",
+    "content": "\"Not much to say. It's a fricking UNESCO protected heritage. And well deserved. While it is not my Top 1 pizza, I'd find it unfathomable to give it any less than the max grade.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 16, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00104",
+    "dish_id": "dis001",
+    "username": "Don Blackh",
+    "content": "\"Best on the planet\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 9, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00105",
+    "dish_id": "dis001",
+    "username": "Георги Киров",
+    "content": "\"Simple is better\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "FEBRUARY 27, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00201",
+    "dish_id": "dis002",
+    "username": "Furkan Ucar",
+    "content": "\"Perfect for long family breakfasts, but a bit difficult for those who want to start the day quickly.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JULY 11, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00202",
+    "dish_id": "dis002",
+    "username": "Orhan DIramca",
+    "content": "\"So tasty you will be amazed\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 9, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00203",
+    "dish_id": "dis002",
+    "username": "Incnto Incnto",
+    "content": "\"The best breakfast!!!!!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 9, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00204",
+    "dish_id": "dis002",
+    "username": "SERHAT UYSAL",
+    "content": "\"A must must must have.Everyone must experience at least once in a life time.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 9, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00205",
+    "dish_id": "dis002",
+    "username": "Berkay Turan",
+    "content": "\"best breakfast on earth\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 9, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00301",
+    "dish_id": "dis003",
+    "username": "Adriana Grani Marella",
+    "content": "\"PICANHA É A MELHOR CARNE BRASILEIRA!!! MARAVILHOSA PORÉM CARA\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 9, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00302",
+    "dish_id": "dis003",
+    "username": "Phạm Hoàng Minh Huy",
+    "content": "\"yeah\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "FEBRUARY 24, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00303",
+    "dish_id": "dis003",
+    "username": "Oliver Thomas",
+    "content": "\"Se for uma picanha tenrinha, é a carne mais saborosa no planeta\"\nUSEFUL RECOMMENDATION?\n1\n0",
+    "rating": 0,
+    "date": "DECEMBER 19, 2024",
+    "likes": "1",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00304",
+    "dish_id": "dis003",
+    "username": "Pauline Lyra",
+    "content": "\"Melhor carne do mundo.\"\nUSEFUL RECOMMENDATION?\n1\n0",
+    "rating": 0,
+    "date": "DECEMBER 5, 2024",
+    "likes": "1",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00305",
+    "dish_id": "dis003",
+    "username": "ALEX KAWAZAKI",
+    "content": "\"Best cut of barbecue meat in the world!\"\nUSEFUL RECOMMENDATION?\n1\n0",
+    "rating": 0,
+    "date": "DECEMBER 5, 2024",
+    "likes": "1",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00401",
+    "dish_id": "dis004",
+    "username": "Marjan Ček",
+    "content": "\"Don't stop at the meat; Provoleta and grilled red peppers are delicious too.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 5, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00402",
+    "dish_id": "dis004",
+    "username": "Ricardo Coloma",
+    "content": "\".\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 30, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00403",
+    "dish_id": "dis004",
+    "username": "Allan Cândido",
+    "content": "\"This BBQ Is Excellent\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MARCH 25, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00404",
+    "dish_id": "dis004",
+    "username": "Bartek Mika",
+    "content": "\"Must have in Argentina and Uruguay\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 7, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00405",
+    "dish_id": "dis004",
+    "username": "Ramiro Tau",
+    "content": "\"Mucho más versátil e interesante que el asado en asador. La Parrilla es argentina es fabulosa.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 13, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00501",
+    "dish_id": "dis005",
+    "username": "Jay D",
+    "content": "\"Very good.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JULY 25, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00502",
+    "dish_id": "dis005",
+    "username": "Lara Liban",
+    "content": "\"Din Tai Fung Megamall, Paradise Dynasty Hongkong and Podium\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 15, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00503",
+    "dish_id": "dis005",
+    "username": "Jamie Millward",
+    "content": "\"One of the best foods ever created!\"\nUSEFUL RECOMMENDATION?\n1\n0",
+    "rating": 0,
+    "date": "JANUARY 9, 2023",
+    "likes": "1",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00504",
+    "dish_id": "dis005",
+    "username": "Garmond Zheng",
+    "content": "\"Delish\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "NOVEMBER 6, 2022",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00505",
+    "dish_id": "dis005",
+    "username": "Chris P",
+    "content": "\"The king of all dumplings!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 21, 2022",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00601",
+    "dish_id": "dis006",
+    "username": "David Rivadeneira",
+    "content": "\"Nanan, tremendo el pan, suavecito, rico y genial para comer con salsas\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "OCTOBER 3, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00602",
+    "dish_id": "dis006",
+    "username": "Dylan Bates",
+    "content": "\"this was delicious! I would recommend this dish to anyone!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "SEPTEMBER 14, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00603",
+    "dish_id": "dis006",
+    "username": "Lucy May",
+    "content": "\"Make it at home cooking it in a makeshift tandoor.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 26, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00604",
+    "dish_id": "dis006",
+    "username": "Rob van Cutsem",
+    "content": "\"Really like the butter & garlic naan\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 3, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00605",
+    "dish_id": "dis006",
+    "username": "J Listh",
+    "content": "\"Butter garlic naan goes so well with your curries that it's a must have. In case you can't decide between rice or naan go for both if you must but don't skip the naan.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 24, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00701",
+    "dish_id": "dis007",
+    "username": "David Rivadeneira",
+    "content": "\"Nanan, tremendo el pan, suavecito, rico y genial para comer con salsas\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "OCTOBER 3, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00702",
+    "dish_id": "dis007",
+    "username": "Dylan Bates",
+    "content": "\"this was delicious! I would recommend this dish to anyone!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "SEPTEMBER 14, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00703",
+    "dish_id": "dis007",
+    "username": "Lucy May",
+    "content": "\"Make it at home cooking it in a makeshift tandoor.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 26, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00704",
+    "dish_id": "dis007",
+    "username": "Rob van Cutsem",
+    "content": "\"Really like the butter & garlic naan\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 3, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00705",
+    "dish_id": "dis007",
+    "username": "J Listh",
+    "content": "\"Butter garlic naan goes so well with your curries that it's a must have. In case you can't decide between rice or naan go for both if you must but don't skip the naan.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 24, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00801",
+    "dish_id": "dis008",
+    "username": "David Rivadeneira",
+    "content": "\"Nanan, tremendo el pan, suavecito, rico y genial para comer con salsas\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "OCTOBER 3, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00802",
+    "dish_id": "dis008",
+    "username": "Dylan Bates",
+    "content": "\"this was delicious! I would recommend this dish to anyone!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "SEPTEMBER 14, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00803",
+    "dish_id": "dis008",
+    "username": "Lucy May",
+    "content": "\"Make it at home cooking it in a makeshift tandoor.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 26, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00804",
+    "dish_id": "dis008",
+    "username": "Rob van Cutsem",
+    "content": "\"Really like the butter & garlic naan\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 3, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00805",
+    "dish_id": "dis008",
+    "username": "J Listh",
+    "content": "\"Butter garlic naan goes so well with your curries that it's a must have. In case you can't decide between rice or naan go for both if you must but don't skip the naan.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 24, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00901",
+    "dish_id": "dis009",
+    "username": "David Rivadeneira",
+    "content": "\"Nanan, tremendo el pan, suavecito, rico y genial para comer con salsas\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "OCTOBER 3, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00902",
+    "dish_id": "dis009",
+    "username": "Dylan Bates",
+    "content": "\"this was delicious! I would recommend this dish to anyone!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "SEPTEMBER 14, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00903",
+    "dish_id": "dis009",
+    "username": "Lucy May",
+    "content": "\"Make it at home cooking it in a makeshift tandoor.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 26, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00904",
+    "dish_id": "dis009",
+    "username": "Rob van Cutsem",
+    "content": "\"Really like the butter & garlic naan\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 3, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com00905",
+    "dish_id": "dis009",
+    "username": "J Listh",
+    "content": "\"Butter garlic naan goes so well with your curries that it's a must have. In case you can't decide between rice or naan go for both if you must but don't skip the naan.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 24, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01001",
+    "dish_id": "dis010",
+    "username": "Taritpon Rungsimas",
+    "content": "\"The best ramen ever!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MARCH 31, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01002",
+    "dish_id": "dis010",
+    "username": "Viktor Ritsvall",
+    "content": "\"Very Good!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 5, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01003",
+    "dish_id": "dis010",
+    "username": "F Rojas",
+    "content": "\"My Japanise favourite\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 12, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01004",
+    "dish_id": "dis010",
+    "username": "功 河野",
+    "content": "\"A bit too rich and fat to me, but I agree this is very popular food, especially in the western part of Japan (Kyushu island).\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "FEBRUARY 21, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01005",
+    "dish_id": "dis010",
+    "username": "Kenzie Lloyd",
+    "content": "\"Tonkotsu ramen has such a unique, creamy broth. The bamboo shoots, nori, corn, and soft eggs go so well paired with the broth and the meat. The meat just melts in your mouth, and some of the vegetables are kept somewhat crispy to make a dish with a lot going on in it.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "NOVEMBER 7, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01101",
+    "dish_id": "dis011",
+    "username": "Yasmine Abou Alfa",
+    "content": "\"Chicken Shawarma the besttttt ♥\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JULY 31, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01102",
+    "dish_id": "dis011",
+    "username": "Omar Saad",
+    "content": "\"The best\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JULY 14, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01103",
+    "dish_id": "dis011",
+    "username": "Камаль Таха",
+    "content": "\"Very yummy\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JULY 14, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01104",
+    "dish_id": "dis011",
+    "username": "Davin Adhytama Wibowo",
+    "content": "\"very good very well\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 17, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01105",
+    "dish_id": "dis011",
+    "username": "super ali",
+    "content": "\"its good\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "FEBRUARY 4, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01201",
+    "dish_id": "dis012",
+    "username": "Mustafa Giyci",
+    "content": "\"With its amazing sauce :)\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MARCH 14, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01301",
+    "dish_id": "dis013",
+    "username": "Machu Picchu Trek",
+    "content": "\"Thanks!!!!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 28, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01302",
+    "dish_id": "dis013",
+    "username": "Sandra Sepaniak",
+    "content": "\"This is a next-level take on fried chicken that anyone should try if they want a version that tastes light, isn't greasy, and still retains its crispiness.\"\nUSEFUL RECOMMENDATION?\n1\n0",
+    "rating": 0,
+    "date": "JUNE 7, 2024",
+    "likes": "1",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01303",
+    "dish_id": "dis013",
+    "username": "Ryan Chung",
+    "content": "\"yaaaaaaaaaaasss\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MARCH 13, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01304",
+    "dish_id": "dis013",
+    "username": "희명 서",
+    "content": "\"very very delicious!\"\nUSEFUL RECOMMENDATION?\n1\n0",
+    "rating": 0,
+    "date": "SEPTEMBER 2, 2023",
+    "likes": "1",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01401",
+    "dish_id": "dis014",
+    "username": "jeferson galvez",
+    "content": "\"Por mucha diferencia es la mejor opción para comer pollo\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JULY 25, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01402",
+    "dish_id": "dis014",
+    "username": "Jose Alonso Vargas",
+    "content": "\"Muy rico\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JULY 24, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01403",
+    "dish_id": "dis014",
+    "username": "Willy NM",
+    "content": "\"Un plato que une a familias peruanas y es una de las mejores que se puede comer\"\nUSEFUL RECOMMENDATION?\n1\n0",
+    "rating": 0,
+    "date": "JULY 20, 2025",
+    "likes": "1",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01404",
+    "dish_id": "dis014",
+    "username": "David Robinovich",
+    "content": "\"Me encanta\"\nUSEFUL RECOMMENDATION?\n1\n0",
+    "rating": 0,
+    "date": "JULY 12, 2025",
+    "likes": "1",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01405",
+    "dish_id": "dis014",
+    "username": "Yerick Barrios",
+    "content": "\"I've cooked this in a traditional oven, and it doesn't give the same result as a chicken roast, so a charcoal oven is necessary. Whether with wood or charcoal, the sensation of the embers and the smoke create a unique flavor on the chicken's skin. I recommend serving it with a fresh vegetable salad like sliced tomato, sliced gherkins, and shredded lettuce, accompanied by a balsamic vinaigrette. For the fries, I recommend thin fries seasoned only with salt (and maybe a little garlic powder). For the chicken, every chef has their own recipe; I recommend charcoal over wood, as the smoke from the logs overpowers the other flavors. Serve with mayonnaise, ketchup, salsa golf, and aji amarillo. For a drink, an Inka-Cola or fresh fruit juice. Best restaurant in Lima (top 15 best food cities): Granja Azul Best restaurant in Arequipa (top 96 best food cities): El Pollo Real If you're planning a feast featuring \"Pollo a la brasa\", I recommend the following dishes in the following order: Glass of water to open up space in your stomach and improve digestion. First Course: Escribano Second Course: Anticuchos Main Course: Pollo a la brasa Dessert: Strawberry or Passion Fruit Cheesecake\"\nUSEFUL RECOMMENDATION?\n1\n0",
+    "rating": 0,
+    "date": "JULY 10, 2025",
+    "likes": "1",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01501",
+    "dish_id": "dis015",
+    "username": "jeferson galvez",
+    "content": "\"Por mucha diferencia es la mejor opción para comer pollo\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JULY 25, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01502",
+    "dish_id": "dis015",
+    "username": "Jose Alonso Vargas",
+    "content": "\"Muy rico\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JULY 24, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01503",
+    "dish_id": "dis015",
+    "username": "Willy NM",
+    "content": "\"Un plato que une a familias peruanas y es una de las mejores que se puede comer\"\nUSEFUL RECOMMENDATION?\n1\n0",
+    "rating": 0,
+    "date": "JULY 20, 2025",
+    "likes": "1",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01504",
+    "dish_id": "dis015",
+    "username": "David Robinovich",
+    "content": "\"Me encanta\"\nUSEFUL RECOMMENDATION?\n1\n0",
+    "rating": 0,
+    "date": "JULY 12, 2025",
+    "likes": "1",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01505",
+    "dish_id": "dis015",
+    "username": "Yerick Barrios",
+    "content": "\"I've cooked this in a traditional oven, and it doesn't give the same result as a chicken roast, so a charcoal oven is necessary. Whether with wood or charcoal, the sensation of the embers and the smoke create a unique flavor on the chicken's skin. I recommend serving it with a fresh vegetable salad like sliced tomato, sliced gherkins, and shredded lettuce, accompanied by a balsamic vinaigrette. For the fries, I recommend thin fries seasoned only with salt (and maybe a little garlic powder). For the chicken, every chef has their own recipe; I recommend charcoal over wood, as the smoke from the logs overpowers the other flavors. Serve with mayonnaise, ketchup, salsa golf, and aji amarillo. For a drink, an Inka-Cola or fresh fruit juice. Best restaurant in Lima (top 15 best food cities): Granja Azul Best restaurant in Arequipa (top 96 best food cities): El Pollo Real If you're planning a feast featuring \"Pollo a la brasa\", I recommend the following dishes in the following order: Glass of water to open up space in your stomach and improve digestion. First Course: Escribano Second Course: Anticuchos Main Course: Pollo a la brasa Dessert: Strawberry or Passion Fruit Cheesecake\"\nUSEFUL RECOMMENDATION?\n1\n0",
+    "rating": 0,
+    "date": "JULY 10, 2025",
+    "likes": "1",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01601",
+    "dish_id": "dis016",
+    "username": "Gyeore Lee",
+    "content": "\"The taste of shashlik is not as good as it looks always\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 2, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01602",
+    "dish_id": "dis016",
+    "username": "Aje Vaza",
+    "content": "\"It's very common in ex-USSR countries as well. It's delicious\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "NOVEMBER 24, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01603",
+    "dish_id": "dis016",
+    "username": "Bat Miller",
+    "content": "\"The only thing keeping me from vegetarianism\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JULY 21, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01604",
+    "dish_id": "dis016",
+    "username": "anya chary",
+    "content": "\"amazing summer lifestyle\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "APRIL 7, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01605",
+    "dish_id": "dis016",
+    "username": "Andrey Lyapin",
+    "content": "\"Good shashlik is better than the best steak, it's just so meety\"\nUSEFUL RECOMMENDATION?\n1\n0",
+    "rating": 0,
+    "date": "FEBRUARY 25, 2024",
+    "likes": "1",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01701",
+    "dish_id": "dis017",
+    "username": "Frederico Neumann",
+    "content": "\"This is a fantastic curry, super flavorful.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 30, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01702",
+    "dish_id": "dis017",
+    "username": "Zazralt Magic",
+    "content": "\"The best curry.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "SEPTEMBER 29, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01703",
+    "dish_id": "dis017",
+    "username": "Rob van Cutsem",
+    "content": "\"My favorite curry, especially the beef version\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 3, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01704",
+    "dish_id": "dis017",
+    "username": "F Rojas",
+    "content": "\"I love this dish!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 12, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01705",
+    "dish_id": "dis017",
+    "username": "D C",
+    "content": "\"Another amazing curry that I'd highly recommend to people trying Thai curry dishes for the first time.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "APRIL 23, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01801",
+    "dish_id": "dis018",
+    "username": "Frederico Neumann",
+    "content": "\"This is a fantastic curry, super flavorful.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 30, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01802",
+    "dish_id": "dis018",
+    "username": "Zazralt Magic",
+    "content": "\"The best curry.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "SEPTEMBER 29, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01803",
+    "dish_id": "dis018",
+    "username": "Rob van Cutsem",
+    "content": "\"My favorite curry, especially the beef version\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 3, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01804",
+    "dish_id": "dis018",
+    "username": "F Rojas",
+    "content": "\"I love this dish!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 12, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01805",
+    "dish_id": "dis018",
+    "username": "D C",
+    "content": "\"Another amazing curry that I'd highly recommend to people trying Thai curry dishes for the first time.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "APRIL 23, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01901",
+    "dish_id": "dis019",
+    "username": "Frederico Neumann",
+    "content": "\"This is a fantastic curry, super flavorful.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 30, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01902",
+    "dish_id": "dis019",
+    "username": "Zazralt Magic",
+    "content": "\"The best curry.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "SEPTEMBER 29, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01903",
+    "dish_id": "dis019",
+    "username": "Rob van Cutsem",
+    "content": "\"My favorite curry, especially the beef version\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 3, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01904",
+    "dish_id": "dis019",
+    "username": "F Rojas",
+    "content": "\"I love this dish!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 12, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com01905",
+    "dish_id": "dis019",
+    "username": "D C",
+    "content": "\"Another amazing curry that I'd highly recommend to people trying Thai curry dishes for the first time.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "APRIL 23, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02001",
+    "dish_id": "dis020",
+    "username": "Frederico Neumann",
+    "content": "\"This is a fantastic curry, super flavorful.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 30, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02002",
+    "dish_id": "dis020",
+    "username": "Zazralt Magic",
+    "content": "\"The best curry.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "SEPTEMBER 29, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02003",
+    "dish_id": "dis020",
+    "username": "Rob van Cutsem",
+    "content": "\"My favorite curry, especially the beef version\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 3, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02004",
+    "dish_id": "dis020",
+    "username": "F Rojas",
+    "content": "\"I love this dish!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 12, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02005",
+    "dish_id": "dis020",
+    "username": "D C",
+    "content": "\"Another amazing curry that I'd highly recommend to people trying Thai curry dishes for the first time.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "APRIL 23, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02101",
+    "dish_id": "dis021",
+    "username": "Frederico Neumann",
+    "content": "\"This is a fantastic curry, super flavorful.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 30, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02102",
+    "dish_id": "dis021",
+    "username": "Zazralt Magic",
+    "content": "\"The best curry.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "SEPTEMBER 29, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02103",
+    "dish_id": "dis021",
+    "username": "Rob van Cutsem",
+    "content": "\"My favorite curry, especially the beef version\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 3, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02104",
+    "dish_id": "dis021",
+    "username": "F Rojas",
+    "content": "\"I love this dish!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 12, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02105",
+    "dish_id": "dis021",
+    "username": "D C",
+    "content": "\"Another amazing curry that I'd highly recommend to people trying Thai curry dishes for the first time.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "APRIL 23, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02201",
+    "dish_id": "dis022",
+    "username": "Frederico Neumann",
+    "content": "\"This is a fantastic curry, super flavorful.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 30, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02202",
+    "dish_id": "dis022",
+    "username": "Zazralt Magic",
+    "content": "\"The best curry.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "SEPTEMBER 29, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02203",
+    "dish_id": "dis022",
+    "username": "Rob van Cutsem",
+    "content": "\"My favorite curry, especially the beef version\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 3, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02204",
+    "dish_id": "dis022",
+    "username": "F Rojas",
+    "content": "\"I love this dish!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 12, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02205",
+    "dish_id": "dis022",
+    "username": "D C",
+    "content": "\"Another amazing curry that I'd highly recommend to people trying Thai curry dishes for the first time.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "APRIL 23, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02301",
+    "dish_id": "dis023",
+    "username": "Frederico Neumann",
+    "content": "\"This is a fantastic curry, super flavorful.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 30, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02302",
+    "dish_id": "dis023",
+    "username": "Zazralt Magic",
+    "content": "\"The best curry.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "SEPTEMBER 29, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02303",
+    "dish_id": "dis023",
+    "username": "Rob van Cutsem",
+    "content": "\"My favorite curry, especially the beef version\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 3, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02304",
+    "dish_id": "dis023",
+    "username": "F Rojas",
+    "content": "\"I love this dish!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 12, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02305",
+    "dish_id": "dis023",
+    "username": "D C",
+    "content": "\"Another amazing curry that I'd highly recommend to people trying Thai curry dishes for the first time.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "APRIL 23, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02401",
+    "dish_id": "dis024",
+    "username": "Frederico Neumann",
+    "content": "\"This is a fantastic curry, super flavorful.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 30, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02402",
+    "dish_id": "dis024",
+    "username": "Zazralt Magic",
+    "content": "\"The best curry.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "SEPTEMBER 29, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02403",
+    "dish_id": "dis024",
+    "username": "Rob van Cutsem",
+    "content": "\"My favorite curry, especially the beef version\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 3, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02404",
+    "dish_id": "dis024",
+    "username": "F Rojas",
+    "content": "\"I love this dish!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 12, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02405",
+    "dish_id": "dis024",
+    "username": "D C",
+    "content": "\"Another amazing curry that I'd highly recommend to people trying Thai curry dishes for the first time.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "APRIL 23, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02501",
+    "dish_id": "dis025",
+    "username": "Christoforos Karydis",
+    "content": "\"Just perfect combination of crachy and cream\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 5, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02502",
+    "dish_id": "dis025",
+    "username": "Taxiarchis Senekis",
+    "content": "\"Best one's are Trigona Elenidi's. Be careful, only some of the Elenidi's shops are the original, with the original recipe.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 1, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02503",
+    "dish_id": "dis025",
+    "username": "An Kal",
+    "content": "\"The combination of the crunchy and flaky phyllo pastry together with the amazing cream filling is out of this world\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 26, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02504",
+    "dish_id": "dis025",
+    "username": "Marios Konstantinos Meletidis",
+    "content": "\"Top and always freshly stuffed.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 11, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02505",
+    "dish_id": "dis025",
+    "username": "Nikos Mavidis",
+    "content": "\"Best traditional\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "APRIL 19, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02601",
+    "dish_id": "dis026",
+    "username": "Frank 084",
+    "content": "\"It's such a pain to make at home, and it's not worth it. But they are delicious.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 26, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02602",
+    "dish_id": "dis026",
+    "username": "Julien Vanni",
+    "content": "\"Una de les millors coses que hi ha a França\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "NOVEMBER 18, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02603",
+    "dish_id": "dis026",
+    "username": "Dimon Dmitri",
+    "content": "\"Delicious, different from Italian cornettos\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "NOVEMBER 10, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02604",
+    "dish_id": "dis026",
+    "username": "Maria Eduarda Medeiros Carnaúba",
+    "content": "\"ITS SOOOOOOOOOOOOOOOOO GOOD!!!!!!!!!!!!!!!!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "SEPTEMBER 19, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02605",
+    "dish_id": "dis026",
+    "username": "Rosealeigh Murdie",
+    "content": "\"So mid. dry and nothing special.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "SEPTEMBER 12, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02701",
+    "dish_id": "dis027",
+    "username": "hortense boussemart",
+    "content": "\"Rich, generous, creamy, comforting\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JULY 7, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02702",
+    "dish_id": "dis027",
+    "username": "El Vagabundo",
+    "content": "\"just love it\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 18, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02703",
+    "dish_id": "dis027",
+    "username": "Giovanni van Vlees",
+    "content": "\"The best dish ever\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 3, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02704",
+    "dish_id": "dis027",
+    "username": "The English Hostel Tirana",
+    "content": "\"Some recipes suggest using pancetta (or even bacon) instead guanciale, because the latter is difficult to find outside Italy, but guanciale has a specific & unique flavor, making it essential to the dish. If you can't find guanciale order it through Amazon -- it's worth doing!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "APRIL 6, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02705",
+    "dish_id": "dis027",
+    "username": "Émile Shevek",
+    "content": "\"Buona anche di mare\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 12, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02801",
+    "dish_id": "dis028",
+    "username": "hortense boussemart",
+    "content": "\"Rich, generous, creamy, comforting\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JULY 7, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02802",
+    "dish_id": "dis028",
+    "username": "El Vagabundo",
+    "content": "\"just love it\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 18, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02803",
+    "dish_id": "dis028",
+    "username": "Giovanni van Vlees",
+    "content": "\"The best dish ever\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 3, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02804",
+    "dish_id": "dis028",
+    "username": "The English Hostel Tirana",
+    "content": "\"Some recipes suggest using pancetta (or even bacon) instead guanciale, because the latter is difficult to find outside Italy, but guanciale has a specific & unique flavor, making it essential to the dish. If you can't find guanciale order it through Amazon -- it's worth doing!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "APRIL 6, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02805",
+    "dish_id": "dis028",
+    "username": "Émile Shevek",
+    "content": "\"Buona anche di mare\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 12, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02901",
+    "dish_id": "dis029",
+    "username": "Asahel Castillo",
+    "content": "\"An avocado sauce in the country of the avocado and with centuries of history, it is not only food, it is culture..\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JULY 13, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02902",
+    "dish_id": "dis029",
+    "username": "G O",
+    "content": "\"Nice simple snack with Tortilla chips\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 26, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02903",
+    "dish_id": "dis029",
+    "username": "Paula Amaya",
+    "content": "\"Simplemente la mejor salsa\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 13, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02904",
+    "dish_id": "dis029",
+    "username": "Julio Alarcon tejada",
+    "content": "\"No me gusta\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 11, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com02905",
+    "dish_id": "dis029",
+    "username": "Eduardo Adrián",
+    "content": "\"Es muy rico y saludable\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 3, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03001",
+    "dish_id": "dis030",
+    "username": "Asahel Castillo",
+    "content": "\"An avocado sauce in the country of the avocado and with centuries of history, it is not only food, it is culture..\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JULY 13, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03002",
+    "dish_id": "dis030",
+    "username": "G O",
+    "content": "\"Nice simple snack with Tortilla chips\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 26, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03003",
+    "dish_id": "dis030",
+    "username": "Paula Amaya",
+    "content": "\"Simplemente la mejor salsa\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 13, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03004",
+    "dish_id": "dis030",
+    "username": "Julio Alarcon tejada",
+    "content": "\"No me gusta\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 11, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03005",
+    "dish_id": "dis030",
+    "username": "Eduardo Adrián",
+    "content": "\"Es muy rico y saludable\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 3, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03101",
+    "dish_id": "dis031",
+    "username": "Robin meuris",
+    "content": "\"Beste Lasagne alla Bolognese die ik at was homemade bij Ellen\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 18, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03102",
+    "dish_id": "dis031",
+    "username": "Alfredo Xdidksak",
+    "content": "\"Uno de mis platillos favoritos.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 15, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03103",
+    "dish_id": "dis031",
+    "username": "J’ai pas de Pseudo",
+    "content": "\"Bechamel sauce is a must for this dish!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "FEBRUARY 14, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03104",
+    "dish_id": "dis031",
+    "username": "C N",
+    "content": "\"Had in Bologna, 2022\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "FEBRUARY 19, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03105",
+    "dish_id": "dis031",
+    "username": "Giampietro Fren",
+    "content": "\"Rich and satisfying\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 20, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03201",
+    "dish_id": "dis032",
+    "username": "Robin meuris",
+    "content": "\"Beste Lasagne alla Bolognese die ik at was homemade bij Ellen\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 18, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03202",
+    "dish_id": "dis032",
+    "username": "Alfredo Xdidksak",
+    "content": "\"Uno de mis platillos favoritos.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 15, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03203",
+    "dish_id": "dis032",
+    "username": "J’ai pas de Pseudo",
+    "content": "\"Bechamel sauce is a must for this dish!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "FEBRUARY 14, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03204",
+    "dish_id": "dis032",
+    "username": "C N",
+    "content": "\"Had in Bologna, 2022\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "FEBRUARY 19, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03205",
+    "dish_id": "dis032",
+    "username": "Giampietro Fren",
+    "content": "\"Rich and satisfying\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 20, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03301",
+    "dish_id": "dis033",
+    "username": "Robin meuris",
+    "content": "\"Beste Lasagne alla Bolognese die ik at was homemade bij Ellen\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 18, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03302",
+    "dish_id": "dis033",
+    "username": "Alfredo Xdidksak",
+    "content": "\"Uno de mis platillos favoritos.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 15, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03303",
+    "dish_id": "dis033",
+    "username": "J’ai pas de Pseudo",
+    "content": "\"Bechamel sauce is a must for this dish!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "FEBRUARY 14, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03304",
+    "dish_id": "dis033",
+    "username": "C N",
+    "content": "\"Had in Bologna, 2022\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "FEBRUARY 19, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03305",
+    "dish_id": "dis033",
+    "username": "Giampietro Fren",
+    "content": "\"Rich and satisfying\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 20, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03401",
+    "dish_id": "dis034",
+    "username": "Robin meuris",
+    "content": "\"Beste Lasagne alla Bolognese die ik at was homemade bij Ellen\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 18, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03402",
+    "dish_id": "dis034",
+    "username": "Alfredo Xdidksak",
+    "content": "\"Uno de mis platillos favoritos.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 15, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03403",
+    "dish_id": "dis034",
+    "username": "J’ai pas de Pseudo",
+    "content": "\"Bechamel sauce is a must for this dish!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "FEBRUARY 14, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03404",
+    "dish_id": "dis034",
+    "username": "C N",
+    "content": "\"Had in Bologna, 2022\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "FEBRUARY 19, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03405",
+    "dish_id": "dis034",
+    "username": "Giampietro Fren",
+    "content": "\"Rich and satisfying\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 20, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03501",
+    "dish_id": "dis035",
+    "username": "Robin meuris",
+    "content": "\"Beste Lasagne alla Bolognese die ik at was homemade bij Ellen\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 18, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03502",
+    "dish_id": "dis035",
+    "username": "Alfredo Xdidksak",
+    "content": "\"Uno de mis platillos favoritos.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 15, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03503",
+    "dish_id": "dis035",
+    "username": "J’ai pas de Pseudo",
+    "content": "\"Bechamel sauce is a must for this dish!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "FEBRUARY 14, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03504",
+    "dish_id": "dis035",
+    "username": "C N",
+    "content": "\"Had in Bologna, 2022\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "FEBRUARY 19, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03505",
+    "dish_id": "dis035",
+    "username": "Giampietro Fren",
+    "content": "\"Rich and satisfying\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 20, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03601",
+    "dish_id": "dis036",
+    "username": "LFC EST. 1892",
+    "content": "\"LA MEJOR COMIDA DEL MUNDO!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "APRIL 16, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03602",
+    "dish_id": "dis036",
+    "username": "Carlos Tamayo",
+    "content": "\"I can't stop eating carnitas :( i will die young but i love them!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 16, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03603",
+    "dish_id": "dis036",
+    "username": "Cesar Barv",
+    "content": "\"Este plato es sin duda uno de los mejores que puedes probar!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 5, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03604",
+    "dish_id": "dis036",
+    "username": "Rene Ranuel",
+    "content": "\"BEST FOOD IN THE WORLD! Amazing!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "SEPTEMBER 10, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03605",
+    "dish_id": "dis036",
+    "username": "César B.",
+    "content": "\"of the best flavors in the world\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 2, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03701",
+    "dish_id": "dis037",
+    "username": "LFC EST. 1892",
+    "content": "\"LA MEJOR COMIDA DEL MUNDO!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "APRIL 16, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03702",
+    "dish_id": "dis037",
+    "username": "Carlos Tamayo",
+    "content": "\"I can't stop eating carnitas :( i will die young but i love them!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 16, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03703",
+    "dish_id": "dis037",
+    "username": "Cesar Barv",
+    "content": "\"Este plato es sin duda uno de los mejores que puedes probar!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 5, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03704",
+    "dish_id": "dis037",
+    "username": "Rene Ranuel",
+    "content": "\"BEST FOOD IN THE WORLD! Amazing!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "SEPTEMBER 10, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03705",
+    "dish_id": "dis037",
+    "username": "César B.",
+    "content": "\"of the best flavors in the world\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 2, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03801",
+    "dish_id": "dis038",
+    "username": "LFC EST. 1892",
+    "content": "\"LA MEJOR COMIDA DEL MUNDO!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "APRIL 16, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03802",
+    "dish_id": "dis038",
+    "username": "Carlos Tamayo",
+    "content": "\"I can't stop eating carnitas :( i will die young but i love them!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 16, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03803",
+    "dish_id": "dis038",
+    "username": "Cesar Barv",
+    "content": "\"Este plato es sin duda uno de los mejores que puedes probar!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 5, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03804",
+    "dish_id": "dis038",
+    "username": "Rene Ranuel",
+    "content": "\"BEST FOOD IN THE WORLD! Amazing!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "SEPTEMBER 10, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03805",
+    "dish_id": "dis038",
+    "username": "César B.",
+    "content": "\"of the best flavors in the world\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 2, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03901",
+    "dish_id": "dis039",
+    "username": ":>) :>(",
+    "content": "\"Just.. too delicious.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 29, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03902",
+    "dish_id": "dis039",
+    "username": "Luis Schlappkohl",
+    "content": "\"For me is hands down one of the best steaks in the planet\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 22, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03903",
+    "dish_id": "dis039",
+    "username": "Douglas Domingues Manfré",
+    "content": "\"with filet mignon, any dish is delicious, this dish has a special touch that is its toast and cream. I think that a smaller amount of black pepper could make the dish more delicious, but it is still delicious.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "OCTOBER 1, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03904",
+    "dish_id": "dis039",
+    "username": "KELVIN CASTELINO",
+    "content": "\"Perfectly cooked & well seasoned. Just the way I like it.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JULY 28, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com03905",
+    "dish_id": "dis039",
+    "username": "Giampietro Fren",
+    "content": "\"Special!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 20, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04001",
+    "dish_id": "dis040",
+    "username": ":>) :>(",
+    "content": "\"Just.. too delicious.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 29, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04002",
+    "dish_id": "dis040",
+    "username": "Luis Schlappkohl",
+    "content": "\"For me is hands down one of the best steaks in the planet\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 22, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04003",
+    "dish_id": "dis040",
+    "username": "Douglas Domingues Manfré",
+    "content": "\"with filet mignon, any dish is delicious, this dish has a special touch that is its toast and cream. I think that a smaller amount of black pepper could make the dish more delicious, but it is still delicious.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "OCTOBER 1, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04004",
+    "dish_id": "dis040",
+    "username": "KELVIN CASTELINO",
+    "content": "\"Perfectly cooked & well seasoned. Just the way I like it.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JULY 28, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04005",
+    "dish_id": "dis040",
+    "username": "Giampietro Fren",
+    "content": "\"Special!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 20, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04101",
+    "dish_id": "dis041",
+    "username": ":>) :>(",
+    "content": "\"Just.. too delicious.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 29, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04102",
+    "dish_id": "dis041",
+    "username": "Luis Schlappkohl",
+    "content": "\"For me is hands down one of the best steaks in the planet\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 22, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04103",
+    "dish_id": "dis041",
+    "username": "Douglas Domingues Manfré",
+    "content": "\"with filet mignon, any dish is delicious, this dish has a special touch that is its toast and cream. I think that a smaller amount of black pepper could make the dish more delicious, but it is still delicious.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "OCTOBER 1, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04104",
+    "dish_id": "dis041",
+    "username": "KELVIN CASTELINO",
+    "content": "\"Perfectly cooked & well seasoned. Just the way I like it.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JULY 28, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04105",
+    "dish_id": "dis041",
+    "username": "Giampietro Fren",
+    "content": "\"Special!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 20, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04301",
+    "dish_id": "dis043",
+    "username": ":>) :>(",
+    "content": "\"Just.. too delicious.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 29, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04302",
+    "dish_id": "dis043",
+    "username": "Luis Schlappkohl",
+    "content": "\"For me is hands down one of the best steaks in the planet\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 22, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04303",
+    "dish_id": "dis043",
+    "username": "Douglas Domingues Manfré",
+    "content": "\"with filet mignon, any dish is delicious, this dish has a special touch that is its toast and cream. I think that a smaller amount of black pepper could make the dish more delicious, but it is still delicious.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "OCTOBER 1, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04304",
+    "dish_id": "dis043",
+    "username": "KELVIN CASTELINO",
+    "content": "\"Perfectly cooked & well seasoned. Just the way I like it.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JULY 28, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04305",
+    "dish_id": "dis043",
+    "username": "Giampietro Fren",
+    "content": "\"Special!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 20, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04401",
+    "dish_id": "dis044",
+    "username": ":>) :>(",
+    "content": "\"Just.. too delicious.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 29, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04402",
+    "dish_id": "dis044",
+    "username": "Luis Schlappkohl",
+    "content": "\"For me is hands down one of the best steaks in the planet\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 22, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04403",
+    "dish_id": "dis044",
+    "username": "Douglas Domingues Manfré",
+    "content": "\"with filet mignon, any dish is delicious, this dish has a special touch that is its toast and cream. I think that a smaller amount of black pepper could make the dish more delicious, but it is still delicious.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "OCTOBER 1, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04404",
+    "dish_id": "dis044",
+    "username": "KELVIN CASTELINO",
+    "content": "\"Perfectly cooked & well seasoned. Just the way I like it.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JULY 28, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04405",
+    "dish_id": "dis044",
+    "username": "Giampietro Fren",
+    "content": "\"Special!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 20, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04501",
+    "dish_id": "dis045",
+    "username": ":>) :>(",
+    "content": "\"Just.. too delicious.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 29, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04502",
+    "dish_id": "dis045",
+    "username": "Luis Schlappkohl",
+    "content": "\"For me is hands down one of the best steaks in the planet\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 22, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04503",
+    "dish_id": "dis045",
+    "username": "Douglas Domingues Manfré",
+    "content": "\"with filet mignon, any dish is delicious, this dish has a special touch that is its toast and cream. I think that a smaller amount of black pepper could make the dish more delicious, but it is still delicious.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "OCTOBER 1, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04504",
+    "dish_id": "dis045",
+    "username": "KELVIN CASTELINO",
+    "content": "\"Perfectly cooked & well seasoned. Just the way I like it.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JULY 28, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04505",
+    "dish_id": "dis045",
+    "username": "Giampietro Fren",
+    "content": "\"Special!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 20, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04601",
+    "dish_id": "dis046",
+    "username": ":>) :>(",
+    "content": "\"Just.. too delicious.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 29, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04602",
+    "dish_id": "dis046",
+    "username": "Luis Schlappkohl",
+    "content": "\"For me is hands down one of the best steaks in the planet\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 22, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04603",
+    "dish_id": "dis046",
+    "username": "Douglas Domingues Manfré",
+    "content": "\"with filet mignon, any dish is delicious, this dish has a special touch that is its toast and cream. I think that a smaller amount of black pepper could make the dish more delicious, but it is still delicious.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "OCTOBER 1, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04604",
+    "dish_id": "dis046",
+    "username": "KELVIN CASTELINO",
+    "content": "\"Perfectly cooked & well seasoned. Just the way I like it.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JULY 28, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04605",
+    "dish_id": "dis046",
+    "username": "Giampietro Fren",
+    "content": "\"Special!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 20, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04701",
+    "dish_id": "dis047",
+    "username": ":>) :>(",
+    "content": "\"Just.. too delicious.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 29, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04702",
+    "dish_id": "dis047",
+    "username": "Luis Schlappkohl",
+    "content": "\"For me is hands down one of the best steaks in the planet\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 22, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04703",
+    "dish_id": "dis047",
+    "username": "Douglas Domingues Manfré",
+    "content": "\"with filet mignon, any dish is delicious, this dish has a special touch that is its toast and cream. I think that a smaller amount of black pepper could make the dish more delicious, but it is still delicious.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "OCTOBER 1, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04704",
+    "dish_id": "dis047",
+    "username": "KELVIN CASTELINO",
+    "content": "\"Perfectly cooked & well seasoned. Just the way I like it.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JULY 28, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04705",
+    "dish_id": "dis047",
+    "username": "Giampietro Fren",
+    "content": "\"Special!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 20, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04801",
+    "dish_id": "dis048",
+    "username": ":>) :>(",
+    "content": "\"Just.. too delicious.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 29, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04802",
+    "dish_id": "dis048",
+    "username": "Luis Schlappkohl",
+    "content": "\"For me is hands down one of the best steaks in the planet\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 22, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04803",
+    "dish_id": "dis048",
+    "username": "Douglas Domingues Manfré",
+    "content": "\"with filet mignon, any dish is delicious, this dish has a special touch that is its toast and cream. I think that a smaller amount of black pepper could make the dish more delicious, but it is still delicious.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "OCTOBER 1, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04804",
+    "dish_id": "dis048",
+    "username": "KELVIN CASTELINO",
+    "content": "\"Perfectly cooked & well seasoned. Just the way I like it.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JULY 28, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04805",
+    "dish_id": "dis048",
+    "username": "Giampietro Fren",
+    "content": "\"Special!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 20, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04901",
+    "dish_id": "dis049",
+    "username": ":>) :>(",
+    "content": "\"Just.. too delicious.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 29, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04902",
+    "dish_id": "dis049",
+    "username": "Luis Schlappkohl",
+    "content": "\"For me is hands down one of the best steaks in the planet\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 22, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04903",
+    "dish_id": "dis049",
+    "username": "Douglas Domingues Manfré",
+    "content": "\"with filet mignon, any dish is delicious, this dish has a special touch that is its toast and cream. I think that a smaller amount of black pepper could make the dish more delicious, but it is still delicious.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "OCTOBER 1, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04904",
+    "dish_id": "dis049",
+    "username": "KELVIN CASTELINO",
+    "content": "\"Perfectly cooked & well seasoned. Just the way I like it.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JULY 28, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com04905",
+    "dish_id": "dis049",
+    "username": "Giampietro Fren",
+    "content": "\"Special!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 20, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com05001",
+    "dish_id": "dis050",
+    "username": ":>) :>(",
+    "content": "\"Just.. too delicious.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 29, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com05002",
+    "dish_id": "dis050",
+    "username": "Luis Schlappkohl",
+    "content": "\"For me is hands down one of the best steaks in the planet\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 22, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com05003",
+    "dish_id": "dis050",
+    "username": "Douglas Domingues Manfré",
+    "content": "\"with filet mignon, any dish is delicious, this dish has a special touch that is its toast and cream. I think that a smaller amount of black pepper could make the dish more delicious, but it is still delicious.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "OCTOBER 1, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com05004",
+    "dish_id": "dis050",
+    "username": "KELVIN CASTELINO",
+    "content": "\"Perfectly cooked & well seasoned. Just the way I like it.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JULY 28, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com05005",
+    "dish_id": "dis050",
+    "username": "Giampietro Fren",
+    "content": "\"Special!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 20, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com05101",
+    "dish_id": "dis051",
+    "username": "Martin Tapaia",
+    "content": "\"Muchos sabores me gustó\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "FEBRUARY 14, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com05102",
+    "dish_id": "dis051",
+    "username": "Thang Nguyen Vu",
+    "content": "\"BAD BAD BAD!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 19, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com05103",
+    "dish_id": "dis051",
+    "username": "Chris P",
+    "content": "\"Food of the Gods! I dream of these noodles!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 21, 2022",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com05201",
+    "dish_id": "dis052",
+    "username": "Martin Tapaia",
+    "content": "\"Muchos sabores me gustó\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "FEBRUARY 14, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com05202",
+    "dish_id": "dis052",
+    "username": "Thang Nguyen Vu",
+    "content": "\"BAD BAD BAD!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 19, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com05203",
+    "dish_id": "dis052",
+    "username": "Chris P",
+    "content": "\"Food of the Gods! I dream of these noodles!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 21, 2022",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com05301",
+    "dish_id": "dis053",
+    "username": "Émile Shevek",
+    "content": "\"Perfette con la bottarga\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 11, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com05302",
+    "dish_id": "dis053",
+    "username": "Giampietro Fren",
+    "content": "\"When in Italy....\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 20, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com05303",
+    "dish_id": "dis053",
+    "username": "Sandra Sepaniak",
+    "content": "\"It depends on who's cooking it. I've had versions of this that made my taste buds sing in abject delight, and I've had versions of this that made liquid come out of both major orifices. Pro tip: Make sure it's a place with good, fresh seafood.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "NOVEMBER 13, 2022",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com05401",
+    "dish_id": "dis054",
+    "username": "Émile Shevek",
+    "content": "\"Perfette con la bottarga\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 11, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com05402",
+    "dish_id": "dis054",
+    "username": "Giampietro Fren",
+    "content": "\"When in Italy....\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 20, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com05403",
+    "dish_id": "dis054",
+    "username": "Sandra Sepaniak",
+    "content": "\"It depends on who's cooking it. I've had versions of this that made my taste buds sing in abject delight, and I've had versions of this that made liquid come out of both major orifices. Pro tip: Make sure it's a place with good, fresh seafood.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "NOVEMBER 13, 2022",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com05501",
+    "dish_id": "dis055",
+    "username": "Émile Shevek",
+    "content": "\"Perfette con la bottarga\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 11, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com05502",
+    "dish_id": "dis055",
+    "username": "Giampietro Fren",
+    "content": "\"When in Italy....\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 20, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com05503",
+    "dish_id": "dis055",
+    "username": "Sandra Sepaniak",
+    "content": "\"It depends on who's cooking it. I've had versions of this that made my taste buds sing in abject delight, and I've had versions of this that made liquid come out of both major orifices. Pro tip: Make sure it's a place with good, fresh seafood.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "NOVEMBER 13, 2022",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com05601",
+    "dish_id": "dis056",
+    "username": "Émile Shevek",
+    "content": "\"Perfette con la bottarga\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 11, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com05602",
+    "dish_id": "dis056",
+    "username": "Giampietro Fren",
+    "content": "\"When in Italy....\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 20, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com05603",
+    "dish_id": "dis056",
+    "username": "Sandra Sepaniak",
+    "content": "\"It depends on who's cooking it. I've had versions of this that made my taste buds sing in abject delight, and I've had versions of this that made liquid come out of both major orifices. Pro tip: Make sure it's a place with good, fresh seafood.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "NOVEMBER 13, 2022",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com05701",
+    "dish_id": "dis057",
+    "username": "Émile Shevek",
+    "content": "\"Perfette con la bottarga\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 11, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com05702",
+    "dish_id": "dis057",
+    "username": "Giampietro Fren",
+    "content": "\"When in Italy....\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 20, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com05703",
+    "dish_id": "dis057",
+    "username": "Sandra Sepaniak",
+    "content": "\"It depends on who's cooking it. I've had versions of this that made my taste buds sing in abject delight, and I've had versions of this that made liquid come out of both major orifices. Pro tip: Make sure it's a place with good, fresh seafood.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "NOVEMBER 13, 2022",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com05801",
+    "dish_id": "dis058",
+    "username": "Braden Perrone",
+    "content": "\"The boiled main lobster is the pinnacle of sea food. This is sea food done right it is hard to imagine a sea food greater than this. Lobster has set sea food up for greatness and we shouldn't accept anything else.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "NOVEMBER 14, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com05901",
+    "dish_id": "dis059",
+    "username": "Braden Perrone",
+    "content": "\"The boiled main lobster is the pinnacle of sea food. This is sea food done right it is hard to imagine a sea food greater than this. Lobster has set sea food up for greatness and we shouldn't accept anything else.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "NOVEMBER 14, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06001",
+    "dish_id": "dis060",
+    "username": "Taxiarchis Senekis",
+    "content": "\"Its very epic. Best for breakfast.l\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 1, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06002",
+    "dish_id": "dis060",
+    "username": "Teo Hris",
+    "content": "\"Creamy miracle\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 11, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06003",
+    "dish_id": "dis060",
+    "username": "Jordan Asterias",
+    "content": "\"Bougatsa is our traditional breakfast. If prepared with love, it can be an unforgettable experience. My go to choices are with white cheese or cream.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JULY 3, 2022",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06004",
+    "dish_id": "dis060",
+    "username": "Marc Ross",
+    "content": "\"Tried this at a greek store in London, Broadway Market, this one had a cream/custard filling, not bad!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 24, 2021",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06005",
+    "dish_id": "dis060",
+    "username": "Ioannis Mylothridis",
+    "content": "\"I can eat this any time of the day. In the morning, after dinner or at night after going out. The combination of vanilla pudding and cinnamon just works wonders.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "OCTOBER 15, 2020",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06101",
+    "dish_id": "dis061",
+    "username": "Taxiarchis Senekis",
+    "content": "\"Its very epic. Best for breakfast.l\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 1, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06102",
+    "dish_id": "dis061",
+    "username": "Teo Hris",
+    "content": "\"Creamy miracle\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 11, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06103",
+    "dish_id": "dis061",
+    "username": "Jordan Asterias",
+    "content": "\"Bougatsa is our traditional breakfast. If prepared with love, it can be an unforgettable experience. My go to choices are with white cheese or cream.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JULY 3, 2022",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06104",
+    "dish_id": "dis061",
+    "username": "Marc Ross",
+    "content": "\"Tried this at a greek store in London, Broadway Market, this one had a cream/custard filling, not bad!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 24, 2021",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06105",
+    "dish_id": "dis061",
+    "username": "Ioannis Mylothridis",
+    "content": "\"I can eat this any time of the day. In the morning, after dinner or at night after going out. The combination of vanilla pudding and cinnamon just works wonders.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "OCTOBER 15, 2020",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06201",
+    "dish_id": "dis062",
+    "username": "Marjan Ček",
+    "content": "\"Love the onion and potatoes Ukrainian varenyky\"\nUSEFUL RECOMMENDATION?\n1\n0",
+    "rating": 0,
+    "date": "MAY 8, 2025",
+    "likes": "1",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06202",
+    "dish_id": "dis062",
+    "username": "Yaroslav Holubiev",
+    "content": "\"Very tasty, love them with potato!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 19, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06203",
+    "dish_id": "dis062",
+    "username": "TalinskiSwir .",
+    "content": "\"I am from Poland and I really like it. It got amazing taste and it is one of my favorite disches. (Below text in polish.) Jestem z Polski i bardzo lubią to danie. Ma to przepyszny smak i jest to jedną z moich ulubionych dań.\"\nUSEFUL RECOMMENDATION?\n1\n0",
+    "rating": 0,
+    "date": "SEPTEMBER 8, 2024",
+    "likes": "1",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06204",
+    "dish_id": "dis062",
+    "username": "Kamil Orzech",
+    "content": "\"Lecker\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 10, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06205",
+    "dish_id": "dis062",
+    "username": "Mustafa Giyci",
+    "content": "\"My favorite type of pierogi\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MARCH 15, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06301",
+    "dish_id": "dis063",
+    "username": "Marjan Ček",
+    "content": "\"Love the onion and potatoes Ukrainian varenyky\"\nUSEFUL RECOMMENDATION?\n1\n0",
+    "rating": 0,
+    "date": "MAY 8, 2025",
+    "likes": "1",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06302",
+    "dish_id": "dis063",
+    "username": "Yaroslav Holubiev",
+    "content": "\"Very tasty, love them with potato!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 19, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06303",
+    "dish_id": "dis063",
+    "username": "TalinskiSwir .",
+    "content": "\"I am from Poland and I really like it. It got amazing taste and it is one of my favorite disches. (Below text in polish.) Jestem z Polski i bardzo lubią to danie. Ma to przepyszny smak i jest to jedną z moich ulubionych dań.\"\nUSEFUL RECOMMENDATION?\n1\n0",
+    "rating": 0,
+    "date": "SEPTEMBER 8, 2024",
+    "likes": "1",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06304",
+    "dish_id": "dis063",
+    "username": "Kamil Orzech",
+    "content": "\"Lecker\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 10, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06305",
+    "dish_id": "dis063",
+    "username": "Mustafa Giyci",
+    "content": "\"My favorite type of pierogi\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MARCH 15, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06401",
+    "dish_id": "dis064",
+    "username": "Franz Roß",
+    "content": "\"Total gut , gesund und einfach lecker !\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MARCH 20, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06402",
+    "dish_id": "dis064",
+    "username": "talha bay",
+    "content": "\"This is a magnificent soup, the texture is amazing and the vegetables make this soup beyond the clouds.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "APRIL 1, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06403",
+    "dish_id": "dis064",
+    "username": "Mustafa Giyci",
+    "content": "\"Morning, lunch, evening... I can drink it any time :)\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MARCH 15, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06404",
+    "dish_id": "dis064",
+    "username": "Fatih Şengül",
+    "content": "\"Ver delicious\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MARCH 7, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06405",
+    "dish_id": "dis064",
+    "username": "Liz Pupa",
+    "content": "\"YUMMYYY\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 11, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06501",
+    "dish_id": "dis065",
+    "username": "Rafael Cervantes",
+    "content": "\"La mejor comida que he probado\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 23, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06502",
+    "dish_id": "dis065",
+    "username": "Joe Mendoza",
+    "content": "\"No me gustó la verdad\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 10, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06503",
+    "dish_id": "dis065",
+    "username": "Edur Barrios",
+    "content": "\"Delicious typical and traditional food.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 23, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06504",
+    "dish_id": "dis065",
+    "username": "Michael Stons",
+    "content": "\"La mejor comida que he probado\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "APRIL 22, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06505",
+    "dish_id": "dis065",
+    "username": "James Taylor",
+    "content": "\"La mejor comida que he probado\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "APRIL 22, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06601",
+    "dish_id": "dis066",
+    "username": "Rafael Cervantes",
+    "content": "\"La mejor comida que he probado\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 23, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06602",
+    "dish_id": "dis066",
+    "username": "Joe Mendoza",
+    "content": "\"No me gustó la verdad\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 10, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06603",
+    "dish_id": "dis066",
+    "username": "Edur Barrios",
+    "content": "\"Delicious typical and traditional food.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 23, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06604",
+    "dish_id": "dis066",
+    "username": "Michael Stons",
+    "content": "\"La mejor comida que he probado\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "APRIL 22, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06605",
+    "dish_id": "dis066",
+    "username": "James Taylor",
+    "content": "\"La mejor comida que he probado\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "APRIL 22, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06701",
+    "dish_id": "dis067",
+    "username": "Rafael Cervantes",
+    "content": "\"La mejor comida que he probado\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 23, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06702",
+    "dish_id": "dis067",
+    "username": "Joe Mendoza",
+    "content": "\"No me gustó la verdad\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 10, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06703",
+    "dish_id": "dis067",
+    "username": "Edur Barrios",
+    "content": "\"Delicious typical and traditional food.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 23, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06704",
+    "dish_id": "dis067",
+    "username": "Michael Stons",
+    "content": "\"La mejor comida que he probado\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "APRIL 22, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06705",
+    "dish_id": "dis067",
+    "username": "James Taylor",
+    "content": "\"La mejor comida que he probado\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "APRIL 22, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06801",
+    "dish_id": "dis068",
+    "username": "Rafael Cervantes",
+    "content": "\"La mejor comida que he probado\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 23, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06802",
+    "dish_id": "dis068",
+    "username": "Joe Mendoza",
+    "content": "\"No me gustó la verdad\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 10, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06803",
+    "dish_id": "dis068",
+    "username": "Edur Barrios",
+    "content": "\"Delicious typical and traditional food.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 23, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06804",
+    "dish_id": "dis068",
+    "username": "Michael Stons",
+    "content": "\"La mejor comida que he probado\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "APRIL 22, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06805",
+    "dish_id": "dis068",
+    "username": "James Taylor",
+    "content": "\"La mejor comida que he probado\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "APRIL 22, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06901",
+    "dish_id": "dis069",
+    "username": "Саввас Димитриадис",
+    "content": "\"so yummy!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 31, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06902",
+    "dish_id": "dis069",
+    "username": "Roland Andoni",
+    "content": "\"Opaaaa\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 2, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06903",
+    "dish_id": "dis069",
+    "username": "aleksandar zivic",
+    "content": "\"Best Dakos ever 🥰🥰🥰\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 27, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06904",
+    "dish_id": "dis069",
+    "username": "Mohan Je",
+    "content": "\"The bread at Dakos is crunchy, providing a great base for the dish, while the tomato and cheese add complementary flavors.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 10, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com06905",
+    "dish_id": "dis069",
+    "username": "Manousos Sifostratoudakis",
+    "content": "\"One of the most refreshing tasting summer salads / starter. Simplisity at its best! Bare in mind to get Mizithra from Chania region (its the best for dakos)\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 24, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com07001",
+    "dish_id": "dis070",
+    "username": "Саввас Димитриадис",
+    "content": "\"so yummy!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 31, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com07002",
+    "dish_id": "dis070",
+    "username": "Roland Andoni",
+    "content": "\"Opaaaa\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 2, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com07003",
+    "dish_id": "dis070",
+    "username": "aleksandar zivic",
+    "content": "\"Best Dakos ever 🥰🥰🥰\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 27, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com07004",
+    "dish_id": "dis070",
+    "username": "Mohan Je",
+    "content": "\"The bread at Dakos is crunchy, providing a great base for the dish, while the tomato and cheese add complementary flavors.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 10, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com07005",
+    "dish_id": "dis070",
+    "username": "Manousos Sifostratoudakis",
+    "content": "\"One of the most refreshing tasting summer salads / starter. Simplisity at its best! Bare in mind to get Mizithra from Chania region (its the best for dakos)\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 24, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com07101",
+    "dish_id": "dis071",
+    "username": "Саввас Димитриадис",
+    "content": "\"so yummy!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 31, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com07102",
+    "dish_id": "dis071",
+    "username": "Roland Andoni",
+    "content": "\"Opaaaa\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 2, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com07103",
+    "dish_id": "dis071",
+    "username": "aleksandar zivic",
+    "content": "\"Best Dakos ever 🥰🥰🥰\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 27, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com07104",
+    "dish_id": "dis071",
+    "username": "Mohan Je",
+    "content": "\"The bread at Dakos is crunchy, providing a great base for the dish, while the tomato and cheese add complementary flavors.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 10, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com07105",
+    "dish_id": "dis071",
+    "username": "Manousos Sifostratoudakis",
+    "content": "\"One of the most refreshing tasting summer salads / starter. Simplisity at its best! Bare in mind to get Mizithra from Chania region (its the best for dakos)\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 24, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com07201",
+    "dish_id": "dis072",
+    "username": "Саввас Димитриадис",
+    "content": "\"so yummy!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 31, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com07202",
+    "dish_id": "dis072",
+    "username": "Roland Andoni",
+    "content": "\"Opaaaa\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 2, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com07203",
+    "dish_id": "dis072",
+    "username": "aleksandar zivic",
+    "content": "\"Best Dakos ever 🥰🥰🥰\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 27, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com07204",
+    "dish_id": "dis072",
+    "username": "Mohan Je",
+    "content": "\"The bread at Dakos is crunchy, providing a great base for the dish, while the tomato and cheese add complementary flavors.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 10, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com07205",
+    "dish_id": "dis072",
+    "username": "Manousos Sifostratoudakis",
+    "content": "\"One of the most refreshing tasting summer salads / starter. Simplisity at its best! Bare in mind to get Mizithra from Chania region (its the best for dakos)\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 24, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com07301",
+    "dish_id": "dis073",
+    "username": "Anne Gearhart",
+    "content": "\"Yum.\"\nUSEFUL RECOMMENDATION?\n0\n1",
+    "rating": 0,
+    "date": "MARCH 23, 2023",
+    "likes": "0",
+    "dislikes": "1"
+  },
+  {
+    "comment_id": "com07401",
+    "dish_id": "dis074",
+    "username": "Sai Srinidhi teegala",
+    "content": "\"Best biryani, flavorful\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 15, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com07402",
+    "dish_id": "dis074",
+    "username": "Srikanth Choudary",
+    "content": "\"Hyderabad Biryani is world famous\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 14, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com07403",
+    "dish_id": "dis074",
+    "username": "ۦۦ Avi",
+    "content": "\"One of the best dish in the world\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 16, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com07404",
+    "dish_id": "dis074",
+    "username": "Xavier GuzmanRubio",
+    "content": "\"tasted really bad looked like a dumpster it also tastes like if you ate a fart\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MARCH 6, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com07405",
+    "dish_id": "dis074",
+    "username": "Soham Gaddam",
+    "content": "\"crazy\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MARCH 2, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com07701",
+    "dish_id": "dis077",
+    "username": "luis enrique montejo zanabria",
+    "content": "\"Lo podría comer todos los dias\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JULY 3, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com07702",
+    "dish_id": "dis077",
+    "username": "Alien Streka",
+    "content": "\"I tried ceviche for the first time and it was delicious 🥹\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 28, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com07703",
+    "dish_id": "dis077",
+    "username": "Amelic Saenz",
+    "content": "\"Muy rico y saludable.\"\nUSEFUL RECOMMENDATION?\n2\n0",
+    "rating": 0,
+    "date": "JUNE 10, 2025",
+    "likes": "2",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com07704",
+    "dish_id": "dis077",
+    "username": "Milton Valdez",
+    "content": "\"Excelent\"\nUSEFUL RECOMMENDATION?\n3\n0",
+    "rating": 0,
+    "date": "JUNE 5, 2025",
+    "likes": "3",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com07705",
+    "dish_id": "dis077",
+    "username": "Mawi Wicho",
+    "content": "\"Buenisimo\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 18, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08001",
+    "dish_id": "dis080",
+    "username": "Yannis Remediakis",
+    "content": "\"Just thinking of it my mouth is watering!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 2, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08002",
+    "dish_id": "dis080",
+    "username": "Giannos Sarris",
+    "content": "\"Είναι από τα πιο αγαπημένα πιάτα της ελληνικής κουζίνας.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 12, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08003",
+    "dish_id": "dis080",
+    "username": "Ioanna Kotsoroni",
+    "content": "\"Meat full of flavour that melts in your mouth\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 12, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08004",
+    "dish_id": "dis080",
+    "username": "Arnoldas Rogoznyj",
+    "content": "\"My local yiayia prepared it\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 17, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08005",
+    "dish_id": "dis080",
+    "username": "Dionysia A",
+    "content": "\"the best\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "APRIL 11, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08101",
+    "dish_id": "dis081",
+    "username": "Yannis Remediakis",
+    "content": "\"Just thinking of it my mouth is watering!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 2, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08102",
+    "dish_id": "dis081",
+    "username": "Giannos Sarris",
+    "content": "\"Είναι από τα πιο αγαπημένα πιάτα της ελληνικής κουζίνας.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 12, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08103",
+    "dish_id": "dis081",
+    "username": "Ioanna Kotsoroni",
+    "content": "\"Meat full of flavour that melts in your mouth\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 12, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08104",
+    "dish_id": "dis081",
+    "username": "Arnoldas Rogoznyj",
+    "content": "\"My local yiayia prepared it\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 17, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08105",
+    "dish_id": "dis081",
+    "username": "Dionysia A",
+    "content": "\"the best\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "APRIL 11, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08201",
+    "dish_id": "dis082",
+    "username": "Yannis Remediakis",
+    "content": "\"Just thinking of it my mouth is watering!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 2, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08202",
+    "dish_id": "dis082",
+    "username": "Giannos Sarris",
+    "content": "\"Είναι από τα πιο αγαπημένα πιάτα της ελληνικής κουζίνας.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 12, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08203",
+    "dish_id": "dis082",
+    "username": "Ioanna Kotsoroni",
+    "content": "\"Meat full of flavour that melts in your mouth\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 12, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08204",
+    "dish_id": "dis082",
+    "username": "Arnoldas Rogoznyj",
+    "content": "\"My local yiayia prepared it\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 17, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08205",
+    "dish_id": "dis082",
+    "username": "Dionysia A",
+    "content": "\"the best\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "APRIL 11, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08301",
+    "dish_id": "dis083",
+    "username": "Yannis Remediakis",
+    "content": "\"Just thinking of it my mouth is watering!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 2, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08302",
+    "dish_id": "dis083",
+    "username": "Giannos Sarris",
+    "content": "\"Είναι από τα πιο αγαπημένα πιάτα της ελληνικής κουζίνας.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 12, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08303",
+    "dish_id": "dis083",
+    "username": "Ioanna Kotsoroni",
+    "content": "\"Meat full of flavour that melts in your mouth\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 12, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08304",
+    "dish_id": "dis083",
+    "username": "Arnoldas Rogoznyj",
+    "content": "\"My local yiayia prepared it\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 17, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08305",
+    "dish_id": "dis083",
+    "username": "Dionysia A",
+    "content": "\"the best\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "APRIL 11, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08501",
+    "dish_id": "dis085",
+    "username": "Juho Kämppi",
+    "content": "\"Parasta\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 19, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08502",
+    "dish_id": "dis085",
+    "username": "Douglas Domingues Manfré",
+    "content": "\"Delicious dish and very smooth, easy to make, a flavor that highlights the flavor of fish water more, I find that it is a little overvalued in the rating. The Caldillo de Congrio from Chile is above this fish soup.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JULY 9, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08503",
+    "dish_id": "dis085",
+    "username": "Alla Savina",
+    "content": "\"амброзия. пища богов\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 4, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08504",
+    "dish_id": "dis085",
+    "username": "Eetu Luoma",
+    "content": "\"As a Finn, defo the best soup I've ever eaten. Though the quality can vary, but done right it is an excellent soup\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "APRIL 25, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08505",
+    "dish_id": "dis085",
+    "username": "Luke Chmura",
+    "content": "\"I made it myself, so It's not truly authentic.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "APRIL 17, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08601",
+    "dish_id": "dis086",
+    "username": "Ngọc Bách Nguyễn",
+    "content": "\"delicious\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 20, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08602",
+    "dish_id": "dis086",
+    "username": "Thinh Nguyen",
+    "content": "\"so good\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 5, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08603",
+    "dish_id": "dis086",
+    "username": "Dạy Nghề Rosa",
+    "content": "\"It is delicious\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "OCTOBER 8, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08604",
+    "dish_id": "dis086",
+    "username": "Lucy May",
+    "content": "\"Tastes like my childhood. I now make these from scratch (including the bánh)!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 26, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08605",
+    "dish_id": "dis086",
+    "username": "666 lipluvz",
+    "content": "\"Best sandwich ever! No Doubt!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 22, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08701",
+    "dish_id": "dis087",
+    "username": "Ngọc Bách Nguyễn",
+    "content": "\"delicious\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 20, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08702",
+    "dish_id": "dis087",
+    "username": "Thinh Nguyen",
+    "content": "\"so good\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 5, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08703",
+    "dish_id": "dis087",
+    "username": "Dạy Nghề Rosa",
+    "content": "\"It is delicious\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "OCTOBER 8, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08704",
+    "dish_id": "dis087",
+    "username": "Lucy May",
+    "content": "\"Tastes like my childhood. I now make these from scratch (including the bánh)!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 26, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com08705",
+    "dish_id": "dis087",
+    "username": "666 lipluvz",
+    "content": "\"Best sandwich ever! No Doubt!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JUNE 22, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09101",
+    "dish_id": "dis091",
+    "username": "Mark Pascuzzi",
+    "content": "\"My favorite Tuscan pasta\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 30, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09102",
+    "dish_id": "dis091",
+    "username": "Émile Shevek",
+    "content": "\"Buoni anche al sugo\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 11, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09103",
+    "dish_id": "dis091",
+    "username": "Luca Vcrl",
+    "content": "\"Secondo me è una delle migliori Paste al mondo o anche la migliore, specialmente presa da posto locale toscano. La complessità e semplicità di questo piatto è indiscrivibile!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "SEPTEMBER 5, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09104",
+    "dish_id": "dis091",
+    "username": "Lucy May",
+    "content": "\"My favourite pasta dish in Firenze!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 26, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09105",
+    "dish_id": "dis091",
+    "username": "Younes Haoufadi",
+    "content": "\"The best pasta I’ve ever eat\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 2, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09201",
+    "dish_id": "dis092",
+    "username": "Mark Pascuzzi",
+    "content": "\"My favorite Tuscan pasta\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 30, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09202",
+    "dish_id": "dis092",
+    "username": "Émile Shevek",
+    "content": "\"Buoni anche al sugo\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 11, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09203",
+    "dish_id": "dis092",
+    "username": "Luca Vcrl",
+    "content": "\"Secondo me è una delle migliori Paste al mondo o anche la migliore, specialmente presa da posto locale toscano. La complessità e semplicità di questo piatto è indiscrivibile!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "SEPTEMBER 5, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09204",
+    "dish_id": "dis092",
+    "username": "Lucy May",
+    "content": "\"My favourite pasta dish in Firenze!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 26, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09205",
+    "dish_id": "dis092",
+    "username": "Younes Haoufadi",
+    "content": "\"The best pasta I’ve ever eat\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 2, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09301",
+    "dish_id": "dis093",
+    "username": "Mark Pascuzzi",
+    "content": "\"My favorite Tuscan pasta\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 30, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09302",
+    "dish_id": "dis093",
+    "username": "Émile Shevek",
+    "content": "\"Buoni anche al sugo\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 11, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09303",
+    "dish_id": "dis093",
+    "username": "Luca Vcrl",
+    "content": "\"Secondo me è una delle migliori Paste al mondo o anche la migliore, specialmente presa da posto locale toscano. La complessità e semplicità di questo piatto è indiscrivibile!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "SEPTEMBER 5, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09304",
+    "dish_id": "dis093",
+    "username": "Lucy May",
+    "content": "\"My favourite pasta dish in Firenze!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 26, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09305",
+    "dish_id": "dis093",
+    "username": "Younes Haoufadi",
+    "content": "\"The best pasta I’ve ever eat\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 2, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09401",
+    "dish_id": "dis094",
+    "username": "Mark Pascuzzi",
+    "content": "\"My favorite Tuscan pasta\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "MAY 30, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09402",
+    "dish_id": "dis094",
+    "username": "Émile Shevek",
+    "content": "\"Buoni anche al sugo\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 11, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09403",
+    "dish_id": "dis094",
+    "username": "Luca Vcrl",
+    "content": "\"Secondo me è una delle migliori Paste al mondo o anche la migliore, specialmente presa da posto locale toscano. La complessità e semplicità di questo piatto è indiscrivibile!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "SEPTEMBER 5, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09404",
+    "dish_id": "dis094",
+    "username": "Lucy May",
+    "content": "\"My favourite pasta dish in Firenze!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 26, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09405",
+    "dish_id": "dis094",
+    "username": "Younes Haoufadi",
+    "content": "\"The best pasta I’ve ever eat\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 2, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09501",
+    "dish_id": "dis095",
+    "username": "Andrea Lied",
+    "content": "\"This is fantastic, cheese and bread, so simple yet so amazing!! and when the cheese is warm and melted and the bread is thin you roll it, with the good amount of oil, its divine, divine!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 12, 2024",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09502",
+    "dish_id": "dis095",
+    "username": "Giacomo Costa",
+    "content": "\"Ci sono tante varianti e imitazioni, anche nei vicini paesi della Liguria, ma non hanno niente a che vedere. Mangiarla è una esperienza indimenticabile per chi ama il formaggio.\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "DECEMBER 15, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09503",
+    "dish_id": "dis095",
+    "username": "A B",
+    "content": "\"Per me, il cibo più buono in assoluto!! Più che un cibo è una medicina per l'anima!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 6, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09504",
+    "dish_id": "dis095",
+    "username": "Gabriele Calvillo",
+    "content": "\"A superb example of our regional cuisine... as Pansoti ant Trofiette, bothborn in Recco too!!\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "FEBRUARY 9, 2023",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09505",
+    "dish_id": "dis095",
+    "username": "Alex Carter-Chand",
+    "content": "\"It was okay, It was different than I expected\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "AUGUST 1, 2022",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09601",
+    "dish_id": "dis096",
+    "username": "Vincenzo Lavecchia",
+    "content": "\"It’s the best focaccia in Italy , crunchy outside soft inside , the nice smell of good olive oil, the taste of the tomato, the olives …. Unique\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 15, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09602",
+    "dish_id": "dis096",
+    "username": "Flavio Amico",
+    "content": "\"Just phenomenal. The crunchy outside and soft inside pair perfectly\"\nUSEFUL RECOMMENDATION?\n1\n0",
+    "rating": 0,
+    "date": "MARCH 26, 2023",
+    "likes": "1",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09603",
+    "dish_id": "dis096",
+    "username": "Marina Kirillova",
+    "content": "\"Delicious! And I'm speaking as a person who doesn't like any bread products\"\nUSEFUL RECOMMENDATION?\n1\n0",
+    "rating": 0,
+    "date": "JANUARY 30, 2023",
+    "likes": "1",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09604",
+    "dish_id": "dis096",
+    "username": "Claudio Stoduto",
+    "content": "\"Focaccia di Recco or focaccia genovese are way better than this, which should not be mentioned amongst the best dishes in the world.\"\nUSEFUL RECOMMENDATION?\n0\n1",
+    "rating": 0,
+    "date": "AUGUST 4, 2022",
+    "likes": "0",
+    "dislikes": "1"
+  },
+  {
+    "comment_id": "com09701",
+    "dish_id": "dis097",
+    "username": "Vincenzo Lavecchia",
+    "content": "\"It’s the best focaccia in Italy , crunchy outside soft inside , the nice smell of good olive oil, the taste of the tomato, the olives …. Unique\"\nUSEFUL RECOMMENDATION?\n0\n0",
+    "rating": 0,
+    "date": "JANUARY 15, 2025",
+    "likes": "0",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09702",
+    "dish_id": "dis097",
+    "username": "Flavio Amico",
+    "content": "\"Just phenomenal. The crunchy outside and soft inside pair perfectly\"\nUSEFUL RECOMMENDATION?\n1\n0",
+    "rating": 0,
+    "date": "MARCH 26, 2023",
+    "likes": "1",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09703",
+    "dish_id": "dis097",
+    "username": "Marina Kirillova",
+    "content": "\"Delicious! And I'm speaking as a person who doesn't like any bread products\"\nUSEFUL RECOMMENDATION?\n1\n0",
+    "rating": 0,
+    "date": "JANUARY 30, 2023",
+    "likes": "1",
+    "dislikes": "0"
+  },
+  {
+    "comment_id": "com09704",
+    "dish_id": "dis097",
+    "username": "Claudio Stoduto",
+    "content": "\"Focaccia di Recco or focaccia genovese are way better than this, which should not be mentioned amongst the best dishes in the world.\"\nUSEFUL RECOMMENDATION?\n0\n1",
+    "rating": 0,
+    "date": "AUGUST 4, 2022",
+    "likes": "0",
+    "dislikes": "1"
+  }
+]

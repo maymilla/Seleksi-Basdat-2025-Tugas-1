@@ -1,0 +1,358 @@
+[
+  {
+    "category_id": "cat001",
+    "category_name": "Appetizers"
+  },
+  {
+    "category_id": "cat002",
+    "category_name": "Aspics"
+  },
+  {
+    "category_id": "cat003",
+    "category_name": "Assorted Small Dishes or Rituals"
+  },
+  {
+    "category_id": "cat004",
+    "category_name": "Base Seasonings"
+  },
+  {
+    "category_id": "cat005",
+    "category_name": "Breads"
+  },
+  {
+    "category_id": "cat006",
+    "category_name": "Breakfasts"
+  },
+  {
+    "category_id": "cat007",
+    "category_name": "Casseroles"
+  },
+  {
+    "category_id": "cat008",
+    "category_name": "Cheese Dishes"
+  },
+  {
+    "category_id": "cat009",
+    "category_name": "Cooked Sausages"
+  },
+  {
+    "category_id": "cat010",
+    "category_name": "Deep-fried Dishes"
+  },
+  {
+    "category_id": "cat011",
+    "category_name": "Desserts"
+  },
+  {
+    "category_id": "cat012",
+    "category_name": "Dips"
+  },
+  {
+    "category_id": "cat013",
+    "category_name": "Dipping Sauces"
+  },
+  {
+    "category_id": "cat014",
+    "category_name": "Dressings"
+  },
+  {
+    "category_id": "cat015",
+    "category_name": "Dumplings"
+  },
+  {
+    "category_id": "cat016",
+    "category_name": "Egg Dishes"
+  },
+  {
+    "category_id": "cat017",
+    "category_name": "Feasts"
+  },
+  {
+    "category_id": "cat018",
+    "category_name": "Frog Dishes"
+  },
+  {
+    "category_id": "cat019",
+    "category_name": "Fruit Salads"
+  },
+  {
+    "category_id": "cat020",
+    "category_name": "Insect Dishes"
+  },
+  {
+    "category_id": "cat021",
+    "category_name": "Meat Dishes"
+  },
+  {
+    "category_id": "cat022",
+    "category_name": "Mushroom Dishes"
+  },
+  {
+    "category_id": "cat023",
+    "category_name": "Noodle Dishes"
+  },
+  {
+    "category_id": "cat024",
+    "category_name": "Offal Dishes"
+  },
+  {
+    "category_id": "cat025",
+    "category_name": "Pancakes"
+  },
+  {
+    "category_id": "cat026",
+    "category_name": "Pasta"
+  },
+  {
+    "category_id": "cat027",
+    "category_name": "Pastries"
+  },
+  {
+    "category_id": "cat028",
+    "category_name": "Pies"
+  },
+  {
+    "category_id": "cat029",
+    "category_name": "Pizzas"
+  },
+  {
+    "category_id": "cat030",
+    "category_name": "Porridges"
+  },
+  {
+    "category_id": "cat031",
+    "category_name": "Potato Dishes"
+  },
+  {
+    "category_id": "cat032",
+    "category_name": "Rice Dishes"
+  },
+  {
+    "category_id": "cat033",
+    "category_name": "Salads"
+  },
+  {
+    "category_id": "cat034",
+    "category_name": "Salsas"
+  },
+  {
+    "category_id": "cat035",
+    "category_name": "Sandwiches and Wraps"
+  },
+  {
+    "category_id": "cat036",
+    "category_name": "Sauces"
+  },
+  {
+    "category_id": "cat037",
+    "category_name": "Sausage Dishes"
+  },
+  {
+    "category_id": "cat038",
+    "category_name": "Seafood Dishes"
+  },
+  {
+    "category_id": "cat039",
+    "category_name": "Side Dishes"
+  },
+  {
+    "category_id": "cat040",
+    "category_name": "Snacks"
+  },
+  {
+    "category_id": "cat041",
+    "category_name": "Snail Dishes"
+  },
+  {
+    "category_id": "cat042",
+    "category_name": "Soups"
+  },
+  {
+    "category_id": "cat043",
+    "category_name": "Spreads"
+  },
+  {
+    "category_id": "cat044",
+    "category_name": "Stews"
+  },
+  {
+    "category_id": "cat045",
+    "category_name": "Stir-fry Dishes"
+  },
+  {
+    "category_id": "cat046",
+    "category_name": "Street Food"
+  },
+  {
+    "category_id": "cat047",
+    "category_name": "Swallows"
+  },
+  {
+    "category_id": "cat048",
+    "category_name": "Sweet Breads"
+  },
+  {
+    "category_id": "cat049",
+    "category_name": "Techniques"
+  },
+  {
+    "category_id": "cat050",
+    "category_name": "Vegetable Dishes"
+  },
+  {
+    "category_id": "cat051",
+    "category_name": "Vegetarian Dishes"
+  },
+  {
+    "category_id": "cat052",
+    "category_name": "Pizza"
+  },
+  {
+    "category_id": "cat053",
+    "category_name": "Assorted Small Dishes"
+  },
+  {
+    "category_id": "cat054",
+    "category_name": "Brazilian Beef Cut"
+  },
+  {
+    "category_id": "cat055",
+    "category_name": "Barbecue"
+  },
+  {
+    "category_id": "cat056",
+    "category_name": "Flatbread"
+  },
+  {
+    "category_id": "cat057",
+    "category_name": "Beef Dish"
+  },
+  {
+    "category_id": "cat058",
+    "category_name": "Fried Chicken Dish"
+  },
+  {
+    "category_id": "cat059",
+    "category_name": "Chicken Dish"
+  },
+  {
+    "category_id": "cat060",
+    "category_name": "Rice Dish"
+  },
+  {
+    "category_id": "cat061",
+    "category_name": "Meat Dish"
+  },
+  {
+    "category_id": "cat062",
+    "category_name": "Stew"
+  },
+  {
+    "category_id": "cat063",
+    "category_name": "Beef Cut"
+  },
+  {
+    "category_id": "cat064",
+    "category_name": "Ice Cream"
+  },
+  {
+    "category_id": "cat065",
+    "category_name": "Technique"
+  },
+  {
+    "category_id": "cat066",
+    "category_name": "Pork Dish"
+  },
+  {
+    "category_id": "cat067",
+    "category_name": "Duck Dish"
+  },
+  {
+    "category_id": "cat068",
+    "category_name": "Chocolate Dessert"
+  },
+  {
+    "category_id": "cat069",
+    "category_name": "Cheese Dessert"
+  },
+  {
+    "category_id": "cat070",
+    "category_name": "French Beef Cut"
+  },
+  {
+    "category_id": "cat071",
+    "category_name": "Seafood Dish"
+  },
+  {
+    "category_id": "cat072",
+    "category_name": "American Beef Cut"
+  },
+  {
+    "category_id": "cat073",
+    "category_name": "Noodle Soup"
+  },
+  {
+    "category_id": "cat074",
+    "category_name": "Chicken Soup"
+  },
+  {
+    "category_id": "cat075",
+    "category_name": "Lobster Dish"
+  },
+  {
+    "category_id": "cat076",
+    "category_name": "Chocolate Cake"
+  },
+  {
+    "category_id": "cat077",
+    "category_name": "Vegetable Soup"
+  },
+  {
+    "category_id": "cat078",
+    "category_name": "Savory Pastry"
+  },
+  {
+    "category_id": "cat079",
+    "category_name": "Pastry"
+  },
+  {
+    "category_id": "cat080",
+    "category_name": "Salmon Dish"
+  },
+  {
+    "category_id": "cat081",
+    "category_name": "Cheese Dish"
+  },
+  {
+    "category_id": "cat082",
+    "category_name": "Stir-Fry"
+  },
+  {
+    "category_id": "cat083",
+    "category_name": "Lamb Dish"
+  },
+  {
+    "category_id": "cat084",
+    "category_name": "Fish Soup"
+  },
+  {
+    "category_id": "cat085",
+    "category_name": "Sandwich"
+  },
+  {
+    "category_id": "cat086",
+    "category_name": "Deep-Fried Dessert"
+  },
+  {
+    "category_id": "cat087",
+    "category_name": "Bread"
+  },
+  {
+    "category_id": "cat088",
+    "category_name": "Meat Soup"
+  },
+  {
+    "category_id": "cat089",
+    "category_name": "Snack"
+  }
+]
