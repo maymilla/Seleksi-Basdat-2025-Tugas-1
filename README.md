@@ -61,13 +61,9 @@ Cara Penggunaan
 Instalasi Library
 Pastikan Python dan pip sudah terinstal. Jalankan perintah berikut untuk menginstal semua library yang dibutuhkan:
 
-Bash
-
 pip install selenium beautifulsoup4 webdriver-manager psycopg2-binary
 Menjalankan Scraper (Extract)
 Jalankan skrip-skrip berikut secara berurutan untuk mengumpulkan data mentah. Skrip akan menyimpan hasilnya dalam format JSON di folder Data Scraping/data/.
-
-Bash
 
 # Mengambil data peringkat dasar
 python "Data Scraping/src/Rank Scraper.py"
@@ -79,8 +75,6 @@ python "Data Scraping/src/app_details_scraper.py"
 python "Data Scraping/src/developer_details_scraper.py"
 Menjalankan Preprocessing (Transform)
 Setelah data mentah terkumpul, jalankan skrip berikut untuk membersihkan, mem-parsing, dan mentransformasi data mentah menjadi format yang bersih dan siap pakai.
-
-Bash
 
 python "Data Scraping/src/preprocess_ranking.py"
 python "Data Scraping/src/preprocess_app_details.py"
@@ -114,12 +108,8 @@ Hubungan one-to-many antar entitas diwujudkan melalui mekanisme foreign key. Mis
 Cara Memasukkan Data ke Database (Load)
 Buat Database & Tabel: Buat database seleksi_basdat di PostgreSQL, lalu jalankan skrip di bawah ini untuk membuat semua tabel.
 
-Bash
-
 psql -U postgres -d seleksi_basdat -f "Data Storing/src/create_tables.sql"
 Load Data: Jalankan skrip load_data.py untuk memuat data dari file _clean.json ke dalam tabel-tabel yang sudah dibuat.
-
-Bash
 
 python "Data Storing/src/load_data.py"
 Bonus: Implementasi Data Warehouse
@@ -131,12 +121,8 @@ Skema ini terdiri dari satu tabel fakta (Fact_AppRanking) dan empat tabel dimens
 Cara Implementasi DWH
 Buat Database & Tabel DWH: Buat database seleksi_basdat_dwh, lalu jalankan skrip di bawah ini untuk membuat semua tabel DWH.
 
-Bash
-
 psql -U postgres -d seleksi_basdat_dwh -f "Data Warehouse/src/create_dwh_tables.sql"
 Load Data ke DWH: Jalankan skrip load_dwh.py untuk melakukan proses ETL dari database operasional ke data warehouse.
-
-Bash
 
 python "Data Warehouse/src/load_dwh.py"
 Bukti Implementasi (Screenshots)
