@@ -36,9 +36,9 @@ python "Data Scraping/src/developer_details_scraper.py"
 3. Menjalankan Preprocessing (Transform)
 Setelah data mentah terkumpul, jalankan skrip berikut untuk membersihkan, mem-parsing, dan mentransformasi data mentah menjadi format yang bersih dan siap pakai.
 
--python "Data Scraping/src/preprocess_ranking.py"
--python "Data Scraping/src/preprocess_app_details.py"
--python "Data Scraping/src/preprocess_developer_details.py"
+- python "Data Scraping/src/preprocess_ranking.py"
+- python "Data Scraping/src/preprocess_app_details.py"
+- python "Data Scraping/src/preprocess_developer_details.py"
 
 Struktur File JSON Bersih
 1. ranking_clean.json: Menyimpan data peringkat dasar setiap aplikasi.
@@ -67,11 +67,14 @@ Hubungan one-to-many antar entitas diwujudkan melalui mekanisme foreign key. Mis
 
 Cara Memasukkan Data ke Database (Load)
 Buat Database & Tabel: Buat database seleksi_basdat di PostgreSQL, lalu jalankan skrip di bawah ini untuk membuat semua tabel.
-
 psql -U postgres -d seleksi_basdat -f "Data Storing/src/create_tables.sql"
-Load Data: Jalankan skrip load_data.py untuk memuat data dari file _clean.json ke dalam tabel-tabel yang sudah dibuat.
 
+Load Data: Jalankan skrip load_data.py untuk memuat data dari file _clean.json ke dalam tabel-tabel yang sudah dibuat.
 python "Data Storing/src/load_data.py"
+
+Contoh Kueri Analitik pada Data Storing:
+
+****
 
 ---
 
@@ -100,13 +103,13 @@ Contoh Kueri Analitik pada Data Warehouse:
 Sumber Data: AppBrain - Google Play Ranking (https://www.appbrain.com/stats/google-play-rankings/)
 
 Library Pihak Ketiga:
-Selenium
-BeautifulSoup4
-WebDriver-Manager
-psycopg2-binary
+- Selenium
+- BeautifulSoup4
+- WebDriver-Manager
+- psycopg2-binary
 
 Library Standar:
-json
-os
-re
-time
+- json
+- os
+- re
+- time
