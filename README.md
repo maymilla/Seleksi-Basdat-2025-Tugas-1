@@ -1,117 +1,601 @@
-ETL Project: Data Scraping, Database Modeling, and Data Storing
+# TUGAS SELEKSI 1 - 13523086
 
-======================================== a. Author ========================================
-Nama: MUHAMMAD AZZAM ROBBANI
-NIM: 18223025
+## Author
 
-======================================== b. Deskripsi Proyek ========================================
-Proyek ini merupakan implementasi proses ETL (Extract, Transform, Load) lengkap yang mengambil data mengenai peringkat aplikasi gratis teratas dari Google Play Store.
+- Nama: Bob Kunanda
+- NIM: 13523086
 
-Topik: Peringkat, Detail, dan Statistik Developer dari 200 Aplikasi Gratis Teratas di Google Play Store Amerika Serikat.
+---
 
-Sumber Data: Data di-scrape dari website AppBrain (https://www.appbrain.com/stats/google-play-rankings/).
+## Deskripsi Singkat Data & DBMS
 
-Alasan Pemilihan Topik: Topik ini dipilih karena data aplikasi mobile sangat dinamis dan kaya akan informasi. Ini memungkinkan analisis tren popularitas, performa developer, dan karakteristik aplikasi yang sukses, yang merupakan studi kasus yang menarik untuk perancangan database.
+Proyek ini membangun sebuah database dan data warehouse untuk data sepatu, review, dan toko dari berbagai link. Data disimpan dalam PostgreSQL (RDBMS). Topik sepatu basket dipilih karena hobby saya terhadap basket. Awalnya topik yang saya inginkan adalah data NBA karena data tersebut sangat tertruktur dan bersih, namun saya tidak menemukan satu pun website data NBA yang memperbolehkan scraping sehingga saya merubah topik saya menjadi sepatu basket. Website ini saya pilih karena saya sendiri pernah menggunakannya untuk kebutuhan pribadi dan sudah lumayan mengenal strukturnya sehingga membantu saya dalam scraping.
 
-DBMS: PostgreSQL.
+---
 
-======================================== c. Cara Menggunakan Scraper dan Hasil Outputnya ========================================
-Proses untuk mengumpulkan dan membersihkan data terdiri dari dua tahap utama: menjalankan skrip scraper untuk mendapatkan data mentah, dan menjalankan skrip preprocessing untuk membersihkan data tersebut.
+## Cara Menggunakan Scraper & Output
 
-1. Prasyarat: Instalasi Library
-Sebelum menjalankan skrip, pastikan semua library yang dibutuhkan sudah terinstal. Buka terminal dan jalankan perintah berikut:
+### Setup Virtual Environment (venv)
 
-pip install selenium beautifulsoup4 webdriver-manager psycopg2-binary
+Sebelum menjalankan project, aktifkan virtual environment agar semua library yang dibutuhkan sudah terinstall dan terisolasi dari sistem global.
 
-2. Menjalankan Skrip Scraper (Untuk Mendapatkan Data Mentah)
-Jalankan skrip-skrip berikut secara berurutan dari direktori utama proyek Anda untuk mengumpulkan data mentah dari AppBrain.
+**Cara membuat dan mengaktifkan venv:**
 
-# Mengambil data peringkat dasar
-python "Data Scraping/src/Rank Scraper.py"
+```bash
+# Membuat virtual environment (jika belum ada)
+python -m venv venv
 
-# Mengambil detail 200 aplikasi
-python "Data Scraping/src/app_details_scraper.py"
+# Mengaktifkan venv (Windows)
+venv\Scripts\activate
 
-# Mengambil detail developer dari 200 aplikasi
-python "Data Scraping/src/developer_details_scraper.py"
+# Mengaktifkan venv (Linux/Mac)
+source venv/bin/activate
 
-Setelah proses ini selesai, Anda akan mendapatkan tiga file JSON mentah di dalam folder Data Scraping/data/.
+# Install semua dependency
+pip install -r [requirements.txt](http://_vscodecontentref_/1)
+```
 
-3. Menjalankan Skrip Preprocessing (Untuk Membersihkan Data)
-Data mentah tersebut harus dibersihkan sebelum dimasukkan ke database. Jalankan skrip-skrip berikut untuk melakukan pembersihan, parsing, dan transformasi data.
+Pastikan menjalankan semua perintah di atas sebelum menjalankan scraper atau script lain.
 
-python "Data Scraping/src/preprocess_ranking.py"
-python "Data Scraping/src/preprocess_app_details.py"
-python "Data Scraping/src/preprocess_developer_details.py"
+### Konfigurasi Environment (.env)
 
-Hasil dari proses ini adalah tiga file _clean.json. File-file inilah yang akan digunakan sebagai sumber data untuk dimasukkan ke dalam database PostgreSQL.
+File `.env` digunakan untuk menyimpan konfigurasi database dan data warehouse.  
+Contoh isi file `.env`:
 
-======================================== d. Penjelasan Struktur File JSON yang Dihasilkan ========================================
+```env
+DB_NAME=basketbal_shoes
+DB_USER=postgres
+DB_PASS=your_password
+DB_HOST=localhost
+DB_PORT=5432
 
-1. ranking_clean.json: Menyimpan data peringkat dasar setiap aplikasi.
-app_name (Teks): Nama aplikasi.
-rank (Angka Bulat): Peringkat aplikasi.
-rating (Angka Desimal): Rata-rata rating aplikasi.
-total_installs (Angka Bulat): Angka total instalasi.
-recent_installs (Angka Bulat): Angka instalasi dalam 30 hari terakhir.
+DW_DB_NAME=shoes_warehouse
+DW_DB_USER=postgres
+DW_DB_PASS=your_password
+DW_DB_HOST=localhost
+DW_DB_PORT=5432
+```
 
-2. app_details_clean.json: Menyimpan detail spesifik setiap aplikasi.
-app_name (Teks): Nama aplikasi.
-developer (Teks): Nama developer.
-category (Teks): Kategori aplikasi.
-price_text (Teks): Keterangan harga (contoh: "Free").
-price_numeric (Angka Desimal): Harga dalam format numerik (0.0 untuk gratis).
-apk_size_mb (Angka Desimal): Ukuran file APK dalam Megabyte.
-maturity (Teks): Tingkat kedewasaan konten (contoh: "Medium").
-source_url (Teks): URL sumber halaman detail aplikasi.
+### Cara Menjalankan
 
-3. developer_details_clean.json: Menyimpan detail dan statistik agregat setiap developer.
-developer_name (Teks): Nama developer.
-active_year (Angka Bulat): Tahun pertama developer aktif.
-active_month (Angka Bulat): Bulan pertama developer aktif.
-app_count (Angka Bulat): Jumlah aplikasi yang dimiliki developer.
-total_downloads (Angka Bulat): Total unduhan dari semua aplikasi developer.
-average_rating (Angka Desimal): Rata-rata rating dari semua aplikasi developer.
-total_rating_count (Angka Bulat): Total jumlah rating dari semua aplikasi developer.
-source_url (Teks): URL sumber halaman profil developer.
+1. **Jalankan Scraper**  
+    Sebelumnya pastikan sudah berada pada root folder yaitu TUGAS_SELEKSI_1_13523086
 
-======================================== e. Struktur ERD dan diagram relasional RDBMS ========================================
+    Scraper dapat dijalankan dengan perintah berikut di terminal:
 
-============================== f. Penjelasan Proses Translasi ERD menjadi Diagram Relasional ==============================
-Proses translasi dari ERD (model konseptual) menjadi Skema Relasional (model fisik untuk implementasi di PostgreSQL) mengikuti aturan-aturan standar berikut:
+    ``` bash
+    invoke scrape
+    ```
 
-Setiap Entitas Menjadi Sebuah Tabel: Setiap entitas yang didefinisikan dalam ERD (seperti Developers, Apps, Categories, MaturityRatings, DeveloperStats, dan Rankings) diimplementasikan sebagai sebuah tabel terpisah di dalam database.
+    Scraper akan mengambil data dari web dan menyimpannya dalam file JSON di folder `Data Scraping/data/`.
+2. **Menggunakan Output**  
+    File JSON hasil scraping dapat digunakan untuk proses ETL ke database dengan menjalankan:
 
-Setiap Atribut Menjadi Sebuah Kolom: Setiap atribut yang dimiliki oleh sebuah entitas di ERD diubah menjadi kolom pada tabel yang bersangkutan. Selama proses ini, tipe data yang paling sesuai untuk setiap kolom ditentukan (misalnya, VARCHAR untuk teks, INT untuk angka bulat, REAL atau NUMERIC untuk angka desimal, BIGINT untuk angka yang sangat besar seperti jumlah unduhan).
+    **Windows:**
 
-Identifier Unik Menjadi Primary Key: Atribut unik yang berfungsi sebagai pembeda utama setiap baris data dalam entitas (ditandai sebagai PK di ERD) ditetapkan sebagai PRIMARY KEY pada tabel. Dalam desain ini, tipe SERIAL digunakan untuk membuat ID unik yang bertambah secara otomatis untuk setiap tabel.
+    ```bash
+    python Data" "Storing/src/storing.py
+    ```
 
-Hubungan One-to-Many (1:N) Diimplementasikan dengan Foreign Key: Hubungan antar entitas diimplementasikan menggunakan foreign key. Untuk hubungan 1-ke-N, Primary Key dari tabel di sisi "satu" (1) ditambahkan sebagai kolom baru (Foreign Key) pada tabel di sisi "banyak" (N). Contohnya:
+    **macOS/Linux:**
 
-Untuk relasi 1-ke-N antara Developers dan Apps, developer_id (PK dari tabel Developers) ditambahkan ke dalam tabel Apps sebagai foreign key.
+    ```bash
+    python Data\ Storing/src/storing.py
+    ```
 
-Hal yang sama berlaku untuk category_id dan maturity_id di dalam tabel Apps.
+    atau untuk menghindari duplikasi data, gunakan:
 
-================================================== g. Screenshot Program ==================================================
+    **Windows:**
 
+    ```bash
+    python Data" "Warehouse/src/etl.py
+    ```
 
-================================================== h. Referensi ==================================================
-Sumber Data
-Website: AppBrain - Google Play Ranking
-URL: https://www.appbrain.com/stats/google-play-rankings/
+    **macOS/Linux:**
 
-Teknologi & Library
+    ```bash
+    python Data\ Warehouse/src/etl.py
+    ```
 
-Bahasa Pemrograman: Python
+    `storing.py` dapat menybabkan duplikasi karena digunakan untuk penyimpanan awal dan `etl` akan unik karena diperuntukan automated scheduling
 
-Library Pihak Ketiga (Perlu diinstal):
--Selenium: Untuk otomasi browser dan scraping data dari halaman web dinamis.
--BeautifulSoup4: Untuk mem-parsing dokumen HTML dan mengekstrak data.
--WebDriver-Manager: Untuk mengelola driver browser secara otomatis untuk Selenium.
--psycopg2-binary: Sebagai adaptor untuk menghubungkan Python dengan database PostgreSQL.
+    Proses ini akan memasukkan data ke `PostgreSQL` sesuai struktur relasional yang telah dibuat.
 
-Library Standar (Bawaan Python):
--json: Untuk membaca dan menulis data dalam format JSON.
--os: Untuk berinteraksi dengan sistem operasi, terutama dalam mengelola path file.
--re: Untuk operasi regular expression, digunakan saat membersihkan dan mem-parsing teks.
--time: Untuk memberikan jeda (sleep) antar request saat melakukan scraping.
+---
+
+## Struktur File JSON Output
+
+1. `shoe_links.json` json untuk penyimpanan link untuk setiap sepatu yang digunakan untuk scraping selanjutnya:
+
+    | Field         | Description                                                                 |
+    |---------------|-----------------------------------------------------------------------------|
+    | `total_links_found`     | Banyak link yang ditemukan                               |
+    | `shoe_links`        | Array berisi link yang sudah discrape |
+
+    Contoh:
+
+    ```json
+    [{
+    "total_links_found": 351,
+    "shoe_links": [
+        "https://www.thehoopsgeek.com/shoe-reviews/reebok-engine-a/",
+        "https://www.thehoopsgeek.com/shoe-reviews/jordan-luka-4/",
+        ..
+            ]
+        }
+    ]
+
+2. `Shoe.json` json untuk penyimpanan data sepatu dengan struktur sebagai berikut:
+
+    | Field         | Description                                                                 |
+    |---------------|-----------------------------------------------------------------------------|
+    | `shoe_id`     | Identifikasi unik untuk setiap sepatu(integer)                                   |
+    | `name`        | Nama sepatu (string)                                                   |
+    | `brand`       | Merk sepatu (cth: Nike, Adidas, Reebok)                             |
+    | `player`      | Pemain yang disponsor untuk sepatu                    |
+    | `release_date`| Tanggal pengeluaran sepatu dengan format `YYYY-MM-DD` (string)                             |
+    | `description` | Deskripsi singkat terkait sepatu (string)     |
+    | `shoe_type`   | Tipe sepatu (cth: Low Top, High Top, dsb) (string)                         |
+    | `retail_price`| Harga retail dalam USD (float)                                                 |
+
+    Contoh:
+
+    ```json
+    [
+        {
+            "shoe_id": 1,
+            "name": "Reebok Engine A",
+            "brand": "Reebok",
+            "player": null,
+            "release_date": "2025-05-01",
+            "description": "The Reebok Engine A is best for bigger players looking for solid impact protection.",
+            "shoe_type": "Low Top",
+            "retail_price": 119.99
+        },
+        ..
+    ]
+    ```
+
+3. `Colorway.json` json untuk penyimpanan colorway untuk setiap sepatu
+
+    | Field         | Description                                                                 |
+    |---------------|-----------------------------------------------------------------------------|
+    | `colorway_id`     | Identifikasi unik untuk setiap colorway (integer)                                |
+    | `shoe_id`        | Identifikasi unik untuk setiap colorway (integer) |
+    | `colorway`        | Nama atau sebutan dari colorway (string) |
+
+    Contoh:
+
+    ```json
+   [
+        {
+            "colorway_id": 1,
+            "shoe_id": 2,
+            "colorway": "Barely Green / Vapor Green / Metallic Silver / Black"
+        },
+        ..
+    ]
+    ```
+
+4. `Store.json` json untuk penyimpanan data toko yang menjual sepatu tersebut
+
+    | Field         | Description                                                                 |
+    |---------------|-----------------------------------------------------------------------------|
+    | `store_id`     | Identifikasi unik untuk setiap toko (integer)                                |
+    | `name`        | Nama dari toko tersebut (string) |
+    | `main_link`        | Link utama yang menuju ke toko tersebut (string) |
+
+    Contoh:
+
+    ```json
+   [
+        {
+            "store_id": 1,
+            "name": "Foot Locker",
+            "main_link": "https://www.footlocker.com"
+        },
+        ..
+    ]
+    ```
+
+5. `Shoe_listing.json` json untuk penyimpanan data terkait pemasangan harga untuk setiap sepatu dan toko
+
+    | Field         | Description                                                                 |
+    |---------------|-----------------------------------------------------------------------------|
+    | `store_id`     | Identifikasi unik untuk setiap toko (integer)                                |
+    | `shoe_id`        | Identifikasi unik untuk setiap sepatu  (integer) |
+    | `price`        | Harga sekarang yang dijual pada toko tersebut (float) |
+    | `link`        | Link terkait penjualan tersebut (string) |
+
+    Contoh:
+
+    ```json
+    [
+        {
+            "store_id": 1,
+            "shoe_id": 2,
+            "price": 99.99,
+            "link": "https://footlocker.8s4u9r.net/c/1960210/793097/11068?prodsku=F082330010&u=https%3A%2F%2Fwww.footlocker.com%2Fproduct%2F%7E%2FF0823300.html&intsrc=CATF_5700&subid1=price_comp_price"
+        },
+        ..
+    ]
+    ```
+
+6. `critics_link_data.json` json untuk penyimpanan data link untuk setiap kritikus
+
+    | Field         | Description                                                                 |
+    |---------------|-----------------------------------------------------------------------------|
+    | `critic_id`     | Identifikasi unik untuk setiap kritikus (integer)                                |
+    | `link`        | Link yang mengacu kepada profil kritikus  (string) |
+    | `is_expert`        | Penanda terkait expert atau user (integer) |
+
+    Contoh:
+
+    ```json
+    [
+        {
+            "critic_id": 1,
+            "link": "https://www.thehoopsgeek.com/shoe-reviews/critic?id=37",
+            "is_expert": 1
+        },
+        ..
+    ]
+    ```
+
+7. `Critic.json` json untuk penyimpanan data untuk setiap kritikus
+
+    | Field         | Description                                                                 |
+    |---------------|-----------------------------------------------------------------------------|
+    | `critic_id`     | Identifikasi unik untuk setiap kritikus (integer)                                |
+    | `name`        | Nama kritikus  (string) |
+
+    Contoh:
+
+    ```json
+    [
+        {
+            "critic_id": 1,
+            "name": "Foot Doctor Zach"
+        },
+        ..
+    ]
+    ```
+
+8. `Expert.json` json untuk penyimpanan data untuk setiap kritikus yang tergolong expert
+
+    | Field         | Description                                                                 |
+    |---------------|-----------------------------------------------------------------------------|
+    | `critic_id`     | Identifikasi unik untuk setiap kritikus yang tergolong expert (integer)                                |
+    | `profile_link`        | Link untuk menuju profil external  (string) |
+
+    Contoh:
+
+    ```json
+    [
+        {
+            "critic_id": 1,
+            "profile_link": "https://www.youtube.com/channel/UCSOQGnOJqKOlIeQoXOSFyjw"
+        },
+        ..
+    ]
+    ```
+
+9. `User.json` json untuk penyimpanan data untuk setiap kritikus yang tergolong user
+
+    | Field         | Description                                                                 |
+    |---------------|-----------------------------------------------------------------------------|
+    | `critic_id`     | Identifikasi unik untuk setiap kritikus yang tergolong user (integer)                                |
+
+    Contoh:
+
+    ```json
+    [
+        {
+            "critic_id": 4
+        },
+        ..
+    ]
+    ```
+
+10. `Review.json` json untuk penyimpanan data review dari sebuah sepatu oleh seorang kritikus
+
+    | Field         | Description                                                                 |
+    |---------------|-----------------------------------------------------------------------------|
+    | `review_id`     | Identifikasi unik untuk setiap review(integer)                                |
+    | `shoe_id`     | Identifikasi unik untuk setiap sepatu(integer)                                |
+    | `critic_id`     | Identifikasi unik untuk setiap kritikus (integer)                                |
+    | `rating`     | Nilai penilaian yang diberikan kritikus terhadap sepatu (float)                                |
+    | `date`| Tanggal review sepatu dengan format `YYYY-MM-DD` (string)                                  |
+    | `type`   | Tipe review (cth: cushion, traction, dsb) (string) |
+    | `description`     | Deskripsi singkat terkait review terhadap sepatu (string)                                |
+
+    Contoh:
+
+    ```json
+    [
+        {
+            "review_id": 1,
+            "shoe_id": 1,
+            "critic_id": 1,
+            "rating": 8.6,
+            "date": "2025-05-15",
+            "type": "expert_overall",
+            "description": "The Reebok Engine A does not disappoint. If you can get the fit right, the performance feels fantastic."
+        },
+    ]
+    ```
+
+---
+
+## Struktur ERD & Diagram Relasional
+
+**ERD:**
+![ERD](Data%20Storing/design/ERD.drawio.png)
+
+**Diagram Relasional:**
+![Diagram Relasional](Data%20Storing/design/Relational_diagram.drawio.png)
+
+---
+
+## Translasi ERD ke Diagram Relasional
+
+1. Terdapat relasi **many-to-many** antara `Store` dan `Shoe` dengan atribut tambahan berupa `price` dan `link`. Oleh karena itu, dibentuk tiga buah tabel:
+
+    - `Store`
+    - `Shoe`
+    - `Shoe_listing` (tabel relasi dengan atribut tambahan)
+
+    Relasi & Constraint
+
+    **PK:**
+    - `Shoe_listing` : (`shoe_id`, `store_id`)
+    - `Shoe` : (`shoe_id`)
+    - `Store` : (`store_id`)
+
+    **FK:**
+    - `Shoe_listing.shoe_id` → `Shoe.shoe_id`
+    - `Shoe_listing.store_id` → `Store.store_id`
+
+2. `Shoe` memiliki **weak entity** `Colorway` sehingga dapat dibuat tabel baru yaitu:
+    - `Colorway`
+
+    Relasi & Constraint
+
+    **PK:**
+    - `Colorway`: (`shoe_id`, `colorway_id`)
+
+    **FK:**
+    - `Colorway.shoe_id` → `Shoe.shoe_id`
+
+3. `Critic` memiliki **specialization** yang terbagi dua menjadi `Expert` dan `User` sehingga menghasilkan tabel:
+    - `Critic`
+    - `Expert`
+    - `User`
+
+    Relasi & Constraint
+
+    **PK:**
+    - `Critic` : (`critic_id`)
+    - `Expert` : (`critic_id`)
+    - `User` : (`critic_id`)
+
+    **FK:**
+    - `Expert.critic_id` → `Critic.critic_id`
+    - `User.critic_id` → `Critic.critic_id`
+
+4. `Review` relasi **many-to-one** terhadap `Shoe` dan `Critic` sehingga menghasilkan tabel:
+    - `Review`
+
+    Relasi & Constraint
+
+    **PK:**
+    - `Review` : (`review_id`)
+
+    **FK:**
+    - `Review.shoe_id` → `Shoe.shoe_id`
+    - `Review.critic_id` → `Critic.critic_id`
+
+---
+
+## Screenshot Hasil
+
+- **Shoe**
+![shoe](Data%20Storing/screenshot/shoe.png)
+
+- **Store**
+![store](Data%20Storing/screenshot/store.png)
+
+- **Shoe_listing**
+![shoe_listing](Data%20Storing/screenshot/shoe_listing.png)
+
+- **Critic**
+![critic](Data%20Storing/screenshot/critic.png)
+
+- **Colorway**
+![colorway](Data%20Storing/screenshot/colorway.png)
+
+- **Expert**
+![expert](Data%20Storing/screenshot/expert.png)
+
+- **User**
+![user](Data%20Storing/screenshot/user.png)
+
+- **Review**
+![review](Data%20Storing/screenshot/review.png)
+
+---
+
+## Bonus
+
+## Data Warehouse
+
+### Deskripsi Singkat
+
+Dimension table yang digunakan menggunakan *star scheme* dengan `Fact_Review` sebagai pusatnya.
+
+### Struktur ERD & Diagram Relasional
+
+**ERD:**
+![ERD](Data%20Warehouse/design/data_warehouse_ERD.png)
+
+**Diagram Relasional:**
+![Diagram Relasional](Data%20Warehouse/design/data_warehouse_relational_diagram.png)
+
+---
+
+### Screenshot Hasil
+
+- **Fact_Review**
+![fact_review](Data%20Storing/screenshot/fact_review.png)
+
+- **Dim_Shoe**
+![dim_shoe](Data%20Storing/screenshot/dim_shoe.png)
+
+- **Dim_Critic**
+![dim_critic](Data%20Storing/screenshot/dim_critic.png)
+
+- **Dim_Date**
+![dim_date](Data%20Storing/screenshot/dim_date.png)
+
+- **Dim_ReviewType**
+![dim_reviewtype](Data%20Storing/screenshot/dim_reviewtype.png)
+
+---
+
+## Automated Scheduling
+
+### Deskripsi Singkat
+
+Automated scheduling dilakukan secara 3 tahap
+
+1. Scraping seluruh data dari `website` menjadi `json` dengan menggunakan seluruh file scraping pada `Data Scraping/src` agar dapat terambil jika ada perubahan pada data lama.
+2. `Json` dimasukkan ke `database` menggunakan `Data Warehouse/src/etl.py` dan dengan menggunakan constraint untuk menghindari terjadinya insertion yang duplicate namun tetap memperbolehkan untuk update data lama.
+3. Data pada `database` ke `data warehouse` menggunakan `Data Warehouse/src/storing.py` dan berbeda dengan tahap 2, pada tahap ini tidak ada update karena data warehouse memerlukan penyimpanan data historis sehingga data lama yang berubah akan dianggap sebagai data baru.
+
+Ketiga tahap tersebut dijalankan oleh `tasks.py` dan dibantu oleh task_scheduler setiap jam `01.00`.
+
+### Otomasi `invoke full-pipeline` menggunakan Windows Task Scheduler
+
+Automated scheduling dapat dilakukan dengan bantuan dari **Windows Task Scheduler**.
+
+### Cara Set Up
+
+1. **Buka Task Scheduler**
+   - Pencet `Win + S`, ketik **Task Scheduler**, dan buka.
+
+2. **Pembuatan Task**
+   - Pencet **Create Basic Task...** atau **Create Task**.
+   - Beri nama untuk task yang ingin dibuat.
+
+3. **Pilih Trigger**
+   - Pilih kapan ingin dijalankan tasknya.
+   - Pilih waktunya. (Saya sendiri menggunakan daily jam 01.00)
+
+4. **Set Action**
+   - Action: **Start a Program**
+   - **Program/script**:
+
+     ```Bash
+     {Path menuju repo}\TUGAS_SELEKSI_1_13523086\venv\Scripts\invoke.exe
+     ```
+
+   - **Tambahkan arguments**:
+
+     ```Bash
+     full-pipeline
+     ```
+
+   - **Start in (optional)**:
+
+     ```Bash
+     {Path menuju repo}\TUGAS_SELEKSI_1_13523086
+     ```
+
+---
+
+- Atau langsung melalui terminal:
+
+```bash
+{Path menuju repo}\TUGAS_SELEKSI_1_13523086\venv\Scripts\python.exe -m invoke full-pipeline
+```
+
+### Screenshot
+
+- **Action Settings**
+![Action Setting](Automated%20Scheduling/screenshot/action_settings.png)
+
+- **Tampilan Task**
+![Tampilan Task](Automated%20Scheduling/screenshot/tampilan_task.png)
+
+- **Hasil**
+![Hasil](Automated%20Scheduling/screenshot/bukti_berhasil.png)
+
+Karena waktu mepet, pengambilan data tidak dilakukan dalam waktu yang seharusnya (01.00), namun dapat dilihat pada gambar hasil bahwa program berjalan dengan lancar yang dibuktikan oleh return code 0.
+
+---
+
+## Referensi
+
+Library yang Digunakan
+
+- **requests**
+
+    Untuk melakukan HTTP request ke halaman web.
+    <https://docs.python-requests.org/>
+
+- **BeautifulSoup (bs4)**
+
+    Untuk parsing dan ekstraksi data dari HTML.
+    <https://www.crummy.com/software/BeautifulSoup/bs4/doc/>
+
+- **re** (Regular Expressions)
+
+    Untuk pencocokan pola dan ekstraksi teks.
+    <https://docs.python.org/3/library/re.html>
+
+- **json**
+
+    Untuk membaca dan menulis file JSON.
+    <https://docs.python.org/3/library/json.html>
+
+- **csv**
+
+    Untuk membaca dan menulis file CSV.
+    <https://docs.python.org/3/library/csv.html>
+
+- **pandas**
+
+    Untuk manipulasi data dan membaca/menulis data tabular.
+    <https://pandas.pydata.org/>
+
+- **psycopg2**
+
+    Untuk koneksi dan eksekusi query ke database PostgreSQL.
+    <https://www.psycopg.org/>
+
+- **dotenv**
+
+    Untuk memuat variabel lingkungan dari file .env.
+    <https://pypi.org/project/python-dotenv/>
+
+- **selenium**
+
+    Untuk otomasi browser dan scraping halaman web dinamis.
+    <https://selenium-python.readthedocs.io/>
+
+- **invoke**
+
+    Untuk otomasi task dan menjalankan pipeline.
+    <https://www.pyinvoke.org/>
+
+- **concurrent.futures**
+
+    Untuk menjalankan task scraping secara paralel.
+    <https://docs.python.org/3/library/concurrent.futures.html>
+
+Sumber Web yang Di-scrape
+
+- **The Hoops Geek**
+
+    Sumber utama untuk review sepatu basket, profil kritikus, dan detail sepatu.
+    <https://www.thehoopsgeek.com/shoe-reviews/>
