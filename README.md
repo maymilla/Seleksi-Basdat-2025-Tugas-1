@@ -69,9 +69,11 @@ Hubungan one-to-many antar entitas diwujudkan melalui mekanisme foreign key. Mis
 
 Cara Memasukkan Data ke Database (Load)
 - Buat Database & Tabel: Buat database seleksi_basdat di PostgreSQL, lalu jalankan skrip di bawah ini untuk membuat semua tabel.
+
 psql -U postgres -d seleksi_basdat -f "Data Storing/src/create_tables.sql"
 
 - Load Data: Jalankan skrip load_data.py untuk memuat data dari file _clean.json ke dalam tabel-tabel yang sudah dibuat.
+
 python "Data Storing/src/load_data.py"
 
 Contoh Kueri Analitik pada Data Storing:
@@ -90,9 +92,11 @@ Skema ini terdiri dari satu tabel fakta (Fact_AppRanking) dan empat tabel dimens
 
 Cara Implementasi DWH
 - Buat Database & Tabel DWH: Buat database seleksi_basdat_dwh, lalu jalankan skrip di bawah ini untuk membuat semua tabel DWH.
+
 psql -U postgres -d seleksi_basdat_dwh -f "Data Warehouse/src/create_dwh_tables.sql"
 
 - Load Data ke DWH: Jalankan skrip load_dwh.py untuk melakukan proses ETL dari database operasional ke data warehouse.
+
 python "Data Warehouse/src/load_dwh.py"
 
 Bukti Implementasi (Screenshots)
