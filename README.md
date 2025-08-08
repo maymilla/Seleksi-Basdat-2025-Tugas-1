@@ -1,4 +1,4 @@
-# TUGAS SELEKSI 2 - 18223025
+# TUGAS SELEKSI 1 - 18223025
 
 ## Author
 
@@ -57,8 +57,10 @@ ERD & Skema Relasional
 Berikut adalah rancangan ERD dan Skema Relasional untuk database operasional seleksi_basdat.
 
 Entity-Relationship Diagram (ERD)
+<img width="1893" height="1750" alt="ERD" src="https://github.com/user-attachments/assets/660075d5-ddb0-4f60-a01f-61131b069576" />
 
 Relational Diagram
+<img width="1800" height="705" alt="Relational Diagram" src="https://github.com/user-attachments/assets/53c80c66-7e95-4899-bc9b-fab99c56122b" />
 
 Penjelasan Translasi ERD ke Skema Relasional
 Proses translasi dari ERD ke skema relasional merupakan langkah esensial untuk mengubah desain konseptual menjadi struktur database fisik yang fungsional. Setiap entitas pada ERD, seperti Developers dan Apps, diimplementasikan sebagai tabel individual. Atribut-atribut yang mendeskripsikan setiap entitas kemudian dipetakan menjadi kolom-kolom di dalam tabel tersebut, dengan pemilihan tipe data PostgreSQL yang cermat seperti VARCHAR untuk teks dan BIGINT untuk data numerik besar. Untuk menjamin keunikan setiap entri, atribut identifier pada ERD ditetapkan sebagai PRIMARY KEY, yang secara praktis diimplementasikan menggunakan tipe SERIAL agar ID dapat dibuat secara otomatis.
