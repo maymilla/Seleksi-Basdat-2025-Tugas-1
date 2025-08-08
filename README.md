@@ -68,10 +68,10 @@ Proses translasi dari ERD ke skema relasional merupakan langkah esensial untuk m
 Hubungan one-to-many antar entitas diwujudkan melalui mekanisme foreign key. Misalnya, untuk menerapkan hubungan di mana satu Developer dapat memiliki banyak App, kolom developer_id yang merupakan primary key dari tabel Developers ditambahkan ke dalam tabel Apps sebagai foreign key. Lapisan terakhir dari integritas data dicapai dengan menerapkan constraints tambahan. UNIQUE digunakan pada kolom seperti developer_name untuk mencegah duplikasi, sementara NOT NULL memastikan bahwa data penting tidak boleh kosong, sehingga menjaga konsistensi dan keandalan database.
 
 Cara Memasukkan Data ke Database (Load)
-Buat Database & Tabel: Buat database seleksi_basdat di PostgreSQL, lalu jalankan skrip di bawah ini untuk membuat semua tabel.
+- Buat Database & Tabel: Buat database seleksi_basdat di PostgreSQL, lalu jalankan skrip di bawah ini untuk membuat semua tabel.
 psql -U postgres -d seleksi_basdat -f "Data Storing/src/create_tables.sql"
 
-Load Data: Jalankan skrip load_data.py untuk memuat data dari file _clean.json ke dalam tabel-tabel yang sudah dibuat.
+- Load Data: Jalankan skrip load_data.py untuk memuat data dari file _clean.json ke dalam tabel-tabel yang sudah dibuat.
 python "Data Storing/src/load_data.py"
 
 Contoh Kueri Analitik pada Data Storing:
